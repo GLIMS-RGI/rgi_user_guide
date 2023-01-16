@@ -1,0 +1,913 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Table 1: RGI regions &#8212; The Randolph Glacier Inventory version 7</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Table 2: full list of data contributors" href="data_sources.html" />
+    <link rel="prev" title="Appendix: data tables &amp; contributors" href="../08_appendix.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">The Randolph Glacier Inventory version 7</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../01_introduction.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../02_regions_definition.html">
+   RGI Regions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../03_data_decription.html">
+   Data Description
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../04_revisions.html">
+   Revisions in RGI7
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../05_description_by_region.html">
+   Regional data sources
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../regions/rgi01.html">
+     01: Alaska
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../06_dataset_summary.html">
+   Dataset overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../07_references.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../08_appendix.html">
+   Appendix: data tables &amp; contributors
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Table 1: RGI regions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data_sources.html">
+     Table 2: full list of data contributors
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/tables/regions.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#first-order-regions">
+   First-order regions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#second-order-regions">
+   Second-order regions
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Table 1: RGI regions</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#first-order-regions">
+   First-order regions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#second-order-regions">
+   Second-order regions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="table-1-rgi-regions">
+<h1>Table 1: RGI regions<a class="headerlink" href="#table-1-rgi-regions" title="Permalink to this headline">#</a></h1>
+<section id="first-order-regions">
+<h2>First-order regions<a class="headerlink" href="#first-order-regions" title="Permalink to this headline">#</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:right head"><p>o1region</p></th>
+<th class="text-align:left head"><p>full_name</p></th>
+<th class="text-align:left head"><p>long_code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:right"><p>01</p></td>
+<td class="text-align:left"><p>Alaska</p></td>
+<td class="text-align:left"><p>01_alaska</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>02</p></td>
+<td class="text-align:left"><p>Western Canada and USA</p></td>
+<td class="text-align:left"><p>02_western_canada_usa</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>03</p></td>
+<td class="text-align:left"><p>Arctic Canada, North</p></td>
+<td class="text-align:left"><p>03_arctic_canada_north</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>04</p></td>
+<td class="text-align:left"><p>Arctic Canada, South</p></td>
+<td class="text-align:left"><p>04_arctic_canada_south</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>05</p></td>
+<td class="text-align:left"><p>Greenland Periphery</p></td>
+<td class="text-align:left"><p>05_greenland_periphery</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>06</p></td>
+<td class="text-align:left"><p>Iceland</p></td>
+<td class="text-align:left"><p>06_iceland</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>07</p></td>
+<td class="text-align:left"><p>Svalbard and Jan Mayen</p></td>
+<td class="text-align:left"><p>07_svalbard_jan_mayen</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>08</p></td>
+<td class="text-align:left"><p>Scandinavia</p></td>
+<td class="text-align:left"><p>08_scandinavia</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>09</p></td>
+<td class="text-align:left"><p>Russian Arctic</p></td>
+<td class="text-align:left"><p>09_russian_arctic</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>10</p></td>
+<td class="text-align:left"><p>Asia, North</p></td>
+<td class="text-align:left"><p>10_asia_north</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>10</p></td>
+<td class="text-align:left"><p>Asia, North</p></td>
+<td class="text-align:left"><p>10_asia_north</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>11</p></td>
+<td class="text-align:left"><p>Central Europe</p></td>
+<td class="text-align:left"><p>11_central_europe</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>12</p></td>
+<td class="text-align:left"><p>Caucasus and Middle East</p></td>
+<td class="text-align:left"><p>12_caucasus_middle_east</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>13</p></td>
+<td class="text-align:left"><p>Asia, Central</p></td>
+<td class="text-align:left"><p>13_asia_central</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>14</p></td>
+<td class="text-align:left"><p>Asia, South West</p></td>
+<td class="text-align:left"><p>14_asia_south_west</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>15</p></td>
+<td class="text-align:left"><p>Asia, South East</p></td>
+<td class="text-align:left"><p>15_asia_south_east</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>16</p></td>
+<td class="text-align:left"><p>Low Latitudes</p></td>
+<td class="text-align:left"><p>16_low_latitudes</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>17</p></td>
+<td class="text-align:left"><p>Southern Andes</p></td>
+<td class="text-align:left"><p>17_southern_andes</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>18</p></td>
+<td class="text-align:left"><p>New Zealand</p></td>
+<td class="text-align:left"><p>18_new_zealand</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>19</p></td>
+<td class="text-align:left"><p>Subantarctic and Antarctic Islands</p></td>
+<td class="text-align:left"><p>19_subantarctic_antarctic_islands</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="second-order-regions">
+<h2>Second-order regions<a class="headerlink" href="#second-order-regions" title="Permalink to this headline">#</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>o2region</p></th>
+<th class="text-align:left head"><p>full_name</p></th>
+<th class="text-align:left head"><p>long_code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p>01-01</p></td>
+<td class="text-align:left"><p>North Alaska</p></td>
+<td class="text-align:left"><p>01-01_north_alaska</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>01-02</p></td>
+<td class="text-align:left"><p>Alaska Range (Wrangell/Kilbuck)</p></td>
+<td class="text-align:left"><p>01-02_alaska_range_wrangell_kilbuck</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>01-03</p></td>
+<td class="text-align:left"><p>Alaska Peninsula (Aleutians)</p></td>
+<td class="text-align:left"><p>01-03_alaska_peninsula_aleutians</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>01-04</p></td>
+<td class="text-align:left"><p>West Chugach Mountains (Talkeetna)</p></td>
+<td class="text-align:left"><p>01-04_west_chugach_mountains_talkeetna</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>01-05</p></td>
+<td class="text-align:left"><p>Saint Elias Mountains</p></td>
+<td class="text-align:left"><p>01-05_saint_elias_mountains</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>01-06</p></td>
+<td class="text-align:left"><p>North Coast Ranges</p></td>
+<td class="text-align:left"><p>01-06_north_coast_ranges</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>02-01</p></td>
+<td class="text-align:left"><p>Mackenzie and Selwyn Mountains</p></td>
+<td class="text-align:left"><p>02-01_mackenzie_and_selwyn_mountains</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>02-02</p></td>
+<td class="text-align:left"><p>South Coast Ranges</p></td>
+<td class="text-align:left"><p>02-02_south_coast_ranges</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>02-03</p></td>
+<td class="text-align:left"><p>North Rocky Mountains</p></td>
+<td class="text-align:left"><p>02-03_north_rocky_mountains</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>02-04</p></td>
+<td class="text-align:left"><p>Cascade Range and Sierra Nevada</p></td>
+<td class="text-align:left"><p>02-04_cascade_range_and_sierra_nevada</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>02-05</p></td>
+<td class="text-align:left"><p>South Rocky Mountains</p></td>
+<td class="text-align:left"><p>02-05_south_rocky_mountains</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>03-01</p></td>
+<td class="text-align:left"><p>North Ellesmere Island</p></td>
+<td class="text-align:left"><p>03-01_north_ellesmere_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>03-02</p></td>
+<td class="text-align:left"><p>Axel Heiberg and Meighen Is</p></td>
+<td class="text-align:left"><p>03-02_axel_heiberg_and_meighen_is</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>03-03</p></td>
+<td class="text-align:left"><p>North Central Ellesmere Island</p></td>
+<td class="text-align:left"><p>03-03_north_central_ellesmere_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>03-04</p></td>
+<td class="text-align:left"><p>South Central Ellesmere Island</p></td>
+<td class="text-align:left"><p>03-04_south_central_ellesmere_island</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>03-05</p></td>
+<td class="text-align:left"><p>South Ellesmere Island (Northwest Devon)</p></td>
+<td class="text-align:left"><p>03-05_south_ellesmere_island_northwest_devon</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>03-06</p></td>
+<td class="text-align:left"><p>Devon Island</p></td>
+<td class="text-align:left"><p>03-06_devon_island</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>03-07</p></td>
+<td class="text-align:left"><p>Melville Island</p></td>
+<td class="text-align:left"><p>03-07_melville_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>04-01</p></td>
+<td class="text-align:left"><p>Bylot Island</p></td>
+<td class="text-align:left"><p>04-01_bylot_island</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>04-02</p></td>
+<td class="text-align:left"><p>West Baffin Island</p></td>
+<td class="text-align:left"><p>04-02_west_baffin_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>04-03</p></td>
+<td class="text-align:left"><p>North Baffin Island</p></td>
+<td class="text-align:left"><p>04-03_north_baffin_island</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>04-04</p></td>
+<td class="text-align:left"><p>Northeast Baffin Island</p></td>
+<td class="text-align:left"><p>04-04_northeast_baffin_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>04-05</p></td>
+<td class="text-align:left"><p>East Central Baffin Island</p></td>
+<td class="text-align:left"><p>04-05_east_central_baffin_island</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>04-06</p></td>
+<td class="text-align:left"><p>South East Baffin Island</p></td>
+<td class="text-align:left"><p>04-06_south_east_baffin_island</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>04-07</p></td>
+<td class="text-align:left"><p>Cumberland Sound</p></td>
+<td class="text-align:left"><p>04-07_cumberland_sound</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>04-08</p></td>
+<td class="text-align:left"><p>Frobisher Bay</p></td>
+<td class="text-align:left"><p>04-08_frobisher_bay</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>04-09</p></td>
+<td class="text-align:left"><p>Labrador</p></td>
+<td class="text-align:left"><p>04-09_labrador</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>05-01</p></td>
+<td class="text-align:left"><p>Greenland Periphery</p></td>
+<td class="text-align:left"><p>05-01_greenland_periphery</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>06-01</p></td>
+<td class="text-align:left"><p>Iceland</p></td>
+<td class="text-align:left"><p>06-01_iceland</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>07-01</p></td>
+<td class="text-align:left"><p>Svalbard</p></td>
+<td class="text-align:left"><p>07-01_svalbard</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>07-02</p></td>
+<td class="text-align:left"><p>Jan Mayen</p></td>
+<td class="text-align:left"><p>07-02_jan_mayen</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>08-01</p></td>
+<td class="text-align:left"><p>North Scandinavia</p></td>
+<td class="text-align:left"><p>08-01_north_scandinavia</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>08-02</p></td>
+<td class="text-align:left"><p>Southwest Scandinavia</p></td>
+<td class="text-align:left"><p>08-02_southwest_scandinavia</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>08-03</p></td>
+<td class="text-align:left"><p>Southeast Scandinavia</p></td>
+<td class="text-align:left"><p>08-03_southeast_scandinavia</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>09-01</p></td>
+<td class="text-align:left"><p>Franz Josef Land</p></td>
+<td class="text-align:left"><p>09-01_franz_josef_land</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>09-02</p></td>
+<td class="text-align:left"><p>Novaya Zemlya</p></td>
+<td class="text-align:left"><p>09-02_novaya_zemlya</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>09-03</p></td>
+<td class="text-align:left"><p>Severnaya Zemlya</p></td>
+<td class="text-align:left"><p>09-03_severnaya_zemlya</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>10-01</p></td>
+<td class="text-align:left"><p>Ural Mountains</p></td>
+<td class="text-align:left"><p>10-01_ural_mountains</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>10-02</p></td>
+<td class="text-align:left"><p>Central Siberia</p></td>
+<td class="text-align:left"><p>10-02_central_siberia</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>10-03</p></td>
+<td class="text-align:left"><p>Cherskiy/Suntar Khayata Ranges</p></td>
+<td class="text-align:left"><p>10-03_cherskiy_suntar_khayata_ranges</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>10-04</p></td>
+<td class="text-align:left"><p>Altay and Sayan</p></td>
+<td class="text-align:left"><p>10-04_altay_and_sayan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>10-05</p></td>
+<td class="text-align:left"><p>Northeast Russia</p></td>
+<td class="text-align:left"><p>10-05_northeast_russia</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>10-06</p></td>
+<td class="text-align:left"><p>East Chukotka</p></td>
+<td class="text-align:left"><p>10-06_east_chukotka</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>10-07</p></td>
+<td class="text-align:left"><p>Japan</p></td>
+<td class="text-align:left"><p>10-07_japan</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>11-01</p></td>
+<td class="text-align:left"><p>Alps</p></td>
+<td class="text-align:left"><p>11-01_alps</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>11-02</p></td>
+<td class="text-align:left"><p>Southeast Europe</p></td>
+<td class="text-align:left"><p>11-02_southeast_europe</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>12-01</p></td>
+<td class="text-align:left"><p>Caucasus and Middle East</p></td>
+<td class="text-align:left"><p>12-01_caucasus_and_middle_east</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>12-02</p></td>
+<td class="text-align:left"><p>Middle East</p></td>
+<td class="text-align:left"><p>12-02_middle_east</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>13-01</p></td>
+<td class="text-align:left"><p>Hissar Alay</p></td>
+<td class="text-align:left"><p>13-01_hissar_alay</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>13-02</p></td>
+<td class="text-align:left"><p>Pamir (Safed Khirs / West Tarim)</p></td>
+<td class="text-align:left"><p>13-02_pamir_safed_khirs_west_tarim</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>13-03</p></td>
+<td class="text-align:left"><p>West Tien Shan</p></td>
+<td class="text-align:left"><p>13-03_west_tien_shan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>13-04</p></td>
+<td class="text-align:left"><p>East Tien Shan (Dzhungaria)</p></td>
+<td class="text-align:left"><p>13-04_east_tien_shan_dzhungaria</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>13-05</p></td>
+<td class="text-align:left"><p>West Kun Lun</p></td>
+<td class="text-align:left"><p>13-05_west_kun_lun</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>13-06</p></td>
+<td class="text-align:left"><p>East Kun Lun (Altyn Tagh)</p></td>
+<td class="text-align:left"><p>13-06_east_kun_lun_altyn_tagh</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>13-07</p></td>
+<td class="text-align:left"><p>Qilian Shan</p></td>
+<td class="text-align:left"><p>13-07_qilian_shan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>13-08</p></td>
+<td class="text-align:left"><p>Inner Tibet</p></td>
+<td class="text-align:left"><p>13-08_inner_tibet</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>13-09</p></td>
+<td class="text-align:left"><p>Southeast Tibet</p></td>
+<td class="text-align:left"><p>13-09_southeast_tibet</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>14-01</p></td>
+<td class="text-align:left"><p>Hindu Kush</p></td>
+<td class="text-align:left"><p>14-01_hindu_kush</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>14-02</p></td>
+<td class="text-align:left"><p>Karakoram</p></td>
+<td class="text-align:left"><p>14-02_karakoram</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>14-03</p></td>
+<td class="text-align:left"><p>West Himalaya</p></td>
+<td class="text-align:left"><p>14-03_west_himalaya</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>15-01</p></td>
+<td class="text-align:left"><p>Central Himalaya</p></td>
+<td class="text-align:left"><p>15-01_central_himalaya</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>15-02</p></td>
+<td class="text-align:left"><p>East Himalaya</p></td>
+<td class="text-align:left"><p>15-02_east_himalaya</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>15-03</p></td>
+<td class="text-align:left"><p>Hengduan Shan</p></td>
+<td class="text-align:left"><p>15-03_hengduan_shan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>16-01</p></td>
+<td class="text-align:left"><p>Low-latitude Andes</p></td>
+<td class="text-align:left"><p>16-01_low_latitude_andes</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>16-02</p></td>
+<td class="text-align:left"><p>Mexico</p></td>
+<td class="text-align:left"><p>16-02_mexico</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>16-03</p></td>
+<td class="text-align:left"><p>East Africa</p></td>
+<td class="text-align:left"><p>16-03_east_africa</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>16-04</p></td>
+<td class="text-align:left"><p>New Guinea</p></td>
+<td class="text-align:left"><p>16-04_new_guinea</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>17-01</p></td>
+<td class="text-align:left"><p>Patagonia</p></td>
+<td class="text-align:left"><p>17-01_patagonia</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>17-02</p></td>
+<td class="text-align:left"><p>Central Andes</p></td>
+<td class="text-align:left"><p>17-02_central_andes</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>18-01</p></td>
+<td class="text-align:left"><p>New Zealand</p></td>
+<td class="text-align:left"><p>18-01_new_zealand</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-01</p></td>
+<td class="text-align:left"><p>Subantarctic (Pacific)</p></td>
+<td class="text-align:left"><p>19-01_subantarctic_pacific</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-02</p></td>
+<td class="text-align:left"><p>South Shetlands and South Orkney</p></td>
+<td class="text-align:left"><p>19-02_south_shetlands_and_south_orkney</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-03</p></td>
+<td class="text-align:left"><p>Subantarctic (Atlantic)</p></td>
+<td class="text-align:left"><p>19-03_subantarctic_atlantic</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-04</p></td>
+<td class="text-align:left"><p>Subantarctic (Indian)</p></td>
+<td class="text-align:left"><p>19-04_subantarctic_indian</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-05</p></td>
+<td class="text-align:left"><p>Balleny Islands</p></td>
+<td class="text-align:left"><p>19-05_balleny_islands</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-11</p></td>
+<td class="text-align:left"><p>East Queen Maud Land 7A</p></td>
+<td class="text-align:left"><p>19-11_east_queen_maud_land_7a</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-12</p></td>
+<td class="text-align:left"><p>Amery Ice Shelf 7B</p></td>
+<td class="text-align:left"><p>19-12_amery_ice_shelf_7b</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-13</p></td>
+<td class="text-align:left"><p>Wilkes Land 7C</p></td>
+<td class="text-align:left"><p>19-13_wilkes_land_7c</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-14</p></td>
+<td class="text-align:left"><p>Victoria Land 7D</p></td>
+<td class="text-align:left"><p>19-14_victoria_land_7d</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-15</p></td>
+<td class="text-align:left"><p>Ross Ice Shelf 7E</p></td>
+<td class="text-align:left"><p>19-15_ross_ice_shelf_7e</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-15</p></td>
+<td class="text-align:left"><p>Ross Ice Shelf 7E</p></td>
+<td class="text-align:left"><p>19-15_ross_ice_shelf_7e</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-16</p></td>
+<td class="text-align:left"><p>Marie Byrd Land 7F</p></td>
+<td class="text-align:left"><p>19-16_marie_byrd_land_7f</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-17</p></td>
+<td class="text-align:left"><p>Pine Island Bay 7G</p></td>
+<td class="text-align:left"><p>19-17_pine_island_bay_7g</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-18</p></td>
+<td class="text-align:left"><p>Bellingshausen Sea 7H1</p></td>
+<td class="text-align:left"><p>19-18_bellingshausen_sea_7h1</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-19</p></td>
+<td class="text-align:left"><p>Alexander Island 7H2</p></td>
+<td class="text-align:left"><p>19-19_alexander_island_7h2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-20</p></td>
+<td class="text-align:left"><p>West Antarctic Peninsula 7I1</p></td>
+<td class="text-align:left"><p>19-20_west_antarctic_peninsula_7i1</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-21</p></td>
+<td class="text-align:left"><p>Northeast Antarctic Peninsula 7I2</p></td>
+<td class="text-align:left"><p>19-21_northeast_antarctic_peninsula_7i2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-22</p></td>
+<td class="text-align:left"><p>Southeast Antarctic Peninsula 7I3</p></td>
+<td class="text-align:left"><p>19-22_southeast_antarctic_peninsula_7i3</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>19-23</p></td>
+<td class="text-align:left"><p>Ronne-Filchner Ice Shelf 7J</p></td>
+<td class="text-align:left"><p>19-23_ronne_filchner_ice_shelf_7j</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>19-24</p></td>
+<td class="text-align:left"><p>West Queen Maud Land 7K</p></td>
+<td class="text-align:left"><p>19-24_west_queen_maud_land_7k</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./tables"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../08_appendix.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Appendix: data tables &amp; contributors</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="data_sources.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Table 2: full list of data contributors</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By RGI Consortium<br/>
+  
+    <div class="extra_footer">
+      <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright 2022.
+</p>
+
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

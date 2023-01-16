@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Description &#8212; The Randolph Glacier Inventory version 7</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Revisions in RGI7" href="04_revisions.html" />
+    <link rel="prev" title="RGI Regions" href="02_regions_definition.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">The Randolph Glacier Inventory version 7</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01_introduction.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02_regions_definition.html">
+   RGI Regions
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Data Description
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_revisions.html">
+   Revisions in RGI7
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="05_description_by_region.html">
+   Regional data sources
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="regions/rgi01.html">
+     01: Alaska
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06_dataset_summary.html">
+   Dataset overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07_references.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="08_appendix.html">
+   Appendix: data tables &amp; contributors
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tables/regions.html">
+     Table 1: RGI regions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tables/data_sources.html">
+     Table 2: full list of data contributors
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/03_data_decription.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technical-specifications">
+   Technical Specifications
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+   New in RGI 7.0: “glacier” and “glacier complex” data products
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#file-naming-convention">
+   File naming convention
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quality-control">
+   Quality control
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-fields">
+   Data fields
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Data Description</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technical-specifications">
+   Technical Specifications
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+   New in RGI 7.0: “glacier” and “glacier complex” data products
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#file-naming-convention">
+   File naming convention
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quality-control">
+   Quality control
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-fields">
+   Data fields
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="data-description">
+<h1>Data Description<a class="headerlink" href="#data-description" title="Permalink to this headline">#</a></h1>
+<section id="technical-specifications">
+<h2>Technical Specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
+<p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one shapefile (<code class="docutils literal notranslate"><span class="pre">.shp</span></code> with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files) containing all glaciers and ancillary <code class="docutils literal notranslate"><span class="pre">.csv</span></code> files containing additional statistics and hypsometric data.</p>
+<p>Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7.0 processing workflow is to convert the GLIMS data model to the RGI data model).</p>
+<p>The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km2 are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The 19 regional attribute files are also provided in the <code class="docutils literal notranslate"><span class="pre">.csv</span></code> format.</p>
+</section>
+<section id="new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+<h2>New in RGI 7.0: “glacier” and “glacier complex” data products<a class="headerlink" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products" title="Permalink to this headline">#</a></h2>
+<p>A “glacier” outline in the RGI (and GLIMS) is supposed to represent one dynamical entity with one terminus. TODO …</p>
+</section>
+<section id="file-naming-convention">
+<h2>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h2>
+<p>RGI2000-v7.0-G-02-00001</p>
+</section>
+<section id="quality-control">
+<h2>Quality control<a class="headerlink" href="#quality-control" title="Permalink to this headline">#</a></h2>
+<p>RGI is a subset of GLIMS. All quality controls applied by GLIMS are therefore available for RGI.</p>
+<p>Quality checks were conducted on all glacier polygons. These include geometry, topology and attribute-field checks. As of version 3.2, the following steps are carried out:
+The ArcGIS Repair Geometry tool is run on all polygons. Among other tasks, this routine checks for polygon closure, corrects the ring ordering and eliminates duplicate vertices.
+Glaciers with areas less than 0.01 km2, the recommended minimum of the WGI, are removed. Nunataks are retained whatever their area.
+A common error occurs when glacier polygons are adjusted during editing without ensuring that the shared boundary with an adjacent polygon is also updated (for example, at a glacier divide). Such errors result in overlapping polygons, or gaps between polygons, yielding small “sliver” polygons that must be removed or corrected. To check for these errors we constructed topology rules within ArcGIS. We began by checking topology using the ‘Does Not Overlap’ rule. Next, we removed each glacier with errors and wrote it to its own single-polygon shapefile. In an iterative procedure, each single glacier was updated on all others, such that areas with overlap were eliminated. The final subset of corrected outlines was merged back into the set of error-free outlines.
+Attribute tables are checked, using Fortran subroutines and scripts written in Python, for things such as empty fields, GLIMSIds outside their glaciers, incorrectly formatted dates, incorrect assignments to RGI regions, and inconsistent minimum and maximum elevations.</p>
+</section>
+<section id="data-fields">
+<h2>Data fields<a class="headerlink" href="#data-fields" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: rgi_identifier</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single outline by the RGI</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: RGI_Id</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">o1region</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: first_order_region</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the first-order region to which the glacier belongs.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O1Region</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">o2region</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: second_order_region</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the second-order region to which the glacier belongs.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O2Region</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glims_identifier</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: GLIMS_Id</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">anlys_id</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: analysis_identifier</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">src_date</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: source_date</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: date</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: BgnDate</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">primeclass</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: primary_classification</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Primary WGMS classification of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">conn_lvl</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: connectivity_level</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Level of connection to the Greenland Icesheet (0: no connection; 1: weak connection, 2: not in RGI).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Connect</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">glac_name</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glacier_name</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier name (when available).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Name</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">cenlon</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_longitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLon</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">cenlat</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_latitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLat</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">termlon</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_longitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the lowest elevation point on the glacier outline.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">termlat</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_latitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the lowest elevation point on the glacier outline.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">area_km2</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: area_km2</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Area of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: km2</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Area</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmin_m</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: minimum_elevation_m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Minimum elevation (m above sea level) of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmin</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmax_m</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: maximum_elevation_m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Maximum elevation (m above sea level) of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmax</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmed_m</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: median_elevation_m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Median elevation (m above sea level) of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmed</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmean_m</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: mean_elevation_m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean elevation (m above sea level) of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">slope_deg</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: slope_degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean slope of the glacier surface.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Slope</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: aspect_degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The aspect (orientation) of the glacier surface presented as an azimuth relative to 0° at due north.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Aspect</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">lmax_m</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: max_length_m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Length (m) of the longest surface centerline of the glacier.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Lmax</p></li>
+</ul>
+</li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">geometry</span></code></strong>:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: geometry</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier geometry (Polygon)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: deg</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: geometry</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="02_regions_definition.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">RGI Regions</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="04_revisions.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Revisions in RGI7</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By RGI Consortium<br/>
+  
+    <div class="extra_footer">
+      <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright 2022.
+</p>
+
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

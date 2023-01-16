@@ -15,18 +15,13 @@ A "glacier" outline in the RGI (and GLIMS) is supposed to represent one dynamica
 
 ## File naming convention
 
+TODO: explain
+
 RGI2000-v7.0-G-02-00001
 
 ## Quality control 
 
-RGI is a subset of GLIMS. All quality controls applied by GLIMS are therefore available for RGI. 
-
-Quality checks were conducted on all glacier polygons. These include geometry, topology and attribute-field checks. As of version 3.2, the following steps are carried out:
-The ArcGIS Repair Geometry tool is run on all polygons. Among other tasks, this routine checks for polygon closure, corrects the ring ordering and eliminates duplicate vertices.
-Glaciers with areas less than 0.01 km2, the recommended minimum of the WGI, are removed. Nunataks are retained whatever their area.
-A common error occurs when glacier polygons are adjusted during editing without ensuring that the shared boundary with an adjacent polygon is also updated (for example, at a glacier divide). Such errors result in overlapping polygons, or gaps between polygons, yielding small “sliver” polygons that must be removed or corrected. To check for these errors we constructed topology rules within ArcGIS. We began by checking topology using the ‘Does Not Overlap’ rule. Next, we removed each glacier with errors and wrote it to its own single-polygon shapefile. In an iterative procedure, each single glacier was updated on all others, such that areas with overlap were eliminated. The final subset of corrected outlines was merged back into the set of error-free outlines.
-Attribute tables are checked, using Fortran subroutines and scripts written in Python, for things such as empty fields, GLIMSIds outside their glaciers, incorrectly formatted dates, incorrect assignments to RGI regions, and inconsistent minimum and maximum elevations.
-
+RGI is a subset of GLIMS, without any modification to the outlines. All quality controls applied by GLIMS are therefore inherited by RGI - this is also true for issues or problems in the outlines. Glaciers with areas less than 0.01 km², the recommended minimum of the World Glacier Inventory, are removed. Nunataks are retained whatever their area. Attributes which are not part of RGI are computed, filled and checked using scripts written in Python.
 
 ## Data fields
 

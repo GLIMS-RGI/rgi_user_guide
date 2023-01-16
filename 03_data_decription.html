@@ -421,228 +421,56 @@ Attribute tables are checked, using Fortran subroutines and scripts written in P
 </section>
 <section id="data-fields">
 <h2>Data fields<a class="headerlink" href="#data-fields" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: rgi_identifier</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single outline by the RGI</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: RGI_Id</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">o1region</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: first_order_region</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the first-order region to which the glacier belongs.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O1Region</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">o2region</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: second_order_region</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the second-order region to which the glacier belongs.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O2Region</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glims_identifier</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: GLIMS_Id</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">anlys_id</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: analysis_identifier</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">src_date</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: source_date</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: date</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: BgnDate</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">primeclass</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: primary_classification</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Primary WGMS classification of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">conn_lvl</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: connectivity_level</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Level of connection to the Greenland Icesheet (0: no connection; 1: weak connection, 2: not in RGI).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Connect</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">glac_name</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glacier_name</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier name (when available).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Name</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">cenlon</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_longitude</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLon</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">cenlat</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_latitude</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLat</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">termlon</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_longitude</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the lowest elevation point on the glacier outline.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">termlat</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_latitude</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the lowest elevation point on the glacier outline.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">area_km2</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: area_km2</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Area of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: km2</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Area</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmin_m</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: minimum_elevation_m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Minimum elevation (m above sea level) of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmin</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmax_m</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: maximum_elevation_m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Maximum elevation (m above sea level) of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmax</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmed_m</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: median_elevation_m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Median elevation (m above sea level) of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmed</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">zmean_m</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: mean_elevation_m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean elevation (m above sea level) of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">slope_deg</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: slope_degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean slope of the glacier surface.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Slope</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: aspect_degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: The aspect (orientation) of the glacier surface presented as an azimuth relative to 0° at due north.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Aspect</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">lmax_m</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: max_length_m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Length (m) of the longest surface centerline of the glacier.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: m</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Lmax</p></li>
-</ul>
-</li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">geometry</span></code></strong>:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: geometry</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier geometry (Polygon)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">datatype</span></code>:</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">units</span></code>: deg</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: geometry</p></li>
-</ul>
-</li>
-</ul>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: rgi_identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single outline by the RGI <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: RGI_Id</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">o1region</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: first_order_region <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the first-order region to which the glacier belongs. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O1Region</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">o2region</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: second_order_region <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the second-order region to which the glacier belongs. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: O2Region</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glims_identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: GLIMS_Id</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">anlys_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: analysis_identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">subm_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: submission_id <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">src_date</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: source_date <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: date <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: BgnDate</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">primeclass</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: primary_classification <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Primary WGMS classification of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">conn_lvl</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: connectivity_level <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Level of connection to the Greenland Icesheet (0: no connection; 1: weak connection, 2: not in RGI). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Connect</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">glac_name</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: glacier_name <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier name (when available). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Name</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">is_rgi6</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: same_as_rgi6 <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Flag indicating if the outline is the same as in RGI6 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">cenlon</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_longitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLon</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">cenlat</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: center_latitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: CenLat</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">termlon</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_longitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of the lowest elevation point on the glacier outline. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">termlat</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: terminus_latitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of the lowest elevation point on the glacier outline. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">area_km2</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: area_km2 <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Area of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: km2 <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Area</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">zmin_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: minimum_elevation_m <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Minimum elevation (m above sea level) of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmin</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">zmax_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: maximum_elevation_m <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Maximum elevation (m above sea level) of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmax</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">zmed_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: median_elevation_m <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Median elevation (m above sea level) of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Zmed</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">zmean_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: mean_elevation_m <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean elevation (m above sea level) of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">slope_deg</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: slope_degrees <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Mean slope of the glacier surface. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Slope</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: aspect_degrees <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The aspect (orientation) of the glacier surface presented as an azimuth relative to 0° at due north. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Aspect</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">lmax_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: max_length_m <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Length (m) of the longest surface centerline of the glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: Automated <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: Lmax</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier geometry (Polygon) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: geometry</p>
+</dd>
+</dl>
 </section>
 </section>
 

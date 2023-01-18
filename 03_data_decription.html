@@ -149,6 +149,11 @@ const thebe_selector_output = ".output, .cell_output"
      01: Alaska
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="regions/rgi02.html">
+     02: Western Canada and USA
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -319,25 +324,54 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#technical-specifications">
    Technical Specifications
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#file-naming-convention">
+     File naming convention
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#glacier-identifiers-in-rgi-and-glims">
+     Glacier identifiers in RGI and GLIMS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-files">
+     Data files
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#regional-products">
+       Regional products
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#global-products">
+       Global products
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+     New in RGI 7.0: “glacier” and “glacier complex” data products
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
-   New in RGI 7.0: “glacier” and “glacier complex” data products
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#file-naming-convention">
-   File naming convention
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#quality-control">
-   Quality control
+  <a class="reference internal nav-link" href="#quality-control-and-data-integrity">
+   Quality control and data integrity
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#data-fields">
    Data fields
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#additional-information-on-data-fields">
+   Additional information on data fields
   </a>
  </li>
 </ul>
@@ -363,25 +397,54 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#technical-specifications">
    Technical Specifications
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#file-naming-convention">
+     File naming convention
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#glacier-identifiers-in-rgi-and-glims">
+     Glacier identifiers in RGI and GLIMS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-files">
+     Data files
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#regional-products">
+       Regional products
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#global-products">
+       Global products
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+     New in RGI 7.0: “glacier” and “glacier complex” data products
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
-   New in RGI 7.0: “glacier” and “glacier complex” data products
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#file-naming-convention">
-   File naming convention
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#quality-control">
-   Quality control
+  <a class="reference internal nav-link" href="#quality-control-and-data-integrity">
+   Quality control and data integrity
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#data-fields">
    Data fields
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#additional-information-on-data-fields">
+   Additional information on data fields
   </a>
  </li>
 </ul>
@@ -400,23 +463,63 @@ title="Print to PDF"
 <h2>Technical Specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
 <p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one shapefile (<code class="docutils literal notranslate"><span class="pre">.shp</span></code> with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files) containing all glaciers and ancillary <code class="docutils literal notranslate"><span class="pre">.csv</span></code> files containing additional statistics and hypsometric data.</p>
 <p>Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7.0 processing workflow is to convert the GLIMS data model to the RGI data model).</p>
-<p>The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km2 are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The 19 regional attribute files are also provided in the <code class="docutils literal notranslate"><span class="pre">.csv</span></code> format.</p>
-</section>
-<section id="new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
-<h2>New in RGI 7.0: “glacier” and “glacier complex” data products<a class="headerlink" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products" title="Permalink to this headline">#</a></h2>
-<p>A “glacier” outline in the RGI (and GLIMS) is supposed to represent one dynamical entity with one terminus. TODO …</p>
-</section>
 <section id="file-naming-convention">
-<h2>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h2>
-<p>TODO: explain</p>
+<h3>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h3>
+<p>TODO</p>
 <p>RGI2000-v7.0-G-02-00001</p>
 </section>
-<section id="quality-control">
-<h2>Quality control<a class="headerlink" href="#quality-control" title="Permalink to this headline">#</a></h2>
+<section id="glacier-identifiers-in-rgi-and-glims">
+<h3>Glacier identifiers in RGI and GLIMS<a class="headerlink" href="#glacier-identifiers-in-rgi-and-glims" title="Permalink to this headline">#</a></h3>
+<p>One RGI outline in the “glacier” product (see below) corresponds to one glacier. Glaciers are identified with the following attributes:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><strong>Unique</strong> identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described above. <strong>These ids are likely to change between RGI versions</strong>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></dt><dd><p><strong>Non-unique</strong> identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single <code class="docutils literal notranslate"><span class="pre">glims_id</span></code> can have multiple outlines, for example at different dates or when a glacier disintegrates.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">anlys_id</span></code></dt><dd><p><strong>Unique</strong> identifier assigned within GLIMS for a particular outline of a glacier at a particular time and for a particular submission.  <strong>These ids allow to unambiguously trace an outline back to the GLIMS database</strong>, and will not change between future RGI versions if the outline does not change.</p>
+</dd>
+</dl>
+</section>
+<section id="data-files">
+<h3>Data files<a class="headerlink" href="#data-files" title="Permalink to this headline">#</a></h3>
+<section id="regional-products">
+<h4>Regional products<a class="headerlink" href="#regional-products" title="Permalink to this headline">#</a></h4>
+<p>With the example of RGI region 01:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska.shp</span></code></dt><dd><p>the RGI glacier outlines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska_attributes.csv</span></code></dt><dd><p>glacier attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska_subm_info.csv</span></code></dt><dd><p>information about the data providers (“submission info”). Each glacier outline can be attributed to a specific submission via the <code class="docutils literal notranslate"><span class="pre">subm_id</span></code> attribute.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska_hypsometry.csv</span></code></dt><dd><p>hypsometry files (as csv? NetCDF?)</p>
+</dd>
+</dl>
+</section>
+<section id="global-products">
+<h4>Global products<a class="headerlink" href="#global-products" title="Permalink to this headline">#</a></h4>
+<p>TODO</p>
+<!--- The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km² are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary `.csv` file. The 19 regional attribute files are also provided in the `.csv` format. --->
+</section>
+</section>
+<section id="new-in-rgi-7-0-glacier-and-glacier-complex-data-products">
+<h3>New in RGI 7.0: “glacier” and “glacier complex” data products<a class="headerlink" href="#new-in-rgi-7-0-glacier-and-glacier-complex-data-products" title="Permalink to this headline">#</a></h3>
+<p>TODO</p>
+</section>
+</section>
+<section id="quality-control-and-data-integrity">
+<h2>Quality control and data integrity<a class="headerlink" href="#quality-control-and-data-integrity" title="Permalink to this headline">#</a></h2>
 <p>RGI is a subset of GLIMS, without any modification to the outlines. All quality controls applied by GLIMS are therefore inherited by RGI - this is also true for issues or problems in the outlines. Glaciers with areas less than 0.01 km², the recommended minimum of the World Glacier Inventory, are removed. Nunataks are retained whatever their area. Attributes which are not part of RGI are computed, filled and checked using scripts written in Python.</p>
+<p>RGI applies the following data integrity checks on GLIMS data:</p>
+<ul class="simple">
+<li><p>where possible (i.e. when we had access to the original inventories, for example GAMDAMv2 which is openly available), we check that the RGI (and hence GLIMS) are equivalent to the original dataset. This helped to discover a few bugs in the GLIMS data ingest workflow.</p></li>
+<li><p>we roughly check for duplicated outlines by checking that no outline’s representative point overlaps with another outline (less then a dozen outlines are filtered from GLIMS this way)</p></li>
+</ul>
+<p>However, we do not check for polygon geometry validity, as this is a step that should be done by the outline submitters prior to GLIMS. About 2% of all geometries in RGI7 are “invalid” according to the <a class="reference external" href="https://www.ogc.org/standards/sfa">Open Geospatial Consortium Implementation Standard</a> (for reference, about 5% of all RGI6 outlines did not pass this test). Examples of invalid geometries are outlines containing a “figure of 8” or similar singularities. Most applications (such as vector to raster conversion or area computation) do not require valid geometries in this strict sense.</p>
 </section>
 <section id="data-fields">
 <h2>Data fields<a class="headerlink" href="#data-fields" title="Permalink to this headline">#</a></h2>
+<p>The following attributes are available in the RGI shapefiles:</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: rgi_identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single outline by the RGI <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: RGI_Id</p>
 </dd>
@@ -467,6 +570,10 @@ title="Print to PDF"
 <dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier geometry (Polygon) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: geometry</p>
 </dd>
 </dl>
+</section>
+<section id="additional-information-on-data-fields">
+<h2>Additional information on data fields<a class="headerlink" href="#additional-information-on-data-fields" title="Permalink to this headline">#</a></h2>
+<p>TODO: description of topo data, etc.</p>
 </section>
 </section>
 

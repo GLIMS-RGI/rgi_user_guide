@@ -5,7 +5,7 @@ We define 19 first-order glacier regions drawn mostly from {cite:t}`Radic2010a`,
 :::{figure-md} global-fig
 <img src="img/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
 
-First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red (glacier sizes are exaggerated for readability). LINK to high resolution image.
+First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/user_guide/main/docs/img/global_map.png).
 :::
 
 
@@ -27,7 +27,7 @@ The region outlines have changed slightly between RGI versions. **In RGI 7.0, th
 ```{admonition} Additional details: RGI Regions version history
 :class: note, dropdown
 
-In **RGI 6.0**, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the Global Terrestrial Network for Glaciers (GTN-G; http://www.gtn-g.ch/data_catalogue_glacreg/) with the RGI regions.
+In **RGI 6.0**, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the [Global Terrestrial Network for Glaciers](http://www.gtn-g.ch/data_catalogue_glacreg) (GTN-G) with the RGI regions.
 
 In **RGI 5.0**, the boundary between regions 01 (Alaska) and 02 (Western Canada and US) was refined, and in region 10 (North Asia) the former four second-order regions became six regions conforming with those described by Earl and Gardner (2016). In RGI 4.0, region 10-01, North Asia (North), was extended slightly to the west for better visibility of glaciers in the Polar Urals. Region 11-02, formerly the Pyrenees and Apennines, was enlarged and renamed Southern and Eastern Europe. First-order regions 10 (North Asia) and 11 (Central Europe) were enlarged accordingly.
 ```

@@ -2,10 +2,28 @@
 
 The Alaska region encompasses all glaciers in the state of Alaska, USA, and also all those glaciers in the Yukon Territory and British Columbia, Canada, that are part of the icefields that straddle the US/Canada border. On its southeastern boundary, the region ends just north of Prince Rupert, British Columbia and just south of the end of the Alaska border. From there the region extends inland to the divide between Gulf of Alaska and Arctic drainages. 
 
+## New in RGI7
+
+:::{figure-md} rgi01-new-fig
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/isrgi6_map.png" alt="region map" class="bg-primary mb-1">
+
+This needs replaced by a better map.
+:::
+
+Most outlines are from RGI6. Improvements:
+- Kenai Peninsula has been replaced by...
+- The northernmost glacier region has been...
+
 ## Additional information 
 
-```{admonition} Data sources
+```{admonition} Data sources and analysts
 :class: tip, dropdown
+
+:::{figure-md} rgi01-source-fig
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/inventory_map.png" alt="region map" class="bg-primary mb-1">
+
+This needs replaced by a better map.
+:::
 
 Submission 624
 : **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 25305. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
@@ -24,7 +42,18 @@ Submission 810
 
 ```
 
-```{admonition} Previous versions changelog
+```{admonition} Outlines date distribution
+:class: seealso, dropdown
+
+:::{figure-md} rgi01-hist-fig
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
+
+This needs replaced by a better plot.
+:::
+
+```
+
+```{admonition} Version history
 :class: note, dropdown
 
 Changes from Version 5.0 to 6.0

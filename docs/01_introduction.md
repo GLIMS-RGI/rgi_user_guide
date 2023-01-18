@@ -44,7 +44,7 @@ All RGI related codebase is available on the [GLIMS-RGI Github organization](htt
 
 Earlier versions of this technical note were referenced as "Arendt et al." (various dates). The following form of reference is now recommended: 
 
-**RGI7 Ref.**
+**Add RGI7 Ref.**
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 

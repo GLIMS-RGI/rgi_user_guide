@@ -154,6 +154,11 @@ const thebe_selector_output = ".output, .cell_output"
      02: Western Canada and USA
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="regions/rgi03.html">
+     03: Arctic Canada, North
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -322,7 +327,7 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#technical-specifications">
-   Technical Specifications
+   Technical specifications
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -395,7 +400,7 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#technical-specifications">
-   Technical Specifications
+   Technical specifications
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -460,9 +465,9 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="data-description">
 <h1>Data Description<a class="headerlink" href="#data-description" title="Permalink to this headline">#</a></h1>
 <section id="technical-specifications">
-<h2>Technical Specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
+<h2>Technical specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
 <p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one shapefile (<code class="docutils literal notranslate"><span class="pre">.shp</span></code> with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files) containing all glaciers and ancillary <code class="docutils literal notranslate"><span class="pre">.csv</span></code> files containing additional statistics and hypsometric data.</p>
-<p>Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7.0 processing workflow is to convert the GLIMS data model to the RGI data model).</p>
+<p>Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7 processing workflow consists in converting the GLIMS data model to the RGI data model).</p>
 <section id="file-naming-convention">
 <h3>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h3>
 <p>TODO</p>

@@ -5,9 +5,9 @@ The Western Canada and USA region encompasses all glaciers in continental USA an
 ## New in RGI7
 
 :::{figure-md} rgi02-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI02/isrgi6_map.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better map.
+Glacier locations and changes between RGI6 and RGI7.
 :::
 
 Same outlines as in RGI6.
@@ -18,9 +18,9 @@ Same outlines as in RGI6.
 :class: tip, dropdown
 
 :::{figure-md} rgi02-source-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI02/inventory_map.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better map.
+Submission IDs used for this region.
 :::
 
 Submission 616
@@ -48,9 +48,9 @@ Submission 744
 :class: seealso, dropdown
 
 :::{figure-md} rgi02-hist-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI02/date_hist.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/date_hist.png" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better plot.
+Relative glacier area distribution per outline date.
 :::
 
 ```

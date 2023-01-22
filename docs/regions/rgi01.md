@@ -5,9 +5,9 @@ The Alaska region encompasses all glaciers in the state of Alaska, USA, and also
 ## New in RGI7
 
 :::{figure-md} rgi01-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/isrgi6_map.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better map.
+Glacier locations and changes between RGI6 and RGI7.
 :::
 
 Most outlines are from RGI6. Improvements:
@@ -20,9 +20,9 @@ Most outlines are from RGI6. Improvements:
 :class: tip, dropdown
 
 :::{figure-md} rgi01-source-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/inventory_map.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better map.
+Submission IDs used for this region.
 :::
 
 Submission 624
@@ -46,9 +46,9 @@ Submission 810
 :class: seealso, dropdown
 
 :::{figure-md} rgi01-hist-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
 
-This needs replaced by a better plot.
+Relative glacier area distribution per outline date.
 :::
 
 ```

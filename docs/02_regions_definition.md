@@ -24,7 +24,7 @@ The region outlines have changed slightly between RGI versions. **In RGI 7.0, th
 - The `RGI_CODE` column is now called `o1region` (first order files) and `o2region` (second-order files)
 
 
-```{admonition} Additional details: RGI Regions version history
+```{admonition} Additional details: RGI regions version history
 :class: note, dropdown
 
 In **RGI 6.0**, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the [Global Terrestrial Network for Glaciers](http://www.gtn-g.ch/data_catalogue_glacreg) (GTN-G) with the RGI regions.

@@ -1,10 +1,10 @@
 # Data Description
 
-## Technical Specifications
+## Technical specifications
 
 The RGI is provided as [Esri shapefiles](https://en.wikipedia.org/wiki/Shapefile) containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one shapefile (`.shp` with accompanying `.dbf`, `.prj` and `.shx` files) containing all glaciers and ancillary `.csv` files containing additional statistics and hypsometric data. 
 
-Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7.0 processing workflow is to convert the GLIMS data model to the RGI data model).
+Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS shapefiles. That is, each geometry object consists of a polygon with an exterior outline encompassing the glacier and any umber of interior outlines representing all of its nunataks (ice-free areas enclosed by the glacier). This data model is not the same as the current GLIMS data model, in which nunataks are independent objects (in fact, part of the RGI 7 processing workflow consists in converting the GLIMS data model to the RGI data model).
 
 ### File naming convention
 

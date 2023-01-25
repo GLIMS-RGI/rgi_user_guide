@@ -159,6 +159,11 @@ const thebe_selector_output = ".output, .cell_output"
      03: Arctic Canada, North
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="regions/rgi19.html">
+     19: Subantarctic and Antarctic Islands
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -303,12 +308,46 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-sources-and-outlines">
+   Data sources and outlines
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-processing-workflow">
+   Data processing workflow
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-format">
+   Data format
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -320,6 +359,29 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-sources-and-outlines">
+   Data sources and outlines
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-processing-workflow">
+   Data processing workflow
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-format">
+   Data format
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -329,7 +391,24 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="revisions-in-rgi7">
 <h1>Revisions in RGI7<a class="headerlink" href="#revisions-in-rgi7" title="Permalink to this headline">#</a></h1>
-<p>There are A LOT of changes in RGI7.</p>
+<p>While being consistent with previous RGI versions in many ways, the RGI version 7 represents a fundamental change in the data processing workflow and contains several considerable improvements in outline quality for many regions of the world.</p>
+<section id="data-sources-and-outlines">
+<h2>Data sources and outlines<a class="headerlink" href="#data-sources-and-outlines" title="Permalink to this headline">#</a></h2>
+<p>Refer to <a class="reference internal" href="05_description_by_region.html"><span class="doc std std-doc">Regional data sources</span></a> for the changes in outlines and data sources.</p>
+</section>
+<section id="data-processing-workflow">
+<h2>Data processing workflow<a class="headerlink" href="#data-processing-workflow" title="Permalink to this headline">#</a></h2>
+<p>Historically, RGI version have been generated and updated “manually”, using GIS tools to merge, edit, and prepare the RGI data files. Contributions to the RGI were sent directly to the dataset manager, who was in charge of processing them. This was efficient and without a doubt contributed to the success of the RGI. However, this process was prone to human errors (there weren’t many) and relied in a few key persons without whom the dataset could not be maintained or updated. It also led to confusion since there were two databases of glacier outlines: GLIMS and RGI.</p>
+<figure class="align-default" id="fig-workflow">
+<img alt="data workflow" class="bg-primary mb-1" src="_images/workflow.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Schematic illustration of the RGI7 data production workflow.</span><a class="headerlink" href="#fig-workflow" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="data-format">
+<h2>Data format<a class="headerlink" href="#data-format" title="Permalink to this headline">#</a></h2>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

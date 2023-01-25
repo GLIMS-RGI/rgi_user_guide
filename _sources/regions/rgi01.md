@@ -40,6 +40,9 @@ Submission 809
 Submission 810
 : **Submitter**: Paul, Frank (University of Colorado).<br/>**Number of outlines**: 424. **Area**: 277.6km². **Release date**: 2023-01-09.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William; Paul, Frank.
 
+Reviewers
+: McNabb, Robert;
+
 ```
 
 ```{admonition} Outlines date distribution

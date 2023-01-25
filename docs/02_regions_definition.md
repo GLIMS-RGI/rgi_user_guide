@@ -8,7 +8,6 @@ We define 19 first-order glacier regions drawn mostly from {cite:t}`Radic2010a`,
 First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/user_guide/main/docs/img/global_map.png).
 :::
 
-
 First-order regions 10 and 19 straddle the 180th meridian, and so does the second-order region 19-15. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western.
 
 The region outlines have changed slightly between RGI versions. **In RGI 7.0, the following changes have been implemented**:

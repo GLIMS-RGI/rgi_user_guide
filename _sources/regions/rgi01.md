@@ -2,8 +2,6 @@
 
 The Alaska region encompasses all glaciers in the state of Alaska, USA, and also all those glaciers in the Yukon Territory and British Columbia, Canada, that are part of the icefields that straddle the US/Canada border. On its southeastern boundary, the region ends just north of Prince Rupert, British Columbia and just south of the end of the Alaska border. From there the region extends inland to the divide between Gulf of Alaska and Arctic drainages. 
 
-## New in RGI7
-
 :::{figure-md} rgi01-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

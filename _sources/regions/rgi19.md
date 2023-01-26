@@ -1,8 +1,6 @@
 # 19: Subantarctic and Antarctic Islands
 
-The Subantarctic and Antarctic Islands region encompasses all glaciers in the periphery of mainland Antarctica.
-
-## New in RGI7
+The Subantarctic and Antarctic Islands region encompasses all glaciers in the periphery of mainland Antarctica, including some remote islands in the Southern ocean. It does not include any outline on mainland Antarctica.
 
 :::{figure-md} rgi19-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI19/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
@@ -10,7 +8,10 @@ The Subantarctic and Antarctic Islands region encompasses all glaciers in the pe
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Several improvements to RGI6.
+Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See [github discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61)). Several wrongly mapped icebergs and other bodies where removed. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
+
+An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and Hock et al (in press), opening the question whether certain outlines in RGI belong to the ice sheet or to the mountain glaciers category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but preferred not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
+
 
 ## Additional information 
 
@@ -77,7 +78,7 @@ Changes from Version 4.0 to 5.0
 : Links were added to 2 glaciers in the WGMS mass-balance database.
 
 Changes from Version 3.2 to Version 4.0
-: Two exterior GLIMSIds were replaced. Topographic and hypsometric attributes (section 3.2) were added.<br/>The main source for RGI region 19 was the Antarctic Digital Database (ADD; ADD Consortium, 2000), compiled for glaciological purposes by {cite:t}`Bliss2013`. In RGI 3.2, 34,041 km2 of Antarctic glaciers had dates and 47,961 km2 had date ranges. Most of these were obtained from attributes of coastal and other line segments in the ADD. Of the remaining 50,866 km2 of glaciers, it was possible to recover dates and date ranges for 35,148 km2 from chapter 5 (Bibliography) of the ADD manual (ADD Consortium, 2000). This bibliography gives detailed summaries of ADD revisions organized by the tiles into which the database is subdivided, and further by the 16 maps into which each tile is subdivided. For many tiles, but not all, the bibliography lists source images and their dates. Unfortunately the bibliography has not been updated since 2000, and so there is some doubt about the assignment of dates. Often, however, it was possible to verify, for example by inspecting Google Earth, that there have been no perceptible revisions in recent years.
+: Two exterior GLIMSIds were replaced. Topographic and hypsometric attributes (section 3.2) were added.<br/>The main source for RGI region 19 was the Antarctic Digital Database ADD {cite:p}`add2000`, compiled for glaciological purposes by {cite:t}`Bliss2013`. In RGI 3.2, 34,041 km2 of Antarctic glaciers had dates and 47,961 km2 had date ranges. Most of these were obtained from attributes of coastal and other line segments in the ADD. Of the remaining 50,866 km2 of glaciers, it was possible to recover dates and date ranges for 35,148 km2 from chapter 5 (Bibliography) of the ADD manual {cite:p}`add2000`. This bibliography gives detailed summaries of ADD revisions organized by the tiles into which the database is subdivided, and further by the 16 maps into which each tile is subdivided. For many tiles, but not all, the bibliography lists source images and their dates. Unfortunately the bibliography has not been updated since 2000, and so there is some doubt about the assignment of dates. Often, however, it was possible to verify, for example by inspecting Google Earth, that there have been no perceptible revisions in recent years.
 
 Changes from Version 2.0 to Version 3.2
 : None.

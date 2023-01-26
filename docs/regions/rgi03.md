@@ -1,8 +1,6 @@
 # 03: Arctic Canada, North
 
-The  Arctic Canada, North region encompasses all glaciers in northern Canada above 74°N (Ellesmere and Devon Islands).
-
-## New in RGI7
+The  Arctic Canada, North region encompasses all glaciers in northern Canada above 74°N; it comprises the heavily glaciated Ellesmere and Devon Islands.
 
 :::{figure-md} rgi03-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
@@ -64,7 +62,7 @@ Changes from Version 4.0 to 5.0
 : Names were assigned to some glaciers on Axel Heiberg Island. Glacier RGI40-03.00840 was subdivided into RGI50-03.04538 (Thompson Glacier) and RGI50-03.04539 (White Glacier). Alexander Trishchenko (Canada Centre for Remote Sensing, Ottawa) pointed out that an ice cap of 126 km2 on Colin Archer Peninsula, northwest Devon Island was missing, and it was added (RGI50-03.04540).<br/>Links were added to 4 glaciers in the WGMS mass-balance database.
 
 Changes from Version 3.2 to 4.0
-: One exterior GLIMSId was replaced. Topographic and hypsometric attributes (section 3.2) were added.
+: One exterior GLIMSId was replaced. Topographic and hypsometric attributes were added.
 
 Changes from Version 3.0 to 3.2
 : Glaciers were delineated from the glacier complexes using the delineation algorithm developed by {cite:t}`Kienholz2013` and applied to the 1:250000 Canadian Digital Elevation Data (CDED). Some minor manual editing was done to remove obvious blunders.

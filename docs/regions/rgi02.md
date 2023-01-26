@@ -2,8 +2,6 @@
 
 The Western Canada and USA region encompasses all glaciers in continental USA and central Canada. 
 
-## New in RGI7
-
 :::{figure-md} rgi02-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
@@ -67,7 +65,7 @@ Changes from Version 4.0 to 5.0
 : The boundary between region 01-06 (N Coast Ranges) and regions 02-03 (S Coast Ranges) and 02-04 (N Rocky Mtns) was refined, with transfers of three glaciers to region 01-06 from 02-03 and four to 02-03 from 01-06 in consequence.<br/>Links were added to 21 glaciers in the WGMS mass-balance database.
 
 Changes from Version 3.2 to Version 4.0
-: 145 exterior GLIMSIds were replaced. Topographic and hypsometric attributes (section 3.2) were added.
+: 145 exterior GLIMSIds were replaced. Topographic and hypsometric attributes were added.
 
 Changes from Version 3.0 to 3.2
 : None.

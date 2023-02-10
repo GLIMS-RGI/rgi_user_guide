@@ -4,7 +4,13 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is the referen
 
 ```{warning}
 
-**This technical note is a draft and refers to the beta version of RGI7. This is a work in progress and the content of this website _will_ change.**
+**This technical note is a work in progress and refers to the beta version of RGI7.**
+
+```
+
+```{admonition} Data download
+
+[Download link to the RGI7 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_tar/). For review only!
 
 ```
 
@@ -83,6 +89,25 @@ Summary of regional glacier counts and areas.
 :::
 
 ::::
+
+
+## Acknowledgments
+
+
+```{image} img/logos/iugg_iacs.png
+:alt: IACS
+:height: 150px
+```
+
+```{image} img/logos/white.png
+:alt: white
+:height: 150px
+```
+
+```{image} img/logos/unesco.png
+:alt: UNESCO
+:height: 150px
+```
 
 
 ## License

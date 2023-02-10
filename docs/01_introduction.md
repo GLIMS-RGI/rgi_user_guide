@@ -30,11 +30,11 @@ The RGI datasets are hosted and documented on [glims.org](https://www.glims.org/
 
 ## Data Distribution Policy
 
-The RGI may be used freely under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by citing this note for technical details or {cite:t}`Pfeffer2014` for scientific background). The inventory and this Technical Note can be downloaded from http://www.glims.org/RGI/randolph60.html. Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI.
+The RGI may be used freely under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by citing this note for technical details or {cite:t}`Pfeffer2014` for scientific background). The inventory can be downloaded from XXX. Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI.
 
 ## Data Sources
 
-The RGI is a combination of new and previously-published glacier outlines. All outlines are part of the GLIMS database and comply to the GLIMS license agreement. Many outlines used in RGI version 7 were provided by the glaciological community in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](tables/data_sources) for a list of RGI contributors.
+The RGI is a combination of new and previously-published glacier outlines. All outlines are part of the GLIMS database and comply to the GLIMS license agreement. Many outlines used in RGI version 7 were provided by the community in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](tables/data_sources) for a list of RGI contributors.
 
 ## RGI source code
 

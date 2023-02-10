@@ -8,9 +8,18 @@ Each object in the RGI conforms to the data-model conventions of ESRI ArcGIS sha
 
 ### File naming convention
 
-TODO
+Here is an example of an RGI file name:
 
-RGI2000-v7.0-G-02-00001
+`RGI2000-v7.0-G-03_arctic_canada_north.shp`
+
+The various product descriptors are separated by hyphens (`-`):
+
+- `RGI2000` indicates that this file belongs to the RGI products with target year 2000. Note that there is currently only one target year for RGI, but that future versions might target different years.
+- `v7.0` is the RGI version number. RGI reserves the right to publish small (e.g. `v7.1`) or larger (e.g. `v8.0`) increments.
+- `G` designates the "glacier" product, which is the default data model for RGI. As of RGI v7, RGI also provides a "glacier complex" product, designated by the letter `C` (see [](glacier-complex) for details).
+- `03_arctic_canada_north` is the region first order id (`01` to `19`) as well as the region name (lower case names separated by underscores). This id is parsed from the RGI region files.
+
+RGI identifiers follow the same convention (for example, `RGI2000-v7.0-G-02-00003` is the third glacier in RGI region 02, glacier product, RGI v7.0, target year 2000).
 
 ### Glacier identifiers in RGI and GLIMS
 
@@ -42,7 +51,7 @@ With the example of RGI region 01:
 : information about the data providers ("submission info"). Each glacier outline can be attributed to a specific submission via the `subm_id` attribute.
 
 `RGI2000-v7.0-G-01_alaska_hypsometry.csv`
-: hypsometry files (as csv? NetCDF?)
+: hypsometry files (TODO: as csv? NetCDF?)
 
 #### Global products
 
@@ -50,19 +59,21 @@ TODO
 
 <!--- The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km² are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary `.csv` file. The 19 regional attribute files are also provided in the `.csv` format. --->
 
+(glacier-complex)=
 ### New in RGI 7.0: "glacier" and "glacier complex" data products
 
 TODO
 
 ## Quality control and data integrity
 
-RGI is a subset of GLIMS, without any modification to the outlines. All quality controls applied by GLIMS are therefore inherited by RGI - this is also true for issues or problems in the outlines. Glaciers with areas less than 0.01 km², the recommended minimum of the World Glacier Inventory, are removed. Nunataks are retained whatever their area. Attributes which are not part of RGI are computed, filled and checked using scripts written in Python.
+RGI is a subset of GLIMS. All quality controls applied by GLIMS are therefore inherited by RGI - this is also true for issues or problems in the outlines. Glaciers with areas less than 0.01 km², the recommended minimum of the World Glacier Inventory, are removed. Nunataks are retained whatever their area. Attributes which are not part of GLIMS are computed, filled and checked using scripts written in Python for RGI (see below).
 
 RGI applies the following data integrity checks on GLIMS data:
-- where possible (i.e. when we had access to the original inventories, for example GAMDAMv2 which is openly available), we check that the RGI (and hence GLIMS) are equivalent to the original dataset. This helped to discover a few bugs in the GLIMS data ingest workflow.
-- we roughly check for duplicated outlines by checking that no outline's representative point overlaps with another outline (less then a dozen outlines are filtered from GLIMS this way)
+- where possible (i.e. when we had access to the original inventories, for example GAMDAMv2 which is openly available), we check that the RGI (and hence GLIMS) are equivalent to the original dataset. This helped to discover a few bugs in the GLIMS data ingest workflow and is only a rough data integrity check.
+- we check for duplicated outlines by checking that no outline's representative point overlaps with another outline (a few dozen outlines are filtered from GLIMS this way).
+- we check and correct for polygon geometry validity. About 2% of all geometries extracted from GLIMS used for RGI7 are "invalid" according to the [Open Geospatial Consortium Implementation Standard](https://www.ogc.org/standards/sfa) (for reference, about 5% of all RGI6 outlines did not pass this test). We use Shapely's [make_valid](https://shapely.readthedocs.io/en/stable/manual.html#diagnostics) function to correct for invalid geometries by removing erroneous figures of 8 or similar sliver polygons. We ensure that each glacier's area is preserved within 0.1 km² or 0.1%. In the very rare cases where this is not the case, we make two geometries out of one GLIMS entry (effectively adding one glacier to the RGI).
 
-However, we do not check for polygon geometry validity, as this is a step that should be done by the outline submitters prior to GLIMS. About 2% of all geometries in RGI7 are "invalid" according to the [Open Geospatial Consortium Implementation Standard](https://www.ogc.org/standards/sfa) (for reference, about 5% of all RGI6 outlines did not pass this test). Examples of invalid geometries are outlines containing a "figure of 8" or similar singularities. Most applications (such as vector to raster conversion or area computation) do not require valid geometries in this strict sense.
+The problem with the latter check is that some outlines in RGI7 are not *strictly* equivalent to the ones stored in GLIMS (albeit with often imperceptible differences). However, we estimate that the benefits of using only valid geometries outweigh the requirements to strictly follow the GLIMS data model.
 
 ## Data fields
 

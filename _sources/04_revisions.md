@@ -1,9 +1,12 @@
 # Revisions in RGI7 
 
-While being consistent with previous RGI versions in many ways, the RGI version 7 represents a fundamental change in the data processing workflow and contains several considerable improvements in outline quality for many regions of the world.
+```{important}
+While being largely consistent with previous RGI versions, the RGI version 7 represents a fundamental change in the data processing workflow and file formatting. Returning users will have to adapt their analysts scripts and routines, hopefully for the better.
+```
 
 ## Data sources and outlines
 
+RGI7 contains several considerable improvements in outline quality for many regions of the world.
 Refer to [](05_description_by_region) for the changes in outlines and data sources.
 
 ## Data processing workflow

@@ -1,11 +1,11 @@
 # RGI Regions
 
-We define 19 first-order glacier regions drawn mostly from {cite:t}`Radic2010a`, with some minor modifications ([Figure 1](global-fig); [Table 1](tables/regions.md)). We further subdivide the first-order regions into second-order regions, of which there are 90 in total. 
+We define 19 first-order glacier regions drawn mostly from {cite:t}`Radic2010a`, with some minor modifications ([Figure 1](global-fig); [Table 1a](o1-regions-table)). We further subdivide the first-order regions into second-order regions, of which there are 89 in total ([Table 1b](o2-regions-table)). 
 
 :::{figure-md} global-fig
-<img src="img/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
 
-First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/user_guide/main/docs/img/global_map.png).
+First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
 :::
 
 First-order regions 10 and 19 straddle the 180th meridian, and so does the second-order region 19-15. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western.

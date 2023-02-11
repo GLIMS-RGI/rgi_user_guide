@@ -38,7 +38,9 @@ The RGI is a combination of new and previously-published glacier outlines. All o
 
 ## RGI source code
 
-All RGI related codebase is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI).
+All RGI related codebase is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
+- [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
+- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this documentation
 
 ## Dataset Reference
 

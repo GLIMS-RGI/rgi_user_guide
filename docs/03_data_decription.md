@@ -16,7 +16,7 @@ The various product descriptors are separated by hyphens (`-`):
 
 - `RGI2000` indicates that this file belongs to the RGI products with target year 2000. Note that there is currently only one target year for RGI, but that future versions might target different years.
 - `v7.0` is the RGI version number. RGI reserves the right to publish small (e.g. `v7.1`) or larger (e.g. `v8.0`) increments.
-- `G` designates the "glacier" product, which is the default data model for RGI. As of RGI v7, RGI also provides a "glacier complex" product, designated by the letter `C` (see [](glacier-complex) for details).
+- `G` designates the "glacier" product, which is the default RGI product. As of RGI v7, RGI also provides a "glacier complex" product, designated by the letter `C` (see [](glacier-complex) for details), and a "centerlines" product, designated by the letter `L`.
 - `03_arctic_canada_north` is the region first order id (`01` to `19`) as well as the region name (lower case names separated by underscores). This id is parsed from the RGI region files.
 
 RGI identifiers follow the same convention (for example, `RGI2000-v7.0-G-02-00003` is the third glacier in RGI region 02, glacier product, RGI v7.0, target year 2000).
@@ -53,16 +53,18 @@ With the example of RGI region 01:
 `RGI2000-v7.0-G-01_alaska_hypsometry.csv`
 : hypsometry files (TODO: as csv? NetCDF?)
 
-#### Global products
+
+(glacier-complex)=
+#### New in RGI7: "glacier", "glacier complex", and "centerlines" products
 
 TODO
+
+#### Global products
+
+TODO: gridded RGI products
 
 <!--- The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km² are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary `.csv` file. The 19 regional attribute files are also provided in the `.csv` format. --->
 
-(glacier-complex)=
-### New in RGI 7.0: "glacier" and "glacier complex" data products
-
-TODO
 
 ## Quality control and data integrity
 
@@ -76,6 +78,8 @@ RGI applies the following data integrity checks on GLIMS data:
 The problem with the latter check is that some outlines in RGI7 are not *strictly* equivalent to the ones stored in GLIMS (albeit with often imperceptible differences). However, we estimate that the benefits of using only valid geometries outweigh the requirements to strictly follow the GLIMS data model.
 
 ## Data fields
+
+### Full list
 
 The following attributes are available in the RGI shapefiles:
 
@@ -110,7 +114,7 @@ The following attributes are available in the RGI shapefiles:
 : `long_name`: glacier_name <br/> `description`: Glacier name (when available). <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: Name
 
 `is_rgi6`
-: `long_name`: same_as_rgi6 <br/> `description`: Flag indicating if the outline is the same as in RGI6 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: same_as_rgi6 <br/> `description`: Flag indicating if the outline is the same as in RGI6 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon between RGI6 and RGI7. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `cenlon`
 : `long_name`: center_longitude <br/> `description`: Longitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: Automated <br/> `rgi6_name`: CenLon
@@ -151,6 +155,6 @@ The following attributes are available in the RGI shapefiles:
 `geometry`
 : `long_name`: geometry <br/> `description`: Glacier geometry (Polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: GLIMS <br/> `rgi6_name`: geometry
 
-## Additional information on data fields
+### Additional information on data fields
 
 TODO: description of topo data, etc.

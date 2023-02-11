@@ -8,7 +8,7 @@ All glaciers not connected of weakly connected to the Greenland ice sheet.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-No changes to RGI6, with the exception of Northern Greenland. **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers where part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
+No changes to RGI6, with the exception of Northern Greenland and the [Flade Isblink Icecap where ice divides have been added](https://github.com/GLIMS-RGI/rgi7_scripts/issues/39). **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers where part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
 
 ## Additional information 
 
@@ -25,7 +25,11 @@ Submission 729
 : **Submitter**: Paul, Frank (GEUS - Geological Survey of Denmark and Greenland).<br/>**Number of outlines**: 715. **Area**: 3233.0km². **Release date**: 2021-07-12.<br/>**Analysts**: Paul, Frank; Rastner, Philipp.
 
 Submission 751
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 19173. **Area**: 87137.8km². **Release date**: 2014-12-01.<br/>**Analysts**: Bolch, Tobias; Howat, Ian; LeBris, Raymond; Moelg, Nico; Negrete, A.; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 19054. **Area**: 77007.3km². **Release date**: 2014-12-01.<br/>**Analysts**: Bolch, Tobias; Howat, Ian; LeBris, Raymond; Moelg, Nico; Negrete, A.; Paul, Frank; Rastner, Philipp.
+
+Submission 813
+: **Submitter**: McNabb, Robert (Ulster University).<br/>**Number of outlines**: 200. **Area**: 10228.3km². **Release date**: 2023-02-01.<br/>**Analysts**: McNabb, Robert.
+
 
 Reviewers
 : None;

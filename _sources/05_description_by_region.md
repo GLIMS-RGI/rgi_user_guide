@@ -15,10 +15,19 @@ First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier 
 - [](regions/rgi07.md)
 - [](regions/rgi08.md)
 - [](regions/rgi09.md)
+- [](regions/rgi10.md)
+- [](regions/rgi11.md)
+- [](regions/rgi12.md)
+- [](regions/rgi13.md)
+- [](regions/rgi14.md)
+- [](regions/rgi15.md)
+- [](regions/rgi16.md)
+- [](regions/rgi17.md)
+- [](regions/rgi18.md)
 - [](regions/rgi19.md)
 
 
-In RGI7, 200628 of the 274563 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.**
+In RGI7, 200628 of the 274563 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.** The following table summarizes the statistics of the changes between RGI6 and RGI7:
 
 
 |                      |   Area RGI6 |   Area RGI7 |   Diff A (%) |   N RGI6 |   N RGI7 |   Diff N (%) |

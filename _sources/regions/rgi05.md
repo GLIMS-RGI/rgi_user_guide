@@ -30,7 +30,6 @@ Submission 751
 Submission 813
 : **Submitter**: McNabb, Robert (Ulster University).<br/>**Number of outlines**: 200. **Area**: 10228.3km². **Release date**: 2023-02-01.<br/>**Analysts**: McNabb, Robert.
 
-
 Reviewers
 : None;
 

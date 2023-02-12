@@ -8,7 +8,7 @@ All glaciers in Scandinavia.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-No changes to RGI6, except in Sweden, where RGI6 glaciers [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36).
+No changes to RGI6, except in Sweden, where RGI6 glaciers [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). 4 "nominal glaciers" (potential glaciers without outlines) in the east of the region were deleted, as they did not seem to correspond to real glaciers.
 
 ## Additional information 
 
@@ -28,7 +28,7 @@ Submission 812
 : **Submitter**: Frank, Thomas (Stockholm University).<br/>**Number of outlines**: 269. **Area**: 273.0km². **Release date**: 2023-01-02.<br/>**Analysts**: Brown, Ian; Frank, Thomas; Hansson, Erik.
 
 Reviewers
-: None;
+: Mannerfelt, Erik;
 
 ```
 

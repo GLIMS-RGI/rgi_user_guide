@@ -6,27 +6,6 @@
 First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations. In red, outlines which are new in RGI7. In blue, outlines which didn't change since RGI6. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_wrgi6.png).
 :::
 
-- [](regions/rgi01.md)
-- [](regions/rgi02.md)
-- [](regions/rgi03.md)
-- [](regions/rgi04.md)
-- [](regions/rgi05.md)
-- [](regions/rgi06.md)
-- [](regions/rgi07.md)
-- [](regions/rgi08.md)
-- [](regions/rgi09.md)
-- [](regions/rgi10.md)
-- [](regions/rgi11.md)
-- [](regions/rgi12.md)
-- [](regions/rgi13.md)
-- [](regions/rgi14.md)
-- [](regions/rgi15.md)
-- [](regions/rgi16.md)
-- [](regions/rgi17.md)
-- [](regions/rgi18.md)
-- [](regions/rgi19.md)
-
-
 In RGI7, 200628 of the 274563 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.** The following table summarizes the statistics of the changes between RGI6 and RGI7:
 
 

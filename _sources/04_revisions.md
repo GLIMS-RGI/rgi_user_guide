@@ -15,6 +15,8 @@ Historically, RGI versions have been generated and updated "manually", using GIS
 
 With RGI7, the two data products are now related and each have a clear mandate. GLIMS is the central database for all glacier outlines, while the RGI is a curated snapshot of GLIMS for a target year ([Figure 2](fig-workflow)).
 
+TODO - more text
+
 :::{figure-md} fig-workflow
 <img src="img/workflow.png" alt="data workflow" class="bg-primary mb-1">
 
@@ -23,3 +25,5 @@ Schematic illustration of the RGI7 data production workflow.
 
 
 ## Data format
+
+TODO - more text

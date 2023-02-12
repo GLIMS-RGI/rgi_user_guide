@@ -1,4 +1,4 @@
-# Table 2: full list of contributors
+# Appendix 2: full list of contributors
 
 ## RGI working group
 

@@ -22,7 +22,6 @@ The region outlines have changed slightly between RGI versions. **In RGI 7.0, th
 - The `WGMS_CODE` column has been deleted from all files.
 - The `RGI_CODE` column is now called `o1region` (first order files) and `o2region` (second-order files)
 
-
 ```{admonition} Additional details: RGI regions version history
 :class: note, dropdown
 

@@ -1,4 +1,4 @@
-# Table 1: RGI regions
+# Appendix 1: RGI regions
 
 (o1-regions-table)=
 ## First-order regions (N=19)

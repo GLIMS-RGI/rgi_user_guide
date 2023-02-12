@@ -11,15 +11,15 @@ copyright: "2022"  # Copyright year to be placed in the footer
 logo: img/logo.png  # A path to the book logo
 
 repository:
-  url: https://github.com/GLIMS-RGI/user_guide
+  url: https://github.com/GLIMS-RGI/rgi_user_guide
   path_to_book: docs 
   branch: master
 bibtex_bibfiles:
    - references.bib
 html:
-  use_repository_button: false
-  use_issues_button: false
-  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
   google_analytics_id: 
   extra_footer: |
     <p>
@@ -28,7 +28,7 @@ html:
     </a>
     This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
     <br>
-    &copy; Copyright 2022.
+    &copy; Copyright RGI Consortium 2022-2023.
     </p>
 sphinx:
   config:

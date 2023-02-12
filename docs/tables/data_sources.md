@@ -1,6 +1,8 @@
 # Appendix 2: full list of contributors
 
-## RGI working group
+## IACS working group
+
+[IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
 Chairs: **Hock, Regine; Maussion, Fabien**<br>
 Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael** 

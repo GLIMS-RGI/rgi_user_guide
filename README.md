@@ -1,5 +1,4 @@
-# RGI Technical note 
-
+# RGI user guide and technical note
 
 ## License
 

@@ -3,7 +3,7 @@
 The Western Canada and USA region encompasses all glaciers in continental USA and central Canada. 
 
 :::{figure-md} rgi02-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 
 Glacier locations and changes between RGI6 and RGI7.
 :::
@@ -16,7 +16,7 @@ Same outlines as in RGI6.
 :class: tip, dropdown
 
 :::{figure-md} rgi02-source-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/inventory_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 
 Submission IDs used for this region.
 :::

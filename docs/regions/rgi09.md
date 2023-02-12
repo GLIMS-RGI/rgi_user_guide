@@ -28,7 +28,7 @@ Submission 759
 : **Submitter**: Kochtitzky, William (University of Ottawa).<br/>**Number of outlines**: 3. **Area**: 841.8km². **Release date**: 2021-09-09.<br/>**Analysts**: Kochtitzky, William.
 
 Reviewers
-: None;
+: Kochtitzky, William;
 
 ```
 

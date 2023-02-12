@@ -16,6 +16,15 @@ chapters:
   - file: regions/rgi07.md
   - file: regions/rgi08.md
   - file: regions/rgi09.md
+  - file: regions/rgi10.md
+  - file: regions/rgi11.md
+  - file: regions/rgi12.md
+  - file: regions/rgi13.md
+  - file: regions/rgi14.md
+  - file: regions/rgi15.md
+  - file: regions/rgi16.md
+  - file: regions/rgi17.md
+  - file: regions/rgi18.md
   - file: regions/rgi19.md
 - file: 06_dataset_summary.md
 - file: 07_references.md

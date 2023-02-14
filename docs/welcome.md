@@ -115,6 +115,11 @@ Summary of regional glacier counts and areas.
 :height: 150px
 ```
 
+<br/><br/>
+
+We aknowledge financial support by the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org), part of the [International Union of Geodesy and Geophysics (IUGG)](http://www.iugg.org).
+
+We aknowledge financial support by the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: *"Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment"* and within the framework of the theme: *"Supporting Member States to address hydrological challenges, extremes and water scarcity"*.
 
 ## License
 

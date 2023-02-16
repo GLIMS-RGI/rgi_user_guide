@@ -9,7 +9,7 @@
 | 02       | Western Canada and USA             | `02_western_canada_usa`             |      18855 |        14523 |
 | 03       | Arctic Canada, North               | `03_arctic_canada_north`            |       5219 |       105370 |
 | 04       | Arctic Canada, South               | `04_arctic_canada_south`            |      10934 |        40530 |
-| 05       | Greenland Periphery                | `05_greenland_periphery`            |      19969 |        90469 |
+| 05       | Greenland Periphery                | `05_greenland_periphery`            |      19995 |        90482 |
 | 06       | Iceland                            | `06_iceland`                        |        568 |        11060 |
 | 07       | Svalbard and Jan Mayen             | `07_svalbard_jan_mayen`             |       1667 |        33959 |
 | 08       | Scandinavia                        | `08_scandinavia`                    |       3411 |         2948 |
@@ -24,7 +24,7 @@
 | 17       | Southern Andes                     | `17_southern_andes`                 |      30700 |        27675 |
 | 18       | New Zealand                        | `18_new_zealand`                    |       3018 |          886 |
 | 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2662 |       133429 |
-| **All**  |                                    |                                     |    **274563** |       **706722** |
+| **All**  |                                    |                                     |    **274589** |       **706735** |
 
 (o2-regions-table)=
 ## Second-order regions (N=89)
@@ -58,7 +58,7 @@
 | 04-07  | Cumberland Sound                         | `04-07_cumberland_sound`                       |       2621 |         5907 |
 | 04-08  | Frobisher Bay                            | `04-08_frobisher_bay`                          |         83 |          235 |
 | 04-09  | Labrador                                 | `04-09_labrador`                               |        103 |           20 |
-| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |      19969 |        90469 |
+| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |      19995 |        90482 |
 | 06-01  | Iceland                                  | `06-01_iceland`                                |        568 |        11060 |
 | 07-01  | Svalbard                                 | `07-01_svalbard`                               |       1583 |        33841 |
 | 07-02  | Jan Mayen                                | `07-02_jan_mayen`                              |         84 |          117 |
@@ -120,4 +120,4 @@
 | 19-22  | Southeast Antarctic Peninsula 7I3        | `19-22_southeast_antarctic_peninsula_7i3`      |          6 |         1780 |
 | 19-23  | Ronne-Filchner Ice Shelf 7J              | `19-23_ronne_filchner_ice_shelf_7j`            |          0 |            0 |
 | 19-24  | West Queen Maud Land 7K                  | `19-24_west_queen_maud_land_7k`                |         14 |         5878 |
-| **All** |                                          |                                              |     **274563** |       **706722** |
+| **All** |                                          |                                              |     **274589** |       **706735** |

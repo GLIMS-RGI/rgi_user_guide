@@ -8,14 +8,13 @@ First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier 
 
 In RGI7, 200628 of the 274563 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.** The following table summarizes the statistics of the changes between RGI6 and RGI7:
 
-
 |                      |   Area RGI6 |   Area RGI7 |   Diff A (%) |   N RGI6 |   N RGI7 |   Diff N (%) |
 |:---------------------|------------:|------------:|-------------:|---------:|---------:|-------------:|
 | [](regions/rgi01.md) |       86725 |       86708 |          0   |    27108 |    27511 |          1.5 |
 | [](regions/rgi02.md) |       14524 |       14523 |          0   |    18855 |    18855 |          0   |
 | [](regions/rgi03.md) |      105111 |      105370 |          0.2 |     4556 |     5219 |         14.6 |
 | [](regions/rgi04.md) |       40888 |       40530 |         -0.9 |     7415 |    10934 |         47.5 |
-| [](regions/rgi05.md) |       89717 |       90469 |          0.8 |    19306 |    19969 |          3.4 |
+| [](regions/rgi05.md) |       89717 |       90482 |          0.9 |    19306 |    19995 |          3.6 |
 | [](regions/rgi06.md) |       11060 |       11060 |          0   |      568 |      568 |          0   |
 | [](regions/rgi07.md) |       33959 |       33959 |          0   |     1615 |     1667 |          3.2 |
 | [](regions/rgi08.md) |        2949 |        2948 |          0   |     3417 |     3411 |         -0.2 |
@@ -30,5 +29,4 @@ In RGI7, 200628 of the 274563 outlines are taken from an updated inventory. **Th
 | [](regions/rgi17.md) |       29429 |       27675 |         -6   |    15908 |    30700 |         93   |
 | [](regions/rgi18.md) |        1162 |         886 |        -23.7 |     3537 |     3018 |        -14.7 |
 | [](regions/rgi19.md) |      132867 |      133429 |          0.4 |     2752 |     2662 |         -3.3 |
-| Global               |      705738 |      706722 |          0.1 |   215547 |   274563 |         27.4 |
-
+| Global               |      705738 |      706735 |          0.1 |   215547 |   274589 |         27.4 |

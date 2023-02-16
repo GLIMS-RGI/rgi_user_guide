@@ -11,12 +11,12 @@ Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael*
 ## Implementation
 
 Main developer: **Maussion, Fabien**<br>
-Development: **Dusch, Mathias; Fischer, Alexander; Galos, Stephan; Maussion, Fabien; Roura Adserias, Francesc**<br>
+Development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; Maussion, Fabien; Roura-Adserias, Francesc**<br>
 GEE review tool: **Lea, James**
 
 ## Review
 
-Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss, Matthias;Khromova, Tatiana; Kochtitzky, William; Mannerfelt, Erik; McNabb, Robert; Prinz, Rainer; Rabatel, Antoine; Tielidze, Levan**
+Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss, Matthias; Khromova, Tatiana; Kochtitzky, William; Mannerfelt, Erik; McNabb, Robert; Prinz, Rainer; Rabatel, Antoine; Tielidze, Levan**
 
 ## Glacier outlines
 
@@ -114,6 +114,7 @@ This list is generated automatically out of the RGI (via GLIMS):
 
 For their extensive outline mapping work during the RGI7 generation process:  **Kochtitzky, William; McNabb, Robert; Paul, Frank; Rastner, Philipp; Tielidze, Levan**<br>
 Funding acquisition: **Hock, Regine; Maussion, Fabien; Paul, Frank; Raup, Bruce; Zemp, Michael**<br>
-Funding: **Mishra, Anil (UNESCO)**
+Funding: **Mishra, Anil (UNESCO)**<br>
+Computing resources and data storage: **Marzeion, Ben**
 
-In memory of **Graham Cogley** (1948-2018), the "father" of the RGI. 
+In memory of **[Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018) 

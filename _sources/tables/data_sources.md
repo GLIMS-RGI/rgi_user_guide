@@ -16,7 +16,7 @@ GEE review tool: **Lea, James**
 
 ## Review
 
-Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss, Matthias; Khromova, Tatiana; Kochtitzky, William; Mannerfelt, Erik; McNabb, Robert; Prinz, Rainer; Rabatel, Antoine; Tielidze, Levan**
+Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss, Matthias; Khromova, Tatiana; Kochtitzky, William; Langley, Kirsty; Mannerfelt, Erik; McNabb, Robert; Prinz, Rainer; Rabatel, Antoine; Tielidze, Levan**
 
 ## Glacier outlines
 

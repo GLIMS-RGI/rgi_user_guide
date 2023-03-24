@@ -1,6 +1,6 @@
 # 10: Asia, North
 
-Russia, Kazakhstan, Mongolia, Japan.
+Covers all glaciers in Eastern Russia, Kazakhstan, Mongolia, Northern China, and Japan.
 
 :::{figure-md} rgi10-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI10/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
@@ -8,7 +8,7 @@ Russia, Kazakhstan, Mongolia, Japan.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Outlines in Kamchatka have been remapped. In subregion 10-04 (Altay and Sayan), we use the GAMDAM inventory version 2 {cite:p}`Sakai2019`. We added 5 small glaciers in Japan that have been recently documented {cite:p}`Arie2022`.
+Glacier outlines in Kamchatka have been re-mapped. Glacier outlines in Eastern Russia were reviewed using the Glacier Inventory of Russia {cite:p}`Khromova2022`. In subregion 10-04 (Altay and Sayan), we use the GAMDAM inventory version 2 {cite:p}`Sakai2019`. We added 5 small glaciers in Japan that have been recently documented {cite:p}`Arie2022`. Outline dates range between 1996 and 2019, with most of the area (~80%) dating to 1998-2002.   
 
 ## Additional information 
 

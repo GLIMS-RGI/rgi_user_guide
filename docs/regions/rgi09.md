@@ -2,7 +2,7 @@
 
 Covers all glaciers and ice caps in Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.
 
-## Subregions:
+## Subregions
 
 - 09-01: Franz Josef Land
 - 09-02: Novaya Zemlya
@@ -17,7 +17,7 @@ Glacier locations and changes between RGI6 and RGI7.
 
 The primary source of glacier outlines for this region were manually digitized as part of {cite:p}`Moholdt2012`. The main data source for Novaya Zemlya is SPIRIT SPOT5 scenes {cite:p}`Korona2009`, with best available Landsat scenes used elsewhere. Outline dates range between 2000 and 2010, with most of the area (40%) dating to 2004.
 
-Three outlines were corrected in RGI7 ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) in order to correct the basin divides for three outlet glaciers (09-00741, 09-00743, 09-00744). 
+Three outlines were corrected in RGI7 ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) in order to correct the basin divides for three outlet glaciers (`RGI60-09.00741`, `RGI60-09.00743`, `RGI60-09.00744`). 
 
 ## Additional information 
 
@@ -31,10 +31,10 @@ Submission IDs used for this region.
 :::
 
 Submission 567
-: **Submitter**: Koenig, Max (Norwegian Polar Institute).<br/>**Number of outlines**: 1066. **Area**: 50753.2km². **Release date**: 2013-03-25.<br/>**Analysts**: Moholdt, Geir.
+: **Submitter**: Koenig, Max.<br/>**Number of outlines**: 1066. **Area**: 50753.2km². **Release date**: 2013-03-25.<br/>**Analysts**: Moholdt, Geir.
 
 Submission 759
-: **Submitter**: Kochtitzky, William (University of Ottawa).<br/>**Number of outlines**: 3. **Area**: 841.8km². **Release date**: 2021-09-09.<br/>**Analysts**: Kochtitzky, William.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 3. **Area**: 841.8km². **Release date**: 2021-09-09.<br/>**Analysts**: Kochtitzky, William.
 
 Reviewers
 : Kochtitzky, William;

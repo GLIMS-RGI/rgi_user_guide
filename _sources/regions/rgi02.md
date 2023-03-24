@@ -13,7 +13,7 @@ Same outlines as in RGI6.
 ## Additional information 
 
 ```{admonition} Data sources and analysts
-:class: tip, dropdown
+:class: important, dropdown
 
 :::{figure-md} rgi02-source-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/inventory_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">

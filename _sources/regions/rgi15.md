@@ -13,7 +13,7 @@ All previous outlines have been replaced by the GAMDAM inventory version 2 {cite
 ## Additional information 
 
 ```{admonition} Data sources and analysts
-:class: tip, dropdown
+:class: important, dropdown
 
 :::{figure-md} rgi15-source-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI15/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">

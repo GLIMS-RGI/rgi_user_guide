@@ -13,7 +13,7 @@ Outlines in Kamchatka have been remapped. In subregion 10-04 (Altay and Sayan), 
 ## Additional information 
 
 ```{admonition} Data sources and analysts
-:class: tip, dropdown
+:class: important, dropdown
 
 :::{figure-md} rgi10-source-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI10/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">

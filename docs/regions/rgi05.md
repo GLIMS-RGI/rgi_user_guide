@@ -13,7 +13,7 @@ No changes to RGI6, with the exception of Northern Greenland and the [Flade Isbl
 ## Additional information 
 
 ```{admonition} Data sources and analysts
-:class: tip, dropdown
+:class: important, dropdown
 
 :::{figure-md} rgi05-source-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI05/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">

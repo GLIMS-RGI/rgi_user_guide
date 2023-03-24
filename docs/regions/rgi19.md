@@ -10,7 +10,7 @@ Glacier locations and changes between RGI6 and RGI7.
 
 Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See [github discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61)). Several wrongly mapped icebergs and other bodies where removed. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
 
-An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and Hock et al (in press), opening the question whether certain outlines in RGI belong to the ice sheet or to the mountain glaciers category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but preferred not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
+An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, opening the question whether certain outlines in RGI belong to the ice sheet or to the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
 
 
 ## Additional information 

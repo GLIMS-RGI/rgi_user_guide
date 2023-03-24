@@ -13,7 +13,7 @@ logo: img/logo.png  # A path to the book logo
 repository:
   url: https://github.com/GLIMS-RGI/rgi_user_guide
   path_to_book: docs 
-  branch: master
+  branch: main
 bibtex_bibfiles:
    - references.bib
 html:

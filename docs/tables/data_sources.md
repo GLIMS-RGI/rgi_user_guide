@@ -11,7 +11,7 @@ Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael*
 ## Implementation
 
 Main developer: **Maussion, Fabien**<br>
-Development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; Maussion, Fabien; Roura-Adserias, Francesc**<br>
+Development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; Maussion, Fabien; Roura-Adserias, Francesc; Welty, Ethan;**<br>
 GEE review tool: **Lea, James**
 
 ## Review
@@ -113,7 +113,7 @@ This list is generated automatically out of the RGI (via GLIMS):
 
 ## Special aknowledgments
 
-For their extensive outline mapping work during the RGI7 generation process:  **Kochtitzky, William; McNabb, Robert; Paul, Frank; Rastner, Philipp; Tielidze, Levan**<br>
+For their extensive outline mapping work during the RGI7 generation process: **Kochtitzky, William; McNabb, Robert; Paul, Frank; Rastner, Philipp; Tielidze, Levan**<br>
 Funding acquisition: **Hock, Regine; Maussion, Fabien; Paul, Frank; Raup, Bruce; Zemp, Michael**<br>
 Funding: **Mishra, Anil (UNESCO)**<br>
 Computing resources and data storage: **Marzeion, Ben**

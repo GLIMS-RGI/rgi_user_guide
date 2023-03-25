@@ -22,19 +22,19 @@ Submission IDs used for this region.
 :::
 
 Submission 590
-: **Submitter**: Bolch, Tobias (University of Colorado).<br/>**Number of outlines**: 653. **Area**: 39842.3km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 653. **Area**: 39842.3km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
 
 Submission 635
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 7. **Area**: 128.2km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 7. **Area**: 128.2km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
 
 Submission 723
-: **Submitter**: Paul, Frank (University of Zurich-Irchel).<br/>**Number of outlines**: 2583. **Area**: 27691.6km². **Release date**: 2021-09-03.<br/>**Analysts**: Paul, Frank; Rastner, Philipp; White, Adrienne.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 2575. **Area**: 27690.4km². **Release date**: 2021-09-03.<br/>**Analysts**: Paul, Frank; Rastner, Philipp; White, Adrienne.
 
 Submission 728
-: **Submitter**: Kochtitzky, William (University of Alberta).<br/>**Number of outlines**: 1961. **Area**: 37675.5km². **Release date**: 2021-08-27.<br/>**Analysts**: Copland, Luke; Kochtitzky, William; Thomson, Laura; Zajaczkiwsky, Sophie.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 1961. **Area**: 37675.5km². **Release date**: 2021-08-27.<br/>**Analysts**: Copland, Luke; Kochtitzky, William; Thomson, Laura; Zajaczkiwsky, Sophie.
 
 Submission 755
-: **Submitter**: Kochtitzky, William (University of Alberta).<br/>**Number of outlines**: 23. **Area**: 33.9km². **Release date**: 2021-12-26.<br/>**Analysts**: Kochtitzky, William.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 23. **Area**: 33.9km². **Release date**: 2021-12-26.<br/>**Analysts**: Kochtitzky, William.
 
 Reviewers
 : Kochtitzky, William;

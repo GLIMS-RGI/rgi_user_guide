@@ -22,7 +22,7 @@ Submission IDs used for this region.
 :::
 
 Submission 752
-: **Submitter**: Sakai, Akiko (Nagoya University).<br/>**Number of outlines**: 37563. **Area**: 33075.1km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
+: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 37563. **Area**: 33075.1km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
 
 Reviewers
 : None;

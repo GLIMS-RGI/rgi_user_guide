@@ -22,22 +22,22 @@ Submission IDs used for this region.
 :::
 
 Submission 616
-: **Submitter**: Hoffman, Matthew (Portland State University).<br/>**Number of outlines**: 33. **Area**: 1.1km². **Release date**: 2016-07-26.<br/>**Analysts**: Fountain, Andrew G.; Hoffman, Matthew.
+: **Submitter**: Hoffman, Matthew.<br/>**Number of outlines**: 33. **Area**: 1.1km². **Release date**: 2016-07-26.<br/>**Analysts**: Fountain, Andrew G.; Hoffman, Matthew.
 
 Submission 623
-: **Submitter**: Bolch, Tobias (University of Northern British Columbia).<br/>**Number of outlines**: 12463. **Area**: 13054.8km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 12459. **Area**: 13046.6km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
 
 Submission 635
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 1235. **Area**: 656.5km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 1235. **Area**: 656.5km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
 
 Submission 721
-: **Submitter**: Bolch, Tobias (University of Northern British Columbia).<br/>**Number of outlines**: 1. **Area**: 136.9km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 1. **Area**: 136.9km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
 
 Submission 722
-: **Submitter**: Bolch, Tobias (University of Northern British Columbia).<br/>**Number of outlines**: 1. **Area**: 10.2km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 1. **Area**: 10.2km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
 
 Submission 744
-: **Submitter**: Fountain, Andrew G. (Portland State University).<br/>**Number of outlines**: 5126. **Area**: 671.4km². **Release date**: 2016-02-26.<br/>**Analysts**: Fountain, Andrew G..
+: **Submitter**: Fountain, Andrew G..<br/>**Number of outlines**: 5126. **Area**: 671.4km². **Release date**: 2016-02-26.<br/>**Analysts**: Fountain, Andrew G..
 
 Reviewers
 : None

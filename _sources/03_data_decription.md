@@ -74,8 +74,9 @@ RGI applies the following data integrity checks on GLIMS data:
 - where possible (i.e. when we had access to the original inventories, for example GAMDAMv2 which is openly available), we check that the RGI (and hence GLIMS) are equivalent to the original dataset. This helped to discover a few bugs in the GLIMS data ingest workflow and is only a rough data integrity check.
 - we check for duplicated outlines by checking that no outline's representative point overlaps with another outline (a few dozen outlines are filtered from GLIMS this way).
 - we check and correct for polygon geometry validity. About 2% of all geometries extracted from GLIMS used for RGI7 are "invalid" according to the [Open Geospatial Consortium Implementation Standard](https://www.ogc.org/standards/sfa) (for reference, about 5% of all RGI6 outlines did not pass this test). We use Shapely's [make_valid](https://shapely.readthedocs.io/en/stable/manual.html#diagnostics) function to correct for invalid geometries by removing erroneous figures of 8 or similar sliver polygons. We ensure that each glacier's area is preserved within 0.1 km² or 0.1%. In the very rare cases where this is not the case, we make two geometries out of one GLIMS entry (effectively adding one glacier to the RGI).
+- we check and correct for overlapping area, by intersecting geometries which have a common boundary and removing overlaps where necessary (rare).
 
-The problem with the latter check is that some outlines in RGI7 are not *strictly* equivalent to the ones stored in GLIMS (albeit with often imperceptible differences). However, we estimate that the benefits of using only valid geometries outweigh the requirements to strictly follow the GLIMS data model.
+The problem with the geometry validity and overlap corrections is that some outlines in RGI7 are not *strictly* equivalent to the ones stored in GLIMS (albeit with often imperceptible differences). However, we estimate that the benefits of using only valid geometries outweigh the requirements to strictly follow the GLIMS data model.
 
 ## Data fields
 

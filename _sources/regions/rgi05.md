@@ -22,13 +22,13 @@ Submission IDs used for this region.
 :::
 
 Submission 729
-: **Submitter**: Paul, Frank (GEUS - Geological Survey of Denmark and Greenland).<br/>**Number of outlines**: 715. **Area**: 3233.0km². **Release date**: 2021-07-12.<br/>**Analysts**: Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 715. **Area**: 3233.0km². **Release date**: 2021-07-12.<br/>**Analysts**: Paul, Frank; Rastner, Philipp.
 
 Submission 751
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 19080. **Area**: 77020.5km². **Release date**: 2014-12-01.<br/>**Analysts**: Bolch, Tobias; Howat, Ian; LeBris, Raymond; Moelg, Nico; Negrete, A.; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 19081. **Area**: 77020.5km². **Release date**: 2014-12-01.<br/>**Analysts**: Bolch, Tobias; Howat, Ian; LeBris, Raymond; Moelg, Nico; Negrete, A.; Paul, Frank; Rastner, Philipp.
 
 Submission 813
-: **Submitter**: McNabb, Robert (Ulster University).<br/>**Number of outlines**: 200. **Area**: 10228.3km². **Release date**: 2023-02-01.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 200. **Area**: 10228.3km². **Release date**: 2023-02-01.<br/>**Analysts**: McNabb, Robert.
 
 Reviewers
 : Langley, Kirsty;

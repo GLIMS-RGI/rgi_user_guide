@@ -22,10 +22,10 @@ Submission IDs used for this region.
 :::
 
 Submission 715
-: **Submitter**: Izagirre, Eñaut (Instituto Pirenaico de Ecologia (CSIC); Institute of Pyrenees Ecology).<br/>**Number of outlines**: 45. **Area**: 4.2km². **Release date**: 2020-05-27.<br/>**Analysts**: Izagirre, Eñaut.
+: **Submitter**: Izagirre, Eñaut.<br/>**Number of outlines**: 45. **Area**: 4.2km². **Release date**: 2020-05-27.<br/>**Analysts**: Izagirre, Eñaut.
 
 Submission 731
-: **Submitter**: Paul, Frank (University of Zurich-Irchel).<br/>**Number of outlines**: 4042. **Area**: 2120.2km². **Release date**: 2021-10-09.<br/>**Analysts**: Frey, Holger; Le Bris, Raymond; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 4042. **Area**: 2120.1km². **Release date**: 2021-10-09.<br/>**Analysts**: Frey, Holger; Le Bris, Raymond; Paul, Frank; Rastner, Philipp.
 
 Reviewers
 : Huss, Matthias; Rabatel, Antoine;

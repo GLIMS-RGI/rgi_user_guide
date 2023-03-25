@@ -24,19 +24,19 @@ Submission IDs used for this region.
 :::
 
 Submission 624
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 25305. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 25305. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
 
 Submission 756
-: **Submitter**: Bolch, Tobias (University of Colorado).<br/>**Number of outlines**: 3. **Area**: 7.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 3. **Area**: 7.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
 
 Submission 766
-: **Submitter**: McNabb, Robert (Ulster University).<br/>**Number of outlines**: 42. **Area**: 10.7km². **Release date**: 2020-07-22.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 42. **Area**: 10.7km². **Release date**: 2020-07-22.<br/>**Analysts**: McNabb, Robert.
 
 Submission 809
-: **Submitter**: Yang, Ruitang (University of Oslo).<br/>**Number of outlines**: 1737. **Area**: 4120.4km². **Release date**: 2022-10-31.<br/>**Analysts**: Paul, Frank; Yang, Ruitang.
+: **Submitter**: Yang, Ruitang.<br/>**Number of outlines**: 1737. **Area**: 4120.4km². **Release date**: 2022-10-31.<br/>**Analysts**: Paul, Frank; Yang, Ruitang.
 
 Submission 810
-: **Submitter**: Paul, Frank (University of Colorado).<br/>**Number of outlines**: 424. **Area**: 277.6km². **Release date**: 2023-01-09.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William; Paul, Frank.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 424. **Area**: 277.6km². **Release date**: 2023-01-09.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William; Paul, Frank.
 
 Reviewers
 : McNabb, Robert;

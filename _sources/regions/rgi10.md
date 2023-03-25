@@ -22,19 +22,19 @@ Submission IDs used for this region.
 :::
 
 Submission 636
-: **Submitter**: Cogley, Graham (University of Colorado).<br/>**Number of outlines**: 1646. **Area**: 394.0km². **Release date**: 2015-07-16.<br/>**Analysts**: Cogley, Graham; Earl, Lucas; Gardner, Alex; Raup, Bruce H..
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 1646. **Area**: 394.0km². **Release date**: 2015-07-16.<br/>**Analysts**: Cogley, Graham; Earl, Lucas; Gardner, Alex; Raup, Bruce H..
 
 Submission 726
-: **Submitter**: Kochtitzky, William (University of Alberta).<br/>**Number of outlines**: 12. **Area**: 73.0km². **Release date**: 2021-09-01.<br/>**Analysts**: Kochtitzky, William.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 12. **Area**: 73.0km². **Release date**: 2021-09-01.<br/>**Analysts**: Kochtitzky, William.
 
 Submission 752
-: **Submitter**: Sakai, Akiko (Nagoya University).<br/>**Number of outlines**: 3001. **Area**: 1245.2km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
+: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 3001. **Area**: 1245.2km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
 
 Submission 761
-: **Submitter**: Paul, Frank (University of Zurich-Irchel).<br/>**Number of outlines**: 2491. **Area**: 929.9km². **Release date**: 2022-05-11.<br/>**Analysts**: Barr, Iestyn; Khromova, Tatiana; Muraviev, Anton; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 2491. **Area**: 929.9km². **Release date**: 2022-05-11.<br/>**Analysts**: Barr, Iestyn; Khromova, Tatiana; Muraviev, Anton; Paul, Frank; Rastner, Philipp.
 
 Submission 763
-: **Submitter**: Arie, Kenshiro (Niigata University).<br/>**Number of outlines**: 5. **Area**: 0.5km². **Release date**: 2022-07-20.<br/>**Analysts**: Arie, Kenshiro.
+: **Submitter**: Arie, Kenshiro.<br/>**Number of outlines**: 5. **Area**: 0.5km². **Release date**: 2022-07-20.<br/>**Analysts**: Arie, Kenshiro.
 
 Reviewers
 : Barr, Iestyn; Khromova, Tatiana;

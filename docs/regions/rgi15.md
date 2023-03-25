@@ -22,10 +22,10 @@ Submission IDs used for this region.
 :::
 
 Submission 752
-: **Submitter**: Sakai, Akiko (Nagoya University).<br/>**Number of outlines**: 18578. **Area**: 15964.1km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
+: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 18578. **Area**: 15964.1km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
 
 Submission 765
-: **Submitter**: Bolch, Tobias (University of St. Andrews).<br/>**Number of outlines**: 9. **Area**: 85.3km². **Release date**: 2022-05-01.<br/>**Analysts**: Bolch, Tobias.
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 9. **Area**: 85.3km². **Release date**: 2022-05-01.<br/>**Analysts**: Bolch, Tobias.
 
 Reviewers
 : Bolch, Tobias;

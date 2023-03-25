@@ -22,7 +22,7 @@ Submission IDs used for this region.
 :::
 
 Submission 749
-: **Submitter**: Paul, Frank (University of Zurich-Irchel).<br/>**Number of outlines**: 3018. **Area**: 886.4km². **Release date**: 2021-09-02.<br/>**Analysts**: Baumann, Sabine; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 3018. **Area**: 886.4km². **Release date**: 2021-09-02.<br/>**Analysts**: Baumann, Sabine; Paul, Frank; Rastner, Philipp.
 
 Reviewers
 : None;

@@ -8,8 +8,8 @@
 | 01       | Alaska                             | `01_alaska`                         |      27511 |        86708 |
 | 02       | Western Canada and USA             | `02_western_canada_usa`             |      18855 |        14523 |
 | 03       | Arctic Canada, North               | `03_arctic_canada_north`            |       5219 |       105370 |
-| 04       | Arctic Canada, South               | `04_arctic_canada_south`            |      10934 |        40530 |
-| 05       | Greenland Periphery                | `05_greenland_periphery`            |      19995 |        90482 |
+| 04       | Arctic Canada, South               | `04_arctic_canada_south`            |      11011 |        40538 |
+| 05       | Greenland Periphery                | `05_greenland_periphery`            |      19996 |        90482 |
 | 06       | Iceland                            | `06_iceland`                        |        568 |        11060 |
 | 07       | Svalbard and Jan Mayen             | `07_svalbard_jan_mayen`             |       1667 |        33959 |
 | 08       | Scandinavia                        | `08_scandinavia`                    |       3411 |         2948 |
@@ -23,8 +23,9 @@
 | 16       | Low Latitudes                      | `16_low_latitudes`                  |       3698 |         1929 |
 | 17       | Southern Andes                     | `17_southern_andes`                 |      30700 |        27675 |
 | 18       | New Zealand                        | `18_new_zealand`                    |       3018 |          886 |
-| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2662 |       133429 |
-| **All**  |                                    |                                     |    **274589** |       **706735** |
+| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2786 |       133434 |
+| **All**  |                                    |                                     | **274791** |   **706748** |
+
 
 (o2-regions-table)=
 ## Second-order regions (N=89)
@@ -49,16 +50,16 @@
 | 03-05  | South Ellesmere Island (Northwest Devon) | `03-05_south_ellesmere_island_northwest_devon` |        634 |        10042 |
 | 03-06  | Devon Island                             | `03-06_devon_island`                           |        216 |        15000 |
 | 03-07  | Melville Island                          | `03-07_melville_island`                        |          7 |          128 |
-| 04-01  | Bylot Island                             | `04-01_bylot_island`                           |        613 |         4885 |
+| 04-01  | Bylot Island                             | `04-01_bylot_island`                           |        616 |         4883 |
 | 04-02  | West Baffin Island                       | `04-02_west_baffin_island`                     |         96 |         3767 |
 | 04-03  | North Baffin Island                      | `04-03_north_baffin_island`                    |        597 |          497 |
-| 04-04  | Northeast Baffin Island                  | `04-04_northeast_baffin_island`                |       1927 |         8187 |
-| 04-05  | East Central Baffin Island               | `04-05_east_central_baffin_island`             |       1875 |         9431 |
-| 04-06  | South East Baffin Island                 | `04-06_south_east_baffin_island`               |       3019 |         7602 |
+| 04-04  | Northeast Baffin Island                  | `04-04_northeast_baffin_island`                |       1954 |         8195 |
+| 04-05  | East Central Baffin Island               | `04-05_east_central_baffin_island`             |       1905 |         9431 |
+| 04-06  | South East Baffin Island                 | `04-06_south_east_baffin_island`               |       3036 |         7603 |
 | 04-07  | Cumberland Sound                         | `04-07_cumberland_sound`                       |       2621 |         5907 |
 | 04-08  | Frobisher Bay                            | `04-08_frobisher_bay`                          |         83 |          235 |
 | 04-09  | Labrador                                 | `04-09_labrador`                               |        103 |           20 |
-| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |      19995 |        90482 |
+| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |      19996 |        90482 |
 | 06-01  | Iceland                                  | `06-01_iceland`                                |        568 |        11060 |
 | 07-01  | Svalbard                                 | `07-01_svalbard`                               |       1583 |        33841 |
 | 07-02  | Jan Mayen                                | `07-02_jan_mayen`                              |         84 |          117 |
@@ -104,7 +105,7 @@
 | 19-01  | Subantarctic (Pacific)                   | `19-01_subantarctic_pacific`                   |         15 |          134 |
 | 19-02  | South Shetlands and South Orkney         | `19-02_south_shetlands_and_south_orkney`       |        402 |         3715 |
 | 19-03  | Subantarctic (Atlantic)                  | `19-03_subantarctic_atlantic`                  |        550 |         2475 |
-| 19-04  | Subantarctic (Indian)                    | `19-04_subantarctic_indian`                    |        372 |          792 |
+| 19-04  | Subantarctic (Indian)                    | `19-04_subantarctic_indian`                    |        496 |          797 |
 | 19-05  | Balleny Islands                          | `19-05_balleny_islands`                        |         50 |          694 |
 | 19-11  | East Queen Maud Land 7A                  | `19-11_east_queen_maud_land_7a`                |         22 |         2681 |
 | 19-12  | Amery Ice Shelf 7B                       | `19-12_amery_ice_shelf_7b`                     |          1 |          305 |
@@ -120,4 +121,4 @@
 | 19-22  | Southeast Antarctic Peninsula 7I3        | `19-22_southeast_antarctic_peninsula_7i3`      |          6 |         1780 |
 | 19-23  | Ronne-Filchner Ice Shelf 7J              | `19-23_ronne_filchner_ice_shelf_7j`            |          0 |            0 |
 | 19-24  | West Queen Maud Land 7K                  | `19-24_west_queen_maud_land_7k`                |         14 |         5878 |
-| **All** |                                          |                                              |     **274589** |       **706735** |
+| **All**|                                          |                                                | **274791** |   **706748** |

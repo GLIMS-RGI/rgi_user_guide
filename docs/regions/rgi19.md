@@ -25,31 +25,32 @@ Submission IDs used for this region.
 :::
 
 Submission 585
-: **Submitter**: Bliss, Andrew (University of Colorado).<br/>**Number of outlines**: 1794. **Area**: 98181.2km². **Release date**: 2015-07-01.<br/>**Analysts**: Berthier, Etienne; Bliss, Andrew; Cogley, Graham; LeBris, Raymond; Paul, Frank.
+: **Submitter**: Bliss, Andrew.<br/>**Number of outlines**: 1794. **Area**: 98181.2km². **Release date**: 2015-07-01.<br/>**Analysts**: Berthier, Etienne; Bliss, Andrew; Cogley, Graham; LeBris, Raymond; Paul, Frank.
 
 Submission 700
-: **Submitter**: Hidalgo, Lidia Ferri (IANIGLA).<br/>**Number of outlines**: 31. **Area**: 242.8km². **Release date**: 2018-09-04.<br/>**Analysts**: Castro, Mariano; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Pecker Marcosig, Ivanna; Pitte, Pierre; Ruiz, Lucas; Zalazar, Laura.
-
-Submission 769
-: **Submitter**: Paul, Frank (OMP-LEGOS).<br/>**Number of outlines**: 340. **Area**: 536.8km². **Release date**: 2022-07-19.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Hidalgo, Lidia Ferri.<br/>**Number of outlines**: 31. **Area**: 242.8km². **Release date**: 2018-09-04.<br/>**Analysts**: Castro, Mariano; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Pecker Marcosig, Ivanna; Pitte, Pierre; Ruiz, Lucas; Zalazar, Laura.
 
 Submission 798
-: **Submitter**: Berthier, Etienne (OMP-LEGOS).<br/>**Number of outlines**: 7. **Area**: 2684.6km². **Release date**: 2022-10-01.<br/>**Analysts**: Berthier, Etienne; Lebreton, Jerome.
+: **Submitter**: Berthier, Etienne.<br/>**Number of outlines**: 7. **Area**: 2684.6km². **Release date**: 2022-10-01.<br/>**Analysts**: Berthier, Etienne; Lebreton, Jerome.
 
 Submission 805
-: **Submitter**: McNabb, Robert (OMP-LEGOS).<br/>**Number of outlines**: 69. **Area**: 6529.7km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 69. **Area**: 6529.7km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
 
 Submission 806
-: **Submitter**: McNabb, Robert (OMP-LEGOS).<br/>**Number of outlines**: 23. **Area**: 2985.6km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 23. **Area**: 2985.6km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
 
 Submission 807
-: **Submitter**: Kochtitzky, William (OMP-LEGOS).<br/>**Number of outlines**: 213. **Area**: 1656.7km². **Release date**: 2022-11-11.<br/>**Analysts**: Cha, Leo; Gould, Luke; Kochtitzky, William; Merrill, Paige-Marie.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 213. **Area**: 1656.7km². **Release date**: 2022-11-11.<br/>**Analysts**: Cha, Leo; Gould, Luke; Kochtitzky, William; Merrill, Paige-Marie.
 
 Submission 808
-: **Submitter**: Kochtitzky, William (OMP-LEGOS).<br/>**Number of outlines**: 11. **Area**: 43.5km². **Release date**: 2022-12-15.<br/>**Analysts**: Kochtitzky, William.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 11. **Area**: 43.5km². **Release date**: 2022-12-15.<br/>**Analysts**: Kochtitzky, William.
 
 Submission 811
-: **Submitter**: McNabb, Robert (OMP-LEGOS).<br/>**Number of outlines**: 174. **Area**: 20568.3km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 174. **Area**: 20568.3km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
+
+Submission 816
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 464. **Area**: 541.4km². **Release date**: 2023-03-01.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
+
 
 Reviewers
 : Berthier, Etienne; McNabb, Robert; Kochtitzky, William;

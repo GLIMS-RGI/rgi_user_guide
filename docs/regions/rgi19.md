@@ -12,6 +12,7 @@ Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical 
 
 An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, opening the question whether certain outlines in RGI belong to the ice sheet or to the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
 
+This region is currently the only one lacking any attributes for term_type, specifically if the glacier is marine-terminating or not. This update is planned for RGI 7.1.
 
 ## Additional information 
 

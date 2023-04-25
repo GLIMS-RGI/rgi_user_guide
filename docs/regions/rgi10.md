@@ -10,6 +10,7 @@ Glacier locations and changes between RGI6 and RGI7.
 
 Glacier outlines in Kamchatka have been re-mapped. Glacier outlines in Eastern Russia were reviewed using the Glacier Inventory of Russia {cite:p}`Khromova2022`. In subregion 10-04 (Altay and Sayan), we use the GAMDAM inventory version 2 {cite:p}`Sakai2019`. We added 5 small glaciers in Japan that have been recently documented {cite:p}`Arie2022`. Outline dates range between 1996 and 2019, with most of the area (~80%) dating to 1998-2002.   
 
+Glaciers in the De Long Islands, Russia were nominal circles in RGI6 and are now appropiately included with dgitized boundaries and divides.
 ## Additional information 
 
 ```{admonition} Data sources and analysts

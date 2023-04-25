@@ -9,6 +9,8 @@ Glacier locations and changes between RGI6 and RGI7.
 :::
 
 Several improvements to RGI6.
+Glacier divides on Axel Heiberg Island ice caps, Sydkap Ice Cap, Agassiz Ice Cap, west of Sydkap, and west of Manson Ice Field were added and outlines cleaned up.
+Several glaciers previously forgotten from RGI6 were added west of Prince of Wales Ice Cap.
 
 ## Additional information 
 

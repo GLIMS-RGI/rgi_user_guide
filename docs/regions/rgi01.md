@@ -20,9 +20,12 @@ The Alaska region encompasses all glaciers in the state of Alaska, USA, and also
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Most outlines are from RGI6. Improvements:
-- Kenai Peninsula has been replaced by...
-- The northernmost glacier region has been...
+Most outlines for the region are unchanged from RGI6. The following improvements/additions have been made for RGI7:
+- 1737 outlines in the Kenai Peninsula (subregion 01-04) have been replaced by outlines ... using Landsat imagery from summer (July/August) 2005, corresponding to outlines used in (Yang Citation)
+- 424 outlines have been updated in subregion 01-01 by manually correcting semi-automated outlines produced using Landsat imagery from 2000, 2005, and 2007.
+- 42 previously unmapped glaciers have been added to subregion 01-02, manually mapped using Landsat 7 imagery from August 1999.
+- 3 outlines have been updated in subregion 01-06 to correct geometry errors.
+
 
 ## Additional information 
 

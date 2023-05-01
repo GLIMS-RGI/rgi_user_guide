@@ -2,6 +2,16 @@
 
 All glaciers in Scandinavia.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 08-01: North Scandinavia
+- 08-02: Southwest Scandinavia
+- 08-03: Southeast Scandinavia
+
+```
+
+
 :::{figure-md} rgi08-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI08/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

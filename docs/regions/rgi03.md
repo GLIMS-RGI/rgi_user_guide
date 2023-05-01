@@ -2,6 +2,19 @@
 
 The  Arctic Canada, North region encompasses all glaciers in northern Canada above 74°N; it comprises the heavily glaciated Ellesmere and Devon Islands.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 03-01: North Ellesmere Island
+- 03-02: Axel Heiberg and Meighen Island
+- 03-03: North Central Ellesmere Island
+- 03-04: South Central Ellesmere Island
+- 03-05: South Ellesmere Island (Northwest Devon)
+- 03-06: Devon Island
+- 03-07: Melville Island
+
+```
+
 :::{figure-md} rgi03-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

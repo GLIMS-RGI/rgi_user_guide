@@ -2,6 +2,14 @@
 
 European Alps, Pyrenees.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 11-01: Alps
+- 11-02: Southeast Europe
+
+```
+
 :::{figure-md} rgi11-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI11/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

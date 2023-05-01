@@ -2,6 +2,15 @@
 
 All glaciers in Svalbard and Jan Mayen.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 07-01: Svalbard
+- 07-02: Jan Mayen
+
+```
+
+
 :::{figure-md} rgi07-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI07/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

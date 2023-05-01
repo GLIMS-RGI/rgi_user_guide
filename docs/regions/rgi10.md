@@ -2,6 +2,19 @@
 
 Covers all glaciers in Eastern Russia, Kazakhstan, Mongolia, Northern China, and Japan.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 10-01: Ural Mountains
+- 10-02: Central Siberia
+- 10-03: Cherskiy/Suntar Khayata Ranges
+- 10-04: Altay and Sayan
+- 10-05: Northeast Russia
+- 10-06: East Chukotka
+- 10-07: Japan
+
+```
+
 :::{figure-md} rgi10-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI10/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

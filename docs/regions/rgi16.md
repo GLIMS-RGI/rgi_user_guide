@@ -2,6 +2,16 @@
 
 Central and Tropical South America, Africa, Papua.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 16-01: Low-latitude Andes
+- 16-02: Mexico
+- 16-03: East Africa
+- 16-04: New Guinea
+
+```
+
 :::{figure-md} rgi16-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

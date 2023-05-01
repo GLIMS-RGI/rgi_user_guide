@@ -2,6 +2,21 @@
 
 Central Asia.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 13-01: Hissar Alay
+- 13-02: Pamir (Safed Khirs / West Tarim)
+- 13-03: West Tien Shan
+- 13-04: East Tien Shan (Dzhungaria)
+- 13-05: West Kun Lun
+- 13-06: East Kun Lun (Altyn Tagh)
+- 13-07: Qilian Shan
+- 13-08: Inner Tibet
+- 13-09: Southeast Tibet
+
+```
+
 :::{figure-md} rgi13-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI13/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

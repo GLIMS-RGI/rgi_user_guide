@@ -2,6 +2,22 @@
 
 The  Arctic Canada, South region encompasses all glaciers in northwest Canada below 74°N: it comprises Baffin Island and Northern Newfoundland. 
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 04-01: Bylot Island
+- 04-02: West Baffin Island
+- 04-03: North Baffin Island
+- 04-04: Northeast Baffin Island
+- 04-05: East Central Baffin Island
+- 04-06: South East Baffin Island
+- 04-07: Cumberland Sound
+- 04-08: Frobisher Bay
+- 04-09: Labrador
+
+```
+
+
 :::{figure-md} rgi04-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI04/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

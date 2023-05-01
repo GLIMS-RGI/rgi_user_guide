@@ -2,6 +2,13 @@
 
 All glaciers in Iceland.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 06-01: Iceland
+
+```
+
 :::{figure-md} rgi06-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI06/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

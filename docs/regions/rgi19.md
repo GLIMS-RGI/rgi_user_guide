@@ -2,6 +2,31 @@
 
 The Subantarctic and Antarctic Islands region encompasses all glaciers in the periphery of mainland Antarctica, including some remote islands in the Southern ocean. It does not include any outline on mainland Antarctica.
 
+```{admonition} Subregions
+:class: seealso, dropdown
+
+- 19-01: Subantarctic (Pacific)
+- 19-02: South Shetlands and South Orkney
+- 19-03: Subantarctic (Atlantic)
+- 19-04: Subantarctic (Indian)
+- 19-05: Balleny Islands
+- 19-11: E Queen Maud Land 7A
+- 19-12: Amery Ice Shelf 7B
+- 19-13: Wilkes Land 7C
+- 19-14: Victoria Land 7D
+- 19-15: Ross Ice Shelf 7E
+- 19-16: Marie Byrd Land 7F
+- 19-17: Pine Island Bay
+- 19-18: Bellingshausen Sea 7H1
+- 19-19: Alexander Island 7H2
+- 19-20: West Antarctic Peninsula 7I1
+- 19-21: Northeast Antarctic Peninsula 7I2
+- 19-22: Southeast Antarctic Peninsula 7I3
+- 19-23: Ronne-Filchner Ice Shelf 7J
+- 19-24: W Queen Maud Land 7K
+
+```
+
 :::{figure-md} rgi19-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI19/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

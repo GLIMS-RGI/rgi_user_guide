@@ -8,7 +8,22 @@ The Subantarctic and Antarctic Islands region encompasses all glaciers in the pe
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See [github discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61)). Several wrongly mapped icebergs and other bodies where removed. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
+Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)). The following sub-regions have been re-mapped and updated using satellite imagery from ca. 2000:
+
+- 19-01: Subantarctic (Pacific)
+- 19-02: South Shetlands and South Orkney
+- 19-03: Subantarctic (Atlantic)
+- 19-05: Balleny Islands
+- 19-11: E Queen Maud Land 7A
+- 19-12: Amery Ice Shelf 7B
+- 19-13: Wilkes Land 7C
+- 19-14: Victoria Land 7D
+- 19-15: Ross Ice Shelf 7E
+- 19-16: Marie Byrd Land 7F
+- 19-17: Pine Island Bay
+- 19-24: W Queen Maud Land 7K
+
+Several wrongly mapped icebergs and other bodies were removed. Some larger ice bodies were manually divided into sub-basins, especially in sub-regions 19-15 and 19-16. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
 
 An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, opening the question whether certain outlines in RGI belong to the ice sheet or to the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
 

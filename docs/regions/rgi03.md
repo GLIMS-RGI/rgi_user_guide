@@ -21,7 +21,11 @@ The  Arctic Canada, North region encompasses all glaciers in northern Canada abo
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Several improvements to RGI6.
+Several improvements to RGI6:
+
+**Ellesmere**
+
+The quality of glacier outlines in northern Ellesmere Island suffered from wrong ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift. For the update and improvement of submission 723 we used the glacier outlines by {cite:t}`white2019glacier` as a base and modified it using 4 Landsat ETM+ panchromatic scenes acquired in July 2000. For the northern-most regions outside the coverage of Landsat the "World imagery" layer of the ESRI Basemap was used for corrections and digitizing. Some smaller ice shelves were excluded. The editing was very demanding and includes a mix of manual and automated corrections. Some artefacts of the processing might still be present in the provided new dataset.
 
 ## Additional information 
 

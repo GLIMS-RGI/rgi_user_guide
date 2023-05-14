@@ -2,17 +2,58 @@
 
 The Subantarctic and Antarctic Islands region encompasses all glaciers in the periphery of mainland Antarctica, including some remote islands in the Southern ocean. It does not include any outline on mainland Antarctica.
 
+```{admonition} Subregions
+:class: seealso, dropdown
+
+- 19-01: Subantarctic (Pacific)
+- 19-02: South Shetlands and South Orkney
+- 19-03: Subantarctic (Atlantic)
+- 19-04: Subantarctic (Indian)
+- 19-05: Balleny Islands
+- 19-11: E Queen Maud Land 7A
+- 19-12: Amery Ice Shelf 7B
+- 19-13: Wilkes Land 7C
+- 19-14: Victoria Land 7D
+- 19-15: Ross Ice Shelf 7E
+- 19-16: Marie Byrd Land 7F
+- 19-17: Pine Island Bay
+- 19-18: Bellingshausen Sea 7H1
+- 19-19: Alexander Island 7H2
+- 19-20: West Antarctic Peninsula 7I1
+- 19-21: Northeast Antarctic Peninsula 7I2
+- 19-22: Southeast Antarctic Peninsula 7I3
+- 19-23: Ronne-Filchner Ice Shelf 7J
+- 19-24: W Queen Maud Land 7K
+
+```
+
 :::{figure-md} rgi19-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI19/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See [github discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61)). The Kerguelen Islands were remapped (see below). Several wrongly mapped icebergs and other bodies where removed. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
+Most RGI6 outlines where compiled by {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI7, most peripheral islands where remapped and corrected for problematic georeferencing issues (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)). The following sub-regions have been re-mapped and updated using satellite imagery from ca. 2000:
+
+- 19-01: Subantarctic (Pacific)
+- 19-02: South Shetlands and South Orkney
+- 19-03: Subantarctic (Atlantic)
+- 19-04: Subantarctic (Indian)
+- 19-05: Balleny Islands
+- 19-11: E Queen Maud Land 7A
+- 19-12: Amery Ice Shelf 7B
+- 19-13: Wilkes Land 7C
+- 19-14: Victoria Land 7D
+- 19-15: Ross Ice Shelf 7E
+- 19-16: Marie Byrd Land 7F
+- 19-17: Pine Island Bay
+- 19-24: W Queen Maud Land 7K
+
+Several wrongly mapped icebergs and other bodies were removed. Some larger ice bodies were manually divided into sub-basins, especially in sub-regions 19-15 and 19-16. Altogether, area changes are small (+0.1%) but the usability of the inventory has considerably improved.
 
 An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, opening the question whether certain outlines in RGI belong to the ice sheet or to the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change RGI without a consensus agreement from both the glacier and ice-sheet research communities. 
 
-**Kerguelen Islands**
+**Kerguelen Islands (19-04)**
 
 Glacier outlines in RGI6 for Kerguelen Island were from the 1960s and partly very roughly digitized. A much improved and more recent (year 2001) dataset is available in the GLIMS database, but does unfortunately not cover the south-western part of the island and the north. As useful Landsat, SPOT and ASTER images for this region are not available from around the year 2000 for these regions, it was decided to use more recent satellite images to map the missing glaciers in the north (from 2010 and 2018) and south (from 2018 and 2022). Furthermore, some missing smaller glaciers to the south-east of the main ice cap were added and some of the existing outlines corrected. The "World imagery" layer of the ESRI Basemap was locally used to aid in the interpretation. The AW3D30 DEM was used to derive a flow direction grid and correct ice divides. The new dataset has thus used GLIMS submissions 527 and 528 as a base and numerous further edits were applied using satellite images from 2010 (Landsat 7), 2018 (Landsat 8) and 2022 (Sentinel-2).
 

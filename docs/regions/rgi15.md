@@ -2,6 +2,15 @@
 
 South Asia East.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 15-01: Central Himalaya
+- 15-02: East Himalaya
+- 15-03: Hengduan Shan
+
+```
+
 :::{figure-md} rgi15-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI15/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

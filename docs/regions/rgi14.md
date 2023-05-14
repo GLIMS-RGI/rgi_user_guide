@@ -2,6 +2,15 @@
 
 South Asia West.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 14-01: Hindu Kush
+- 14-02: Karakoram
+- 14-03: West Himalaya
+
+```
+
 :::{figure-md} rgi14-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI14/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

@@ -2,6 +2,18 @@
 
 The Alaska region encompasses all glaciers in the state of Alaska, USA, and also all those glaciers in the Yukon Territory and British Columbia, Canada, that are part of the icefields that straddle the US/Canada border. On its southeastern boundary, the region ends just north of Prince Rupert, British Columbia and just south of the end of the Alaska border. From there the region extends inland to the divide between Gulf of Alaska and Arctic drainages. 
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 01-01: North Alaska
+- 01-02: Alaska Range (Wrangell/Kilbuck)
+- 01-03: Alaska Peninsula (Aleutians)
+- 01-04: West Chugach Mountains (Talkeetna)
+- 01-05: Saint Elias Mountains
+- 01-06: North Coast Ranges
+
+```
+
 :::{figure-md} rgi01-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
@@ -10,13 +22,22 @@ Glacier locations and changes between RGI6 and RGI7.
 
 Most outlines are from RGI6, with several notable improvements:
 
-**Kenai Peninsula**
+**Brooks Range (01-01)**
+
+Submission 810 corrected glacier outlines in the Brooks Range using manual glacier delineation with Landsat scenes from 2000, 2005, and 2007. The very high-resolution images of the ESRI Basemap ("World imagery") were used for corrections and to aid in the interpretation. This way, a large number of missing smaller glaciers or glacier parts were added, parts in shadow or under debris-cover were corrected and the partly strong generalization of outlines was improved. Nearly all glaciers from the inventory by {cite:t}`Kienholz2015a` were modified.
+
+**Alaska Range (01-02)**
+
+Submission 766 added 42 previously unmapped glaciers have been added to subregion 01-02, manually mapped using Landsat 7 imagery from August 1999.
+
+**Kenai Peninsula (01-04)**
 
 With submission 889, glacier outlines from {cite:t}`Kienholz2015a` for Kenai Peninsula were corrected manually using a revised dataset for 2005 by {cite:t}`Yang2020` and Landsat images from xxx and xxx as a guide. The main changes are several additional, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a couple of topologic corrections such as the connection / separation of individual glaciers or adjustment of a few ice divides using the AW3D30 DEM.
 
-**Brooks Range**
+**N Coast Ranges (01-06)**
 
-Submission 810 corrected glacier outlines in the Brooks Range using manual glacier delineation with Landsat scenes from xxx and xxx. The very high-resolution images of the ESRI Basemap ("World imagery") were used for corrections and to aid in the interpretation. This way, a large number of missing smaller glaciers or glacier parts were added, parts in shadow or under debris-cover were corrected and the partly strong generalization of outlines was improved. Nearly all glaciers from the inventory by {cite:t}`Kienholz2015a` were modified.
+With submission 756, 3 outlines have been updated in subregion 01-06 to correct geometry errors.
+
 
 ## Additional information 
 

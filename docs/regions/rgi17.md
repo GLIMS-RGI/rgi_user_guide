@@ -2,6 +2,14 @@
 
 Southern Andes.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 17-01: Patagonia
+- 17-02: Central Andes
+
+```
+
 :::{figure-md} rgi17-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI17/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="50%">
 

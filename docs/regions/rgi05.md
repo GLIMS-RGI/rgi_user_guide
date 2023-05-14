@@ -8,7 +8,12 @@ All glaciers not connected of weakly connected to the Greenland ice sheet.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-No changes to RGI6, with the exception of Northern Greenland and the [Flade Isblink Icecap where ice divides have been added](https://github.com/GLIMS-RGI/rgi7_scripts/issues/39). **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers where part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
+No changes to RGI6, with the exception of Northern Greenland (see below) and the Flade Isblink Icecap [where ice divides have been added](https://github.com/GLIMS-RGI/rgi7_scripts/issues/39). **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers where part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
+
+**Northern-most part of Greenland**
+
+Peripheral glaciers and ice caps in the very north of Greenland were only very poorly covered in RGI6 as they are outside the Landsat field of view. As the available ASTER scenes from around 2000 had clouds or adverse snow conditions and glacier area changes in this region are likely small, it was decided to use the orthoimages from 1978 provided by {cite:t}`Korsgaard2016` and hillshade representations of the ArcticDEM to manually digitize and correct the outlines from RGI6. Snow conditions in the orthoimages are generally good, but seasonal snow is also hiding glacier perimeters at higher elevations. This was partly compensated by using the hillshades, but some overestimation of real glacier area is likely.
+
 
 ## Additional information 
 

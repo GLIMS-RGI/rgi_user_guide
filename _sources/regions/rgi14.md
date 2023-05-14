@@ -8,7 +8,7 @@ South Asia West.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-All previous outlines have been replaced by the GAMDAM inventory version 2 {cite:p}`Sakai2019`.
+All previous outlines have been replaced by the GAMDAM glacier inventory version 2 GGI {cite:p}`Sakai2019`, also named GGI18. The glaciers were manually mapped based on Landsat TM and ETM+ summer imagery with most scenes being from the year 2002. Earlier and later scenes were used in case of unsuitable scenes within this year.
 
 ## Additional information 
 
@@ -47,7 +47,7 @@ Changes from Version 5.0 to 6.0
 : None.
 
 Changes from Version 4.0 to 5.0
-: Regions 13, 14 and 15 are entirely new in version 5.0. being taken from {cite:t}`Nuimura2015`, {cite:t}`Guo2015` and as-yet unpublished work at the Technical University of Dresden and University of Zürich.<br/>The Dresden/Zürich outlines cover the Karakoram in region 14. All were adopted for RGI version 5.0. Parts of region 14 not covered by this source were taken from the Second Chinese Glacier Inventory (CGI2) of {cite:t}`Guo2015`, and from the GAMDAM inventory of {cite:t}`Nuimura2015` in areas outside the coverage of CGI2.<br/>Glacier outlines retired from version 4.0 will be added to GLIMS if they are not in GLIMS already.<br/>Links were added to 3 glaciers in the WGMS mass-balance database.
+: Regions 13, 14 and 15 are entirely new in version 5.0. being taken from {cite:t}`Nuimura2015`, {cite:t}`Guo2015` and as-yet unpublished work at the Technical University of Dresden and University of Zürich. *Remark (2023): the outlines have now been published: {cite:t}`Molg2018`*. The Dresden/Zürich outlines cover the Karakoram in region 14.<br/>All were adopted for RGI version 5.0. Parts of region 14 not covered by this source were taken from the Second Chinese Glacier Inventory (CGI2) of {cite:t}`Guo2015`, and from the GAMDAM inventory of {cite:t}`Nuimura2015` in areas outside the coverage of CGI2.<br/>Glacier outlines retired from version 4.0 will be added to GLIMS if they are not in GLIMS already.<br/>Links were added to 3 glaciers in the WGMS mass-balance database.
 
 Changes from Version 3.2 to 4.0
 : 36 exterior GLIMSIds were replaced. Topographic and hypsometric attributes (section 3.2) were added.<br/>Dates were added from two regional inventories that were sources for RGI 3.2. A BgnDate of 2 August 2002 was assigned to 1,184 glaciers (area 3,118 km2) in the basin of the upper Shyok River {cite:p}`Bhambri2013`. Dates for 11,531 glaciers (area 9,124 km2) in northwestern India {cite:p}`Frey2012` were recovered by comparing the GLIMS version of the inventory with the RGI 3.2 version, matching glaciers by their GLIMSIds, and transferring the dates from the GLIMS version.<br/>Elsewhere in the Himalayan range, most of the RGI glacier outlines are from reports of the International Centre for Integrated Mountain Development (ICIMOD). Polygons were generated to enclose the glaciers inventoried by {cite:t}`Sah2005` in Uttarakhand and by {cite:t}`Mool2005` in northern Pakistan and the upper Indus basin. The RGI 3.2 glaciers within each polygon were assigned the date of the corresponding image, verified by comparison with the glacier-by-glacier lists in the source.<br/>See Region 13: Central Asia for the recovery of dates for Chinese glaciers. Where RGI glacier outlines from the first Chinese Glacier Inventory could be matched with confidence to their equivalents in GLIMS, their 12-character WGI identification codes were added to the Name field.

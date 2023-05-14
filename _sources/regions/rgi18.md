@@ -8,7 +8,10 @@ New Zealand.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-New inventory.
+Completely new inventory in RGI7.
+
+Glacier outlines in RGI6 for New Zealand were mostly from 1978 (partly 1988) and were outdated due to strong glacier changes since then. The new glacier inventory by {cite:t}`Baumann2021` was derived from Sentinel-2 and Landsat 8 images acquired in 2016. To get outlines closer to the year 2000 and accommodate to the always challenging snow and cloud conditions in this region, it was decided to manually adjust the 2016 outlines with Landsat 7 ETM+ images (pan-band) mostly acquired in the year 2000 (partly in 2002) in the background. Interpretation was facilitated with Sentinel-2 images from 2016 and 2019 as well as the "World imagery" layer of the ESRI Basemap. The extent of several (mostly small) glaciers was not changed when the available satellite images from 2000 or 2002 suffered from clouds or adverse snow conditions. New ice divides were calculated from the national 15 m resolution DEM of New Zealand. Further details about the processing can be found in {cite:t}`Paul2023`.
+
 
 ## Additional information 
 

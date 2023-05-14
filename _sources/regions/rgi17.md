@@ -8,7 +8,9 @@ Southern Andes.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-New inventories for Chile and Argentina.
+Completely new inventory in RGI7.
+
+The glacier outlines in RGI6 for the Southern Andes suffered from wrongly mapped seasonal snow, missing debris-covered glaciers, wrong ice divides and data processing artefacts. We replaced them with outlines from the new national glacier inventories of Argentina {cite:p}`Zalazar2020` and Chile {cite:p}`Barcaza2017`. The latter was derived from Landsat ETM+ imagery acquired between 2000 and 2003, the former from a range of sensors (ALOS, ASTER, Landsat, SPOT4) acquired between 2004 and 2013. Both national inventories included rock glaciers that were reselected (classes GEA/GEI for Argentina) and removed. The classes MN (snow field) and GCGE (mixed debris-covered / rock glacier) in the Argentina inventory were also removed. Data gaps and overlaps along the national boundary as well as wrongly placed drainage divides were corrected in the merged dataset using the "World imagery" layer of the ESRI basemap and a flow direction grid derived from the AW3D30 DEM, respectively. In some regions (e.g. Tierra Fuego) missing glaciers were added and the extent of glaciers that were too large was reduced using Landsat images from around the year 2000. Finally, also some topologically difficult regions (e.g. resulting from rock outcrops) were simplified.
 
 ## Additional information 
 

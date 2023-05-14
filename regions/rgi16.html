@@ -157,7 +157,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI Glacier Regions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI and GTN-G Glacier Regions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../03_data_decription.html">Data Description</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">Revisions in RGI7</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
@@ -417,7 +417,11 @@ document.write(`
 <p><span class="caption-number">Fig. 49 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi16-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>New inventories for Peru, Bolivia, Chile and Argentina. RGI6 elsewhere.</p>
+<p>New inventories for Peru, Bolivia, Chile and Argentina. RGI6 is used elsewhere.</p>
+<p><strong>Peru and Bolivia 1998</strong></p>
+<p>The glacier outlines in RGI6 for Peru and Bolivia were derived from satellite images with adverse snow conditions, outlines received a triangular shape during raster-vector conversion, ice divides were at the wrong place and scenes were acquired over a 10-year period. For the new inventory we used 17 Landsat 5 TM scenes that were all acquired in 1998 with excellent snow conditions. Outlines for clean glaciers were created from a simple red/SWIR band ratio with scene specific thresholds. After raster-vector conversion wrongly mapped lakes were removed and missing debris-cover was manually added. New ice divides were derived from the 30 m resolution Copernicus DEM using the divides in RGI6 as a guide. The interpretation was supported by glacier outlines from the national glacier inventory of Peru and the “World imagery” layer of the ESRI basemap.</p>
+<p><strong>Chile and Argentina</strong></p>
+<p>See <a class="reference internal" href="rgi17.html"><span class="doc std std-doc">17: Southern Andes</span></a>.</p>
 <section id="additional-information">
 <h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
 <div class="important dropdown admonition">
@@ -457,7 +461,7 @@ document.write(`
 <div class="note dropdown admonition">
 <p class="admonition-title">Version history</p>
 <dl class="simple myst">
-<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id74" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. URL: http://www.tandfonline.com/doi/abs/10.1623/hysj.2005.50.6.949, doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
+<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id83" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. URL: http://www.tandfonline.com/doi/abs/10.1623/hysj.2005.50.6.949, doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
 </dd>
 <dt>Changes from Version 4.0 to 5.0</dt><dd><p>Links were added to 2 glaciers in the WGMS mass-balance database.</p>
 </dd>

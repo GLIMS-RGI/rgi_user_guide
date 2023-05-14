@@ -8,7 +8,12 @@ The  Arctic Canada, South region encompasses all glaciers in northwest Canada be
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-With the exception of Newfoundland, all outlines have been revised for RGI7.
+With the exception of Newfoundland, all outlines have been revised for RGI7:
+
+**Baffin Island and Bylot Island**
+
+For the largest part of the region covered by submission 817, RGI6 glacier outlines were modified using end of summer Landsat 7 ETM+ images acquired from 1999 to 2002. The related corrections added missing glaciers or glacier parts (incl. debris cover), removed seasonal snow and provided new drainage divides based on a flow direction grid derived from the ArcticDEM at 10 m resolution and flow fields (magnitudes) provided by {cite:t}`Millan2022`. For the southern part of Baffin Island (incl. parts of Penny Ice Cap) RGI6 outlines were replaced with extents from a fresh processing of three Landsat 7 ETM+ scenes. Several small ice patches in the south of Baffin Island were added after visual inspection of the ESRI Basemap.
+
 
 ## Additional information 
 

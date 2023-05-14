@@ -15,7 +15,7 @@ All glaciers not connected of weakly connected to the Greenland ice sheet.
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-No changes to RGI6, with the exception of Northern Greenland (see below) and the Flade Isblink Icecap [where ice divides have been added](https://github.com/GLIMS-RGI/rgi7_scripts/issues/39). **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers where part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
+No changes to RGI6, with the exception of Northern Greenland (see below) and the Flade Isblink Icecap [where ice divides have been added](https://github.com/GLIMS-RGI/rgi7_scripts/issues/39). **Glaciers with connectivity level 2** {cite:p}`Rastner2012` **have now been removed from the RGI.** These glaciers were part of the RGI files but almost always discarded for analyses or glacier projections. This change removes this potential for confusion.  
 
 **Northern-most part of Greenland**
 

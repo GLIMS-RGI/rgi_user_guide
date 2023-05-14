@@ -32,7 +32,7 @@ Submission 766 added 42 previously unmapped glaciers have been added to subregio
 
 **Kenai Peninsula (01-04)**
 
-With submission 889, glacier outlines from {cite:t}`Kienholz2015a` for Kenai Peninsula were corrected manually using a revised dataset for 2005 by {cite:t}`Yang2020` and Landsat images from xxx and xxx as a guide. The main changes are several additional, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a couple of topologic corrections such as the connection / separation of individual glaciers or adjustment of a few ice divides using the AW3D30 DEM.
+With submission 889, glacier outlines from {cite:t}`Kienholz2015a` for Kenai Peninsula were corrected manually using a revised dataset for 2005 by {cite:t}`Yang2020` and Landsat images from July and August 2005 as a guide. The main changes are several additional, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a couple of topologic corrections such as the connection / separation of individual glaciers or adjustment of a few ice divides using the AW3D30 DEM.
 
 **N Coast Ranges (01-06)**
 

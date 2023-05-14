@@ -2,6 +2,13 @@
 
 New Zealand.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 18-01: New Zealand
+
+```
+
 :::{figure-md} rgi18-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI18/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 

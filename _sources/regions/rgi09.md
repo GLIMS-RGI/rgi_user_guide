@@ -2,11 +2,14 @@
 
 Covers all glaciers and ice caps in Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.
 
-## Subregions
+```{admonition} Subregions
+:class: note, dropdown
 
 - 09-01: Franz Josef Land
 - 09-02: Novaya Zemlya
 - 09-03: Severnaya Zemlya
+
+```
 
 :::{figure-md} rgi09-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI09/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">

@@ -2,6 +2,17 @@
 
 The Western Canada and USA region encompasses all glaciers in continental USA and central Canada. 
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 02-01: Mackenzie and Selwyn Mountains
+- 02-02: South Coast Ranges
+- 02-03: North Rocky Mountains
+- 02-04: Cascade Range and Sierra Nevada
+- 02-05: South Rocky Mountains
+
+```
+
 :::{figure-md} rgi02-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 

@@ -2,6 +2,13 @@
 
 All glaciers not connected of weakly connected to the Greenland ice sheet.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 05-01: Greenland Periphery
+
+```
+
 :::{figure-md} rgi05-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI05/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

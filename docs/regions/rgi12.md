@@ -2,6 +2,14 @@
 
 Caucasus and Middle East.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 12-01: Caucasus and Middle East
+- 12-02: Middle East
+
+```
+
 :::{figure-md} rgi12-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI12/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 

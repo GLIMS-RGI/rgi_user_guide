@@ -2,13 +2,28 @@
 
 All glaciers in Scandinavia.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 08-01: North Scandinavia
+- 08-02: Southwest Scandinavia
+- 08-03: Southeast Scandinavia
+
+```
+
+
 :::{figure-md} rgi08-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI08/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-No changes to RGI6, except in Sweden, where RGI6 glaciers [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). 4 "nominal glaciers" (potential glaciers without outlines) in the east of the region were deleted, as they did not seem to correspond to real glaciers.
+The primary sources of glacier outlines for this region were mapped using a combination of Landsat TM/ETM+
+and SPOT4 and SPOT5 imagery acquired between 1999 and 2006 (see {cite:t}`Andreassen2008a`, {cite:t}`Paul2009a`, and {cite:t}`Paul2011`
+for details). Additional updates come from {cite:t}`Andreassen2012`. 
+
+For RGI7, the only changes are in Sweden, where RGI6 glaciers [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). 
+Additionally, 4 "nominal glaciers" (potential glaciers without outlines) in the east of the region were deleted, as they did not seem to correspond to real glaciers.
 
 ## Additional information 
 
@@ -47,7 +62,7 @@ Relative glacier area distribution per outline date.
 :class: note, dropdown
 
 Changes from Version 5.0 to 6.0
-: Exact dates were obtained for Norwegian glaciers from information submitted to GLIMS by L.M. Andreassen after the release of RGI version 1.0; see {cite:t}`Andreassen2012`. A further 885 glaciers, mostly small, were added from the same source. The Swedish and Norwegian parts of Salajekna (RGI60-08.03553), area 26.8 km2, were merged.<br/>The source for hypsometry was changed from the ASTER GDEM2 to the ViewfinderPanoramas DEM3 (http://www.viewfinderpanoramas.org/).
+: Exact dates were obtained for Norwegian glaciers from information submitted to GLIMS by L.M. Andreassen after the release of RGI version 1.0; see {cite:t}`Andreassen2012`. A further 885 glaciers, mostly small, were added from the same source. The Swedish and Norwegian parts of Salajekna (RGI60-08.03553), area 26.8 km², were merged.<br/>The source for hypsometry was changed from the ASTER GDEM2 to the ViewfinderPanoramas DEM3 (http://www.viewfinderpanoramas.org/).
 
 Changes from Version 4.0 to 5.0
 : Links were added to 24 glaciers in the WGMS mass-balance database.

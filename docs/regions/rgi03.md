@@ -2,13 +2,36 @@
 
 The  Arctic Canada, North region encompasses all glaciers in northern Canada above 74°N; it comprises the heavily glaciated Ellesmere and Devon Islands.
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 03-01: North Ellesmere Island
+- 03-02: Axel Heiberg and Meighen Island
+- 03-03: North Central Ellesmere Island
+- 03-04: South Central Ellesmere Island
+- 03-05: South Ellesmere Island (Northwest Devon)
+- 03-06: Devon Island
+- 03-07: Melville Island
+
+```
+
 :::{figure-md} rgi03-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Several improvements to RGI6.
+Several improvements to RGI6:
+
+**Ellesmere**
+
+The quality of glacier outlines in northern Ellesmere Island suffered from wrong ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift. For the update and improvement of submission 723 we used the glacier outlines by {cite:t}`white2019glacier` as a base and modified it using 4 Landsat ETM+ panchromatic scenes acquired in July 2000. For the northern-most regions outside the coverage of Landsat the "World imagery" layer of the ESRI Basemap was used for corrections and digitizing. Some smaller ice shelves were excluded. The editing was very demanding and includes a mix of manual and automated corrections. Some artefacts of the processing might still be present in the provided new dataset.
+
+**Other changes**
+
+Glacier divides on Axel Heiberg Island ice caps, Sydkap Ice Cap, 
+Agassiz Ice Cap, west of Sydkap, and west of Manson Ice Field were added and outlines cleaned up.
+Several glaciers previously forgotten from RGI6 were added west of Prince of Wales Ice Cap.
 
 ## Additional information 
 

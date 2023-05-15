@@ -2,13 +2,24 @@
 
 The Western Canada and USA region encompasses all glaciers in continental USA and central Canada. 
 
+```{admonition} Subregions
+:class: note, dropdown
+
+- 02-01: Mackenzie and Selwyn Mountains
+- 02-02: South Coast Ranges
+- 02-03: North Rocky Mountains
+- 02-04: Cascade Range and Sierra Nevada
+- 02-05: South Rocky Mountains
+
+```
+
 :::{figure-md} rgi02-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 
 Glacier locations and changes between RGI6 and RGI7.
 :::
 
-Same outlines as in RGI6.
+No changes in version 7.0 (same outlines as RGI6).
 
 ## Additional information 
 
@@ -74,9 +85,9 @@ Changes from Version 2.0 to Version 3.0
 : Glacier complexes were separated into single glaciers in the northern part of the region. 
 
 Changes from Version 1.0 to Version 2.0
-: The glaciers on Melville Island (region 02.01) were represented in version 1.0 by DCW outlines and have been replaced by Canvec outlines taken from Region 03. DCW outlines for the Mackenzie Mountains and Selwyn Mountains (region 02-02), on the boundary between Yukon and the North West Territories, were replaced by Canvec outlines provided by M. Sharp and J.G. Cogley.
+: The glaciers on Melville Island (formerly region 02-01, now "03-07")  were represented in version 1.0 by DCW outlines and have been replaced by Canvec outlines taken from Region 03. DCW outlines for the Mackenzie Mountains and Selwyn Mountains (formerly region 02-02, now "02-01"), on the boundary between Yukon and the North West Territories, were replaced by Canvec outlines provided by M. Sharp and J.G. Cogley.
 
 Version 1.0
-: Glaciers in BC and Alberta were mapped using orthorectified Landsat 5 TM scenes from the years 2004 and 2006 obtained by British Columbia Government, Ministry of Forests and Range. We selected the TM3/TM5 band ratio for glacier mapping. For the entire study area, we used improved British Columbia TRIM glacier outlines as a mask to minimize misclassification due to factors such as seasonal snow. When using this mask, we assumed that glaciers did not advance between 1985 and 2005, an assumption that holds for practically all non-tidewater glaciers in western North America. The mask also maintained consistency in the location of the upper glacier boundary and the margins of nunataks. This consistency is important where seasonal snow hampers correct identification of the upper glacier boundary. We mapped only glaciers larger than 0.05 km2, as a smaller threshold would include many features that were most likely snow patches. In addition, all snow and ice patches that were not considered to be perennial ice in the TRIM data were eliminated and hence, we minimize deviations in glacier areas that could arise from interpretative errors or major variations in snow cover. The resulting glacier polygons were visually checked for gross errors based on the procedures previously discussed, and fewer than 5% of the glaciers were manually improved. We derived glacier drainage basins based on a flowshed algorithm using the TRIM DEM and a buffer around each glacier. More information can be found in {cite:t}`Bolch2010b`.<br/>Data for the US south of 49°N (Fountain et al., 2007; http://glaciers.us) were derived from the GLIMS database.
+: Glaciers in BC and Alberta (2nd order regions: 02-02: S Coast Ranges, 02-03: N Rocky Mountains) were mapped using orthorectified Landsat 5 TM scenes from the years 2004 and 2006 obtained by British Columbia Government, Ministry of Forests and Range. We selected the TM3/TM5 band ratio for glacier mapping. For the entire study area, we used improved British Columbia TRIM glacier outlines as a mask to minimize misclassification due to factors such as seasonal snow. When using this mask, we assumed that glaciers did not advance between 1985 and 2005, an assumption that holds for practically all non-tidewater glaciers in western North America. The mask also maintained consistency in the location of the upper glacier boundary and the margins of nunataks. This consistency is important where seasonal snow hampers correct identification of the upper glacier boundary. We mapped only glaciers larger than 0.05 km2, as a smaller threshold would include many features that were most likely snow patches. In addition, all snow and ice patches that were not considered to be perennial ice in the TRIM data were eliminated and hence, we minimize deviations in glacier areas that could arise from interpretative errors or major variations in snow cover. The resulting glacier polygons were visually checked for gross errors based on the procedures previously discussed, and fewer than 5% of the glaciers were manually improved. We derived glacier drainage basins based on a flowshed algorithm using the TRIM DEM and a buffer around each glacier. More information can be found in {cite:t}`Bolch2010b`.<br/>Data for the US south of 49°N (02-04: Cascade Ra and Sa Nevada, 02-05: S Rocky Mtns, Fountain et al., 2007; http://glaciers.us) were derived from the GLIMS database. Glaciers in Yukon (Mackenzie Mountains and Selwyn Mountains (formelry region 02-02, now 02-01)) and Mellville Island (formelry region 02-01, now 03-07) were taken from the digital chart of the world (DCW).
 
 ```

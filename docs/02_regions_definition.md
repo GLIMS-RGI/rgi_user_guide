@@ -1,6 +1,6 @@
-# RGI Glacier Regions
+# RGI and GTN-G Glacier Regions
 
-RGI outlines are organized into 19 first-order glacier regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). We further subdivide the first-order regions into second-order regions, of which there are 89 in total ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other parameters. Regions were drawn mostly from {cite:t}`Radic2010a`, with some minor modifications until they were formalized by the Global Terrestrial Network for Glaciers (GTN-G) and published [as a separate dataset on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). For RGI 7.0 we had to make a few additional minor modifications (listed below).
+RGI outlines are organized into 19 first-order glacier regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). We further subdivide the first-order regions into second-order regions, of which there are 89 in total ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other parameters.
 
 :::{figure-md} global-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
@@ -10,7 +10,7 @@ First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier 
 
 First-order regions 10 and 19 straddle the 180th meridian, and so does the second-order region 19-15. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western.
 
-The region outlines have changed slightly since their first release for RGI v5. **In RGI 7.0, the following changes have been implemented**:
+The region outlines were published as a joint set of regions recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the Randolph Glacier Inventory (RGI) Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented in RGI 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). **In RGI 7.0, the following minor changes have been implemented**:
 - The southern boundary of region 12 (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously unassigned.
 - The region boxes for region 01 (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. This subregion contains no glaciers (and probably hasn't for a long time) and is now removed. 
 - The data type of the `rgi_code` attribute in the first-order region file is now `str` (was `int`). The `rgi_code` now has a leading zero, for example `02` instead of `2`. 
@@ -21,6 +21,8 @@ The region outlines have changed slightly since their first release for RGI v5. 
 - The subregion `05-11` (Greenland Ice Sheet) has been removed (it contained no glaciers).
 - The `WGMS_CODE` column has been deleted from all files.
 - The `RGI_CODE` column is now called `o1region` (first order files) and `o2region` (second-order files)
+
+These changes will be uploaded to the GTN-G website in due course.
 
 ```{admonition} Additional details: RGI regions version history
 :class: note, dropdown

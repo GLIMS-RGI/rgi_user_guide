@@ -29,6 +29,9 @@ Kamchatka is maybe one of the most challenging places for glacier mapping. Apart
 
 The main issues with RGI6 were related to wrongly included seasonal snow and rock glaciers as well as excluded debris-covered and small clean glaciers. The new dataset is mostly based on year 2000 outlines provided by {cite:t}`Lynch2016`, but also on an ASTER-derived dataset from 2002 just for the "Middle Range" of Kamchatka provided by T. Khromova and a dataset for the period 2007-2019 described in the review by {cite:t}`Khromova2019` with local corrections by A.Y. Muraviev. These datasets were collectively analyzed and edited using Landsat 7 panchromatic images from 2000 and 2002 as well as the "World imagery" layer of the ESRI Basemap for most of the regions. The latter images were mostly used to distinguish debris-covered glaciers from rock glaciers and to identify ice underneath many of the now included ice patches. The AW3D30 DEM was used to create a flow direction grid for correction of ice divides.
 
+**De Long Islands**
+
+Glaciers in the De Long Islands, Russia, were nominal circles in RGI6 and are now appropiately included with digitized boundaries and divides.
 
 ## Additional information 
 

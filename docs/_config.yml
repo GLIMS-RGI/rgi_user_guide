@@ -15,7 +15,7 @@ repository:
   path_to_book: docs 
   branch: main
 bibtex_bibfiles:
-   - references.bib
+   - references_cleaned.bib
 html:
   use_repository_button: true
   use_issues_button: true

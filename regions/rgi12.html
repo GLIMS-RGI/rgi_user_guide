@@ -158,9 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI and GTN-G Glacier Regions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../03_data_decription.html">Data Description</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_data_decription.html">Data Description</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_product.html">Data fields: glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/intersects_product.html">Data fields: intersects product</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rgi03.html">03: Arctic Canada, North</a></li>
@@ -421,7 +426,7 @@ document.write(`
 <figure class="align-default" id="rgi12-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI12/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi12-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 38 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi12-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>All outlines have been revised by Levan Tielidze (REF?).</p>
@@ -432,7 +437,7 @@ document.write(`
 <figure class="align-default" id="rgi12-source-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI12/inventory_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 38 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi12-source-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi12-source-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <dl class="simple myst">
@@ -447,24 +452,24 @@ document.write(`
 <figure class="align-default" id="rgi12-hist-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI12/date_hist.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi12-hist-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 40 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi12-hist-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
 <div class="note dropdown admonition">
 <p class="admonition-title">Version history</p>
 <dl class="simple myst">
-<dt>Changes from Version 5.0 to 6.0</dt><dd><p>The 37 nominal glaciers in Iran, derived from <span id="id1">Moussavi <em>et al.</em> [<a class="reference internal" href="../07_references.html#id51" title="M.S. Moussavi, M.J. Valadan Zoej, F. Vaziri, M.R. Sahebi, and Y. Rezaei. A new glacier inventory of Iran. Annals of Glaciology, 50(53):93–103, sep 2009. doi:10.3189/172756410790595886.">2009</a>]</span>, were replaced by 200 glacier outlines submitted to GLIMS by Neamat Karimi (Ministry of Energy, Teheran).</p>
+<dt>Changes from Version 5.0 to 6.0</dt><dd><p>The 37 nominal glaciers in Iran, derived from <span id="id1">Moussavi <em>et al.</em> [<a class="reference internal" href="../07_references.html#id15" title="M.S. Moussavi, M.J. Valadan Zoej, F. Vaziri, M.R. Sahebi, and Y. Rezaei. A new glacier inventory of Iran. Annals of Glaciology, 50(53):93–103, sep 2009. doi:10.3189/172756410790595886.">2009</a>]</span>, were replaced by 200 glacier outlines submitted to GLIMS by Neamat Karimi (Ministry of Energy, Teheran).</p>
 </dd>
 <dt>Changes from Version 4.0 to 5.0</dt><dd><p>Links were added to 7 glaciers in the WGMS mass-balance database.</p>
 </dd>
-<dt>Changes from Version 3.2 to 4.0</dt><dd><p>One exterior GLIMSId was replaced. Topographic and hypsometric attributes were added.<br/>As noted by <span id="id2">Shahgedanova <em>et al.</em> [<a class="reference internal" href="../07_references.html#id3" title="M. Shahgedanova, G. Nosenko, S. Kutuzov, O. Rototaeva, and T. Khromova. Deglaciation of the Caucasus Mountains, Russia/Georgia, in the 21st century observed with ASTER satellite imagery and aerial photography. The Cryosphere, 8(6):2367–2379, dec 2014. doi:10.5194/tc-8-2367-2014.">2014</a>]</span>, version 3.2 omitted glaciers in the western and eastern Greater Caucasus. These omissions have been partly rectified by adding nominal glaciers from WGI-XF <span id="id3">Cogley [<a class="reference internal" href="../07_references.html#id62" title="J. Graham Cogley. A more complete version of the World Glacier Inventory. Annals of Glaciology, 50(53):32–38, sep 2009. doi:10.3189/172756410790595859.">2009</a>]</span>. The 339 added glaciers, with date ranges 1965–1976, cover 155 km2 and also include some in the central Greater Caucasus (on the Svanets and Lechkhum Ranges to the south of the main ridge of the Caucasus) and in the Lesser Caucasus in Armenia.</p>
+<dt>Changes from Version 3.2 to 4.0</dt><dd><p>One exterior GLIMSId was replaced. Topographic and hypsometric attributes were added.<br/>As noted by <span id="id2">Shahgedanova <em>et al.</em> [<a class="reference internal" href="../07_references.html#id90" title="M. Shahgedanova, G. Nosenko, S. Kutuzov, O. Rototaeva, and T. Khromova. Deglaciation of the Caucasus Mountains, Russia/Georgia, in the 21st century observed with ASTER satellite imagery and aerial photography. The Cryosphere, 8(6):2367–2379, dec 2014. doi:10.5194/tc-8-2367-2014.">2014</a>]</span>, version 3.2 omitted glaciers in the western and eastern Greater Caucasus. These omissions have been partly rectified by adding nominal glaciers from WGI-XF <span id="id3">Cogley [<a class="reference internal" href="../07_references.html#id52" title="J. Graham Cogley. A more complete version of the World Glacier Inventory. Annals of Glaciology, 50(53):32–38, sep 2009. doi:10.3189/172756410790595859.">2009</a>]</span>. The 339 added glaciers, with date ranges 1965–1976, cover 155 km2 and also include some in the central Greater Caucasus (on the Svanets and Lechkhum Ranges to the south of the main ridge of the Caucasus) and in the Lesser Caucasus in Armenia.</p>
 </dd>
 <dt>Changes from Version 3.0 to 3.2</dt><dd><p>None.</p>
 </dd>
-<dt>Changes from Version 2.0 to Version 3.0</dt><dd><p>Outlines of the glaciers of Turkey were provided by M.A. Sarıkaya <span id="id4">[<a class="reference internal" href="../07_references.html#id32" title="Mehmet Akif Sarıkaya and Ahmet Emre Tekeli. Satellite Inventory of Glaciers in Turkey. In Global Land Ice Measurements from Space, pages 465–480. Springer Berlin Heidelberg, Berlin, Heidelberg, 2014. doi:10.1007/978-3-540-79818-7_21.">Sarıkaya and Tekeli, 2014</a>]</span>.</p>
+<dt>Changes from Version 2.0 to Version 3.0</dt><dd><p>Outlines of the glaciers of Turkey were provided by M.A. Sarıkaya <span id="id4">[<a class="reference internal" href="../07_references.html#id30" title="Mehmet Akif Sarıkaya and Ahmet Emre Tekeli. Satellite Inventory of Glaciers in Turkey. In Global Land Ice Measurements from Space, pages 465–480. Springer Berlin Heidelberg, Berlin, Heidelberg, 2014. doi:10.1007/978-3-540-79818-7_21.">Sarıkaya and Tekeli, 2014</a>]</span>.</p>
 </dd>
-<dt>Changes from Version 1.0 to Version 2.0</dt><dd><p>The 37 glaciers of Iran (12-02) were added as nominal circles from <span id="id5">Moussavi <em>et al.</em> [<a class="reference internal" href="../07_references.html#id51" title="M.S. Moussavi, M.J. Valadan Zoej, F. Vaziri, M.R. Sahebi, and Y. Rezaei. A new glacier inventory of Iran. Annals of Glaciology, 50(53):93–103, sep 2009. doi:10.3189/172756410790595886.">2009</a>]</span>.The information available for Turkey <span id="id6">[<a class="reference internal" href="../07_references.html#id33" title="A Kurter. Glaciers of Turkey. Glaciers of the Middle East and Africa, pages G1–G30, 1991.">Kurter, 1991</a>]</span> was not adequate for placing the individual glaciers, which have a total area of 22.9 km2.</p>
+<dt>Changes from Version 1.0 to Version 2.0</dt><dd><p>The 37 glaciers of Iran (12-02) were added as nominal circles from <span id="id5">Moussavi <em>et al.</em> [<a class="reference internal" href="../07_references.html#id15" title="M.S. Moussavi, M.J. Valadan Zoej, F. Vaziri, M.R. Sahebi, and Y. Rezaei. A new glacier inventory of Iran. Annals of Glaciology, 50(53):93–103, sep 2009. doi:10.3189/172756410790595886.">2009</a>]</span>.The information available for Turkey <span id="id6">[<a class="reference internal" href="../07_references.html#id86" title="A Kurter. Glaciers of Turkey. Glaciers of the Middle East and Africa, pages G1–G30, 1991.">Kurter, 1991</a>]</span> was not adequate for placing the individual glaciers, which have a total area of 22.9 km2.</p>
 </dd>
 <dt>Version 1.0</dt><dd><p>Outlines of glaciers in the Caucasus were obtained from the GLIMS database.</p>
 </dd>

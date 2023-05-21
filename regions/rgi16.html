@@ -158,9 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI and GTN-G Glacier Regions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../03_data_decription.html">Data Description</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_data_decription.html">Data Description</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_product.html">Data fields: glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/intersects_product.html">Data fields: intersects product</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rgi03.html">03: Arctic Canada, North</a></li>
@@ -423,7 +428,7 @@ document.write(`
 <figure class="align-default" id="rgi16-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 49 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi16-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 50 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi16-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>New inventories for Peru, Bolivia, Chile and Argentina. RGI6 is used elsewhere.</p>
@@ -438,7 +443,7 @@ document.write(`
 <figure class="align-default" id="rgi16-source-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/inventory_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 50 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi16-source-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 51 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi16-source-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <dl class="simple myst">
@@ -463,14 +468,14 @@ document.write(`
 <figure class="align-default" id="rgi16-hist-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/date_hist.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 51 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi16-hist-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 52 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi16-hist-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
 <div class="note dropdown admonition">
 <p class="admonition-title">Version history</p>
 <dl class="simple myst">
-<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id11" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
+<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id18" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
 </dd>
 <dt>Changes from Version 4.0 to 5.0</dt><dd><p>Links were added to 2 glaciers in the WGMS mass-balance database.</p>
 </dd>

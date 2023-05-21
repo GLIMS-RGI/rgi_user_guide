@@ -158,9 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI and GTN-G Glacier Regions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../03_data_decription.html">Data Description</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_data_decription.html">Data Description</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_product.html">Data fields: glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/intersects_product.html">Data fields: intersects product</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../05_description_by_region.html">Regional data sources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">03: Arctic Canada, North</a></li>
@@ -426,12 +431,12 @@ document.write(`
 <figure class="align-default" id="rgi03-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi03-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi03-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Several improvements to RGI6:</p>
 <p><strong>Ellesmere</strong></p>
-<p>The quality of glacier outlines in northern Ellesmere Island suffered from wrong ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift. For the update and improvement of submission 723 we used the glacier outlines by <span id="id1">White [<a class="reference internal" href="../07_references.html#id29" title="Adrienne White. Glacier changes across Northern Ellesmere Island. PhD thesis, Université d'Ottawa/University of Ottawa, 2019.">2019</a>]</span> as a base and modified it using 4 Landsat ETM+ panchromatic scenes acquired in July 2000. For the northern-most regions outside the coverage of Landsat the “World imagery” layer of the ESRI Basemap was used for corrections and digitizing. Some smaller ice shelves were excluded. The editing was very demanding and includes a mix of manual and automated corrections. Some artefacts of the processing might still be present in the provided new dataset.</p>
+<p>The quality of glacier outlines in northern Ellesmere Island suffered from wrong ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift. For the update and improvement of submission 723 we used the glacier outlines by <span id="id1">White [<a class="reference internal" href="../07_references.html#id34" title="Adrienne White. Glacier changes across Northern Ellesmere Island. PhD thesis, Université d'Ottawa/University of Ottawa, 2019.">2019</a>]</span> as a base and modified it using 4 Landsat ETM+ panchromatic scenes acquired in July 2000. For the northern-most regions outside the coverage of Landsat the “World imagery” layer of the ESRI Basemap was used for corrections and digitizing. Some smaller ice shelves were excluded. The editing was very demanding and includes a mix of manual and automated corrections. Some artefacts of the processing might still be present in the provided new dataset.</p>
 <p><strong>Other changes</strong></p>
 <p>Glacier divides on Axel Heiberg Island ice caps, Sydkap Ice Cap,
 Agassiz Ice Cap, west of Sydkap, and west of Manson Ice Field were added and outlines cleaned up.
@@ -443,7 +448,7 @@ Several glaciers previously forgotten from RGI6 were added west of Prince of Wal
 <figure class="align-default" id="rgi03-source-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/inventory_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi03-source-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi03-source-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <dl class="simple myst">
@@ -466,7 +471,7 @@ Several glaciers previously forgotten from RGI6 were added west of Prince of Wal
 <figure class="align-default" id="rgi03-hist-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/date_hist.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi03-hist-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi03-hist-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -479,7 +484,7 @@ Several glaciers previously forgotten from RGI6 were added west of Prince of Wal
 </dd>
 <dt>Changes from Version 3.2 to 4.0</dt><dd><p>One exterior GLIMSId was replaced. Topographic and hypsometric attributes were added.</p>
 </dd>
-<dt>Changes from Version 3.0 to 3.2</dt><dd><p>Glaciers were delineated from the glacier complexes using the delineation algorithm developed by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id77" title="Christian Kienholz, Regine Hock, and Anthony a. Arendt. A new semi-automatic approach for dividing glacier complexes into individual glaciers. Journal of Glaciology, 59(217):925–937, oct 2013. doi:10.3189/2013JoG12J138.">2013</a>]</span> and applied to the 1:250000 Canadian Digital Elevation Data (CDED). Some minor manual editing was done to remove obvious blunders.</p>
+<dt>Changes from Version 3.0 to 3.2</dt><dd><p>Glaciers were delineated from the glacier complexes using the delineation algorithm developed by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id74" title="Christian Kienholz, Regine Hock, and Anthony a. Arendt. A new semi-automatic approach for dividing glacier complexes into individual glaciers. Journal of Glaciology, 59(217):925–937, oct 2013. doi:10.3189/2013JoG12J138.">2013</a>]</span> and applied to the 1:250000 Canadian Digital Elevation Data (CDED). Some minor manual editing was done to remove obvious blunders.</p>
 </dd>
 <dt>Changes from Version 2.0 to 3.0</dt><dd><p>None</p>
 </dd>

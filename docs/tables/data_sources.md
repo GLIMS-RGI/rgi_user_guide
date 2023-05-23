@@ -11,7 +11,7 @@ Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael*
 ## Implementation
 
 Main developer: **Maussion, Fabien**<br>
-Code development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; McNabb, Robert; Maussion, Fabien; Roura-Adserias, Francesc; Welty, Ethan;**<br>
+Code development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; McNabb, Robert; Maussion, Fabien; Roura-Adserias, Francesc; Schmitt, Patrick; Welty, Ethan;**<br>
 Google Earth Engine review tool: **Lea, James**
 
 ## Review

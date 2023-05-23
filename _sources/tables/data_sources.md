@@ -11,8 +11,8 @@ Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael*
 ## Implementation
 
 Main developer: **Maussion, Fabien**<br>
-Development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; Maussion, Fabien; Roura-Adserias, Francesc; Welty, Ethan;**<br>
-GEE review tool: **Lea, James**
+Code development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; McNabb, Robert; Maussion, Fabien; Roura-Adserias, Francesc; Welty, Ethan;**<br>
+Google Earth Engine review tool: **Lea, James**
 
 ## Review
 
@@ -20,7 +20,7 @@ Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss,
 
 ## Glacier outlines
 
-This list is generated automatically out of the RGI (via GLIMS):
+This list is generated automatically (source: GLIMS):
 
 - **Albornoz, Amapola** (Region: 16, 17. Subm ID: 730, 764. N outlines: 30720. Area: 27684.4 km²)
 - **Andreassen, Liss Marie** (Region: 08. Subm ID: 611. N outlines: 3142. Area: 2674.9 km²)
@@ -111,11 +111,15 @@ This list is generated automatically out of the RGI (via GLIMS):
 - **Zajaczkiwsky, Sophie** (Region: 03. Subm ID: 728. N outlines: 1961. Area: 37675.5 km²)
 - **Zalazar, Laura** (Region: 16, 19. Subm ID: 700. N outlines: 49. Area: 244.2 km²)
 
+## Funding
+
+- International Association of Cryospheric Sciences (IACS) of the International Union of Geodesy and Geophysics (IUGG)
+- UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: "Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment" and within the framework of the theme: "Supporting Member States to address hydrological challenges, extremes and water scarcity".
+
 ## Special aknowledgments
 
 For their extensive outline mapping work during the RGI7 generation process: **Kochtitzky, William; McNabb, Robert; Paul, Frank; Rastner, Philipp; Tielidze, Levan**<br>
 Funding acquisition: **Hock, Regine; Maussion, Fabien; Paul, Frank; Raup, Bruce; Zemp, Michael**<br>
-Funding: **Mishra, Anil (UNESCO)**<br>
 Computing resources and data storage: **Marzeion, Ben**
 
 In memory of **[Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018) 

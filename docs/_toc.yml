@@ -4,6 +4,10 @@ chapters:
 - file: 01_introduction.md
 - file: 02_regions_definition.md
 - file: 03_data_decription.md
+  sections:
+  - file: data_fields/glacier_product.md
+  - file: data_fields/glacier_complex_product.md
+  - file: data_fields/intersects_product.md
 - file: 04_revisions.md
 - file: 05_description_by_region.md
   sections:

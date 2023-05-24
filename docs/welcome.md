@@ -121,6 +121,8 @@ We aknowledge financial support by the [International Association of Cryospheric
 
 We aknowledge financial support by the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: *"Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment"* and within the framework of the theme: *"Supporting Member States to address hydrological challenges, extremes and water scarcity"*.
 
+For a full list of sponsors, visit [](funding-sources).
+
 ## License
 
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)

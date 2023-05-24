@@ -4,19 +4,36 @@
 
 [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
-Chairs: **Hock, Regine; Maussion, Fabien**<br>
-Steering Committee: **Paul, Frank; Rastner, Philipp; Raup, Bruce; Zemp, Michael** 
+Chairs: 
+- **Regine Hock**
+- **Fabien Maussion**
+
+Steering Committee: 
+- **Frank Paul**
+- **Philipp Rastner**
+- **Bruce Raup**
+- **Michael Zemp** 
 
 
 ## Implementation
 
-Main developer: **Maussion, Fabien**<br>
-Code development: **Dusch, Matthias; Fischer, Alexander; Galos, Stephan; McNabb, Robert; Maussion, Fabien; Roura-Adserias, Francesc; Schmitt, Patrick; Welty, Ethan;**<br>
-Google Earth Engine review tool: **Lea, James**
+Main developer: 
+- **Fabien Maussion**
 
-## Review
+Code development: 
+- **Matthias Dusch**: RGITopo tpols and notebooks  
+- **Alexander Fischer**: RGITopo tpols and notebooks  
+- **Stephan Galos**: regional outline selection and implementation
+- **James Lea**: Google Earth Engine review tool
+- **Robert McNabb**: regional maps 
+- **Bruce Raup**: GLIMS database
+- **Francesc Roura-Adserias**: centerlines product
+- **Patrick Schmitt**: glacier complex and intersects products 
+- **Ethan Welty**: RGI6 links and overlaps
 
-Outlines review process: **Barr, Iestyn; Berthier, Etienne; Bolch, Tobias; Huss, Matthias; Khromova, Tatiana; Kochtitzky, William; Langley, Kirsty; Mannerfelt, Erik; McNabb, Robert; Prinz, Rainer; Rabatel, Antoine; Tielidze, Levan**
+## Outlines review process
+
+**Iestyn Barr, Etienne Berthier, Tobias Bolch, Matthias Huss, Tatiana Khromova, William Kochtitzky, Kirsty Langley, Erik Mannerfelt, Robert McNabb, Frank Paul, Rainer Prinz, Antoine Rabatel, Philipp Rastner, Levan Tielidze.**
 
 ## Glacier outlines
 
@@ -111,15 +128,25 @@ This list is generated automatically (source: GLIMS):
 - **Zajaczkiwsky, Sophie** (Region: 03. Subm ID: 728. N outlines: 1961. Area: 37675.5 km²)
 - **Zalazar, Laura** (Region: 16, 19. Subm ID: 700. N outlines: 49. Area: 244.2 km²)
 
-## Funding
+(funding-sources)=
+## Funding acknowledgements
 
-- International Association of Cryospheric Sciences (IACS) of the International Union of Geodesy and Geophysics (IUGG)
-- UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: "Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment" and within the framework of the theme: "Supporting Member States to address hydrological challenges, extremes and water scarcity".
+- The RGI steering committee acknowledges financial support from the International Association of Cryospheric Sciences (IACS), under the auspices of the International Union of Geodesy and Geophysics (IUGG), used to to organize meetings and hire student helpers.
+- Fabien Maussion acknowledges financial support from the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: "Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment" and within the framework of the theme: "Supporting Member States to address hydrological challenges, extremes and water scarcity", used to to hire student helpers.
+- The contributions of Frank Paul and Philipp Rastner to regions 01, 03, 04, 05, 07, 10, 11, 16, 17, 18, and 19 have been funded by the Copernicus Climate Changes Service (C3S) that is implemented by the European Centre for Medium Range Weather Forecasts (ECMWF). Additionally, the ESA project Glaciers_cci (Grant: 4000127593/19/I-NB) provided funding for Frank Paul for the contributions to regions 04 and 18.
 
-## Special aknowledgments
+## Special acknowledgements
 
-For their extensive outline mapping work during the RGI7 generation process: **Kochtitzky, William; McNabb, Robert; Paul, Frank; Rastner, Philipp; Tielidze, Levan**<br>
-Funding acquisition: **Hock, Regine; Maussion, Fabien; Paul, Frank; Raup, Bruce; Zemp, Michael**<br>
-Computing resources and data storage: **Marzeion, Ben**
+Funding acquisition:<br>
+**Regine Hock, Fabien Maussion, Frank Paul, Bruce Raup, Michael Zemp**
+
+For providing computing resources and data storage:<br>
+**Ben Marzeion, Timo Rothenpieler**
+
+For their extensive outline mapping work during the RGI7 generation process:<br>
+**William Kochtitzky, Robert McNabb, Frank Paul, Philipp Rastner, Levan Tielidze**
+
+For his decades-long support of the GLIMS database:<br>
+**Bruce Raup**
 
 In memory of **[Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018) 

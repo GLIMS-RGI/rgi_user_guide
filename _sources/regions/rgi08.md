@@ -37,7 +37,7 @@ Submission IDs used for this region.
 :::
 
 Submission 611
-: **Submitter**: Winsvold, Solveig Havstad.<br/>**Number of outlines**: 3142. **Area**: 2674.9km². **Release date**: 2012-12-13.<br/>**Analysts**: Andreassen, Liss Marie; Winsvold, Solveig Havstad.
+: **Submitter**: Winsvold, Solveig Havstad.<br/>**Number of outlines**: 3141. **Area**: 2674.8km². **Release date**: 2012-12-13.<br/>**Analysts**: Andreassen, Liss Marie; Winsvold, Solveig Havstad.
 
 Submission 812
 : **Submitter**: Frank, Thomas.<br/>**Number of outlines**: 269. **Area**: 273.0km². **Release date**: 2023-01-02.<br/>**Analysts**: Brown, Ian; Frank, Thomas; Hansson, Erik.

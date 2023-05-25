@@ -43,13 +43,13 @@ Submission 591
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 158. **Area**: 169.2km². **Release date**: 2015-07-16.<br/>**Analysts**: Kienholz, Christian; Miles, Evan; Sharp, Martin; Wyatt, F..
 
 Submission 700
-: **Submitter**: Hidalgo, Lidia Ferri.<br/>**Number of outlines**: 18. **Area**: 1.5km². **Release date**: 2018-09-04.<br/>**Analysts**: Castro, Mariano; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Pecker Marcosig, Ivanna; Pitte, Pierre; Ruiz, Lucas; Zalazar, Laura.
+: **Submitter**: Hidalgo, Lidia Ferri.<br/>**Number of outlines**: 17. **Area**: 1.5km². **Release date**: 2018-09-04.<br/>**Analysts**: Castro, Mariano; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Pecker Marcosig, Ivanna; Pitte, Pierre; Ruiz, Lucas; Zalazar, Laura.
 
 Submission 730
 : **Submitter**: Barcaza, Gonzalo.<br/>**Number of outlines**: 20. **Area**: 9.4km². **Release date**: 2018-07-24.<br/>**Analysts**: Albornoz, Amapola; Arias, Victor; Barcaza, Gonzalo; Garcia, Juan-Luis; Nussbaumer, Samuel; Tapia, Guillermo; Valdes, Javier; Videla, Yohan.
 
 Submission 748
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 3497. **Area**: 1734.8km². **Release date**: 2021-09-02.<br/>**Analysts**: Goerlich, Franz; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 3495. **Area**: 1734.7km². **Release date**: 2021-09-02.<br/>**Analysts**: Goerlich, Franz; Paul, Frank; Rastner, Philipp.
 
 Submission 753
 : **Submitter**: Maussion, Fabien.<br/>**Number of outlines**: 4. **Area**: 13.6km². **Release date**: 2022-04-18.<br/>**Analysts**: Cáceres, B.; Francou, B.; Jordan, S.; Peñafiel, A.; Ungerechts, L..

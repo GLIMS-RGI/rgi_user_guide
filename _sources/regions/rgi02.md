@@ -33,7 +33,7 @@ Submission IDs used for this region.
 :::
 
 Submission 616
-: **Submitter**: Hoffman, Matthew.<br/>**Number of outlines**: 33. **Area**: 1.1km². **Release date**: 2016-07-26.<br/>**Analysts**: Fountain, Andrew G.; Hoffman, Matthew.
+: **Submitter**: Hoffman, Matthew.<br/>**Number of outlines**: 32. **Area**: 1.1km². **Release date**: 2016-07-26.<br/>**Analysts**: Fountain, Andrew G.; Hoffman, Matthew.
 
 Submission 623
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 12459. **Area**: 13046.6km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
@@ -48,7 +48,8 @@ Submission 722
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 1. **Area**: 10.2km². **Release date**: 2009-06-27.<br/>**Analysts**: Bolch, Tobias.
 
 Submission 744
-: **Submitter**: Fountain, Andrew G..<br/>**Number of outlines**: 5126. **Area**: 671.4km². **Release date**: 2016-02-26.<br/>**Analysts**: Fountain, Andrew G..
+: **Submitter**: Fountain, Andrew G..<br/>**Number of outlines**: 5002. **Area**: 670.2km². **Release date**: 2016-02-26.<br/>**Analysts**: Fountain, Andrew G..
+
 
 Reviewers
 : None

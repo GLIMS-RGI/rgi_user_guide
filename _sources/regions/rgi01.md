@@ -60,7 +60,7 @@ Submission 766
 : **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 42. **Area**: 10.7km². **Release date**: 2020-07-22.<br/>**Analysts**: McNabb, Robert.
 
 Submission 809
-: **Submitter**: Yang, Ruitang.<br/>**Number of outlines**: 1737. **Area**: 4120.4km². **Release date**: 2022-10-31.<br/>**Analysts**: Paul, Frank; Yang, Ruitang.
+: **Submitter**: Yang, Ruitang.<br/>**Number of outlines**: 1736. **Area**: 4120.4km². **Release date**: 2022-10-31.<br/>**Analysts**: Paul, Frank; Yang, Ruitang.
 
 Submission 810
 : **Submitter**: Paul, Frank.<br/>**Number of outlines**: 424. **Area**: 277.6km². **Release date**: 2023-01-09.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William; Paul, Frank.

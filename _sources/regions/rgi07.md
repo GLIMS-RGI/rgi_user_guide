@@ -38,7 +38,7 @@ Submission 563
 : **Submitter**: Koenig, Max.<br/>**Number of outlines**: 1583. **Area**: 33841.4km². **Release date**: 2012-12-04.<br/>**Analysts**: Koenig, Max; Nuth, Chris.
 
 Submission 720
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 84. **Area**: 117.5km². **Release date**: 2021-08-03.<br/>**Analysts**: Paul, Frank.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 83. **Area**: 117.5km². **Release date**: 2021-08-03.<br/>**Analysts**: Paul, Frank.
 
 Reviewers
 : None;

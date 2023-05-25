@@ -51,7 +51,7 @@ Submission 635
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 7. **Area**: 128.2km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
 
 Submission 723
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 2575. **Area**: 27690.4km². **Release date**: 2021-09-03.<br/>**Analysts**: Paul, Frank; Rastner, Philipp; White, Adrienne.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 2573. **Area**: 27690.4km². **Release date**: 2021-09-03.<br/>**Analysts**: Paul, Frank; Rastner, Philipp; White, Adrienne.
 
 Submission 728
 : **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 1961. **Area**: 37675.5km². **Release date**: 2021-08-27.<br/>**Analysts**: Copland, Luke; Kochtitzky, William; Thomson, Laura; Zajaczkiwsky, Sophie.

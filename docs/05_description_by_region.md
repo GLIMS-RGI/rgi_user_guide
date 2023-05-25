@@ -31,4 +31,4 @@ In RGI7, 200735 of the 274571 outlines are taken from an updated inventory. **Th
 | [](regions/rgi19.md) |      132867 |      133434 |          0.4 |     2752 |     2777 |          0.9 |
 | **Global**           |      705738 |      706745 |          0.1 |   215547 |   274571 |         27.4 |
 
-[Download this table as csv](RGI2000-v7.0-G-comparison-rgi6.csv)
+[Download this table as csv](tables/RGI2000-v7.0-G-comparison-rgi6.csv)

@@ -113,7 +113,7 @@ This list is generated automatically (source: GLIMS):
 - **Ruiz, Lucas** (Region: 16, 19. Subm ID: 700. N outlines: 48. Area: 244.2 km²)
 - **Sakai, Akiko** (Region: 10, 13, 14, 15. Subm ID: 752. N outlines: 134754. Area: 100628.3 km²)
 - **Sharp, Martin** (Region: 03, 04, 16. Subm ID: 589, 590, 591, 760. N outlines: 915. Area: 40031.4 km²)
-- **Sigurdsson, Oddur** (Region: 06. Subm ID: 437, 438, 439, 452, 719, 757. N outlines: 568. Area: 11059.7 km²)
+- **Sigurðsson, Oddur** (Region: 06. Subm ID: 437, 438, 439, 452, 719, 757. N outlines: 568. Area: 11059.7 km²)
 - **Tapia, Guillermo** (Region: 16. Subm ID: 730. N outlines: 20. Area: 9.4 km²)
 - **Thomson, Laura** (Region: 03. Subm ID: 728. N outlines: 1961. Area: 37675.5 km²)
 - **Tielidze, Levan** (Region: 12. Subm ID: 762. N outlines: 2275. Area: 1406.7 km²)

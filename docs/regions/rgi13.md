@@ -37,7 +37,7 @@ Submission IDs used for this region.
 :::
 
 Submission 752
-: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 75614. **Area**: 50344.0km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
+: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 75613. **Area**: 50344.0km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
 
 Reviewers
 : None;

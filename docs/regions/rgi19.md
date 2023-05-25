@@ -80,13 +80,13 @@ Submission 798
 : **Submitter**: Berthier, Etienne.<br/>**Number of outlines**: 7. **Area**: 2684.6km². **Release date**: 2022-10-01.<br/>**Analysts**: Berthier, Etienne; Lebreton, Jerome.
 
 Submission 805
-: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 69. **Area**: 6529.7km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
+: **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 68. **Area**: 6529.7km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
 
 Submission 806
 : **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 23. **Area**: 2985.6km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
 
 Submission 807
-: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 213. **Area**: 1656.7km². **Release date**: 2022-11-11.<br/>**Analysts**: Cha, Leo; Gould, Luke; Kochtitzky, William; Merrill, Paige-Marie.
+: **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 212. **Area**: 1656.7km². **Release date**: 2022-11-11.<br/>**Analysts**: Cha, Leo; Gould, Luke; Kochtitzky, William; Merrill, Paige-Marie.
 
 Submission 808
 : **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 11. **Area**: 43.5km². **Release date**: 2022-12-15.<br/>**Analysts**: Kochtitzky, William.
@@ -95,7 +95,7 @@ Submission 811
 : **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 174. **Area**: 20568.3km². **Release date**: 2022-10-01.<br/>**Analysts**: McNabb, Robert.
 
 Submission 816
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 464. **Area**: 541.4km². **Release date**: 2023-03-01.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 457. **Area**: 541.4km². **Release date**: 2023-03-01.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
 
 
 Reviewers

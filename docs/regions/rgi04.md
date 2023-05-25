@@ -46,7 +46,7 @@ Submission 589
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 103. **Area**: 19.8km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
 
 Submission 817
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 10908. **Area**: 40518.3km². **Release date**: 2023-03-01.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 10907. **Area**: 40518.3km². **Release date**: 2023-03-01.<br/>**Analysts**: Mabileau, Laure; Paul, Frank; Rastner, Philipp.
 
 Reviewers
 : Kochtitzky, William;

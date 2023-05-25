@@ -32,7 +32,7 @@ Submission IDs used for this region.
 :::
 
 Submission 762
-: **Submitter**: Tielidze, Levan.<br/>**Number of outlines**: 2276. **Area**: 1406.7km². **Release date**: 2021-09-09.<br/>**Analysts**: Tielidze, Levan.
+: **Submitter**: Tielidze, Levan.<br/>**Number of outlines**: 2275. **Area**: 1406.7km². **Release date**: 2021-09-09.<br/>**Analysts**: Tielidze, Levan.
 
 Reviewers
 : None;

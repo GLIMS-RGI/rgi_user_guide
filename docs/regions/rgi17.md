@@ -32,7 +32,7 @@ Submission IDs used for this region.
 :::
 
 Submission 764
-: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 30700. **Area**: 27675.0km². **Release date**: 2022-05-11.<br/>**Analysts**: Albornoz, Amapola; Arias, Victor; Barcaza, Gonzalo; Bown, Francisca; Castro, Mariano; Garcia, Juan-Luis; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Nussbaumer, Samuel; Paul, Frank; Pecker Marcosig, Ivanna; Pitte, Pierre.
+: **Submitter**: Paul, Frank.<br/>**Number of outlines**: 30634. **Area**: 27674.4km². **Release date**: 2022-05-11.<br/>**Analysts**: Albornoz, Amapola; Arias, Victor; Barcaza, Gonzalo; Bown, Francisca; Castro, Mariano; Garcia, Juan-Luis; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Nussbaumer, Samuel; Paul, Frank; Pecker Marcosig, Ivanna; Pitte, Pierre.
 
 Reviewers
 : Rabatel, Antoine;

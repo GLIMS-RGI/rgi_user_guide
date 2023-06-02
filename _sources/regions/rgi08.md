@@ -1,6 +1,6 @@
 # 08: Scandinavia
 
-All glaciers in Scandinavia.
+All glaciers in Scandinavia. Glaciers are located in mainland Norway and Sweden.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -80,6 +80,6 @@ Changes from Version 1.0 to Version 2.0
 : Four glaciers in the Khibiny Mountains of the Kola Peninsula (08-02) were added as nominal circles from WGI-XF.
 
 Version 1.0
-: The glacier outlines for Norway are based on Landsat (TM and ETM+) imagery from 1999-2006.<br/>The Swedish glacier outlines use imagery from SPOT5 and SPOT4 (dates not provided). In some regions these outlines were updated against September 2008 Swedish Land Survey imagery available on Google Earth.<br/>The glacier mapping to which GlobGlacier contributed is documented in {cite:t}`Andreassen2008a` for Jotunheimen, {cite:t}`Paul2009a` for Svartisen, and {cite:t}`Paul2011` for the Jostedalsbreen region.
+: The glacier outlines for Norway are based on Landsat (TM and ETM+) imagery from 1999-2006.<br/>The Swedish glacier outlines use imagery from SPOT5 and SPOT4 (dates not provided). In some regions these outlines were updated against September 2008 Swedish Land Survey imagery available on Google Earth.<br/>The glacier mapping is a contribution to the CryoClim and GloGlacier projects and is documented in {cite:t}`Andreassen2012` for whole of Norway. Mapping of subregions is described in {cite:t}`Andreassen2008a` for Jotunheimen, {cite:t}`Paul2009a` for Svartisen, and {cite:t}`Paul2011` for the Jostedalsbreen region.
 
 ```

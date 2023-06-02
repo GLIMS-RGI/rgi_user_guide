@@ -1,10 +1,10 @@
 # Welcome
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is the reference global inventory of glacier outlines. This technical note provides documentation to the RGI users and contributors.
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines. This Technical Report provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
 ```{warning}
 
-**This technical note is a work in progress and refers to the beta version of RGI7.**
+**This Technical Report is a work in progress and refers to the beta version of RGI7.**
 
 ```
 
@@ -16,8 +16,7 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is the referen
 ```{admonition} Contributing to this documentation
 :class: tip
 
-If you wish to contribute to this documentation, visit [CONTRIBUTING.md](https://github.com/GLIMS-RGI/rgi_user_guide/blob/main/CONTRIBUTING.md)
-
+If you wish to contribute to this documentation, visit [CONTRIBUTING.md](https://github.com/GLIMS-RGI/rgi_user_guide/blob/main/CONTRIBUTING.md)  
 ```
 
 ## Contents
@@ -65,7 +64,7 @@ Technical specifications, file naming, and data fields.
 :link-type: doc
 :class-header: bg-light
 
-Revisions in RGI7 ⚡
+General revisions in RGI7 ⚡
 ^^^
 
 What changed in RGI7 with respect to RGI6?
@@ -76,10 +75,10 @@ What changed in RGI7 with respect to RGI6?
 :link-type: doc
 :class-header: bg-light
 
-Regional data sources 🔬
+Regional revisions in RGI7 🔬
 ^^^
 
-Description of data sources by RGI region.
+Description of data updates by RGI region.
 
 :::
 
@@ -117,11 +116,14 @@ Summary of regional glacier counts and areas.
 
 <br/><br/>
 
-We aknowledge financial support by the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org), part of the [International Union of Geodesy and Geophysics (IUGG)](http://www.iugg.org).
+The RGI was developed as part of the international Working Group on "the Randolph Glacier Inventory and infrastructure for glacier monitoring" by the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org).
 
-We aknowledge financial support by the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: *"Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment"* and within the framework of the theme: *"Supporting Member States to address hydrological challenges, extremes and water scarcity"*.
+We acknowledge financial support from several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors, visit [](funding-sources).
 
-For a full list of sponsors, visit [](funding-sources).
+> RGI7 and this Technical Report is dedicated to the memory of 
+> **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
+> for his inspiration and dedication to the RGI.
+
 
 ## License
 
@@ -129,4 +131,4 @@ For a full list of sponsors, visit [](funding-sources).
 
 This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless specified otherwise (i.e. for figures or content that is not from the RGI).
 
-A lot of content in thie website originates from the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017*
+Much of the information in this Technical Report regarding RGI in general and versions prior to RGI7 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017*

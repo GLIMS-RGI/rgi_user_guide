@@ -1,9 +1,9 @@
-# Appendix 1: RGI regions
+# Appendix 1: RGI regions & basic statistics
 
 (o1-regions-table)=
 ## First-order regions (N=19)
 
-[Download this table as csv](RGI2000-v7.0-G-o1region_summary.csv)
+[Download this table as csv](RGI2000-v7.0-G-o1region-summary.csv)
 
 | Region   | Full name                          | Code                                |   Glaciers |   Area (km²) |
 |:---------|:-----------------------------------|:------------------------------------|-----------:|-------------:|
@@ -25,16 +25,16 @@
 | 16       | Low Latitudes                      | `16_low_latitudes`                  |       3695 |         1929 |
 | 17       | Southern Andes                     | `17_southern_andes`                 |      30634 |        27674 |
 | 18       | New Zealand                        | `18_new_zealand`                    |       3018 |          886 |
-| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2777 |       133434 |
-| Global   |                                    |                                     |     274571 |       706745 |
+| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2776 |       133434 |
+| Global   |                                    |                                     |     274570 |       706745 |
 
 
 (o2-regions-table)=
 ## Second-order regions (N=89)
 
-[Download this table as csv](RGI2000-v7.0-G-o2region_summary.csv)
+[Download this table as csv](RGI2000-v7.0-G-o2region-summary.csv)
 
-| Region | Full name                                | Code                                           |   Glaciers |   Area (km²) |
+|        | Full name                                | Code                                           |   Glaciers |   Area (km²) |
 |:-------|:-----------------------------------------|:-----------------------------------------------|-----------:|-------------:|
 | 01-01  | North Alaska                             | `01-01_north_alaska`                           |        706 |          364 |
 | 01-02  | Alaska Range (Wrangell/Kilbuck)          | `01-02_alaska_range_wrangell_kilbuck`          |       5812 |        16284 |
@@ -120,11 +120,9 @@
 | 19-17  | Pine Island Bay 7G                       | `19-17_pine_island_bay_7g`                     |         17 |          376 |
 | 19-18  | Bellingshausen Sea 7H1                   | `19-18_bellingshausen_sea_7h1`                 |         20 |        14861 |
 | 19-19  | Alexander Island 7H2                     | `19-19_alexander_island_7h2`                   |        123 |        61170 |
-| 19-20  | West Antarctic Peninsula 7I1             | `19-20_west_antarctic_peninsula_7i1`           |        667 |         9288 |
+| 19-20  | West Antarctic Peninsula 7I1             | `19-20_west_antarctic_peninsula_7i1`           |        666 |         9288 |
 | 19-21  | Northeast Antarctic Peninsula 7I2        | `19-21_northeast_antarctic_peninsula_7i2`      |        167 |         5377 |
 | 19-22  | Southeast Antarctic Peninsula 7I3        | `19-22_southeast_antarctic_peninsula_7i3`      |          6 |         1780 |
 | 19-23  | Ronne-Filchner Ice Shelf 7J              | `19-23_ronne_filchner_ice_shelf_7j`            |          0 |            0 |
 | 19-24  | West Queen Maud Land 7K                  | `19-24_west_queen_maud_land_7k`                |         14 |         5878 |
-| Global |                                          |                                                |     274571 |       706745 |
-
-
+| Global |                                          | ``                                             |     274570 |       706745 |

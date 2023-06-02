@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>RGI and GTN-G Glacier Regions &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>RGI Glacier Regions &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '02_regions_definition';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data Description" href="03_data_decription.html" />
+    <link rel="next" title="Data description of RGI7.0" href="03_data_decription.html" />
     <link rel="prev" title="Introduction" href="01_introduction.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
@@ -157,15 +157,15 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">RGI and GTN-G Glacier Regions</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data Description</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">RGI Glacier Regions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional data sources</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI7</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada, North</a></li>
@@ -187,10 +187,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Dataset overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Summary statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/data_sources.html">Appendix 2: full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions &amp; basic statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/data_sources.html">Appendix 2: Full list of contributors</a></li>
 </ul>
 
     </div>
@@ -378,7 +378,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -389,11 +391,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>RGI and GTN-G Glacier Regions</h1>
+    <h1>RGI Glacier Regions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi6-0-to-rgi7-0">Changes from RGI6.0 to RGI7.0</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -403,9 +413,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="rgi-and-gtn-g-glacier-regions">
-<h1>RGI and GTN-G Glacier Regions<a class="headerlink" href="#rgi-and-gtn-g-glacier-regions" title="Permalink to this headline">#</a></h1>
-<p>RGI outlines are organized into 19 first-order glacier regions (<a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>; <a class="reference internal" href="tables/regions.html#o1-regions-table"><span class="std std-ref">Table 1a</span></a>). We further subdivide the first-order regions into second-order regions, of which there are 89 in total (<a class="reference internal" href="tables/regions.html#o2-regions-table"><span class="std std-ref">Table 1b</span></a>). Glacier regions are useful for regional assessments of glacier change and other parameters.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="rgi-glacier-regions">
+<h1>RGI Glacier Regions<a class="headerlink" href="#rgi-glacier-regions" title="Permalink to this headline">#</a></h1>
+<p>RGI outlines are organized into 19 first-order glacier regions (<a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>; <a class="reference internal" href="tables/regions.html#o1-regions-table"><span class="std std-ref">Table 1a</span></a>). These are further subdivided into second-order regions, of which there are 89 in total in RGI7.0 (two less than in RGI6.0, <a class="reference internal" href="tables/regions.html#o2-regions-table"><span class="std std-ref">Table 1b</span></a>). Glacier regions are useful for regional assessments of glacier change and other parameters.</p>
 <figure class="align-default" id="global-fig">
 <img alt="global map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" />
 <figcaption>
@@ -413,25 +423,32 @@ document.write(`
 </figcaption>
 </figure>
 <p>First-order regions 10 and 19 straddle the 180th meridian, and so does the second-order region 19-15. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in <a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>, each of these regions appears in the accompanying shapefiles as two polygons, eastern and western.</p>
-<p>The region outlines were published as a joint set of regions recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the Randolph Glacier Inventory (RGI) Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented in RGI 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. <strong>In RGI 7.0, the following minor changes have been implemented</strong>:</p>
+<p>The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. These region boundaries were slightly modified in RGI7.0 and changes also integrated in the GTN-G data set (NEW REFERENCE)</p>
+<section id="changes-from-rgi6-0-to-rgi7-0">
+<h2>Changes from RGI6.0 to RGI7.0<a class="headerlink" href="#changes-from-rgi6-0-to-rgi7-0" title="Permalink to this headline">#</a></h2>
+<p>In RGI 7.0, the following minor changes compared to RGI6.0 have been implemented.</p>
+<p><strong>Region boundary and name changes:</strong></p>
 <ul class="simple">
-<li><p>The southern boundary of region 12 (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously unassigned.</p></li>
-<li><p>The region boxes for region 01 (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. This subregion contains no glaciers (and probably hasn’t for a long time) and is now removed.</p></li>
-<li><p>The data type of the <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> attribute in the first-order region file is now <code class="docutils literal notranslate"><span class="pre">str</span></code> (was <code class="docutils literal notranslate"><span class="pre">int</span></code>). The <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> now has a leading zero, for example <code class="docutils literal notranslate"><span class="pre">02</span></code> instead of <code class="docutils literal notranslate"><span class="pre">2</span></code>.</p></li>
-<li><p>Region 19 has been renamed to “<em>Subantarctic and Antarctic Islands</em>” (was: “<em>Antarctic and Subantarctic</em>”)</p></li>
-<li><p>The polygon of RGI region 19 has been updated to remove antarctic mainland. Potentially, a new region (20, “<em>Antarctic Mainland</em>”) might be used in the future if glaciers are inventorized there.</p></li>
+<li><p>The region boxes for region <code class="docutils literal notranslate"><span class="pre">01</span></code> (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. One of the two boxes, part of subregion <code class="docutils literal notranslate"><span class="pre">01-03</span></code> Alaska Peninsula (Aleutians), contains no glaciers (and probably hasn’t for a long time) and is now removed.</p></li>
+<li><p>Subregion <code class="docutils literal notranslate"><span class="pre">05-11</span></code> (Greenland Ice Sheet) has been removed (since the RGI does not include the ice sheet proper and thus this subregion had no entries).</p></li>
+<li><p>The southern boundary of region 12 (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously not included.</p></li>
+<li><p>The Antarctic mainland has been removed from the polygon of RGI region 19. A new region 20, (”<em>Antarctic Mainland</em>”) may possibly be added in the future.</p></li>
+<li><p>Region 19 has been renamed to “<em>Subantarctic and Antarctic Islands</em>” (instead of “<em>Antarctic and Subantarctic</em>”)</p></li>
+</ul>
+<p><strong>Technical changes:</strong></p>
+<ul class="simple">
+<li><p>The data type of the <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> attribute in the first-order region file is now <code class="docutils literal notranslate"><span class="pre">str</span></code> (instead of <code class="docutils literal notranslate"><span class="pre">int</span></code>). The <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> now has a leading zero, for example <code class="docutils literal notranslate"><span class="pre">02</span></code> instead of <code class="docutils literal notranslate"><span class="pre">2</span></code>.</p></li>
 <li><p>All abbreviations in the second-order regions file have been replaced by their full name (e.g. “East Central” instead of “EC”)</p></li>
 <li><p>The first-order and second-order region files now have a field called <code class="docutils literal notranslate"><span class="pre">long_code</span></code> which contains a string representing the full region name, using the lowercase with underscores format (e.g. <code class="docutils literal notranslate"><span class="pre">02_western_canada_usa</span></code>). This field is used to name the corresponding RGI shapefiles.</p></li>
-<li><p>The subregion <code class="docutils literal notranslate"><span class="pre">05-11</span></code> (Greenland Ice Sheet) has been removed (it contained no glaciers).</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">WGMS_CODE</span></code> column has been deleted from all files.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">RGI_CODE</span></code> column is now called <code class="docutils literal notranslate"><span class="pre">o1region</span></code> (first order files) and <code class="docutils literal notranslate"><span class="pre">o2region</span></code> (second-order files)</p></li>
 </ul>
-<p>These changes will be uploaded to the GTN-G website in due course.</p>
 <div class="note dropdown admonition">
 <p class="admonition-title">Additional details: RGI regions version history</p>
 <p>In <strong>RGI 6.0</strong>, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the <a class="reference external" href="http://www.gtn-g.ch/data_catalogue_glacreg">Global Terrestrial Network for Glaciers</a> (GTN-G) with the RGI regions.</p>
 <p>In <strong>RGI 5.0</strong>, the boundary between regions 01 (Alaska) and 02 (Western Canada and US) was refined, and in region 10 (North Asia) the former four second-order regions became six regions conforming with those described by Earl and Gardner (2016). In RGI 4.0, region 10-01, North Asia (North), was extended slightly to the west for better visibility of glaciers in the Polar Urals. Region 11-02, formerly the Pyrenees and Apennines, was enlarged and renamed Southern and Eastern Europe. First-order regions 10 (North Asia) and 11 (Central Europe) were enlarged accordingly.</p>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -476,7 +493,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Data Description</p>
+        <p class="prev-next-title">Data description of RGI7.0</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -486,6 +503,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi6-0-to-rgi7-0">Changes from RGI6.0 to RGI7.0</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

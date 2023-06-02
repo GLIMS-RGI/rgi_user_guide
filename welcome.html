@@ -156,15 +156,15 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI and GTN-G Glacier Regions</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data Description</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI Glacier Regions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional data sources</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI7</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada, North</a></li>
@@ -186,10 +186,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Dataset overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Summary statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/data_sources.html">Appendix 2: full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions &amp; basic statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/data_sources.html">Appendix 2: Full list of contributors</a></li>
 </ul>
 
     </div>
@@ -416,10 +416,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="welcome">
 <h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">#</a></h1>
-<p>The Randolph Glacier Inventory (<a class="reference external" href="https://www.glims.org/RGI">RGI</a>) is the reference global inventory of glacier outlines. This technical note provides documentation to the RGI users and contributors.</p>
+<p>The Randolph Glacier Inventory (<a class="reference external" href="https://www.glims.org/RGI">RGI</a>) is a global inventory of glacier outlines. This Technical Report provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p><strong>This technical note is a work in progress and refers to the beta version of RGI7.</strong></p>
+<p><strong>This Technical Report is a work in progress and refers to the beta version of RGI7.</strong></p>
 </div>
 <div class="admonition-data-download admonition">
 <p class="admonition-title">Data download</p>
@@ -466,7 +466,7 @@ document.write(`
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
 <div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Revisions in RGI7 ⚡</p>
+<p class="sd-card-text">General revisions in RGI7 ⚡</p>
 </div>
 <div class="sd-card-body docutils">
 <p class="sd-card-text">What changed in RGI7 with respect to RGI6?</p>
@@ -476,10 +476,10 @@ document.write(`
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
 <div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Regional data sources 🔬</p>
+<p class="sd-card-text">Regional revisions in RGI7 🔬</p>
 </div>
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Description of data sources by RGI region.</p>
+<p class="sd-card-text">Description of data updates by RGI region.</p>
 </div>
 <a class="sd-stretched-link reference internal" href="05_description_by_region.html"><span class="doc"></span></a></div>
 </div>
@@ -502,15 +502,19 @@ document.write(`
 <a class="reference internal image-reference" href="_images/white.png"><img alt="white" src="_images/white.png" style="height: 150px;" /></a>
 <a class="reference internal image-reference" href="_images/unesco.png"><img alt="UNESCO" src="_images/unesco.png" style="height: 150px;" /></a>
 <p><br/><br/></p>
-<p>We aknowledge financial support by the <a class="reference external" href="https://cryosphericsciences.org">International Association of Cryospheric Sciences (IACS)</a>, part of the <a class="reference external" href="http://www.iugg.org">International Union of Geodesy and Geophysics (IUGG)</a>.</p>
-<p>We aknowledge financial support by the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: <em>“Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment”</em> and within the framework of the theme: <em>“Supporting Member States to address hydrological challenges, extremes and water scarcity”</em>.</p>
-<p>For a full list of sponsors, visit <a class="reference internal" href="tables/data_sources.html#funding-sources"><span class="std std-ref">Funding acknowledgements</span></a>.</p>
+<p>The RGI was developed as part of the international Working Group on “the Randolph Glacier Inventory and infrastructure for glacier monitoring” by the <a class="reference external" href="https://cryosphericsciences.org">International Association of Cryospheric Sciences (IACS)</a>.</p>
+<p>We acknowledge financial support from several organizations and institutions, in particular <a class="reference external" href="https://cryosphericsciences.org">IACS</a>, World Glacier Monitoring Service (<a class="reference external" href="https://wgms.ch">WGMS</a>), Copernicus Climate Changes Service (<a class="reference external" href="https://climate.copernicus.eu">C3S</a>) and <a class="reference external" href="https://www.unesco.org">UNESCO</a>. For a full list of sponsors, visit <a class="reference internal" href="tables/data_sources.html#funding-sources"><span class="std std-ref">Funding acknowledgements</span></a>.</p>
+<blockquote>
+<div><p>RGI7 and this Technical Report is dedicated to the memory of
+<strong><a class="reference external" href="https://www.igsoc.org/j-graham-cogley-1948-2018">Dr. Graham Cogley</a></strong> (1948-2018),
+for his inspiration and dedication to the RGI.</p>
+</div></blockquote>
 </section>
 <section id="license">
 <h2>License<a class="headerlink" href="#license" title="Permalink to this headline">#</a></h2>
 <p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0"><img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /></a></p>
 <p>This document is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless specified otherwise (i.e. for figures or content that is not from the RGI).</p>
-<p>A lot of content in thie website originates from the <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf">RGI v6 Technical Note</a>: <em>“Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0” by the RGI Consortium, July 2017</em></p>
+<p>Much of the information in this Technical Report regarding RGI in general and versions prior to RGI7 is based on the <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf">RGI v6 Technical Note</a>: <em>“Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0” by the RGI Consortium, July 2017</em></p>
 </section>
 <div class="toctree-wrapper compound">
 </div>

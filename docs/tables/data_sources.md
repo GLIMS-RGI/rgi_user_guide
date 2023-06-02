@@ -130,7 +130,7 @@ This list is generated automatically from the selected GLIMS outlines metadata:
 
 ## Technical report
 
-Written by **Fabien Maussion, Regine Hock, Graham Cogley** (RGI6.0).
+Written by **Fabien Maussion, Regine Hock**, based on the RGI 6.0 report by Graham Cogley.
 
 Region description: **Liss Marie Andreassen, Iestyn Barr, Tobias Bolch, William Kochtitzky, Fabien Maussion, Robert McNabb, Frank Paul, Levan Tielidze.**
 

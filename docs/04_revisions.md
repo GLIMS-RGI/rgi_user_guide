@@ -1,8 +1,8 @@
-# Revisions in RGI7 
+# Revisions in RGI 7.0 
 
 ## Overview
 
-RGI7.0 includes several major changes compared to RGI6.0:
+RGI 7.0 includes several major changes compared to RGI 6.0:
 - The quality of outlines has been substantially improved due to inclusion of new updated inventory data in many regions
 - New attributes have been added, while others were removed or renamed/redefined.
 - Outlines of contiguous glacier complexes are available in addition to the outlines of each individual glaciers ("glacier complex" product)
@@ -22,7 +22,7 @@ Refer to [](05_description_by_region) for the changes in outlines and data sourc
 
 ## Data processing workflow
 
-Previous RGI versions have been generated largely in an ad-hoc manner based on data collected from GLIMS and many individual contributors. Although highly successful in generating the first near-complete global glacier inventory and releasing almost annual updates until 2017, the exact procedures are not fully documented, and code and tools used to generate the dataset not publicly available. A major goal in RGI7.0 was to largely automate the process with open-source code, and rely exclusively on GLIMS as data source for the generation of the RGI ([Figure 2](fig-workflow)).
+Previous RGI versions have been generated largely in an ad-hoc manner based on data collected from GLIMS and many individual contributors. Although highly successful in generating the first near-complete global glacier inventory and releasing almost annual updates until 2017, the exact procedures are not fully documented, and code and tools used to generate the dataset not publicly available. A major goal in RGI7 was to largely automate the process with open-source code, and rely exclusively on GLIMS as data source for the generation of the RGI ([Figure 2](fig-workflow)).
 
 :::{figure-md} fig-workflow
 <img src="img/workflow.png" alt="data workflow" class="bg-primary mb-1">

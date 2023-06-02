@@ -1,21 +1,21 @@
 # RGI Glacier Regions
 
-RGI outlines are organized into 19 first-order glacier regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 89 in total in RGI7.0 (two less than in RGI6.0, [Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other parameters.
+RGI outlines are organized into 19 first-order glacier regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 89 in total in RGI7 (two less than in RGI6, [Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other parameters.
 
 :::{figure-md} global-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
 
-First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations in red. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
+First-order regions of the RGI version 7.0 and glacier locations in red. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
 :::
 
 First-order regions 10 and 19 straddle the 180th meridian, and so does the second-order region 19-15. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western. 
 
-The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). These region boundaries were slightly modified in RGI7.0 and changes also integrated in the GTN-G data set (NEW REFERENCE)
+The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G data set (NEW REFERENCE)
 
 
-## Changes from RGI6.0 to RGI7.0
+## Changes from RGI 6.0 to 7.0
 
-In RGI 7.0, the following minor changes compared to RGI6.0 have been implemented.
+In RGI version 7.0, the following minor changes compared to RGI version 6.0 have been implemented.
 
 **Region boundary and name changes:**
 

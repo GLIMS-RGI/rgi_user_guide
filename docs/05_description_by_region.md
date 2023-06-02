@@ -1,4 +1,4 @@
-# Regional data sources
+# Regional revisions in RGI7
 
 :::{figure-md} global-fig-changes
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_wrgi6_small.jpeg" alt="global map" class="bg-primary mb-1">
@@ -6,7 +6,7 @@
 First-order regions of the Randolph Glacier Inventory (version 7.0) and glacier locations. In red, outlines which are new in RGI7. In blue, outlines which didn't change since RGI6. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_wrgi6.png).
 :::
 
-In RGI7, 200735 of the 274571 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.** The following table summarizes the statistics of the changes between RGI6 and RGI7 (small differences in area or number do not necessarily mean no changes in quality - refer to each region's documentation for details):
+In RGI7, 200735 of the 274570 outlines are taken from an updated inventory. **This means that 73% of all RGI7 outlines are new or updated, representing an improvement for 42% of the global area.** The following table summarizes the statistics of the changes between RGI6 and RGI7 (small differences in area or number do not necessarily mean no changes in quality - refer to each region's documentation for details):
 
 |                      |   Area RGI6 |   Area RGI7 |   Diff A (%) |   N RGI6 |   N RGI7 |   Diff N (%) |
 |:---------------------|------------:|------------:|-------------:|---------:|---------:|-------------:|
@@ -28,7 +28,7 @@ In RGI7, 200735 of the 274571 outlines are taken from an updated inventory. **Th
 | [](regions/rgi16.md) |        2341 |        1929 |        -17.6 |     2939 |     3695 |         25.7 |
 | [](regions/rgi17.md) |       29429 |       27674 |         -6   |    15908 |    30634 |         92.6 |
 | [](regions/rgi18.md) |        1162 |         886 |        -23.7 |     3537 |     3018 |        -14.7 |
-| [](regions/rgi19.md) |      132867 |      133434 |          0.4 |     2752 |     2777 |          0.9 |
-| **Global**           |      705738 |      706745 |          0.1 |   215547 |   274571 |         27.4 |
+| [](regions/rgi19.md) |      132867 |      133434 |          0.4 |     2752 |     2776 |          0.9 |
+| **Global**           |      705738 |      706745 |          0.1 |   215547 |   274570 |         27.4 |
 
 [Download this table as csv](tables/RGI2000-v7.0-G-comparison-rgi6.csv)

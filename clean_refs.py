@@ -4,7 +4,12 @@ with open("docs/references.bib", "r") as input_file:
     content = input_file.readlines()
 
 # Remove lines containing "url = {"
-cleaned_content = [line for line in content if "url = {" not in line]
+cleaned_content = []
+for line in content:
+    if "url = {" in line and 'publikasjoner.nve.no' not in line:
+        continue
+    line = line.replace('rapport2012{\_}38', 'rapport2012_38')
+    cleaned_content.append(line)
 
 # Open the output file
 with open("docs/references_cleaned.bib", "w") as output_file:

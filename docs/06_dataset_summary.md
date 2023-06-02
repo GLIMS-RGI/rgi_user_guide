@@ -2,6 +2,8 @@
 
 This section provides plots and tables summarizing some basic statistics of the RGI 7.0 compared to RGI 6.0.
 
+## Target year
+
 **Table**: Number of glaciers within intervals of the target year 2000 in RGI6 and RGI7
 
 | Outline year      |   RGI6 (%) |   RGI7 (%) |
@@ -12,11 +14,7 @@ This section provides plots and tables summarizing some basic statistics of the 
 | > 2000 ± 10 years |        8.2 |        3.8 |
 
 
-:::{figure-md} global-histogram
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" alt="global map" class="bg-primary mb-1">
-
-Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI6 have been captured in RGI7.
-:::
+## Size classes
 
 **Table**: Number of glaciers (N) and percentage of total number per size class in RGI6 and RGI7.
 
@@ -28,6 +26,13 @@ Number of glaciers per size category (log-log scale). A flatter curve in the sma
 | > 100 km²  |        962 |        0.4 |        994 |        0.4 |
 | Total      |     215547 |      100   |     274570 |      100   |
 
+:::{figure-md} global-histogram
+<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" alt="global map" class="bg-primary mb-1">
+
+Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI6 have been captured in RGI7.
+:::
+
+## Attributes
 
 **Table**: Number of glaciers (N) and area (km²) per terminus type in RGI7 and RGI6. Note that the default category in RGI7 is now "Not assigned", and that lake-terminating glaciers and shelf-terminating glaciers were identified in some regions in RGI6, but not in RGI7. The RGI region 19 is entirely labelled as "Not assigned" in RGI7.
 
@@ -39,6 +44,7 @@ Number of glaciers per size category (log-log scale). A flatter curve in the sma
 |       3 | Shelf-terminating  |          0 |        169 |             0 |         83958 |
 |       9 | Not assigned       |     273009 |          0 |        547444 |             0 |
 
+<br><br>
 
 **Table**: Number of glaciers (N) and area (km²) per surge type attribute in RGI7 and RGI6. 
 

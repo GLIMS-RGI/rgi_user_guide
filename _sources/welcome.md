@@ -1,10 +1,10 @@
 # Welcome
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines. This Technical Report provides detailed documentation of the RGI version 7.0 (RGI7) but also includes general information on the RGI and its earlier versions (in particular RGI version 6.0, RGI6).
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines. This Technical Report provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
 ```{warning}
 
-**This Technical Report is a work in progress and refers to the beta version of RGI7.**
+**This Technical Report is a work in progress and refers to the beta version of RGI 7.0.**
 
 ```
 
@@ -67,7 +67,7 @@ Technical specifications, file naming, and data fields.
 General revisions in RGI7 ⚡
 ^^^
 
-What changed in RGI7 with respect to RGI6?
+What changed in RGI 7.0 with respect to RGI 6.0?
 :::
 
 :::{grid-item-card}
@@ -87,10 +87,10 @@ Description of data updates by RGI region.
 :link-type: doc
 :class-header: bg-light
 
-Dataset overview 📋
+Summary statistics 📋
 ^^^
 
-Summary of regional glacier counts and areas.
+Basic statistics of RGI7 and RGI6.
 :::
 
 ::::

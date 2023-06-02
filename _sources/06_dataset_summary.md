@@ -1,6 +1,6 @@
 # Summary statistics
 
-This section provides plots and tables summarizing some basic statistics of the RGI7 compared to RGI6.
+This section provides plots and tables summarizing some basic statistics of the RGI 7.0 compared to RGI 6.0.
 
 **Table**: Number of glaciers within intervals of the target year 2000 in RGI6 and RGI7
 

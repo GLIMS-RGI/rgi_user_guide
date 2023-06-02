@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data description of RGI7.0 &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>Data description of RGI 7.0 &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -158,14 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI Glacier Regions</a></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Data description of RGI7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="04_revisions.html">Revisions in RGI7</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI7</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1"><a class="reference internal" href="04_revisions.html">Revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada, North</a></li>
@@ -391,7 +391,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Data description of RGI7.0</h1>
+    <h1>Data description of RGI 7.0</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -403,7 +403,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-specifications">Technical specifications</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi7-0-glacier-product">Glacier identifiers in the RGI7.0 glacier product</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product">Glacier identifiers in the RGI 7.0 glacier product</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
 </ul>
 </li>
@@ -427,17 +427,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="data-description-of-rgi7-0">
-<h1>Data description of RGI7.0<a class="headerlink" href="#data-description-of-rgi7-0" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-description-of-rgi-7-0">
+<h1>Data description of RGI 7.0<a class="headerlink" href="#data-description-of-rgi-7-0" title="Permalink to this headline">#</a></h1>
 <section id="technical-specifications">
 <h2>Technical specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
 <p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
-<p>For each region, RGI7.0 provides four distinct data products:</p>
+<p>For each region, RGI7 provides four distinct data products:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#glacier-product"><span class="std std-ref">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier. <strong>This is the most similar to RGI versions pre 7.0</strong>.</p></li>
 <li><p><a class="reference internal" href="#glacier-complex"><span class="std std-ref">Glacier complex product</span></a> (new in RGI 7.0): includes outlines of the contiguous ice mass that includes all glaciers with share common boundaries, and a reduced number of attributes.</p></li>
 <li><p><a class="reference internal" href="#glacier-intersects"><span class="std std-ref">Glacier intersects product</span></a> (new in RGI 7.0): delineates the “divides” or “boundaries” between adjacent glaciers from the glacier product.</p></li>
-<li><p><a class="reference internal" href="#glacier-centerlines"><span class="std std-ref">Glacier centerlines product</span></a> (new in RGI7.0): glacier “centerlines” or “flowlines” computed with a flow routing algorithm.</p></li>
+<li><p><a class="reference internal" href="#glacier-centerlines"><span class="std std-ref">Glacier centerlines product</span></a> (new in RGI 7.0): glacier “centerlines” or “flowlines” computed with a flow routing algorithm.</p></li>
 </ul>
 <p>These four products and associated files are detailed below.</p>
 <section id="file-naming-convention">
@@ -464,11 +464,11 @@ document.write(`
 </ul>
 <p>These additional descriptors are documented below.</p>
 </section>
-<section id="glacier-identifiers-in-the-rgi7-0-glacier-product">
-<h3>Glacier identifiers in the RGI7.0 glacier product<a class="headerlink" href="#glacier-identifiers-in-the-rgi7-0-glacier-product" title="Permalink to this headline">#</a></h3>
+<section id="glacier-identifiers-in-the-rgi-7-0-glacier-product">
+<h3>Glacier identifiers in the RGI 7.0 glacier product<a class="headerlink" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product" title="Permalink to this headline">#</a></h3>
 <p>One RGI outline in the “glacier” product corresponds to one glacier. Glaciers are identified with the following attributes:</p>
 <dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><strong>Unique</strong> identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. <strong>These ids are different from RGI6.0 and likely to change in future RGI versions</strong>.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><strong>Unique</strong> identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. <strong>These ids are different from RGI 6.0 and likely to change in future RGI versions</strong>.</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></dt><dd><p><strong>Non-unique</strong> identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single <code class="docutils literal notranslate"><span class="pre">glims_id</span></code> can have multiple outlines, for example at different dates or when a glacier disintegrates.</p>
 </dd>
@@ -478,11 +478,11 @@ document.write(`
 </section>
 <section id="rgi-unique-identifiers">
 <h3>RGI unique identifiers<a class="headerlink" href="#rgi-unique-identifiers" title="Permalink to this headline">#</a></h3>
-<p>Each entity in each of the RGI7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:</p>
+<p>Each entity in each of the RGI 7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-02-00003</span></code> is the third glacier in RGI region 02, for the glacier product of RGI v7.0 and the target year 2000.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-11-00005</span></code> is the fifth glacier in RGI region 11, for the glacier complex product of RGI v7.0 and the target year 2000.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-13-00005</span></code> is the fifth intersect in RGI region 13, for the glacier intersects product of RGI v7.0 and the target year 2000.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-02-00003</span></code> is the third glacier in RGI region 02, for the glacier product of RGI 7.0 and the target year 2000.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-11-00005</span></code> is the fifth glacier in RGI region 11, for the glacier complex product of RGI 7.0 and the target year 2000.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-13-00005</span></code> is the fifth intersect in RGI region 13, for the glacier intersects product of RGI 7.0 and the target year 2000.</p></li>
 </ul>
 </section>
 </section>
@@ -631,7 +631,7 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-specifications">Technical specifications</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi7-0-glacier-product">Glacier identifiers in the RGI7.0 glacier product</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product">Glacier identifiers in the RGI 7.0 glacier product</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
 </ul>
 </li>

@@ -1,14 +1,14 @@
-# Data description of RGI7.0
+# Data description of RGI 7.0
 
 ## Technical specifications
 
 The RGI is provided as [Esri shapefiles](https://en.wikipedia.org/wiki/Shapefile) containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.
 
-For each region, RGI7.0 provides four distinct data products:
+For each region, RGI7 provides four distinct data products:
 - [Glacier product](glacier-product): includes outlines, attributes and auxiliary data for each individual glacier. **This is the most similar to RGI versions pre 7.0**.
 - [Glacier complex product](glacier-complex) (new in RGI 7.0): includes outlines of the contiguous ice mass that includes all glaciers with share common boundaries, and a reduced number of attributes.
 - [Glacier intersects product](glacier-intersects) (new in RGI 7.0): delineates the "divides" or "boundaries" between adjacent glaciers from the glacier product. 
-- [Glacier centerlines product](glacier-centerlines) (new in RGI7.0): glacier "centerlines" or "flowlines" computed with a flow routing algorithm.
+- [Glacier centerlines product](glacier-centerlines) (new in RGI 7.0): glacier "centerlines" or "flowlines" computed with a flow routing algorithm.
 
 These four products and associated files are detailed below.
 
@@ -32,12 +32,12 @@ In addition to the shapefiles (following the same naming convention), each regio
 
 These additional descriptors are documented below.
 
-### Glacier identifiers in the RGI7.0 glacier product
+### Glacier identifiers in the RGI 7.0 glacier product
 
 One RGI outline in the "glacier" product corresponds to one glacier. Glaciers are identified with the following attributes:
 
 `rgi_id` 
-: **Unique** identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. **These ids are different from RGI6.0 and likely to change in future RGI versions**.
+: **Unique** identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. **These ids are different from RGI 6.0 and likely to change in future RGI versions**.
 
 `glims_id` 
 : **Non-unique** identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single `glims_id` can have multiple outlines, for example at different dates or when a glacier disintegrates.
@@ -47,10 +47,10 @@ One RGI outline in the "glacier" product corresponds to one glacier. Glaciers ar
 
 ### RGI unique identifiers
 
-Each entity in each of the RGI7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:
-- `RGI2000-v7.0-G-02-00003` is the third glacier in RGI region 02, for the glacier product of RGI v7.0 and the target year 2000.
-- `RGI2000-v7.0-C-11-00005` is the fifth glacier in RGI region 11, for the glacier complex product of RGI v7.0 and the target year 2000.
-- `RGI2000-v7.0-I-13-00005` is the fifth intersect in RGI region 13, for the glacier intersects product of RGI v7.0 and the target year 2000.
+Each entity in each of the RGI 7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:
+- `RGI2000-v7.0-G-02-00003` is the third glacier in RGI region 02, for the glacier product of RGI 7.0 and the target year 2000.
+- `RGI2000-v7.0-C-11-00005` is the fifth glacier in RGI region 11, for the glacier complex product of RGI 7.0 and the target year 2000.
+- `RGI2000-v7.0-I-13-00005` is the fifth intersect in RGI region 13, for the glacier intersects product of RGI 7.0 and the target year 2000.
 
 ## Data files
 

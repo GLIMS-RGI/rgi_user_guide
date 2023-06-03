@@ -48,7 +48,12 @@ A detailed scientific description of the RGI version 7 is in preparation.
 
 ## How to name the RGI versions?
 
-The recommended way to name the latest version of the RGI is to be explicit: "RGI version 7.0", "RGI v7.0" or "RGI 7.0" (note the use of an empty space). However, for readability in this technical report (and when the exact version number does not matter), we sometimes use the shorter "RGI7" and "RGI6". 
+The recommended way to name the used version of the RGI is to explicitly state the version number. We recommend:
+- RGI version 7.0
+- RGI 7.0 (note the empty space) 
+- RGI v7.0
+
+However, in this technical report (and when the exact version number does not matter), we sometimes use the shorter "RGI7" and "RGI6" for simplicity. 
 
 ## Data Sources
 

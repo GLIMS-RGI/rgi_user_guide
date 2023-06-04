@@ -1,6 +1,6 @@
 # 16: Low Latitudes
 
-Central and Tropical South America, Africa, Papua.
+This region encompasses all glaciers in the tropics and sub-tropics (25°S-20°N) including glaciers in South America, Africa and Indonesia.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -15,14 +15,16 @@ Central and Tropical South America, Africa, Papua.
 :::{figure-md} rgi16-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-New inventories for Peru, Bolivia, Chile and Argentina. RGI6 is used elsewhere.
+## Changes from version 6.0 to 7.0
 
-**Peru and Bolivia 1998**
+New inventories for Peru, Bolivia, Chile and Argentina. RGI 6.0 is used elsewhere.
 
-The glacier outlines in RGI6 for Peru and Bolivia were derived from satellite images with adverse snow conditions, outlines received a triangular shape during raster-vector conversion, ice divides were at the wrong place and scenes were acquired over a 10-year period. For the new inventory we used 17 Landsat 5 TM scenes that were all acquired in 1998 with excellent snow conditions. Outlines for clean glaciers were created from a simple red/SWIR band ratio with scene specific thresholds. After raster-vector conversion wrongly mapped lakes were removed and missing debris-cover was manually added. New ice divides were derived from the 30 m resolution Copernicus DEM using the divides in RGI6 as a guide. The interpretation was supported by glacier outlines from the national glacier inventory of Peru and the "World imagery" layer of the ESRI basemap.
+**Peru and Bolivia**
+
+All RGI 6.0 outlines were replaced since they were derived from satellite images with adverse snow conditions and acquired over a 10-year period. Many outlines received a triangular shape during raster-vector conversion, and had ice divides in the wrong place. The outlines in RGI 7.0  are based on 17 Landsat 5 TM scenes that were all acquired in 1998 with excellent snow conditions for mapping. Outlines for clean glaciers were created from a simple red/SWIR band ratio with scene specific thresholds. After raster-vector conversion wrongly mapped lakes were removed and missing debris-cover was manually added. New ice divides were derived from the 30 m resolution Copernicus DEM using the divides in RGI 6.0 as a guide. The interpretation was supported by glacier outlines from the national glacier inventory of Peru and the "World imagery" layer of the ESRI basemap.
 
 **Chile and Argentina**
 

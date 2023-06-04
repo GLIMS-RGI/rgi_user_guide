@@ -190,7 +190,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Summary statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions &amp; basic statistics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/data_sources.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -432,12 +433,12 @@ document.write(`
 <section id="technical-specifications">
 <h2>Technical specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
 <p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
-<p>For each region, RGI7 provides four distinct data products:</p>
+<p>For each region, RGI 7.0 provides four distinct data products:</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#glacier-product"><span class="std std-ref">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier. <strong>This product is the most similar to the format of previous RGI versions</strong>.</p></li>
+<li><p><a class="reference internal" href="#glacier-product"><span class="std std-ref">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier.</p></li>
 <li><p><a class="reference internal" href="#glacier-complex"><span class="std std-ref">Glacier complex product</span></a> (new in RGI 7.0): includes outlines of the contiguous ice mass that includes all glaciers with share common boundaries, and a reduced number of attributes.</p></li>
 <li><p><a class="reference internal" href="#glacier-intersects"><span class="std std-ref">Glacier intersects product</span></a> (new in RGI 7.0): delineates the “divides” or “boundaries” between adjacent glaciers from the glacier product.</p></li>
-<li><p><a class="reference internal" href="#glacier-centerlines"><span class="std std-ref">Glacier centerlines product</span></a> (new in RGI 7.0): glacier “centerlines” or “flowlines” computed with a flow routing algorithm.</p></li>
+<li><p><a class="reference internal" href="#glacier-centerlines"><span class="std std-ref">Glacier centerlines product</span></a> (new in RGI 7.0): glacier centerlines computed with a flow routing algorithm.</p></li>
 </ul>
 <p>These four products and associated files are detailed below.</p>
 <section id="file-naming-convention">
@@ -503,7 +504,7 @@ document.write(`
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-submission_info_metadata.json</span></code></dt><dd><p>information about the attributes in the submission info file: full name, description, units, etc.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>a list of overlapping outline pairs between RGI7 and RGI6 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI7 and RGI6 outline results in a 1:1 relation with 100% area match in both. If a single RGI6 outline was divided into two glaciers for RGI7, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI6 and twice 100% match in RGI7. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI7, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.nc</span></code></dt><dd><p>hypsometry files (TODO)</p>
 </dd>

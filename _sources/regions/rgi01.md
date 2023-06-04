@@ -17,27 +17,30 @@ The Alaska region encompasses all glaciers in the state of Alaska, USA, and also
 :::{figure-md} rgi01-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-Most outlines are from RGI6, with several notable improvements:
+## Changes from version 6.0 to 7.0
 
 **Brooks Range (01-01)**
 
-Submission 810 corrected glacier outlines in the Brooks Range using manual glacier delineation with Landsat scenes from 2000, 2005, and 2007. The very high-resolution images of the ESRI Basemap ("World imagery") were used for corrections and to aid in the interpretation. This way, a large number of missing smaller glaciers or glacier parts were added, parts in shadow or under debris-cover were corrected and the partly strong generalization of outlines was improved. Nearly all glaciers from the inventory by {cite:t}`Kienholz2015a` were modified.
+Many glacier outlines were corrected using manual glacier delineation with Landsat scenes from 2000, 2005, and 2007 and high-resolution images of the ESRI Basemap ("World imagery") to aid in outline interpretation (submission 810). A large number of missing smaller glaciers or glacier parts were added, glacier parts in shadow or under debris cover were corrected and the partly strong generalization of outlines was improved. Nearly all glaciers from the inventory by {cite:t}`Kienholz2015a` were modified.
 
 **Alaska Range (01-02)**
 
-Submission 766 added 42 previously unmapped glaciers have been added to subregion 01-02, manually mapped using Landsat 7 imagery from August 1999.
+In total 42 previously unmapped glaciers were added. These were manually mapped using Landsat 7 imagery from August 1999 (submission 766).
 
 **Kenai Peninsula (01-04)**
 
-With submission 889, glacier outlines from {cite:t}`Kienholz2015a` for Kenai Peninsula were corrected manually using a revised dataset for 2005 by {cite:t}`Yang2020` and Landsat images from July and August 2005 as a guide. The main changes are several additional, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a couple of topologic corrections such as the connection / separation of individual glaciers or adjustment of a few ice divides using the AW3D30 DEM.
+Glacier outlines from {cite:t}`Kienholz2015a` were corrected manually using a revised dataset for 2005 by {cite:t}`Yang2020` and Landsat images from July and August 2005 as a guide. The main changes include the addition of several, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a few topologic corrections such as the connection / separation of individual glaciers or adjustment of a few ice divides using the AW3D30 DEM (submission 889).
 
 **N Coast Ranges (01-06)**
 
-With submission 756, 3 outlines have been updated in subregion 01-06 to correct geometry errors.
+Three outlines have been updated to correct geometry errors (submission 756).
 
+**Attributes**
+
+RGI 6.0 included for each glacier a label for the terminus type attribute, including a list of lake-terminating glaciers. However, in RGI 7.0 only marine terminating glaciers were assigned (based on {cite:t}`Kochtitzky2022`), despite the presence of lake-terminating glaciers in this region. Updating this attribute is planned for the next version of the RGI.
 
 ## Additional information 
 

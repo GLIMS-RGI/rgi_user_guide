@@ -1,6 +1,6 @@
 # 02: Western Canada and USA
 
-The Western Canada and USA region encompasses all glaciers in continental USA and central Canada. 
+The Western Canada and USA region encompasses all glaciers in western Canada and the USA not included in Region 01.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -16,10 +16,12 @@ The Western Canada and USA region encompasses all glaciers in continental USA an
 :::{figure-md} rgi02-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI02/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-No changes in version 7.0 (same outlines as RGI6).
+## Changes from version 6.0 to 7.0
+
+None.
 
 ## Additional information 
 

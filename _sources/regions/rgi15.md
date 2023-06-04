@@ -1,6 +1,6 @@
 # 15: Asia, South East
 
-South Asia East.
+This region encompasses all glaciers ...
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -14,10 +14,12 @@ South Asia East.
 :::{figure-md} rgi15-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI15/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-All previous outlines have been replaced by the GAMDAM glacier inventory version 2 GGI {cite:p}`Sakai2019`, also named GGI18. The glaciers were manually mapped based on Landsat TM and ETM+ summer imagery with most scenes being from the years 1994, 1998, 1999, 2002 and 2005. Some scenes from teh period 1992 - 2010 were used in case of unsuitable scenes within these years. In the Khumbu region we use data provided by Tobias Bolch. These outlines were manually mapped based on very-high resolution satellite imagery (WorldView, Pléiades, Ikonos) and DEM differencing results from {cite:t}`King2020`.
+## Changes from version 6.0 to 7.0
+
+All previous outlines have been replaced by the GAMDAM glacier inventory version 2 GGI {cite:p}`Sakai2019`, also named GGI18. The glaciers were manually mapped based on Landsat TM and ETM+ summer imagery with most scenes being from the years 1994, 1998, 1999, 2002 and 2005. Some scenes from the period 1992 - 2010 were used in case of unsuitable scenes within these years. In the Khumbu region outlines were manually mapped based on very-high resolution satellite imagery (WorldView, Pléiades, Ikonos) and DEM differencing results from {cite:t}`King2020`.
 
 ## Additional information 
 

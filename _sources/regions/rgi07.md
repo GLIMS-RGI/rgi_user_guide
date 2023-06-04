@@ -1,6 +1,6 @@
 # 07: Svalbard and Jan Mayen
 
-All glaciers in Svalbard and Jan Mayen.
+This region encompasses all glaciers in Svalbard and Jan Mayen.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -14,14 +14,15 @@ All glaciers in Svalbard and Jan Mayen.
 :::{figure-md} rgi07-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI07/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-No changes to RGI6, except on Jan Mayen.
+## Changes from version 6.0 to 7.0
 
 **Jan Mayen**
 
-The RGI6 glacier outlines for Jan Mayen have a good quality, but they relate to 1975. Glacier extents have thus been remapped from a Landsat 7 ETM+ scene (217-010) acquired on 13.09.2002 with the band ratio method (panchromatic band divided by the resampled SWIR band) and some manual corrections. New ice divides were derived from a flow direction grid that was calculated from the ArcticDEM (5 m mosaic).
+The RGI 6.0 glacier outlines referred to 1975, and therefore were replaced by new outlines closer to the target year 2000. Outlines were mapped from a Landsat 7 ETM+ scene (217-010) acquired on 13 September 2002 with the band ratio method (panchromatic band divided by the resampled SWIR band) and some manual corrections. New ice divides were derived from a flow direction grid that was calculated from the ArcticDEM (5 m mosaic).
+
 
 ## Additional information 
 

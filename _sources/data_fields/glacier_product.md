@@ -53,7 +53,7 @@ The following attributes are available in the RGI shapefiles. For more details o
 : `long_name`: Glacier name <br/> `description`: Glacier name (when available). <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: Name
 
 `is_rgi6`
-: `long_name`: Same as RGI6 outline <br/> `description`: Flag indicating if the outline is the same as in RGI6 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon (in most of the cases it does). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Same as RGI 6.0 outline <br/> `description`: Flag indicating if the outline is the same as in RGI 6.0 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon (in most of the cases it does). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `termlon`
 : `long_name`: Terminus longitude <br/> `description`: Longitude of the lowest elevation point on the glacier outline. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: 
@@ -81,6 +81,9 @@ The following attributes are available in the RGI shapefiles. For more details o
 
 `aspect_sec`
 : `long_name`: Aspect sector <br/> `description`: The aspect (orientation) of the glacier surface presented as a category. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+
+`dem_source`
+: `long_name`: DEM data source <br/> `description`: The name of the dataset that was used to compute the topography attributes. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `lmax_m`
 : `long_name`: Maximum length <br/> `description`: Length (m) of the longest surface centerline of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Lmax

@@ -190,7 +190,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Summary statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/regions.html">Appendix 1: RGI regions &amp; basic statistics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tables/data_sources.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -401,6 +402,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-version-6-0-to-7-0">Changes from version 6.0 to 7.0</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
             </nav>
@@ -415,7 +417,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="low-latitudes">
 <h1>16: Low Latitudes<a class="headerlink" href="#low-latitudes" title="Permalink to this headline">#</a></h1>
-<p>Central and Tropical South America, Africa, Papua.</p>
+<p>This region encompasses all glaciers in the tropics and sub-tropics (25°S-20°N) including glaciers in South America, Africa and Indonesia.</p>
 <div class="note dropdown admonition">
 <p class="admonition-title">Subregions</p>
 <ul class="simple">
@@ -428,14 +430,17 @@ document.write(`
 <figure class="align-default" id="rgi16-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI16/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 50 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi16-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 50 </span><span class="caption-text">Regional glacier area.</span><a class="headerlink" href="#rgi16-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>New inventories for Peru, Bolivia, Chile and Argentina. RGI6 is used elsewhere.</p>
-<p><strong>Peru and Bolivia 1998</strong></p>
-<p>The glacier outlines in RGI6 for Peru and Bolivia were derived from satellite images with adverse snow conditions, outlines received a triangular shape during raster-vector conversion, ice divides were at the wrong place and scenes were acquired over a 10-year period. For the new inventory we used 17 Landsat 5 TM scenes that were all acquired in 1998 with excellent snow conditions. Outlines for clean glaciers were created from a simple red/SWIR band ratio with scene specific thresholds. After raster-vector conversion wrongly mapped lakes were removed and missing debris-cover was manually added. New ice divides were derived from the 30 m resolution Copernicus DEM using the divides in RGI6 as a guide. The interpretation was supported by glacier outlines from the national glacier inventory of Peru and the “World imagery” layer of the ESRI basemap.</p>
+<section id="changes-from-version-6-0-to-7-0">
+<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
+<p>New inventories for Peru, Bolivia, Chile and Argentina. RGI 6.0 is used elsewhere.</p>
+<p><strong>Peru and Bolivia</strong></p>
+<p>All RGI 6.0 outlines were replaced since they were derived from satellite images with adverse snow conditions and acquired over a 10-year period. Many outlines received a triangular shape during raster-vector conversion, and had ice divides in the wrong place. The outlines in RGI 7.0  are based on 17 Landsat 5 TM scenes that were all acquired in 1998 with excellent snow conditions for mapping. Outlines for clean glaciers were created from a simple red/SWIR band ratio with scene specific thresholds. After raster-vector conversion wrongly mapped lakes were removed and missing debris-cover was manually added. New ice divides were derived from the 30 m resolution Copernicus DEM using the divides in RGI 6.0 as a guide. The interpretation was supported by glacier outlines from the national glacier inventory of Peru and the “World imagery” layer of the ESRI basemap.</p>
 <p><strong>Chile and Argentina</strong></p>
 <p>See <a class="reference internal" href="rgi17.html"><span class="doc std std-doc">17: Southern Andes</span></a>.</p>
+</section>
 <section id="additional-information">
 <h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
 <div class="important dropdown admonition">
@@ -475,7 +480,7 @@ document.write(`
 <div class="note dropdown admonition">
 <p class="admonition-title">Version history</p>
 <dl class="simple myst">
-<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id93" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
+<dt>Changes from Version 5.0 to 6.0</dt><dd><p>Coverage of the glaciers of Cotopaxi, Ecuador, was replaced with outlines for 1997 digitized from <span id="id1">Jordan <em>et al.</em> [<a class="reference internal" href="../07_references.html#id44" title="E. Jordan, L. Ungerechts, B. Cáceres, A. Peñafiel, and B. Francou. Estimation by photogrammetry of the glacier recession on the Cotopaxi Volcano (Ecuador) between 1956 and 1997 / Estimation par photogrammétrie de la récession glaciaire sur le Volcan Cotopaxi (Equateur) entre 1956 et 1997. Hydrological Sciences Journal, dec 2005. doi:10.1623/hysj.2005.50.6.949.">2005</a>]</span>).</p>
 </dd>
 <dt>Changes from Version 4.0 to 5.0</dt><dd><p>Links were added to 2 glaciers in the WGMS mass-balance database.</p>
 </dd>
@@ -555,6 +560,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-version-6-0-to-7-0">Changes from version 6.0 to 7.0</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
   </nav></div>

@@ -1,6 +1,6 @@
 # 11: Central Europe
 
-European Alps, Pyrenees.
+This region encompasses all glaciers in Europe outside Scandinavia (region 08). More than 99% of the glacier area is located in the European Alps and the Pyrenees.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -13,10 +13,23 @@ European Alps, Pyrenees.
 :::{figure-md} rgi11-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI11/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-In the Pyrenees, we use an updated inventory by Eñaut Izagirre. The RGI6 outlines for the European Alps from 2003 have been revised in regard to missing glaciers (in particular Dolomites), wrongly mapped debris-covered glaciers, errors in geolocation (Maritime Alps) and topology issues such as overlapping outlines (Mt. Blanc region). For the corrections we used the same Landsat 5 TM images as for the original inventory {cite:p}`Paul2011a`, glacier outlines and Sentinel-2 images from the new inventory {cite:p}`Paul2020`, and very high-resolution images from the "World imagery" layer of the ESRI Basemap. The glacierets in Montenegro, Albania as well as the Calderone glacier (Italy) [are not available in GLIMS](https://github.com/GLIMS-RGI/rgi7_scripts/issues/27) and therefore are not in RGI7 (see version history below for more details about these glaciers).
+## Changes from version 6.0 to 7.0
+
+**European Alps**
+
+The RGI 6.0 outlines for the European Alps from 2003 have been revised in regard to missing glaciers (in particular Dolomites), wrongly mapped debris-covered glaciers, errors in geolocation (Maritime Alps) and topology issues such as overlapping outlines (Mt. Blanc region). For the corrections we used the same Landsat 5 TM images as for the original inventory {cite:p}`Paul2011a`, glacier outlines and Sentinel-2 images from the new inventory {cite:p}`Paul2020`, and very high-resolution images from the "World imagery" layer of the ESRI Basemap. The entire Alps are marked as "new" in RGI 7.0, but we estimate that only about 1/5 were changed. 
+
+**Pyrenees**
+
+In the Pyrenees, we use an updated inventory by Eñaut Izagirre.
+
+**Other regions**
+
+Three glaciers in Montenegro, Albania, as well as the Calderone glacier (Italy) previously included in the RGI 6.0 [are no longer available in RGI 7.0](https://github.com/GLIMS-RGI/rgi7_scripts/issues/27) since they were not in GLIMS (see "Version history" below for more details about these glaciers).
+
 
 ## Additional information 
 

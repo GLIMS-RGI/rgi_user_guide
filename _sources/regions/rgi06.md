@@ -1,6 +1,6 @@
 # 06: Iceland
 
-All glaciers in Iceland.
+This region encompasses all glaciers in Iceland.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -12,13 +12,12 @@ All glaciers in Iceland.
 :::{figure-md} rgi06-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI06/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-No changes from this region between RGI6 and RGI7. Outlines in this region are primarily derived from manually 
-delineated outlines using ASTER and SPOT imagery acquired between 1999-2004, with some outlines in the north derived 
-from high-resolution aerial imagery. For additional details about source imagery and methods, see 
-{cite:t}`Hannesdottir2020`, Table 2.
+## Changes from version 6.0 to 7.0
+
+None.
 
 ## Additional information 
 

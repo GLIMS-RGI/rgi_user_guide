@@ -1,6 +1,6 @@
 # 04: Arctic Canada, South
 
-The  Arctic Canada, South region encompasses all glaciers in northwest Canada below 74°N: it comprises Baffin Island and Northern Newfoundland. 
+The Arctic Canada, South region encompasses all glaciers in northeast Canada south of 74°N including Baffin Island and Northern Newfoundland. 
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -17,18 +17,19 @@ The  Arctic Canada, South region encompasses all glaciers in northwest Canada be
 
 ```
 
-
 :::{figure-md} rgi04-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI04/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
+
+## Changes from version 6.0 to 7.0
 
 With the exception of Newfoundland, all outlines have been revised for RGI7:
 
 **Baffin Island and Bylot Island**
 
-For the largest part of the region covered by submission 817, RGI6 glacier outlines were modified using end of summer Landsat 7 ETM+ images acquired from 1999 to 2002. The related corrections added missing glaciers or glacier parts (incl. debris cover), removed seasonal snow and provided new drainage divides based on a flow direction grid derived from the ArcticDEM at 10 m resolution and flow fields (magnitudes) provided by {cite:t}`Millan2022`. For the southern part of Baffin Island (incl. parts of Penny Ice Cap) RGI6 outlines were replaced with extents from a fresh processing of three Landsat 7 ETM+ scenes. Several small ice patches in the south of Baffin Island were added after visual inspection of the ESRI Basemap.
+In RGI 6.0 glacier outlines were modified using end-of-summer Landsat 7 ETM+ images acquired between 1999 and 2002. Corrections included the addition of missing glaciers or glacier parts (incl. debris cover), removal of seasonal snow and new drainage divides based on a flow direction grid derived from the ArcticDEM at 10 m resolution and the surface flow fields (magnitudes) by {cite:t}`Millan2022`. For the southern part of Baffin Island (incl. parts of Penny Ice Cap) RGI 6.0 outlines were replaced with new outlines based on three Landsat 7 ETM+ scenes. Several small ice patches in the south of Baffin Island were added after visual inspection of the ESRI Basemap.
 
 
 ## Additional information 

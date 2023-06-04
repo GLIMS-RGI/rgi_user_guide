@@ -190,7 +190,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Summary statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tables/regions.html">Appendix 1: RGI regions &amp; basic statistics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tables/data_sources.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -401,6 +402,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-version-6-0-to-7-0">Changes from version 6.0 to 7.0</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
             </nav>
@@ -415,7 +417,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="russian-arctic">
 <h1>09: Russian Arctic<a class="headerlink" href="#russian-arctic" title="Permalink to this headline">#</a></h1>
-<p>Covers all glaciers and ice caps in Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.</p>
+<p>This region encompasses all glaciers on the islands in the Russian Arctic including Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.</p>
 <div class="note dropdown admonition">
 <p class="admonition-title">Subregions</p>
 <ul class="simple">
@@ -427,11 +429,13 @@ document.write(`
 <figure class="align-default" id="rgi09-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI09/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Glacier locations and changes between RGI6 and RGI7.</span><a class="headerlink" href="#rgi09-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Regional glacier area.</span><a class="headerlink" href="#rgi09-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>The primary source of glacier outlines for this region were manually digitized as part of <span id="id1">[<a class="reference internal" href="../07_references.html#id81" title="Geir Moholdt, Bert Wouters, and Alex S. Gardner. Recent mass changes of glaciers in the Russian High Arctic. Geophysical Research Letters, 39(10):n/a–n/a, may 2012. doi:10.1029/2012GL051466.">Moholdt <em>et al.</em>, 2012</a>]</span>. The main data source for Novaya Zemlya is SPIRIT SPOT5 scenes <span id="id2">[<a class="reference internal" href="../07_references.html#id87" title="Jérôme Korona, Etienne Berthier, Marc Bernard, Frédérique Rémy, and Eric Thouvenot. SPIRIT. SPOT 5 stereoscopic survey of Polar Ice: Reference Images and Topographies during the fourth International Polar Year (2007–2009). ISPRS Journal of Photogrammetry and Remote Sensing, 64(2):204–212, mar 2009. doi:10.1016/j.isprsjprs.2008.10.005.">Korona <em>et al.</em>, 2009</a>]</span>, with best available Landsat scenes used elsewhere. Outline dates range between 2000 and 2010, with most of the area (40%) dating to 2004.</p>
-<p>Three outlines were corrected in RGI7 (<a class="reference external" href="https://github.com/GLIMS-RGI/rgi7_scripts/issues/4">discussion</a>) in order to correct the basin divides for three outlet glaciers (<code class="docutils literal notranslate"><span class="pre">RGI60-09.00741</span></code>, <code class="docutils literal notranslate"><span class="pre">RGI60-09.00743</span></code>, <code class="docutils literal notranslate"><span class="pre">RGI60-09.00744</span></code>).</p>
+<section id="changes-from-version-6-0-to-7-0">
+<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
+<p>Outlines were modified (<a class="reference external" href="https://github.com/GLIMS-RGI/rgi7_scripts/issues/4">discussion</a>) to correct the basin divides for three outlet glaciers (<code class="docutils literal notranslate"><span class="pre">RGI60-09.00741</span></code>, <code class="docutils literal notranslate"><span class="pre">RGI60-09.00743</span></code>, <code class="docutils literal notranslate"><span class="pre">RGI60-09.00744</span></code>).</p>
+</section>
 <section id="additional-information">
 <h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
 <div class="important dropdown admonition">
@@ -475,7 +479,7 @@ document.write(`
 </dd>
 <dt>Changes from Version 1.0 to Version 2.0</dt><dd><p>The Matusevich Ice Shelf, which was the only ice shelf in the inventory, was removed.</p>
 </dd>
-<dt>Version 1.0</dt><dd><p>The inventory was constructed as part of a mass balance study of the Barents/Kara Sea region <span id="id3">[<a class="reference internal" href="../07_references.html#id81" title="Geir Moholdt, Bert Wouters, and Alex S. Gardner. Recent mass changes of glaciers in the Russian High Arctic. Geophysical Research Letters, 39(10):n/a–n/a, may 2012. doi:10.1029/2012GL051466.">Moholdt <em>et al.</em>, 2012</a>]</span>. It covers all glaciers and ice caps in Novaya Zemlya (22,100 km2), Severnaya Zemlya (16,400 km2), Franz Josef Land (12,700 km2), Ushakov Island (320 km2) and Victoria Island (6 km2). Glacier complexes were manually digitized from orthorectified satellite imagery acquired during summers between 2000 and 2010. SPIRIT SPOT5 scenes <span id="id4">[<a class="reference internal" href="../07_references.html#id87" title="Jérôme Korona, Etienne Berthier, Marc Bernard, Frédérique Rémy, and Eric Thouvenot. SPIRIT. SPOT 5 stereoscopic survey of Polar Ice: Reference Images and Topographies during the fourth International Polar Year (2007–2009). ISPRS Journal of Photogrammetry and Remote Sensing, 64(2):204–212, mar 2009. doi:10.1016/j.isprsjprs.2008.10.005.">Korona <em>et al.</em>, 2009</a>]</span> were used for most of Novaya Zemlya, while the best available Landsat scenes were used elsewhere. All visible nunataks were cut out from the glacier polygons, and snowfields were only included if they seemed to be a part of a glacier. Ice shelves in Franz Josef Land (&lt;50 km2) were included as parts of the glacier polygons, while the Matusevich Ice Shelf in Severnaya Zemlya (~200 km2) was delineated into a separate polygon. The estimated total glacier area of the region (51,500 km2) is 9% smaller than that of the World Glacier Inventory <span id="id5">[<a class="reference internal" href="../07_references.html#id35" title="Atsumu Ohmura. Completing the World Glacier Inventory. Annals of Glaciology, 50(53):144–148, sep 2009. doi:10.3189/172756410790595840.">Ohmura, 2009</a>]</span>. This large deviation is probably due to a combination of long-term glacier retreat and methodological differences in glacier delineation.</p>
+<dt>Version 1.0</dt><dd><p>The inventory was constructed as part of a mass balance study of the Barents/Kara Sea region <span id="id1">[<a class="reference internal" href="../07_references.html#id45" title="Geir Moholdt, Bert Wouters, and Alex S. Gardner. Recent mass changes of glaciers in the Russian High Arctic. Geophysical Research Letters, 39(10):n/a–n/a, may 2012. doi:10.1029/2012GL051466.">Moholdt <em>et al.</em>, 2012</a>]</span>. It covers all glaciers and ice caps in Novaya Zemlya (22,100 km2), Severnaya Zemlya (16,400 km2), Franz Josef Land (12,700 km2), Ushakov Island (320 km2) and Victoria Island (6 km2). Glacier complexes were manually digitized from orthorectified satellite imagery acquired during summers between 2000 and 2010. SPIRIT SPOT5 scenes <span id="id2">[<a class="reference internal" href="../07_references.html#id90" title="Jérôme Korona, Etienne Berthier, Marc Bernard, Frédérique Rémy, and Eric Thouvenot. SPIRIT. SPOT 5 stereoscopic survey of Polar Ice: Reference Images and Topographies during the fourth International Polar Year (2007–2009). ISPRS Journal of Photogrammetry and Remote Sensing, 64(2):204–212, mar 2009. doi:10.1016/j.isprsjprs.2008.10.005.">Korona <em>et al.</em>, 2009</a>]</span> were used for most of Novaya Zemlya, while the best available Landsat scenes were used elsewhere. All visible nunataks were cut out from the glacier polygons, and snowfields were only included if they seemed to be a part of a glacier. Ice shelves in Franz Josef Land (&lt;50 km2) were included as parts of the glacier polygons, while the Matusevich Ice Shelf in Severnaya Zemlya (~200 km2) was delineated into a separate polygon. The estimated total glacier area of the region (51,500 km2) is 9% smaller than that of the World Glacier Inventory <span id="id3">[<a class="reference internal" href="../07_references.html#id92" title="Atsumu Ohmura. Completing the World Glacier Inventory. Annals of Glaciology, 50(53):144–148, sep 2009. doi:10.3189/172756410790595840.">Ohmura, 2009</a>]</span>. This large deviation is probably due to a combination of long-term glacier retreat and methodological differences in glacier delineation.</p>
 </dd>
 </dl>
 </div>
@@ -543,6 +547,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-version-6-0-to-7-0">Changes from version 6.0 to 7.0</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
   </nav></div>

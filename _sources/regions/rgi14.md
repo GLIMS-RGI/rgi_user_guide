@@ -1,6 +1,6 @@
 # 14: Asia, South West
 
-South Asia West.
+This region encompasses all glaciers ...
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -14,8 +14,10 @@ South Asia West.
 :::{figure-md} rgi14-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI14/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
+
+## Changes from version 6.0 to 7.0
 
 All previous outlines have been replaced by the GAMDAM glacier inventory version 2 GGI {cite:p}`Sakai2019`, also named GGI18. The glaciers were manually mapped based on Landsat TM and ETM+ summer imagery with most scenes being from the year 2002. Earlier and later scenes were used in case of unsuitable scenes within this year.
 

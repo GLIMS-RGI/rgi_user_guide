@@ -1,6 +1,6 @@
 # Welcome
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines. This Technical Report provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This Technical Report provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
 ```{warning}
 
@@ -10,7 +10,7 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global in
 
 ```{admonition} Data download
 
-[Download the RGI7 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_tar/). For review only!
+[Download the RGI 7.0 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_tar/). For review only!
 ```
 
 ```{admonition} Contributing to this documentation
@@ -64,10 +64,10 @@ Technical specifications, file naming, and data fields.
 :link-type: doc
 :class-header: bg-light
 
-General revisions in RGI7 ⚡
+General revisions in RGI 7.0 ⚡
 ^^^
 
-What changed in RGI 7.0 with respect to RGI 6.0?
+What changed in RGI 7.0 compared to RGI 6.0?
 :::
 
 :::{grid-item-card}
@@ -75,7 +75,7 @@ What changed in RGI 7.0 with respect to RGI 6.0?
 :link-type: doc
 :class-header: bg-light
 
-Regional revisions in RGI7 🔬
+Regional revisions in RGI 7.0 🔬
 ^^^
 
 Description of data updates by RGI region.
@@ -90,7 +90,7 @@ Description of data updates by RGI region.
 Summary statistics 📋
 ^^^
 
-Basic statistics of RGI7 and RGI6.
+Basic statistics of RGI 7.0 and RGI 6.0.
 :::
 
 ::::
@@ -116,11 +116,9 @@ Basic statistics of RGI7 and RGI6.
 
 <br/><br/>
 
-The RGI was developed as part of the international Working Group on "the Randolph Glacier Inventory and infrastructure for glacier monitoring" by the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org).
+Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](tables/acknowledgements).
 
-We acknowledge financial support from several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors, visit [](funding-sources).
-
-> RGI7 and this Technical Report is dedicated to the memory of 
+> RGI 7.0 and this Technical Report is dedicated to the memory of 
 > **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
 > for his inspiration and dedication to the RGI.
 
@@ -131,4 +129,4 @@ We acknowledge financial support from several organizations and institutions, in
 
 This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless specified otherwise (i.e. for figures or content that is not from the RGI).
 
-Much of the information in this Technical Report regarding RGI in general and versions prior to RGI7 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017*
+Much of the information in this Technical Report regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017*

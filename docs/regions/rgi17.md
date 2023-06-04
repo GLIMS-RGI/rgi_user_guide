@@ -1,6 +1,6 @@
 # 17: Southern Andes
 
-Southern Andes.
+This region encompasses all glaciers in South America south of 25°S.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -13,12 +13,15 @@ Southern Andes.
 :::{figure-md} rgi17-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI17/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1" width="50%">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-Completely new inventory in RGI7.
+## Changes from version 6.0 to 7.0
 
-The glacier outlines in RGI6 for the Southern Andes suffered from wrongly mapped seasonal snow, missing debris-covered glaciers, wrong ice divides and data processing artefacts. We replaced them with outlines from the new national glacier inventories of Argentina {cite:p}`Zalazar2020` and Chile {cite:p}`Barcaza2017`. The latter was derived from Landsat ETM+ imagery acquired between 2000 and 2003, the former from a range of sensors (ALOS, ASTER, Landsat, SPOT4) acquired between 2004 and 2013. Both national inventories included rock glaciers that were reselected (classes GEA/GEI for Argentina) and removed. The classes MN (snow field) and GCGE (mixed debris-covered / rock glacier) in the Argentina inventory were also removed. Data gaps and overlaps along the national boundary as well as wrongly placed drainage divides were corrected in the merged dataset using the "World imagery" layer of the ESRI basemap and a flow direction grid derived from the AW3D30 DEM, respectively. In some regions (e.g. Tierra Fuego) missing glaciers were added and the extent of glaciers that were too large was reduced using Landsat images from around the year 2000. Finally, also some topologically difficult regions (e.g. resulting from rock outcrops) were simplified.
+All glaciers in RGI 6.0 were replaced by new outlines.
+
+The RGI 6.0 glacier outlines suffered from reduced quality due to the presence of seasonal snow, missing debris-covered glaciers, incorrectly mapped ice divides and data processing artefacts. Outlines were replaced by the new national glacier inventories of Argentina {cite:p}`Zalazar2020` and Chile {cite:p}`Barcaza2017`. The latter was derived from Landsat ETM+ imagery acquired between 2000 and 2003, the former from a range of sensors (ALOS, ASTER, Landsat, SPOT4) with images acquired between 2004 and 2013. Both national inventories included rock glaciers that were reselected (classes GEA/GEI for Argentina) and removed. The classes MN (snow field) and GCGE (mixed debris-covered / rock glacier) in the Argentina inventory were also removed. Data gaps and overlaps along the national boundary as well as wrongly placed drainage divides were corrected in the merged dataset using the "World imagery" layer of the ESRI basemap and a flow direction grid derived from the AW3D30 DEM, respectively. In some regions (e.g. Tierra del Fuego) missing glaciers were added and the extent of glaciers that were too large was reduced using Landsat images from around the year 2000.
+
 
 ## Additional information 
 

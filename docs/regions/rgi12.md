@@ -1,6 +1,6 @@
 # 12: Caucasus and Middle East
 
-The Geographic region of the Caucasus and Middle East consists of six different countries - Russia, Georgia, Armenia, Azerbaijan, Turkey, and Iran. The most extensive orographic unit of this region is the Caucasus mountains which consist of two separate mountain systems: the Greater Caucasus and the Lesser Caucasus. The Greater Caucasus is the highest part of the Caucasus region extending for about 1300 km from northwest to southeast between the Black and Caspian seas, while the Lesser Caucasus has located approximately 100 km to the south and is characterized by relatively lower elevations. About 95% of modern glaciers of the Caucasus and Middle East region are concentrated in the Greater Caucasus.
+This region encompasses all glaciers between 30°E and 54°E and 30°N and 45°N. More than 99% of the glaciers are located in the Caucasus.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -13,12 +13,20 @@ The Geographic region of the Caucasus and Middle East consists of six different 
 :::{figure-md} rgi12-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI12/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-The RGI7 Glacier outlines for the Greater Caucasus were manually digitized by {cite:t}`Tielidze2022`. The primary source of the database was Landsat scenes from 1999-2002. Glaciers of the Middle East have also been revised in detail and digitized based on Landsat imagery from 1998-2001. Overall, glacier outlines from the Caucasus and Middle East region in RGI7 dates range between 1998 and 2002, with most of the area dating to 2000. 
+## Changes from version 6.0 to 7.0
 
-This inventory represents a considerable change and improvement to RGI6. The Greater Caucasus inventory was created based on ASTER and Landsat imagery from 1999–2004 {cite:p}`Khromova2016a`. The dataset was incomplete and RGI6 incorporated "nominal glaciers" (circles covering an area equivalent to glacier size) in the eastern and western Greater Caucasus sections {cite:p}`Tielidze2018`. The RGI6 outlines also had inconsistent geolocation. Most of the glacier outlines for the Middle East in RGI6 were mapped based on the ASTER imagery from 2004-2006 (Turkey) and Landsat scenes from 2011 (Iran). A closer look revealed that most of these outlines were digitized based on snow patches and not actual glaciers.
+All RGI6.0 outlines have been replaced, representing a considerable change and improvement to RGI 6.0. 
+
+**Caucasus**
+
+The RGI 7.0 Glacier outlines for the Greater Caucasus were manually digitized by {cite:t}`Tielidze2022`. The primary source of the database was Landsat scenes from 1999-2002. The Greater Caucasus inventory (including 95% of the region's glaciers) was created based on ASTER and Landsat imagery from 1999–2004 {cite:p}`Khromova2016a`. The dataset was incomplete and RGI 6.0 incorporated "nominal glaciers" (circles covering an area equivalent to glacier size) in the eastern and western Greater Caucasus sections {cite:p}`Tielidze2018`. The RGI 6.0 outlines also had inconsistent geolocation which was corrected in RGI 7.0.
+
+**Middle East**
+
+Glaciers of the Middle East have also been revised in detail and digitized based on Landsat imagery from 1998-2001. Overall, glacier outlines from the Caucasus and Middle East region in RGI 7.0 dates range between 1998 and 2002, with most of the area dating to 2000. Most of the glacier outlines for the Middle East in RGI 6.0 were mapped based on the ASTER imagery from 2004-2006 (Turkey) and Landsat scenes from 2011 (Iran). A closer look revealed that most of these outlines were digitized based on snow patches and not actual glaciers.
 
 ## Additional information 
 

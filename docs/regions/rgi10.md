@@ -1,6 +1,6 @@
 # 10: Asia, North
 
-Covers all glaciers in Eastern Russia, Kazakhstan, Mongolia, Northern China, and Japan.
+This region encompasses all glaciers in Asia not included in regions 09 and 12 to 15. 
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -18,20 +18,31 @@ Covers all glaciers in Eastern Russia, Kazakhstan, Mongolia, Northern China, and
 :::{figure-md} rgi10-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI10/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-Glacier outlines in Kamchatka have been re-mapped. Glacier outlines in Eastern Russia were reviewed using the Glacier Inventory of Russia {cite:p}`Khromova2022`. In subregion 10-04 (Altay and Sayan), we use the GAMDAM inventory version 2 {cite:p}`Sakai2019`. We added 5 small glaciers in Japan that have been recently documented {cite:p}`Arie2022`. Outline dates range between 1996 and 2019, with most of the area (~80%) dating to 1998-2002.   
+## Changes from version 6.0 to 7.0
+
+
+**Altay and Sayan** 
+
+All glaciers in Altay and Sayan (subregion 10-04) were replaced by GAMDAM inventory version 2 {cite:p}`Sakai2019`. 
+
 
 **Kamchatka**
 
-Kamchatka is maybe one of the most challenging places for glacier mapping. Apart from the usual frequent clouds and long-lasting seasonal snow cover, the region includes numerous ash and debris-covered glaciers that gradually transform to rock glaciers, ice-cored moraines as well as abundant perennial snow and ice patches, where the ice underneath the snow is only visible in extreme years. These ice patches are usually found in topographic depressions and might not flow, but they contain water and could thus be included in a glacier inventory. Accordingly, glacier outlines for the region vary widely and also the merged new dataset for RGI7 can certainly be further improved, in particular regarding now considered ice patches.
+All glacier outlines in Kamchatka (part of subregion 10-05) have been remapped. Glacier outlines in Eastern Russia were reviewed using the Glacier Inventory of Russia {cite:p}`Khromova2022`. 
 
-The main issues with RGI6 were related to wrongly included seasonal snow and rock glaciers as well as excluded debris-covered and small clean glaciers. The new dataset is mostly based on year 2000 outlines provided by {cite:t}`Lynch2016`, but also on an ASTER-derived dataset from 2002 just for the "Middle Range" of Kamchatka provided by T. Khromova and a dataset for the period 2007-2019 described in the review by {cite:t}`Khromova2019` with local corrections by A.Y. Muraviev. These datasets were collectively analyzed and edited using Landsat 7 panchromatic images from 2000 and 2002 as well as the "World imagery" layer of the ESRI Basemap for most of the regions. The latter images were mostly used to distinguish debris-covered glaciers from rock glaciers and to identify ice underneath many of the now included ice patches. The AW3D30 DEM was used to create a flow direction grid for correction of ice divides.
+The main issues with RGI 6.0 were related to wrongly included seasonal snow and rock glaciers as well as excluded debris-covered and small clean glaciers. The new dataset is mostly based on year 2000 outlines provided by {cite:t}`Lynch2016`, but also on an ASTER-derived dataset from 2002 just for the "Middle Range" of Kamchatka provided by T. Khromova and a dataset for the period 2007-2019 described in the review by {cite:t}`Khromova2019` with local corrections by A.Y. Muraviev. These datasets were collectively analyzed and edited using Landsat 7 panchromatic images from 2000 and 2002 as well as the "World imagery" layer of the ESRI Basemap for most of the regions. The latter images were mostly used to distinguish debris-covered glaciers from rock glaciers and to identify ice underneath many of the now included ice patches. The AW3D30 DEM was used to create a flow direction grid for correction of ice divides.
 
 **De Long Islands**
 
-Glaciers in the De Long Islands, Russia, were nominal circles in RGI6 and are now appropiately included with digitized boundaries and divides.
+Glaciers in the De Long Islands, Russia (subregion 10-03), were nominal circles in RGI 6.0 and are now appropriately included with digitized boundaries and divides.
+
+**Japan**
+
+5 small glaciers in Japan (subregion 10-07) that have been recently documented {cite:p}`Arie2022` were added. Outline dates range between 1996 and 2019, with most of the area (~80%) dating to 1998-2002.   
+
 
 ## Additional information 
 

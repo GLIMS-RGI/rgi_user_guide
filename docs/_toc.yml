@@ -33,4 +33,5 @@ chapters:
 - file: 06_dataset_summary.md
 - file: 07_references.md
 - file: tables/regions.md
-- file: tables/data_sources.md
+- file: tables/contributors.md
+- file: tables/acknowledgements.md

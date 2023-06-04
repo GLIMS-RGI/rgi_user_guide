@@ -3,9 +3,11 @@
 (o1-regions-table)=
 ## First-order regions (N=19)
 
+Summary of glacier counts and areas of all 19 first-order regions in the RGI 7.0.
+
 [Download this table as csv](RGI2000-v7.0-G-o1region-summary.csv)
 
-| Region   | Full name                          | Code                                |   Glaciers |   Area (km²) |
+| Region   | Full name                          | Code                                |   Count    |   Area (km²) |
 |:---------|:-----------------------------------|:------------------------------------|-----------:|-------------:|
 | 01       | Alaska                             | `01_alaska`                         |      27510 |        86708 |
 | 02       | Western Canada and USA             | `02_western_canada_usa`             |      18730 |        14521 |
@@ -32,9 +34,11 @@
 (o2-regions-table)=
 ## Second-order regions (N=89)
 
+Summary of glacier counts and areas of all 89 second-order regions in the RGI 7.0.
+
 [Download this table as csv](RGI2000-v7.0-G-o2region-summary.csv)
 
-|        | Full name                                | Code                                           |   Glaciers |   Area (km²) |
+|        | Full name                                | Code                                           |   Count    |   Area (km²) |
 |:-------|:-----------------------------------------|:-----------------------------------------------|-----------:|-------------:|
 | 01-01  | North Alaska                             | `01-01_north_alaska`                           |        706 |          364 |
 | 01-02  | Alaska Range (Wrangell/Kilbuck)          | `01-02_alaska_range_wrangell_kilbuck`          |       5812 |        16284 |

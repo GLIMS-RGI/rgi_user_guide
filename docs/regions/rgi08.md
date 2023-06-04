@@ -1,6 +1,6 @@
 # 08: Scandinavia
 
-All glaciers in Scandinavia. Glaciers are located in mainland Norway and Sweden.
+This region encompasses all glaciers in Scandinavia. Glaciers on Svalbard are included inregion 07.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -15,15 +15,12 @@ All glaciers in Scandinavia. Glaciers are located in mainland Norway and Sweden.
 :::{figure-md} rgi08-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI08/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
-The primary sources of glacier outlines for this region were mapped using a combination of Landsat TM/ETM+
-and SPOT4 and SPOT5 imagery acquired between 1999 and 2006 (see {cite:t}`Andreassen2008a`, {cite:t}`Paul2009a`, and {cite:t}`Paul2011`
-for details). Additional updates come from {cite:t}`Andreassen2012`. 
+## Changes from version 6.0 to 7.0
 
-For RGI7, the only changes are in Sweden, where RGI6 glaciers [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). 
-Additionally, 4 "nominal glaciers" (potential glaciers without outlines) in the east of the region were deleted, as they did not seem to correspond to real glaciers.
+All glaciers near the Kebnekaise massif in Sweden in Sweden [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). Four "nominal glaciers" (glaciers represented by an ellipse since no outline was available) in the east of the region were deleted, as they do not appear to be glaciers.
 
 ## Additional information 
 

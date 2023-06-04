@@ -1,6 +1,6 @@
 # 09: Russian Arctic
 
-Covers all glaciers and ice caps in Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.
+This region encompasses all glaciers on the islands in the Russian Arctic including Novaya Zemlya, Severnaya Zemlya, Franz Josef Land, Ushakov Island and Victoria Island.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -14,13 +14,12 @@ Covers all glaciers and ice caps in Novaya Zemlya, Severnaya Zemlya, Franz Josef
 :::{figure-md} rgi09-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI09/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
-Glacier locations and changes between RGI6 and RGI7.
+Regional glacier area.
 :::
 
+## Changes from version 6.0 to 7.0
 
-The primary source of glacier outlines for this region were manually digitized as part of {cite:p}`Moholdt2012`. The main data source for Novaya Zemlya is SPIRIT SPOT5 scenes {cite:p}`Korona2009`, with best available Landsat scenes used elsewhere. Outline dates range between 2000 and 2010, with most of the area (40%) dating to 2004.
-
-Three outlines were corrected in RGI7 ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) in order to correct the basin divides for three outlet glaciers (`RGI60-09.00741`, `RGI60-09.00743`, `RGI60-09.00744`). 
+Outlines were modified ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) to correct the basin divides for three outlet glaciers (`RGI60-09.00741`, `RGI60-09.00743`, `RGI60-09.00744`).
 
 ## Additional information 
 

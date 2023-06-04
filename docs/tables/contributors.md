@@ -29,11 +29,17 @@ Contributors:
 - **Bruce Raup**: GLIMS database
 - **Francesc Roura-Adserias**: centerlines product
 - **Patrick Schmitt**: glacier complex and intersects products 
-- **Ethan Welty**: RGI6 links and overlaps
+- **Ethan Welty**: links to RGI 6.0 and overlaps
 
 ## Open outlines review process
 
 **Iestyn Barr, Etienne Berthier, Tobias Bolch, Matthias Huss, Tatiana Khromova, William Kochtitzky, Kirsty Langley, Erik Mannerfelt, Fabien Maussion, Robert McNabb, Frank Paul, Rainer Prinz, Antoine Rabatel, Philipp Rastner, Levan Tielidze.**
+
+## Technical report
+
+Written by **Fabien Maussion, Regine Hock**, based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf) led by Graham Cogley.
+
+Contributions to regional revisions sections: **Liss Marie Andreassen, Iestyn Barr, Tobias Bolch, William Kochtitzky, Fabien Maussion, Robert McNabb, Frank Paul, Levan Tielidze.**
 
 ## Glacier outline providers to GLIMS
 
@@ -127,35 +133,3 @@ This list is generated automatically from the selected GLIMS outlines metadata:
 - **Yang, Ruitang** (Region: 01. Subm ID: 809. N outlines: 1736. Area: 4120.4 km²)
 - **Zajaczkiwsky, Sophie** (Region: 03. Subm ID: 728. N outlines: 1961. Area: 37675.5 km²)
 - **Zalazar, Laura** (Region: 16, 19. Subm ID: 700. N outlines: 48. Area: 244.2 km²)
-
-## Technical report
-
-Written by **Fabien Maussion, Regine Hock**, based on the RGI 6.0 report by Graham Cogley.
-
-Region description: **Liss Marie Andreassen, Iestyn Barr, Tobias Bolch, William Kochtitzky, Fabien Maussion, Robert McNabb, Frank Paul, Levan Tielidze.**
-
-(funding-sources)=
-## Funding acknowledgements
-
-- The RGI steering committee acknowledges financial support from the International Association of Cryospheric Sciences (IACS), under the auspices of the International Union of Geodesy and Geophysics (IUGG). Funds used to to organize meetings and hire student helpers.
-- Fabien Maussion acknowledges financial support from the UNESCO Programme and Budget 2022-2023 (41C/5), Major Programme II, Output 3.SC2: "Water science, innovation, education, management, cooperation and governance bolstered for a water secure world in a changing environment" and within the framework of the theme: "Supporting Member States to address hydrological challenges, extremes and water scarcity". Funds used to to hire student helpers.
-- Fabien Maussion acknowledges financial support from the World Glacier Monitoring Service (WGMS). Funds used to to hire student helpers.
-- The mapping contributions of Frank Paul and Philipp Rastner to regions 01, 03, 04, 05, 07, 10, 11, 16, 17, 18, and 19 have been funded by the Copernicus Climate Changes Service (C3S) that is implemented by the European Centre for Medium Range Weather Forecasts (ECMWF). Additionally, the ESA project Glaciers_cci (Grant: 4000127593/19/I-NB) provided funding for Frank Paul for the contributions to regions 04 and 18.
-
-## Special acknowledgements
-
-Funding acquisition:<br>
-**Regine Hock, Fabien Maussion, Frank Paul, Bruce Raup, Michael Zemp**
-
-Computing resources and data storage:<br>
-**Ben Marzeion, Timo Rothenpieler**
-
-For their extensive outline mapping work during the RGI7 generation process:<br>
-**William Kochtitzky, Robert McNabb, Frank Paul, Philipp Rastner, Levan Tielidze**
-
-For his decades-long support of the GLIMS database:<br>
-**Bruce Raup**
-
-> RGI7 and this Technical Report is dedicated to the memory of 
-> **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
-> for his inspiration and dedication to the RGI.

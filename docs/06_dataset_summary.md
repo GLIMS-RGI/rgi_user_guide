@@ -4,7 +4,7 @@ This section provides plots and tables summarizing some basic statistics of the 
 
 ## Target year
 
-**Table**: Number of glaciers within intervals of the target year 2000 in RGI6 and RGI7
+**Table**: Number of glaciers within intervals of the target year 2000 in RGI 6.0 and RGI 7.0
 
 | Outline year      |   RGI6 (%) |   RGI7 (%) |
 |:------------------|-----------:|-----------:|
@@ -16,7 +16,7 @@ This section provides plots and tables summarizing some basic statistics of the 
 
 ## Size classes
 
-**Table**: Number of glaciers (N) and percentage of total number per size class in RGI6 and RGI7.
+**Table**: Number of glaciers (N) and percentage of total number per size class in RGI 6.0 and RGI 7.0.
 
 | Area       |   RGI6 (N) |   RGI6 (%) |   RGI7 (N) |   RGI7 (%) |
 |:-----------|-----------:|-----------:|-----------:|-----------:|
@@ -34,7 +34,7 @@ Number of glaciers per size category (log-log scale). A flatter curve in the sma
 
 ## Attributes
 
-**Table**: Number of glaciers (N) and area (km²) per terminus type in RGI7 and RGI6. Note that the default category in RGI7 is now "Not assigned", and that lake-terminating glaciers and shelf-terminating glaciers were identified in some regions in RGI6, but not in RGI7. The RGI region 19 is entirely labelled as "Not assigned" in RGI7.
+**Table**: Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default category in RGI 7.0 is now "Not assigned", and that lake-terminating glaciers and shelf-terminating glaciers were identified in some regions in RGI 6.0, but not in RGI 7.0. The RGI region 19 is entirely labelled as "Not assigned" in RGI7.
 
 |   Value | Terminus type      |   RGI7 (N) |   RGI6 (N) |   RGI7 (Area) |   RGI6 (Area) |
 |--------:|:-------------------|-----------:|-----------:|--------------:|--------------:|

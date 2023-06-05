@@ -1,6 +1,6 @@
 # Data fields: glacier product 
 
-The following attributes are available in the RGI shapefiles. For more details on some of them, see the specific sections below.
+The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.
 
 ## Full list
 
@@ -127,7 +127,7 @@ Categories:
 
 ### `term_type`
 
-The `term_type` attribute contains information on terminus type. Based on TODO.
+The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 (Southern Andes).
 
 |   Value | Terminus type      |
 |--------:|:-------------------|
@@ -142,17 +142,18 @@ The `term_type` attribute contains information on terminus type. Based on TODO.
 
 The `aspect_sec` attribute contains information on the orientation of the glacier. Categories:
 
-|   Value | Aspect sector   |
-|--------:|:----------------|
-|       1 | North           |
-|       2 | North-east      |
-|       3 | East            |
-|       4 | South-east      |
-|       5 | South           |
-|       6 | South-west      |
-|       7 | West            |
-|       8 | North-west      |
-|       9 | Not assigned    |
+|   Value | Aspect sector   | Aspect range     |
+|--------:|:----------------|:-----------------|
+|       1 | North           | [-22.°; 22.5°]   |
+|       2 | North-east      | [22.5°; 67.5°]   |
+|       3 | East            | [67.5°; 112.5°]  |
+|       4 | South-east      | [112.5°; 157.5°] |
+|       5 | South           | [157.5°; 202.5°] |
+|       6 | South-west      | [202.5; 247.5°]  |
+|       7 | West            | [247.5°; 292.5°] |
+|       8 | North-west      | [292.5°; 337.5°] |
+|       9 | Not assigned    |                  |
+
 
 ### Submission info files
 

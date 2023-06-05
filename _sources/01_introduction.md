@@ -57,7 +57,7 @@ We recommend explicitly stating the version number when referring to a specific 
 
 All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](tables/contributors) for a list of RGI 7.0 contributors.
 
-Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.
+Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.
 
 ## RGI source code
 

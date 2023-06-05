@@ -20,7 +20,10 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-All glaciers near the Kebnekaise massif in Sweden in Sweden [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). Four "nominal glaciers" (glaciers represented by an ellipse since no outline was available) in the east of the region were deleted, as they do not appear to be glaciers.
+**Kebnekaise massif in Sweden**
+
+All glaciers near the Kebnekaise massif [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). Four "nominal glaciers" (glaciers represented by a circle since no outlines were available) in the east of the region were deleted, as they do not appear to be glaciers.
+
 
 ## Additional information 
 

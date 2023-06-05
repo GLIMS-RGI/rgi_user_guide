@@ -24,7 +24,7 @@ Regional glacier area.
 
 **Brooks Range (01-01)**
 
-Many glacier outlines were corrected using manual glacier delineation with Landsat scenes from 2000, 2005, and 2007 and high-resolution images of the ESRI Basemap ("World imagery") to aid in outline interpretation (submission 810). A large number of missing smaller glaciers or glacier parts were added, glacier parts in shadow or under debris cover were corrected and the partly strong generalization of outlines was improved. Nearly all glaciers from the inventory by {cite:t}`Kienholz2015a` were modified.
+Many glacier outlines from the inventory by {cite:t}`Kienholz2015a` were corrected using manual glacier delineation with Landsat scenes from 2000, 2005, and 2007 and high-resolution images of the ESRI Basemap ("World imagery") to aid in outline interpretation (submission 810). A large number of missing smaller glaciers or glacier parts were added, glacier parts in shadow or under debris cover were corrected and the partly strong generalization of outlines was improved.
 
 **Alaska Range (01-02)**
 

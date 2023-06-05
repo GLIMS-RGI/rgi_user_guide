@@ -35,7 +35,7 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI 7.0, most glaciers were remapped and corrected previous georeferencing issues (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)). The following sub-regions have been re-mapped and updated using satellite imagery from ca. 2000:
+Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI 7.0, most glaciers were remapped and previous georeferencing issues were corrected (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)). The following sub-regions have been re-mapped and updated using satellite imagery from ca. 2000:
 
 - 19-01: Subantarctic (Pacific)
 - 19-02: South Shetlands and South Orkney
@@ -57,7 +57,7 @@ An important discussion about RGI outlines in region 19 has originated from two 
 
 **Kerguelen Islands (19-04)**
 
-Glacier outlines in RGI 6.0 were from the 1960s and partly very roughly digitized. A much improved and more recent (year 2001) dataset was available in the GLIMS database, but does unfortunately not cover the south-western part of the island and the north. As useful Landsat, SPOT and ASTER images for this region are not available close to the target year 2000, more recent satellite images from 2010 and 2018)to map the missing glaciers in the north (from 2010 and 2018) and south (from 2018 and 2022). Furthermore, some missing smaller glaciers to the south-east of the main ice cap were added and some of the existing outlines corrected. The "World imagery" layer of the ESRI Basemap was locally used to aid in the interpretation. The AW3D30 DEM was used to derive a flow direction grid and correct ice divides. The new dataset has thus used GLIMS submissions 527 and 528 as a base and numerous further edits were applied using satellite images from 2010 (Landsat 7), 2018 (Landsat 8) and 2022 (Sentinel-2).
+Glacier outlines in RGI 6.0 were from the 1960s and partly very roughly digitized. A much improved and more recent (year 2001) dataset is available in the GLIMS database, but unfortunately does not cover the south-western part of the island and the north. As useful Landsat, SPOT and ASTER images for this region are not available close to the target year 2000, more recent satellite images from 2010 and 2018) were used to map the missing glaciers in the north (from 2010 and 2018) and south (from 2018 and 2022). Furthermore, some missing smaller glaciers to the south-east of the main ice cap were added and some of the existing outlines were corrected. The "World imagery" layer of the ESRI Basemap was locally used to aid in the interpretation. The AW3D30 DEM was used to derive a flow direction grid and correct ice divides. The new dataset has thus used GLIMS submissions 527 and 528 as a base and numerous further edits were applied using satellite images from 2010 (Landsat 7), 2018 (Landsat 8) and 2022 (Sentinel-2).
 
 **Attributes**
 

@@ -127,7 +127,7 @@ Categories:
 
 ### `term_type`
 
-The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 (Southern Andes). The marine-terminating term_type is valid for ~2000. The only region missing classification for marine-terminating glaciers is RGI 19 (Antarctic and Subantarctic), thus all glaciers that are "not assigned" outside of RGI 19 can be assumed to be non-marine-terminating for ~2000. No region or glacier has any attributes availible for lake-terminating or shelf-terminating glaciers.
+The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 (Southern Andes). The marine-terminating term_type is valid for ~2000. The only region missing classification for marine-terminating glaciers is RGI 19 (Antarctic and Subantarctic), thus all glaciers that are "not assigned" outside of RGI 19 can be assumed to be non-marine-terminating for ~2000. No region or glacier has any attributes available for lake-terminating or shelf-terminating glaciers.
 
 |   Value | Terminus type      |
 |--------:|:-------------------|

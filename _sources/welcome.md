@@ -30,7 +30,7 @@ If you wish to contribute to this documentation, visit [CONTRIBUTING.md](https:/
 :link-type: doc
 :class-header: bg-light
 
-Introduction 🙋
+Introduction 💡
 ^^^
 
 What is the Randolph Glacier Inventory?
@@ -53,7 +53,7 @@ Definitions and map of the RGI Regions.
 :link-type: doc
 :class-header: bg-light
 
-Data Description 🧐
+Data Description ⚡
 ^^^
 
 Technical specifications, file naming, and data fields.
@@ -64,7 +64,7 @@ Technical specifications, file naming, and data fields.
 :link-type: doc
 :class-header: bg-light
 
-General revisions in RGI 7.0 ⚡
+General revisions in v7.0 ✨
 ^^^
 
 What changed in RGI 7.0 compared to RGI 6.0?
@@ -75,7 +75,7 @@ What changed in RGI 7.0 compared to RGI 6.0?
 :link-type: doc
 :class-header: bg-light
 
-Regional revisions in RGI 7.0 🔬
+Regional revisions in v7.0 🔁
 ^^^
 
 Description of data updates by RGI region.

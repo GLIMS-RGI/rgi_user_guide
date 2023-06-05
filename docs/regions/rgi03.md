@@ -25,7 +25,7 @@ Regional glacier area.
 
 **Ellesmere**
 
-The quality of RGI 6.0 glacier outlines in northern Ellesmere Island suffered from incorrect ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift, and were just replaced in RGI 7.0 by new outlines These based on  glacier outlines by {cite:t}`white2019glacier` as a base and but modified using 4 Landsat ETM+ panchromatic scenes acquired in July 2000. For the northern-most regions outside the coverage of Landsat the "World imagery" layer of the ESRI Basemap was used instead. Some smaller ice shelves were excluded. The editing included a mix of manual and automated corrections. 
+The quality of RGI 6.0 glacier outlines in northern Ellesmere Island suffered from incorrect ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift.  Glaciers were remapped using  glacier outlines by {cite:t}`white2019glacier` as a base but modifying them using four Landsat ETM+ panchromatic scenes acquired in July 2000. For the northernmost regions outside the coverage of Landsat the "World imagery" layer of the ESRI Basemap was used instead. Some smaller ice shelves were excluded. The editing included a mix of manual and automated corrections.
 
 **Other changes**
 

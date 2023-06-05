@@ -25,11 +25,9 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-With the exception of Newfoundland, all outlines have been revised for RGI7:
-
 **Baffin Island and Bylot Island**
 
-In RGI 6.0 glacier outlines were modified using end-of-summer Landsat 7 ETM+ images acquired between 1999 and 2002. Corrections included the addition of missing glaciers or glacier parts (incl. debris cover), removal of seasonal snow and new drainage divides based on a flow direction grid derived from the ArcticDEM at 10 m resolution and the surface flow fields (magnitudes) by {cite:t}`Millan2022`. For the southern part of Baffin Island (incl. parts of Penny Ice Cap) RGI 6.0 outlines were replaced with new outlines based on three Landsat 7 ETM+ scenes. Several small ice patches in the south of Baffin Island were added after visual inspection of the ESRI Basemap.
+The RGI 6.0 glacier outlines were modified using end-of-summer Landsat 7 ETM+ images acquired between 1999 and 2002. Corrections included the addition of missing glaciers or glacier parts (incl. debris cover), removal of seasonal snow and new drainage divides based on a flow direction grid derived from the ArcticDEM at 10 m resolution and the surface flow fields (magnitudes) by {cite:t}`Millan2022`. For the southern part of Baffin Island (incl. parts of Penny Ice Cap) RGI 6.0 outlines were replaced by new outlines based on three Landsat 7 ETM+ scenes. Several small ice patches in the south of Baffin Island were added after visual inspection of the ESRI Basemap.
 
 
 ## Additional information 

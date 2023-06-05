@@ -116,6 +116,8 @@ Basic statistics of RGI 7.0 and RGI 6.0.
 
 <br/><br/>
 
+RGI version 7.0 was developed by the international Working Group on “[IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring”](https://cryosphericsciences.org) of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
+
 Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](tables/acknowledgements).
 
 > RGI 7.0 and this Technical Report is dedicated to the memory of 

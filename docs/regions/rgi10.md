@@ -41,7 +41,7 @@ Glaciers in the De Long Islands, Russia (subregion 10-03), were nominal circles 
 
 **Japan**
 
-5 small glaciers in Japan (subregion 10-07) that have been recently documented {cite:p}`Arie2022` were added. Outline dates range between 1996 and 2019, with most of the area (~80%) dating to 1998-2002.   
+Five small glaciers (subregion 10-07) that have been recently documented {cite:p}`Arie2022` were added. Outline dates range from 1996 to 2019, with most of the area (~80%) dating to 1998-2002.  
 
 
 ## Additional information 

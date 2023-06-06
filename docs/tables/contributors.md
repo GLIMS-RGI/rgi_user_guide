@@ -21,15 +21,15 @@ Main developer:
 - **Fabien Maussion**
 
 Contributors: 
-- **Matthias Dusch**: RGITopo tpols and notebooks  
-- **Alexander Fischer**: RGITopo tpols and notebooks  
+- **Matthias Dusch**: RGITopo tools and notebooks  
+- **Alexander Fischer**: RGITopo tools and notebooks  
 - **Stephan Galos**: regional outline selection and implementation
 - **James Lea**: Google Earth Engine review tool
 - **Robert McNabb**: regional maps 
 - **Bruce Raup**: GLIMS database
 - **Francesc Roura-Adserias**: centerlines product
 - **Patrick Schmitt**: glacier complex and intersects products 
-- **Ethan Welty**: links to RGI 6.0 and overlaps
+- **Ethan Welty**: linkage between RGI 7.0 and RGI 6.0
 
 ## Open outlines review process
 

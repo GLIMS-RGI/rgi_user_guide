@@ -29,7 +29,7 @@ The quality of RGI 6.0 glacier outlines in northern Ellesmere Island suffered fr
 
 **Other changes**
 
-Glacier divides were added on Axel Heiberg Island ice caps, Sydkap Ice Cap, Agassiz Ice Cap, west of Sydkap, and west of Manson Ice Field and outlines cleaned up. Several previously omitted glaciers west of Prince of Wales Ice Cap were added.
+Glacier divides were added on Axel Heiberg Island ice caps, Sydkap Ice Cap, Agassiz Ice Cap, and glaciers west of Sydkap, and west of Manson Ice Field, and outlines were adjusted to improve their quality. Several previously omitted glaciers west of Prince of Wales Ice Cap were added.
 
 
 ## Additional information 

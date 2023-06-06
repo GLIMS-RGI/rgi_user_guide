@@ -1,4 +1,4 @@
-# Appendix 1: RGI regions & basic statistics
+# Appendix 1: RGI regions & glacier count/area
 
 (o1-regions-table)=
 ## First-order regions (N=19)

@@ -11,6 +11,7 @@ chapters:
 - file: 04_revisions.md
 - file: 05_description_by_region.md
   sections:
+  - file: regions/overview.md
   - file: regions/rgi01.md
   - file: regions/rgi02.md
   - file: regions/rgi03.md

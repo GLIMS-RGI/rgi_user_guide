@@ -37,7 +37,7 @@ The main issues with RGI 6.0 were related to wrongly included seasonal snow and 
 
 **De Long Islands**
 
-Glaciers in the De Long Islands, Russia (subregion 10-03), were nominal circles in RGI 6.0 and are now appropriately included with digitized boundaries and divides.
+Glaciers in the De Long Islands, Russia (subregion 10-03), were nominal circles in RGI 6.0 and are now appropriately included with digitized boundaries and divides based on Landsat imagery from 1999.
 
 **Japan**
 

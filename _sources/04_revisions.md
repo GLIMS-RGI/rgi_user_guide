@@ -1,4 +1,4 @@
-# Revisions in RGI 7.0 
+# General revisions in RGI 7.0 
 
 ## Overview
 

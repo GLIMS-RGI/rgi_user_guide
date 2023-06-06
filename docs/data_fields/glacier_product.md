@@ -113,7 +113,20 @@ WGMS primary classification of the glacier. Obtained from the GLIMS database. Po
 
 ### `surge_type`
 
-The `surge_type` attribute contains information on evidence for surging, and is based on the inventory of {cite:t}`Sevestre2015` as well as TODO. 
+The `surge_type` attribute contains information on evidence for surging, and is based on the following datasets:
+
+- All glaciers marked as surge-type in RGI 6.0;
+- The global inventory of {cite:t}`Sevestre2015`;
+- An inventory of surge-type glaciers in the Karakoram from {cite:t}`Bhambri2017` (region 14);
+- An inventory of observed glacier surges in the Pamirs from {cite:t}`Goerlich2020` (region 13);
+- An inventory of High Mountain Asia surge-type glaciers from {cite:t}`Guillet2022` (regions 13, 14, 15);
+- Additional inventories compiled by Ruth Krembel, Andreas Kääb, and Frank Paul.
+
+Each inventory was intersected with the RGI 7.0 outlines. For inventories with glacier outlines, intersections smaller than
+5% by area were discarded. For inventories with point data, where no intersection was found, the closest glacier to the
+point was manually chosen based on a comparison with the metadata provided with each inventory. Finally, each glacier 
+in the RGI 7.0 was then assigned the category corresponding to the highest level of confidence based on each inventory 
+(i.e., "observed" > "probable" > "possible" > "not assigned").
 
 Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 and RGI 6.0.
 

@@ -24,7 +24,7 @@ The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the R
 
 **Version 5.0**, released in July 2015, had new coverage of most of Asia (RGI regions 10, 13, 14 and 15), with some improved outlines elsewhere. Linkages to the Fluctuations of Glaciers database of the World Glacier Monitoring Service were provided for some glaciers with mass-balance measurements.
 
-**Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015). This version would be the last to be released under the leadership of Graham Cogley, [who passed in 2018](https://www.igsoc.org/j-graham-cogley-1948-2018),
+**Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015).
 
 **Version 7.0**, released in July 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of ice complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
 
@@ -63,4 +63,4 @@ Since GLIMS was globally incomplete, earlier RGI versions combined outlines from
 
 All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
-- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this Technical Report
+- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this Technical Report.

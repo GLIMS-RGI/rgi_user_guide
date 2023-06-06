@@ -41,7 +41,7 @@ What is the Randolph Glacier Inventory?
 :link-type: doc
 :class-header: bg-light
 
-RGI Regions 🗺️
+RGI Glacier Regions 🗺️
 ^^^
 
 Definitions and map of the RGI Regions.
@@ -87,7 +87,7 @@ Description of data updates by RGI region.
 :link-type: doc
 :class-header: bg-light
 
-Summary statistics 📋
+Global statistics 📋
 ^^^
 
 Basic statistics of RGI 7.0 and RGI 6.0.

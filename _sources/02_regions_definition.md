@@ -1,4 +1,4 @@
-# RGI Glacier Regions
+# RGI glacier regions
 
 RGI outlines are organized into 19 first-order glacier regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 89 in total in RGI 7.0 (two less than in RGI6, [Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
 

@@ -113,7 +113,9 @@ WGMS primary classification of the glacier. Obtained from the GLIMS database. Po
 
 ### `surge_type`
 
-The `surge_type` attribute contains information on evidence for surging, and is based on the inventory of {cite:t}`Sevestre2015` as well as TODO.
+The `surge_type` attribute contains information on evidence for surging, and is based on the inventory of {cite:t}`Sevestre2015` as well as TODO. 
+
+Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 and RGI 6.0.
 
 Categories:
 
@@ -127,8 +129,10 @@ Categories:
 
 ### `term_type`
 
-The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 (Southern Andes).
+The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 (Southern Andes). 
 
+Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 and RGI 6.0.
+ 
 |   Value | Terminus type      |
 |--------:|:-------------------|
 |       0 | Land-terminating   |

@@ -1,6 +1,6 @@
-# Summary statistics
+# Global statistics 
 
-This section provides plots and tables summarizing some basic statistics of the RGI 7.0 compared to RGI 6.0.
+This section provides plots and tables summarizing some basic statistics of the RGI 7.0 compared to RGI 6.0. A table comparing the area and number of glaciers per region can be found and downloaded in [](regions/overview).
 
 ## Target year
 
@@ -29,12 +29,13 @@ This section provides plots and tables summarizing some basic statistics of the 
 :::{figure-md} global-histogram
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" alt="global map" class="bg-primary mb-1">
 
-Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI6 have been captured in RGI7.
+Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.
 :::
 
-## Attributes
+(attributes-stats)=
+## Global attributes statistics
 
-**Table**: Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default category in RGI 7.0 is now "Not assigned", and that lake-terminating glaciers and shelf-terminating glaciers were identified in some regions in RGI 6.0, but not in RGI 7.0. The RGI region 19 is entirely labelled as "Not assigned" in RGI7.
+**Table**: Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default category in RGI 7.0 is now "Not assigned", and that lake-terminating glaciers and shelf-terminating glaciers were identified in some regions in RGI 6.0, but not in RGI 7.0. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
 
 |   Value | Terminus type      |   RGI7 (N) |   RGI6 (N) |   RGI7 (Area) |   RGI6 (Area) |
 |--------:|:-------------------|-----------:|-----------:|--------------:|--------------:|

@@ -1,6 +1,6 @@
 # 15: Asia, South East
 
-This region encompasses all glaciers ...
+This region encompasses (a) all the glaciers of western and central Himalaya that drain into the Ganges and Yarlung Tsango/ Brahmaputra, (b) all glaciers in the eastern Himalaya, apart from the glaciers on the north slope of the greater Himalaya which drain into Lake Puma Yumco (close to Bhutan) and on the northern slope of the Namcha Barwa Himal (the eastern-most section of the Himalaya), and (c) all glaciers in the south-eastern part of the Nyainqntanglha (also “Nyenchen Tanglha”) Mountains and the Hengduan Shan. 
 
 ```{admonition} Subregions
 :class: note, dropdown

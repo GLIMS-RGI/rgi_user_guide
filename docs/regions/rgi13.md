@@ -1,6 +1,6 @@
 # 13: Asia, Central
 
-This region encompasses all glaciers ...
+This region encompasses all glaciers south of 46°N in the Tien Shan (also Tian Shan), the Pamir and the mountain ranges on the Tibetan Plateau but excluding those included in regions 14 and 15. We note that the RGI region name differs from what is typically used in other context.
 
 ```{admonition} Subregions
 :class: note, dropdown

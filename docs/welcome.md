@@ -120,9 +120,9 @@ RGI version 7.0 was developed by the international Working Group on “[IACS Wor
 
 Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](tables/acknowledgements).
 
-> RGI 7.0 and this Technical Report is dedicated to the memory of 
+> RGI 7.0 and this Technical Report are dedicated to the memory of 
 > **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
-> for his inspiration and dedication to the RGI.
+> for his inspiration, leadership and dedication to the RGI.
 
 
 ## License
@@ -131,4 +131,4 @@ Financial support was provided by several organizations and institutions, in par
 
 This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless specified otherwise (i.e. for figures or content that is not from the RGI).
 
-Much of the information in this Technical Report regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017*
+Much of the information in this Technical Report regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*

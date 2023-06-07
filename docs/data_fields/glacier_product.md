@@ -188,10 +188,10 @@ A csv file containing the following columns:
 : `long_name`: submission_id <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
 
 `n_outlines`
-: `long_name`: number_of_outlines <br/> `description`: Number of outlines from this submission used in RGI7. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: number_of_outlines <br/> `description`: Number of outlines from this submission used in RGI 7.0. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `area_km2`
-: `long_name`: total_area_of_outlines <br/> `description`: Total area of the outlines from this submission used in RGI7. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: total_area_of_outlines <br/> `description`: Total area of the outlines from this submission used in RGI 7.0. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `anlys_time`
 : `long_name`: analysis_time <br/> `description`: Representative time the outline analysis was carried out. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: 

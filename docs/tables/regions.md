@@ -3,38 +3,39 @@
 (o1-regions-table)=
 ## First-order regions (N=19)
 
-Summary of glacier counts and areas of all 19 first-order regions in the RGI 7.0.
+Summary of glacier counts and areas of all 19+1 first-order regions in the RGI 7.0.
 
 [Download this table as csv](RGI2000-v7.0-G-o1region-summary.csv)
 
-| Region   | Full name                          | Code                                |   Count    |   Area (km²) |
-|:---------|:-----------------------------------|:------------------------------------|-----------:|-------------:|
-| 01       | Alaska                             | `01_alaska`                         |      27510 |        86708 |
-| 02       | Western Canada and USA             | `02_western_canada_usa`             |      18730 |        14521 |
-| 03       | Arctic Canada, North               | `03_arctic_canada_north`            |       5217 |       105370 |
-| 04       | Arctic Canada, South               | `04_arctic_canada_south`            |      11010 |        40538 |
-| 05       | Greenland Periphery                | `05_greenland_periphery`            |      19996 |        90482 |
-| 06       | Iceland                            | `06_iceland`                        |        568 |        11060 |
-| 07       | Svalbard and Jan Mayen             | `07_svalbard_jan_mayen`             |       1666 |        33959 |
-| 08       | Scandinavia                        | `08_scandinavia`                    |       3410 |         2948 |
-| 09       | Russian Arctic                     | `09_russian_arctic`                 |       1069 |        51595 |
-| 10       | Asia, North                        | `10_asia_north`                     |       7155 |         2643 |
-| 11       | Central Europe                     | `11_central_europe`                 |       4079 |         2124 |
-| 12       | Caucasus and Middle East           | `12_caucasus_middle_east`           |       2275 |         1407 |
-| 13       | Asia, Central                      | `13_asia_central`                   |      75613 |        50344 |
-| 14       | Asia, South West                   | `14_asia_south_west`                |      37562 |        33075 |
-| 15       | Asia, South East                   | `15_asia_south_east`                |      18587 |        16049 |
-| 16       | Low Latitudes                      | `16_low_latitudes`                  |       3695 |         1929 |
-| 17       | Southern Andes                     | `17_southern_andes`                 |      30634 |        27674 |
-| 18       | New Zealand                        | `18_new_zealand`                    |       3018 |          886 |
-| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |       2776 |       133434 |
-| Global   |                                    |                                     |     274570 |       706745 |
+| Region   | Full name                          | Code                                |   Count |   Area (km²) |
+|:---------|:-----------------------------------|:------------------------------------|--------:|-------------:|
+| 01       | Alaska                             | `01_alaska`                         |   27510 |        86708 |
+| 02       | Western Canada and USA             | `02_western_canada_usa`             |   18730 |        14521 |
+| 03       | Arctic Canada, North               | `03_arctic_canada_north`            |    5217 |       105370 |
+| 04       | Arctic Canada, South               | `04_arctic_canada_south`            |   11010 |        40538 |
+| 05       | Greenland Periphery                | `05_greenland_periphery`            |   19996 |        90482 |
+| 06       | Iceland                            | `06_iceland`                        |     568 |        11060 |
+| 07       | Svalbard and Jan Mayen             | `07_svalbard_jan_mayen`             |    1666 |        33959 |
+| 08       | Scandinavia                        | `08_scandinavia`                    |    3410 |         2948 |
+| 09       | Russian Arctic                     | `09_russian_arctic`                 |    1069 |        51595 |
+| 10       | Asia, North                        | `10_asia_north`                     |    7155 |         2643 |
+| 11       | Central Europe                     | `11_central_europe`                 |    4079 |         2124 |
+| 12       | Caucasus and Middle East           | `12_caucasus_middle_east`           |    2275 |         1407 |
+| 13       | Asia, Central                      | `13_asia_central`                   |   75613 |        50344 |
+| 14       | Asia, South West                   | `14_asia_south_west`                |   37562 |        33075 |
+| 15       | Asia, South East                   | `15_asia_south_east`                |   18587 |        16049 |
+| 16       | Low Latitudes                      | `16_low_latitudes`                  |    3695 |         1929 |
+| 17       | Southern Andes                     | `17_southern_andes`                 |   30634 |        27674 |
+| 18       | New Zealand                        | `18_new_zealand`                    |    3018 |          886 |
+| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |    2776 |       133434 |
+| 20       | Antarctic Mainland                 | `20_antarctic_mainland`             |       0 |            0 |
+| Global   |                                    |                                     |  274570 |       706745 |
 
 
 (o2-regions-table)=
 ## Second-order regions (N=89)
 
-Summary of glacier counts and areas of all 89 second-order regions in the RGI 7.0.
+Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 7.0.
 
 [Download this table as csv](RGI2000-v7.0-G-o2region-summary.csv)
 

@@ -40,7 +40,7 @@ The RGI 7.0 data set should be cited by
 This Technical Report (focusing on RGI 7.0) should be cited by
 **Add Ref.**
 
-Earlier versions of the Technical Report are referenced as XXXX (focusing on RGI6) and "Arendt et al." (various dates, prior RGI6).
+Earlier versions of the Technical Report are referenced as XXXX (focusing on RGI 6.0) and "Arendt et al." (various dates, prior RGI 6.0).
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 

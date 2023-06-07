@@ -186,6 +186,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi17.html">17: Southern Andes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi18.html">18: New Zealand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi20.html">20: Antarctic Mainland</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Global statistics</a></li>
@@ -411,9 +412,9 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-files">Data files</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-product">Glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi7">Glacier complex product (new in RGI7)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi7">Glacier intersects product (new in RGI7)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi7">Glacier centerlines product (new in RGI7)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#global-gridded-product">Global gridded product</a></li>
 </ul>
 </li>
@@ -505,15 +506,15 @@ document.write(`
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-submission_info_metadata.json</span></code></dt><dd><p>information about the attributes in the submission info file: full name, description, units, etc.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI7, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.nc</span></code></dt><dd><p>hypsometry files (TODO)</p>
 </dd>
 </dl>
 <p>For more information on this product, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data fields: glacier product</span></a>.</p>
 </section>
-<section id="glacier-complex-product-new-in-rgi7">
-<span id="glacier-complex"></span><h3>Glacier complex product (new in RGI7)<a class="headerlink" href="#glacier-complex-product-new-in-rgi7" title="Permalink to this headline">#</a></h3>
+<section id="glacier-complex-product-new-in-rgi-7-0">
+<span id="glacier-complex"></span><h3>Glacier complex product (new in RGI 7.0)<a class="headerlink" href="#glacier-complex-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
 <p>The “glacier complex” product is the result of a spatial merge operation of the glacier product (<a class="reference external" href="http://wiki.gis.com/wiki/index.php/Dissolve">dissolve</a> in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. The only attributes remaining or recomputed after the merge are <code class="docutils literal notranslate"><span class="pre">o1region</span></code>,  <code class="docutils literal notranslate"><span class="pre">o2region</span></code>, <code class="docutils literal notranslate"><span class="pre">cenlon</span></code>, <code class="docutils literal notranslate"><span class="pre">cenlat</span></code>, and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>. This glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.</p>
 <p>The following files are included in the unzipped folder (exemplified with region 01):</p>
 <dl class="simple myst">
@@ -528,8 +529,8 @@ document.write(`
 </dl>
 <p>For more information on this product, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data fields: glacier complex product</span></a>.</p>
 </section>
-<section id="glacier-intersects-product-new-in-rgi7">
-<span id="glacier-intersects"></span><h3>Glacier intersects product (new in RGI7)<a class="headerlink" href="#glacier-intersects-product-new-in-rgi7" title="Permalink to this headline">#</a></h3>
+<section id="glacier-intersects-product-new-in-rgi-7-0">
+<span id="glacier-intersects"></span><h3>Glacier intersects product (new in RGI 7.0)<a class="headerlink" href="#glacier-intersects-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
 <p>The glacier intersects products delineates the “divides” or “borders” between adjacent ice bodies. The resulting geometries are single lines (each with their own id), with attributes <code class="docutils literal notranslate"><span class="pre">rgi_g_id_1</span></code> and <code class="docutils literal notranslate"><span class="pre">rgi_g_id_2</span></code> indicating which glacier entities are adjacent. This product is useful for describing the connection between two glaciers (for example by its length) or for glacier models able to use this information.</p>
 <p>The following files are included in the unzipped folder (exemplified with region 01):</p>
 <dl class="simple myst">
@@ -548,8 +549,8 @@ document.write(`
 </figcaption>
 </figure>
 </section>
-<section id="glacier-centerlines-product-new-in-rgi7">
-<span id="glacier-centerlines"></span><h3>Glacier centerlines product (new in RGI7)<a class="headerlink" href="#glacier-centerlines-product-new-in-rgi7" title="Permalink to this headline">#</a></h3>
+<section id="glacier-centerlines-product-new-in-rgi-7-0">
+<span id="glacier-centerlines"></span><h3>Glacier centerlines product (new in RGI 7.0)<a class="headerlink" href="#glacier-centerlines-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
 <p>TODO</p>
 </section>
 <section id="global-gridded-product">
@@ -639,9 +640,9 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-files">Data files</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-product">Glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi7">Glacier complex product (new in RGI7)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi7">Glacier intersects product (new in RGI7)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi7">Glacier centerlines product (new in RGI7)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#global-gridded-product">Global gridded product</a></li>
 </ul>
 </li>

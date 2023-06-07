@@ -1,5 +1,7 @@
 # Appendix 2: Full list of contributors
 
+All contributors listed by name below are part of the RGI 7.0 consortium.
+
 ## IACS working group
 
 [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).

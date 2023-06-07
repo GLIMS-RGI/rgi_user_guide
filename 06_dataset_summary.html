@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="References" href="07_references.html" />
-    <link rel="prev" title="19: Subantarctic and Antarctic Islands" href="regions/rgi19.html" />
+    <link rel="prev" title="20: Antarctic Mainland" href="regions/rgi20.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -186,6 +186,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi17.html">17: Southern Andes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi18.html">18: New Zealand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi20.html">20: Antarctic Mainland</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Global statistics</a></li>
@@ -426,8 +427,8 @@ document.write(`
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-left head"><p>Outline year</p></th>
-<th class="text-right head"><p>RGI6 (%)</p></th>
-<th class="text-right head"><p>RGI7 (%)</p></th>
+<th class="text-right head"><p>RGI 6.0 (%)</p></th>
+<th class="text-right head"><p>RGI 7.0 (%)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -456,10 +457,10 @@ document.write(`
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-left head"><p>Area</p></th>
-<th class="text-right head"><p>RGI6 (N)</p></th>
-<th class="text-right head"><p>RGI6 (%)</p></th>
-<th class="text-right head"><p>RGI7 (N)</p></th>
-<th class="text-right head"><p>RGI7 (%)</p></th>
+<th class="text-right head"><p>RGI 6.0 (N)</p></th>
+<th class="text-right head"><p>RGI 6.0 (%)</p></th>
+<th class="text-right head"><p>RGI 7.0 (N)</p></th>
+<th class="text-right head"><p>RGI 7.0 (%)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -509,10 +510,10 @@ document.write(`
 <thead>
 <tr class="row-odd"><th class="text-right head"><p>Value</p></th>
 <th class="text-left head"><p>Terminus type</p></th>
-<th class="text-right head"><p>RGI7 (N)</p></th>
-<th class="text-right head"><p>RGI6 (N)</p></th>
-<th class="text-right head"><p>RGI7 (Area)</p></th>
-<th class="text-right head"><p>RGI6 (Area)</p></th>
+<th class="text-right head"><p>RGI 7.0 (N)</p></th>
+<th class="text-right head"><p>RGI 6.0 (N)</p></th>
+<th class="text-right head"><p>RGI 7.0 (Area)</p></th>
+<th class="text-right head"><p>RGI 6.0 (Area)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -553,16 +554,21 @@ document.write(`
 </tr>
 </tbody>
 </table>
-<p><br><br></p>
-<p><strong>Table</strong>: Number of glaciers (N) and area (km²) per surge type attribute in RGI7 and RGI6.</p>
+<figure class="align-default" id="term-global-fig">
+<img alt="global map term_type" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type_small.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 63 </span><span class="caption-text">Terminus type (<code class="docutils literal notranslate"><span class="pre">term_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type.png">Download high resolution version</a>.</span><a class="headerlink" href="#term-global-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p><strong>Table</strong>: Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.</p>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-right head"><p>Value</p></th>
-<th class="text-left head"><p>Surging</p></th>
-<th class="text-right head"><p>RGI7 (N)</p></th>
-<th class="text-right head"><p>RGI6 (N)</p></th>
-<th class="text-right head"><p>RGI7 (Area)</p></th>
-<th class="text-right head"><p>RGI6 (Area)</p></th>
+<th class="text-left head"><p>Surge type</p></th>
+<th class="text-right head"><p>RGI 7.0 (N)</p></th>
+<th class="text-right head"><p>RGI 6.0 (N)</p></th>
+<th class="text-right head"><p>RGI 7.0 (Area)</p></th>
+<th class="text-right head"><p>RGI 6.0 (Area)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -603,6 +609,12 @@ document.write(`
 </tr>
 </tbody>
 </table>
+<figure class="align-default" id="surge-global-fig">
+<img alt="global map surge" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge_small.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 64 </span><span class="caption-text">Surge type (<code class="docutils literal notranslate"><span class="pre">surge_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge.png">Download high resolution version</a>.</span><a class="headerlink" href="#surge-global-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 
@@ -635,12 +647,12 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="regions/rgi19.html"
+       href="regions/rgi20.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">19: Subantarctic and Antarctic Islands</p>
+        <p class="prev-next-title">20: Antarctic Mainland</p>
       </div>
     </a>
     <a class="right-next"

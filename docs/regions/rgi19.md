@@ -35,7 +35,7 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI 7.0, most glaciers were remapped and previous georeferencing issues were corrected (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)). The following sub-regions have been re-mapped and updated using satellite imagery from ca. 2000:
+Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI 7.0, glaciers in the following subregions were remapped using satellite imagery from around year 2000, and georeferencing issues were corrected (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)):
 
 - 19-01: Subantarctic (Pacific)
 - 19-02: South Shetlands and South Orkney
@@ -51,9 +51,9 @@ Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical
 - 19-17: Pine Island Bay
 - 19-24: W Queen Maud Land 7K
 
-Several wrongly mapped icebergs and other bodies were removed. Some larger ice bodies were manually divided into sub-basins, especially in sub-regions 19-15 and 19-16. Altogether, area changes are small (+0.1%) but the quality of the inventory has considerably improved.
+Several wrongly mapped icebergs and other bodies were removed. Some larger ice caps were manually divided into individual glaciers, especially in subregions 19-15 and 19-16. Altogether, area changes are small (+0.1%) but the quality of the inventory has considerably improved.
 
-An important discussion about RGI outlines in region 19 has originated from two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, opening the question whether certain outlines in RGI belong to the ice sheet or the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change the current separation in the RGI without consensus from both the glacier and ice-sheet research communities.
+An important discussion about RGI outlines in region 19 has been triggered by two recent publications: {cite:t}`Millan2022` and {cite:t}`Hock2023`, raising the question whether certain outlines in RGI belong to the ice sheet or the glacier category. We acknowledge the need for discussion and coordination within the scientific community to avoid double counting, but chose not to change the current separation in the RGI without consensus from both the glacier and ice-sheet research communities.
 
 **Kerguelen Islands (19-04)**
 
@@ -61,7 +61,7 @@ Glacier outlines in RGI 6.0 were from the 1960s and partly very roughly digitize
 
 **Attributes**
 
-RGI 6.0 included for each glacier a label for the terminus type attribute (`term_type`). However, in RGI 7.0 all glaciers received the label `Not assigned`, despite the prevalence of marine or shelf-terminating glaciers in this region. Updating this attribute is planned for the next version of the RGI.
+RGI 6.0 included for each glacier a label for the terminus type attribute (`term_type`). However, in RGI 7.0 all glaciers received the label `Not assigned`, despite the prevalence of marine and shelf-terminating glaciers in this region. Updating this attribute is planned for the next version of the RGI.
 
 ## Additional information 
 

@@ -19,7 +19,7 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-Basin divides were corrected ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) for three outlet glaciers on the north/west side of Novaya Zemlya (`RGI60-09.00741`, `RGI60-09.00743`, `RGI60-09.00744`).
+Basin divides were corrected ([discussion](https://github.com/GLIMS-RGI/rgi7_scripts/issues/4)) for three outlet glaciers on the northwest side of Novaya Zemlya (`RGI60-09.00741`, `RGI60-09.00743`, `RGI60-09.00744`).
 
 ## Additional information 
 

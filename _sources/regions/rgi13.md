@@ -1,6 +1,6 @@
 # 13: Central Asia
 
-Regions `13`, `14`, `15` comprise the region that is often referred to as High Mountain Asia. Region 13 encompasses all glaciers south of 46°N in the Tien Shan (also called Tian Shan), the Pamir and the mountain ranges on the Tibetan Plateau but excluding those included in regions 14 and 15. Note that the term Central Asia typically refers to a much larger region than the one in the RGI. 
+Regions `13`, `14`, `15` comprise the region that is often referred to as High Mountain Asia. Region 13 encompasses all glaciers south of 46°N in the Tien Shan (also called Tian Shan), the Pamir and the mountain ranges on the Tibetan Plateau but excluding those included in regions `14` and `15`. The term "Central Asia" has been chosen to differentiate the four RGI regions in Asia outside the Arctic, fully aware that the geographical extent is commonly different when used in other contexts. 
 
 ```{admonition} Subregions
 :class: note, dropdown

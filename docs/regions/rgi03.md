@@ -1,6 +1,6 @@
-# 03: Arctic Canada, North
+# 03: Arctic Canada North
 
-The Arctic Canada, North region encompasses all glaciers in Canada north of 74°N including  the heavily glacierized Ellesmere and Devon Islands.
+The region encompasses all glaciers in Canada north of 74°N including  the heavily glacierized Ellesmere and Devon Islands.
 
 ```{admonition} Subregions
 :class: note, dropdown

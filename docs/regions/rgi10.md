@@ -1,6 +1,6 @@
-# 10: Asia, North
+# 10: North Asia
 
-This region encompasses all glaciers in Asia not included in regions 09 and 12 to 15. 
+The region encompasses all glaciers in Asia not included in regions 09 and 12 to 15. 
 
 ```{admonition} Subregions
 :class: note, dropdown

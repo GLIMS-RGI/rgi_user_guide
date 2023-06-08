@@ -1,6 +1,6 @@
 # 17: Southern Andes
 
-This region encompasses all glaciers in South America south of 25°S.
+The region encompasses all glaciers in South America south of 25°S.
 
 ```{admonition} Subregions
 :class: note, dropdown

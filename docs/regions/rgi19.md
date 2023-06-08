@@ -1,6 +1,6 @@
 # 19: Subantarctic and Antarctic Islands
 
-The Subantarctic and Antarctic Islands region encompasses all glaciers on the islands in the periphery of mainland Antarctica, except those covered by ice rises within ice shelves. Some remote islands in the Southern ocean are also included. The region does not include glaciers on mainland Antarctica.
+The region encompasses all glaciers on the islands in the periphery of mainland Antarctica, except those covered by ice rises within ice shelves. Some remote islands in the Southern ocean are also included. The region does not include glaciers on mainland Antarctica.
 
 ```{admonition} Subregions
 :class: note, dropdown

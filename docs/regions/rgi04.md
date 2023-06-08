@@ -1,6 +1,6 @@
-# 04: Arctic Canada, South
+# 04: Arctic Canada South
 
-The Arctic Canada, South region encompasses all glaciers in northeast Canada south of 74°N including Baffin Island and Northern Newfoundland. 
+The region encompasses all glaciers in northeast Canada south of 74°N including Baffin Island and Northern Newfoundland. 
 
 ```{admonition} Subregions
 :class: note, dropdown

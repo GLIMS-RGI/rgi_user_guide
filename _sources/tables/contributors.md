@@ -41,7 +41,7 @@ Contributors:
 
 Written by **Fabien Maussion, Regine Hock**, based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf) led by Graham Cogley.
 
-Contributions to regional revisions sections: **Liss Marie Andreassen, Iestyn Barr, Tobias Bolch, William Kochtitzky, Fabien Maussion, Robert McNabb, Frank Paul, Levan Tielidze.**
+Contributions to regional revisions sections: **Liss Marie Andreassen, Iestyn Barr, Tobias Bolch, William Kochtitzky, Robert McNabb, Frank Paul, Levan Tielidze.**
 
 ## Glacier outline providers to GLIMS
 

@@ -1,6 +1,6 @@
 # RGI glacier regions
 
-RGI outlines are organized into 20 first-order glacier regions (one more than in RGI 6.0, since former region 19 was split into two regions [Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
+RGI outlines are organized into 20 first-order glacier regions (one more than in RGI 6.0 and earlier versions, since former region 19 was split into two regions ([Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
 
 :::{figure-md} global-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
@@ -23,11 +23,10 @@ The region outlines have changed slightly between RGI versions, for example to a
 **Region boundary and name changes:**
 
 - The region boxes for region `01` (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. One of the two boxes, part of subregion `01-03` Alaska Peninsula (Aleutians), contains no glaciers (and probably hasn't for a long time) and is now removed.
-- Region names in the region shapefiles (and therefore of the associated RGI product files) have been harmonized to reflect the most commonly used version in various documents and publications of the RGI. "Arctic Canada, North" and "Arctic Canada, South" have been renamed "Arctic Canada North" and "Arctic Canada South" (comma removed). The four regions in Asia ("North", "Central", "South West" and "South East") were renamed to "North Asia", "Central Asia", "South Asia West" and "South Asia East". With this change, none of the regions and subregions in RGI 7.0 have a comma in them.
 - Subregion `05-11` (Greenland Ice Sheet) has been removed since it was coarsely defined and the RGI does not include the ice sheet proper.
 - The southern boundary of region `12` (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously not included.
-- The Antarctic mainland has been removed from the polygon of RGI region `19`. 
 - Region `19` ("Antarctic and Subantarctic") was split into two first-order regions. Region `19` now solely includes the islands in the periphery of Antarctica, and was renamed to "Subantarctic and Antarctic Islands". A new region `20`, ("Antarctic Mainland") was added to encompass the remaining subregion ("Antarctic Ice Sheet", previously `19-31` and now `20-01`), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion `19-31` in all previous RGI versions).
+- Region names in the region shapefiles (and therefore of the associated RGI product files) have been harmonized to reflect the most commonly used version in various documents and publications of the RGI. "Arctic Canada, North" and "Arctic Canada, South" have been renamed "Arctic Canada North" and "Arctic Canada South" (comma removed). The four regions in Asia ("North", "Central", "South West" and "South East") were renamed to "North Asia", "Central Asia", "South Asia West" and "South Asia East". With this change, none of the regions and subregions in RGI 7.0 have a comma in their name.
 
 **Technical changes:**
 

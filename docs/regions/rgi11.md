@@ -1,6 +1,6 @@
 # 11: Central Europe
 
-The region encompasses all glaciers in Europe outside Scandinavia (region 08). More than 99% of the glacier area is located in the European Alps and the Pyrenees. The term "Central Europe " has been chosen for simplicity and convenience since the inception of the RGI to differentiate this glacier region from the one in northern Europe (region 08 Scandinavia), fully aware that the geographical extent is commonly different when used in other context.
+The region encompasses all glaciers in Europe outside Scandinavia (region 08). More than 99% of the glacier area is located in the European Alps and the Pyrenees. The term "Central Europe " has been chosen to differentiate this glacier region from the one in northern Europe (region `08`, Scandinavia), fully aware that the geographical extent is commonly different when used in other contexts.
 
 ```{admonition} Subregions
 :class: note, dropdown

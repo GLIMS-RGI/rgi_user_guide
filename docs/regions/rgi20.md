@@ -16,4 +16,4 @@ The new region 20.
 
 ## Changes from version 6.0 to 7.0
 
-This region was added in RGI 7.0. The previous first-order region 19 was split into two regions: former subregion 19-31 was removed from region 19 and now defines the new first-order region 20. The split was motivated by the fact that RGI7.0 and all previous versions included a complete inventory of the glaciers on the islands in the periphery of mainland Antarctica, but no glaciers on the mainland itself, although inventories (though incomplete) exist.
+This region was added in RGI 7.0. The previous first-order region `19` was split into two regions: former subregion `19-31` was removed from region `19` and now defines the new first-order region `20`. The split was motivated by the fact that RGI 7.0 and all previous versions included a complete inventory of the glaciers on the islands in the periphery of mainland Antarctica, but no glaciers on the mainland itself, although inventories (though incomplete) exist.

@@ -25,8 +25,7 @@ The region outlines have changed slightly between RGI versions, for example to a
 - The region boxes for region `01` (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. One of the two boxes, part of subregion `01-03` Alaska Peninsula (Aleutians), contains no glaciers (and probably hasn't for a long time) and is now removed. 
 - Subregion `05-11` (Greenland Ice Sheet) has been removed since it was coarsely defined and the RGI does not include the ice sheet proper.
 - The southern boundary of region `12` (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously not included.
-- The Antarctic mainland has been removed from the polygon of RGI region `19`. 
-- Region `19` ("Antarctic and Subantarctic") was split into two first-order regions. Region `19` now solely includes the islands in the periphery of Antarctica, and was renamed to "Subantarctic and Antarctic Islands". A new region `20`, ("Antarctic Mainland") was added to encompass the remaining subregion ("Antarctic Ice Sheet", previously `19-31` and now `20-01`), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion `19-31` in all previous RGI versions).
+- Region `19` ("Antarctic and Subantarctic") was split into two first-order regions. Region `19` now solely includes glaciers on the islands in the periphery of Antarctica (i.e. former subregion 19-31 was removed), and the region was renamed to "Subantarctic and Antarctic Islands". A new region `20`, ("Antarctic Mainland") was defined to encompass the mainland (i.e. previous subregion `19-31` became region `20-01`), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion `19-31` in all previous RGI versions).
 
 **Technical changes:**
 

@@ -1,6 +1,6 @@
 # 16: Low Latitudes
 
-This region encompasses all glaciers in the tropics and sub-tropics (25°S-20°N) including glaciers in South America, Africa and Indonesia.
+The region encompasses all glaciers in the tropics and sub-tropics (25°S-20°N) including glaciers in South America, Africa and Indonesia.
 
 ```{admonition} Subregions
 :class: note, dropdown

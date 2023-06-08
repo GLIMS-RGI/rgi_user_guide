@@ -1,6 +1,6 @@
-# 14: Asia, South West
+# 14: South Asia West
 
-Regions 13-15 comprise the region that is often referred to as High Mountain Asia. Region 14 encompasses all glaciers in the Hindu Kush, the Karakoram (including the Taxkozuk range in the North), in Western Himalaya and the glaciers on the south-eastern Tibetan Plateau that drain into the Indus River.
+Regions `13`, `14`, `15` comprise the region that is often referred to as High Mountain Asia. Region 14 encompasses all glaciers in the Hindu Kush, the Karakoram (including the Taxkozuk range in the North), in Western Himalaya and the glaciers on the south-eastern Tibetan Plateau that drain into the Indus River.
 
 ```{admonition} Subregions
 :class: note, dropdown

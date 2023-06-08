@@ -1,6 +1,6 @@
 # 12: Caucasus and Middle East
 
-This region encompasses all glaciers between 30°E and 54°E and 30°N and 45°N. More than 99% of the glaciers are located in the Caucasus.
+The region encompasses all glaciers between 30°E and 54°E and 30°N and 45°N. More than 99% of the glaciers are located in the Caucasus.
 
 ```{admonition} Subregions
 :class: note, dropdown

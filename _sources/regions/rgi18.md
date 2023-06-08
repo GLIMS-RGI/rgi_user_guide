@@ -1,6 +1,6 @@
 # 18: New Zealand
 
-This region encompasses all glaciers in New Zealand
+The region encompasses all glaciers in New Zealand
 
 ```{admonition} Subregions
 :class: note, dropdown

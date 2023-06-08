@@ -1,6 +1,6 @@
 # 02: Western Canada and USA
 
-The Western Canada and USA region encompasses all glaciers in western Canada and the USA not included in Region 01.
+The region encompasses all glaciers in western Canada and the USA not included in Region 01.
 
 ```{admonition} Subregions
 :class: note, dropdown

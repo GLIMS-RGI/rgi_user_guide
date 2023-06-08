@@ -1,6 +1,6 @@
 # RGI glacier regions
 
-RGI outlines are organized into 20 first-order glacier regions (one more than in RGI 6.0, [Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 91 in total in RGI 7.0 (one removed from RGI 6.0 and one added, [Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
+RGI outlines are organized into 20 first-order glacier regions (one more than in RGI 6.0, [Figure 1](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
 
 :::{figure-md} global-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
@@ -13,9 +13,7 @@ First-order regions of the RGI version 7.0 and glacier locations in red. [Downlo
 [Download the RGI 7.0 region files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l5_rgi7b1_zip/RGI2000-v7.0-regions.zip). For review only!
 ```
 
-First-order regions `10`, `19` and `20` straddle the 180th meridian, and so does the second-order regions `19-15` and `20-01`. For convenience of analysis in a cylindrical-equidistant coordinate system centred on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western. 
-
-In addition to the 19 first order regions in RGI 6.0, RGI 7.0 defines a new first order region (`20`, Antarctic Mainland) and one associated second order region (`20-01`, Antarctic Mainland). This region currently contains no glaciers, and does not have an associated RGI outlines file.
+First-order regions `10`, `19` and `20` straddle the 180th meridian, and so does the second-order regions `19-15` and `20-01`. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in [Figure 1](global-fig), each of these regions appears in the accompanying shapefiles as two polygons, eastern and western. 
 
 The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G data set (NEW REFERENCE)
 
@@ -28,8 +26,7 @@ The region outlines have changed slightly between RGI versions, for example to a
 - Subregion `05-11` (Greenland Ice Sheet) has been removed since it was coarsely defined and the RGI does not include the ice sheet proper.
 - The southern boundary of region `12` (Caucasus and Middle East) has been shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously not included.
 - The Antarctic mainland has been removed from the polygon of RGI region `19`. 
-- Region `19` has been renamed to "*Subantarctic and Antarctic Islands*" (instead of "*Antarctic and Subantarctic*")
-- A new region `20`, ("*Antarctic Mainland*") has been added but it presently contains no glaciers in RGI 7.0 (or any of the previous RGI versions).
+- Region `19` ("Antarctic and Subantarctic") was split into two first-order regions. Region `19` now solely includes the islands in the periphery of Antarctica, and was renamed to "Subantarctic and Antarctic Islands". A new region `20`, ("Antarctic Mainland") was added to encompass the remaining subregion ("Antarctic Ice Sheet", previously `19-31` and now `20-01`), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion `19-31` in all previous RGI versions).
 
 **Technical changes:**
 

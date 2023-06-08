@@ -18,7 +18,7 @@ RGI and GLIMS permanent data storage:<br>
 For his decades-long support of the GLIMS database:<br>
 **Bruce Raup**
 
-For substantial contributions in developing, generating and curating the RGI over nearly a decade:<br>
+For his leadership and substantial contributions in developing, generating and curating the RGI over nearly a decade:<br>
 **Graham Cogley**
 
 For their pioneering work in initiating the RGI:<br>

@@ -35,6 +35,8 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
+Region `19` (previously "Antarctic and Subantarctic") was split into two first-order regions. Region `19` in RGI 7.0 now solely includes the islands in the periphery of Antarctica, and was renamed to "Subantarctic and Antarctic Islands". A new region `20`, ("Antarctic Mainland") was added to encompass the remaining subregion ("Antarctic Ice Sheet", previously `19-31` and now `20-01`).
+
 Most RGI 6.0 outlines originated from {cite:t}`Bliss2013` based on topographical maps from the Antarctic Digital Database {cite:p}`add2000` (see {cite:t}`Bliss2013` for details). For RGI 7.0, glaciers in the following subregions were remapped using satellite imagery from around year 2000, and georeferencing issues were corrected (shifts, deformation, etc. See github discussion [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/61) and [here](https://github.com/GLIMS-RGI/rgi7_scripts/issues/64)):
 
 - 19-01: Subantarctic (Pacific)

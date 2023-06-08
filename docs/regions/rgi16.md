@@ -27,7 +27,7 @@ All RGI 6.0 outlines were replaced since they had been derived from satellite im
 
 **Chile and Argentina**
 
-See [](rgi17).
+Some glaciers in northern Chile and Argentina were replaced. Details are given in [](rgi17).
 
 ## Additional information 
 

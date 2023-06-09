@@ -1,6 +1,6 @@
 # 08: Scandinavia
 
-This region encompasses all glaciers in Scandinavia. Glaciers on Svalbard are included inregion 07.
+This region encompasses all glaciers in Scandinavia. Glaciers on Svalbard are included in region 07.
 
 ```{admonition} Subregions
 :class: note, dropdown

@@ -26,14 +26,12 @@ Regional glacier area.
 
 **Altay and Sayan** 
 
-All glaciers in Altay and Sayan (subregion 10-04) were replaced by GAMDAM inventory version 2 {cite:p}`Sakai2019`. 
+All glacier outlines in Altay and Sayan (subregion 10-04) were replaced by GAMDAM inventory version 2 {cite:p}`Sakai2019`. 
 
 
 **Kamchatka**
 
-All glacier outlines in Kamchatka (part of subregion 10-05) have been remapped. Glacier outlines in Eastern Russia were reviewed using the Glacier Inventory of Russia {cite:p}`Khromova2022`. 
-
-The main issues with RGI 6.0 were related to wrongly included seasonal snow and rock glaciers as well as excluded debris-covered and small clean glaciers. The new dataset is mostly based on year 2000 outlines provided by {cite:t}`Lynch2016`, but also on an ASTER-derived dataset from 2002 just for the "Middle Range" of Kamchatka provided by T. Khromova and a dataset for the period 2007-2019 described in the review by {cite:t}`Khromova2019` with local corrections by A.Y. Muraviev. These datasets were collectively analyzed and edited using Landsat 7 panchromatic images from 2000 and 2002 as well as the "World imagery" layer of the ESRI Basemap for most of the regions. The latter images were mostly used to distinguish debris-covered glaciers from rock glaciers and to identify ice underneath many of the now included ice patches. The AW3D30 DEM was used to create a flow direction grid for correction of ice divides.
+All glacier outlines in Kamchatka (southern part of subregion 10-05) have been remapped. The main issues with RGI 6.0 were related to wrongly included seasonal snow and rock glaciers as well as missing debris-covered and other small glaciers. The new dataset is mostly based on year 2000 outlines provided by {cite:t}`Lynch2016`, but also on an ASTER-derived dataset from 2002 just for the "Middle Range" of Kamchatka provided by T. Khromova and a dataset for the period 2007-2019 described in the review by {cite:t}`Khromova2019` with local corrections by A.Y. Muraviev. These datasets were collectively analyzed and edited using Landsat 7 panchromatic images from 2000 and 2002 as well as the "World imagery" layer of the ESRI Basemap for most of the regions. The latter images were mostly used to distinguish debris-covered glaciers from rock glaciers and to identify ice underneath many of the now included ice patches. The AW3D30 DEM was used to create a flow direction grid for correction of ice divides.
 
 **De Long Islands**
 

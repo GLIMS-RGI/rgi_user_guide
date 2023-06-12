@@ -111,6 +111,35 @@ WGMS primary classification of the glacier. Obtained from the GLIMS database. Po
 |       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
 
 
+
+### Topography derived attributes `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m`
+
+These attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
+ 
+Each glacier grid is defined in the locally valid UTM zone (`utm_zone` attribute) and with a grid spacing $dx$ depending on the glacier size: $dx =  14 \sqrt{A} + 10$, with $dx$ the grid spacing in meters and $A$ the glacier area in km² {cite:p}`Maussion2019`. If a grid spacing chosen by this formula exceeds 100 m, the grid spacing is fixed to a maximum of 100 m. Effectively, this means that a glacier of the minimum area of 0.01 km² will have a grid spacing of 11.4 m, a 8 km² glacier a grid spacing of 50 m, and all glaciers above 42 km² a grid spacing of 100 m. The chosen DEM product (`dem_source` attribute) is reprojected onto the local glacier grid and interpolated using cubic resampling with the [rasterio](https://rasterio.readthedocs.io) library.
+
+The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2019` (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to [](dem_citations.md) for a full reference.
+
+For each glacier, a glacier mask is computed from the outlines, and the applied to compute the glacier statistics. 
+
+### Slope attributes `slope_deg`, `aspect_deg`, `aspect_sec`
+
+We use the same DEM and grid as for the topography derived attributes above. `slope_deg` and `aspect_deg` are computed using a standard trigonometric functions.
+The `aspect_sec` attribute contains information on the orientation of the glacier. Categories:
+
+|   Value | Aspect sector   | Aspect range     |
+|--------:|:----------------|:-----------------|
+|       1 | North           | [-22.°; 22.5°]   |
+|       2 | North-east      | [22.5°; 67.5°]   |
+|       3 | East            | [67.5°; 112.5°]  |
+|       4 | South-east      | [112.5°; 157.5°] |
+|       5 | South           | [157.5°; 202.5°] |
+|       6 | South-west      | [202.5; 247.5°]  |
+|       7 | West            | [247.5°; 292.5°] |
+|       8 | North-west      | [292.5°; 337.5°] |
+|       9 | Not assigned    |                  |
+
+
 ### `surge_type`
 
 The `surge_type` attribute contains information on evidence for surging, and is based on the following datasets:
@@ -162,22 +191,6 @@ Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 an
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
 
-
-### `aspect_sec`
-
-The `aspect_sec` attribute contains information on the orientation of the glacier. Categories:
-
-|   Value | Aspect sector   | Aspect range     |
-|--------:|:----------------|:-----------------|
-|       1 | North           | [-22.°; 22.5°]   |
-|       2 | North-east      | [22.5°; 67.5°]   |
-|       3 | East            | [67.5°; 112.5°]  |
-|       4 | South-east      | [112.5°; 157.5°] |
-|       5 | South           | [157.5°; 202.5°] |
-|       6 | South-west      | [202.5; 247.5°]  |
-|       7 | West            | [247.5°; 292.5°] |
-|       8 | North-west      | [292.5°; 337.5°] |
-|       9 | Not assigned    |                  |
 
 
 ### Submission info files

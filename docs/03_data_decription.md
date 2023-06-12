@@ -91,7 +91,7 @@ For more information on this product and its attributes, see [](data_fields/glac
 
 The "glacier complex" product is the result of a spatial merge operation of the glacier product ([dissolve](http://wiki.gis.com/wiki/index.php/Dissolve) in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. The only attributes remaining or recomputed after the merge are `o1region`,  `o2region`, `cenlon`, `cenlat`, and `area_km2`. This glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.
 
-The following files are included in the unzipped folder (exemplified with region 01):
+The following files are included in the unzipped folder:
 
 `RGI2000-v7.0-C-01_alaska.shp`
 : the RGI glacier complex outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
@@ -112,10 +112,10 @@ For more information on this product and its attributes, see [](data_fields/glac
 
 The glacier intersects products delineates the "divides" or "borders" between adjacent ice bodies. The resulting geometries are single lines (each with their own id), with attributes `rgi_g_id_1` and `rgi_g_id_2` indicating which glacier entities are adjacent. This product is useful for describing the connection between two glaciers (for example by its length) or for glacier models able to use this information.
 
-The following files are included in the unzipped folder (exemplified with region 01):
+The following files are included in the unzipped folder:
 
 `RGI2000-v7.0-I-01_alaska.shp`
-: the RGI glacier intersects outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: the RGI glacier intersects lines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-I-01_alaska-attributes.csv`
 : glacier intersects attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
@@ -135,9 +135,21 @@ Example of the glacier intersects product (red) drawn over the glacier product (
 (glacier-centerlines)=
 ### Glacier centerlines product (new in RGI 7.0)
 
-The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) framework {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation.
+The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation. 
 
-Each glacier contains at least one main centerline as well as any number of tributaries, sorted according to their Strahler number (a measure of branching complexity defined by {cite:t}`Strahler1952` see ), from the lowest (line without tributaries but with possible descendants) to the highest (the main -- and longest -- centerline)
+Each glacier contains at least one main centerline as well as any number of tributary centerlines, sorted according to their Strahler number (a measure of branching complexity defined by {cite:t}`Strahler1952`, see [](data_fields/centerlines_product.md)). The main centerline is used to compute the glacier maximum length attribute `lmax_m`.
+
+The following files are included in the unzipped folder:
+
+`RGI2000-v7.0-L-01_alaska.shp`
+: the RGI glacier centerlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+
+`RGI2000-v7.0-L-01_alaska-attributes.csv`
+: glacier centerlines attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+
+`RGI2000-v7.0-L-01_alaska-attributes_metadata.json`
+: information about the attributes: full name, description, units, etc.
+
 
 For more information on this product and its attributes, see [](data_fields/centerlines_product.md).
 
@@ -148,9 +160,9 @@ Example of the glacier centerlines product (purple) drawn over the glacier produ
 :::
 
 
-
 ## Data fields
 
 - [](data_fields/glacier_product.md)
 - [](data_fields/glacier_complex_product.md)
 - [](data_fields/intersects_product.md)
+- [](data_fields/centerlines_product.md)

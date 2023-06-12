@@ -9,6 +9,7 @@ chapters:
   - file: data_fields/glacier_complex_product.md
   - file: data_fields/intersects_product.md
   - file: data_fields/centerlines_product.md
+  - file: data_fields/dem_citations.md
 - file: 04_revisions.md
 - file: 05_description_by_region.md
   sections:

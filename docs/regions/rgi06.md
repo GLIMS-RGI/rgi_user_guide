@@ -31,22 +31,22 @@ Submission IDs used for this region.
 :::
 
 Submission 437
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 26. **Area**: 7.1km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 26. **Area**: 7.1km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurdsson, Oddur.
 
 Submission 438
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 5. **Area**: 0.8km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 5. **Area**: 0.8km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurdsson, Oddur.
 
 Submission 439
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 154. **Area**: 95.2km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 154. **Area**: 95.2km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurdsson, Oddur.
 
 Submission 452
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 16. **Area**: 7.0km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 16. **Area**: 7.0km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurdsson, Oddur.
 
 Submission 719
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 365. **Area**: 10947.5km². **Release date**: 2014-12-01.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 365. **Area**: 10947.5km². **Release date**: 2014-12-01.<br/>**Analysts**: Sigurdsson, Oddur.
 
 Submission 757
-: **Submitter**: Sigurðsson, Oddur.<br/>**Number of outlines**: 2. **Area**: 2.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Sigurðsson, Oddur.
+: **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 2. **Area**: 2.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Sigurdsson, Oddur.
 
 
 Reviewers

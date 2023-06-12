@@ -54,7 +54,7 @@ Submission IDs used for this region.
 :::
 
 Submission 624
-: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 25305. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
+: **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 25304. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
 
 Submission 756
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 3. **Area**: 7.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.

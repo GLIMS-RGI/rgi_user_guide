@@ -77,7 +77,7 @@ Submission IDs used for this region.
 :::
 
 Submission 585
-: **Submitter**: Bliss, Andrew.<br/>**Number of outlines**: 1794. **Area**: 98181.2km². **Release date**: 2015-07-01.<br/>**Analysts**: Berthier, Etienne; Bliss, Andrew; Cogley, Graham; LeBris, Raymond; Paul, Frank.
+: **Submitter**: Bliss, Andrew.<br/>**Number of outlines**: 1759. **Area**: 98180.0km². **Release date**: 2015-07-01.<br/>**Analysts**: Berthier, Etienne; Bliss, Andrew; Cogley, Graham; LeBris, Raymond; Paul, Frank.
 
 Submission 700
 : **Submitter**: Hidalgo, Lidia Ferri.<br/>**Number of outlines**: 31. **Area**: 242.8km². **Release date**: 2018-09-04.<br/>**Analysts**: Castro, Mariano; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Pecker Marcosig, Ivanna; Pitte, Pierre; Ruiz, Lucas; Zalazar, Laura.

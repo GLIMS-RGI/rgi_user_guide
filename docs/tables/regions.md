@@ -9,27 +9,27 @@ Summary of glacier counts and areas of all 20 first-order regions in the RGI 7.0
 
 | Region   | Full name                          | Code                                |   Count |   Area (km²) |
 |:---------|:-----------------------------------|:------------------------------------|--------:|-------------:|
-| 01       | Alaska                             | `01_alaska`                         |   27510 |        86708 |
+| 01       | Alaska                             | `01_alaska`                         |   27509 |        86708 |
 | 02       | Western Canada and USA             | `02_western_canada_usa`             |   18730 |        14521 |
-| 03       | Arctic Canada, North               | `03_arctic_canada_north`            |    5217 |       105370 |
-| 04       | Arctic Canada, South               | `04_arctic_canada_south`            |   11010 |        40538 |
-| 05       | Greenland Periphery                | `05_greenland_periphery`            |   19996 |        90482 |
+| 03       | Arctic Canada North                | `03_arctic_canada_north`            |    5216 |       105370 |
+| 04       | Arctic Canada South                | `04_arctic_canada_south`            |   11009 |        40538 |
+| 05       | Greenland Periphery                | `05_greenland_periphery`            |   19994 |        90482 |
 | 06       | Iceland                            | `06_iceland`                        |     568 |        11060 |
 | 07       | Svalbard and Jan Mayen             | `07_svalbard_jan_mayen`             |    1666 |        33959 |
 | 08       | Scandinavia                        | `08_scandinavia`                    |    3410 |         2948 |
 | 09       | Russian Arctic                     | `09_russian_arctic`                 |    1069 |        51595 |
-| 10       | Asia, North                        | `10_asia_north`                     |    7155 |         2643 |
+| 10       | North Asia                         | `10_north_asia`                     |    7155 |         2643 |
 | 11       | Central Europe                     | `11_central_europe`                 |    4079 |         2124 |
 | 12       | Caucasus and Middle East           | `12_caucasus_middle_east`           |    2275 |         1407 |
-| 13       | Asia, Central                      | `13_asia_central`                   |   75613 |        50344 |
-| 14       | Asia, South West                   | `14_asia_south_west`                |   37562 |        33075 |
-| 15       | Asia, South East                   | `15_asia_south_east`                |   18587 |        16049 |
+| 13       | Central Asia                       | `13_central_asia`                   |   75613 |        50344 |
+| 14       | South Asia West                    | `14_south_asia_west`                |   37562 |        33075 |
+| 15       | South Asia East                    | `15_south_asia_east`                |   18587 |        16049 |
 | 16       | Low Latitudes                      | `16_low_latitudes`                  |    3695 |         1929 |
 | 17       | Southern Andes                     | `17_southern_andes`                 |   30634 |        27674 |
 | 18       | New Zealand                        | `18_new_zealand`                    |    3018 |          886 |
-| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |    2776 |       133434 |
+| 19       | Subantarctic and Antarctic Islands | `19_subantarctic_antarctic_islands` |    2742 |       133432 |
 | 20       | Antarctic Mainland                 | `20_antarctic_mainland`             |       0 |            0 |
-| Global   |                                    |                                     |  274570 |       706745 |
+| Global   |                                    |                                     |  274531 |       706744 |
 
 
 (o2-regions-table)=
@@ -45,7 +45,7 @@ Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 
 | 01-02  | Alaska Range (Wrangell/Kilbuck)          | `01-02_alaska_range_wrangell_kilbuck`          |    5812 |        16284 |
 | 01-03  | Alaska Peninsula (Aleutians)             | `01-03_alaska_peninsula_aleutians`             |     872 |         1912 |
 | 01-04  | West Chugach Mountains (Talkeetna)       | `01-04_west_chugach_mountains_talkeetna`       |    4529 |        12005 |
-| 01-05  | Saint Elias Mountains                    | `01-05_saint_elias_mountains`                  |    5040 |        33178 |
+| 01-05  | Saint Elias Mountains                    | `01-05_saint_elias_mountains`                  |    5039 |        33178 |
 | 01-06  | North Coast Ranges                       | `01-06_north_coast_ranges`                     |   10551 |        22964 |
 | 02-01  | Mackenzie and Selwyn Mountains           | `02-01_mackenzie_and_selwyn_mountains`         |    1235 |          657 |
 | 02-02  | South Coast Ranges                       | `02-02_south_coast_ranges`                     |    7390 |         8806 |
@@ -56,7 +56,7 @@ Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 
 | 03-02  | Axel Heiberg and Meighen Is              | `03-02_axel_heiberg_and_meighen_is`            |     624 |        11852 |
 | 03-03  | North Central Ellesmere Island           | `03-03_north_central_ellesmere_island`         |     902 |        21336 |
 | 03-04  | South Central Ellesmere Island           | `03-04_south_central_ellesmere_island`         |     261 |        19322 |
-| 03-05  | South Ellesmere Island (Northwest Devon) | `03-05_south_ellesmere_island_northwest_devon` |     634 |        10042 |
+| 03-05  | South Ellesmere Island (Northwest Devon) | `03-05_south_ellesmere_island_northwest_devon` |     633 |        10042 |
 | 03-06  | Devon Island                             | `03-06_devon_island`                           |     216 |        15000 |
 | 03-07  | Melville Island                          | `03-07_melville_island`                        |       7 |          128 |
 | 04-01  | Bylot Island                             | `04-01_bylot_island`                           |     616 |         4883 |
@@ -65,10 +65,10 @@ Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 
 | 04-04  | Northeast Baffin Island                  | `04-04_northeast_baffin_island`                |    1953 |         8195 |
 | 04-05  | East Central Baffin Island               | `04-05_east_central_baffin_island`             |    1905 |         9431 |
 | 04-06  | South East Baffin Island                 | `04-06_south_east_baffin_island`               |    3036 |         7603 |
-| 04-07  | Cumberland Sound                         | `04-07_cumberland_sound`                       |    2621 |         5907 |
+| 04-07  | Cumberland Sound                         | `04-07_cumberland_sound`                       |    2620 |         5907 |
 | 04-08  | Frobisher Bay                            | `04-08_frobisher_bay`                          |      83 |          235 |
 | 04-09  | Labrador                                 | `04-09_labrador`                               |     103 |           20 |
-| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |   19996 |        90482 |
+| 05-01  | Greenland Periphery                      | `05-01_greenland_periphery`                    |   19994 |        90482 |
 | 06-01  | Iceland                                  | `06-01_iceland`                                |     568 |        11060 |
 | 07-01  | Svalbard                                 | `07-01_svalbard`                               |    1583 |        33841 |
 | 07-02  | Jan Mayen                                | `07-02_jan_mayen`                              |      83 |          117 |
@@ -124,11 +124,11 @@ Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 
 | 19-16  | Marie Byrd Land 7F                       | `19-16_marie_byrd_land_7f`                     |      63 |        17950 |
 | 19-17  | Pine Island Bay 7G                       | `19-17_pine_island_bay_7g`                     |      17 |          376 |
 | 19-18  | Bellingshausen Sea 7H1                   | `19-18_bellingshausen_sea_7h1`                 |      20 |        14861 |
-| 19-19  | Alexander Island 7H2                     | `19-19_alexander_island_7h2`                   |     123 |        61170 |
-| 19-20  | West Antarctic Peninsula 7I1             | `19-20_west_antarctic_peninsula_7i1`           |     666 |         9288 |
-| 19-21  | Northeast Antarctic Peninsula 7I2        | `19-21_northeast_antarctic_peninsula_7i2`      |     167 |         5377 |
+| 19-19  | Alexander Island 7H2                     | `19-19_alexander_island_7h2`                   |     119 |        61170 |
+| 19-20  | West Antarctic Peninsula 7I1             | `19-20_west_antarctic_peninsula_7i1`           |     637 |         9287 |
+| 19-21  | Northeast Antarctic Peninsula 7I2        | `19-21_northeast_antarctic_peninsula_7i2`      |     166 |         5377 |
 | 19-22  | Southeast Antarctic Peninsula 7I3        | `19-22_southeast_antarctic_peninsula_7i3`      |       6 |         1780 |
 | 19-23  | Ronne-Filchner Ice Shelf 7J              | `19-23_ronne_filchner_ice_shelf_7j`            |       0 |            0 |
 | 19-24  | West Queen Maud Land 7K                  | `19-24_west_queen_maud_land_7k`                |      14 |         5878 |
 | 20-01  | Antarctic Mainland                       | `20-01_antarctic_mainland`                     |       0 |            0 |
-| Global |                                          | ``                                             |  274570 |       706745 |
+| Global |                                          | ``                                             |  274531 |       706744 |

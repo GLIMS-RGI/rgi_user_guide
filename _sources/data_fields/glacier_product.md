@@ -112,7 +112,7 @@ WGMS primary classification of the glacier. Obtained from the GLIMS database. Po
 
 
 
-### Topography derived attributes `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m`
+### Topography attributes `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m`
 
 These attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
  

@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data fields: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -444,7 +445,7 @@ document.write(`
 <td class="text-right"><p>27</p></td>
 <td class="text-right"><p>19.5</p></td>
 </tr>
-<tr class="row-odd"><td class="text-left"><p>2000 ± &gt;10 years</p></td>
+<tr class="row-odd"><td class="text-left"><p>2000 ± &gt; 10 years</p></td>
 <td class="text-right"><p>8.2</p></td>
 <td class="text-right"><p>3.8</p></td>
 </tr>
@@ -467,7 +468,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>&lt; 1 km²</p></td>
 <td class="text-right"><p>170591</p></td>
 <td class="text-right"><p>79.1</p></td>
-<td class="text-right"><p>229665</p></td>
+<td class="text-right"><p>229626</p></td>
 <td class="text-right"><p>83.6</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>1-10 km²</p></td>
@@ -491,7 +492,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>Total</p></td>
 <td class="text-right"><p>215547</p></td>
 <td class="text-right"><p>100</p></td>
-<td class="text-right"><p>274570</p></td>
+<td class="text-right"><p>274531</p></td>
 <td class="text-right"><p>100</p></td>
 </tr>
 </tbody>
@@ -499,7 +500,7 @@ document.write(`
 <figure class="align-default" id="global-histogram">
 <img alt="global map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 63 </span><span class="caption-text">Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.</span><a class="headerlink" href="#global-histogram" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 64 </span><span class="caption-text">Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.</span><a class="headerlink" href="#global-histogram" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -547,9 +548,9 @@ document.write(`
 </tr>
 <tr class="row-even"><td class="text-right"><p>9</p></td>
 <td class="text-left"><p>Not assigned</p></td>
-<td class="text-right"><p>273009</p></td>
+<td class="text-right"><p>272970</p></td>
 <td class="text-right"><p>0</p></td>
-<td class="text-right"><p>547444</p></td>
+<td class="text-right"><p>547442</p></td>
 <td class="text-right"><p>0</p></td>
 </tr>
 </tbody>
@@ -557,7 +558,7 @@ document.write(`
 <figure class="align-default" id="term-global-fig">
 <img alt="global map term_type" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type_small.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 64 </span><span class="caption-text">Terminus type (<code class="docutils literal notranslate"><span class="pre">term_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type.png">Download high resolution version</a>.</span><a class="headerlink" href="#term-global-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 65 </span><span class="caption-text">Terminus type (<code class="docutils literal notranslate"><span class="pre">term_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type.png">Download high resolution version</a>.</span><a class="headerlink" href="#term-global-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>Table</strong>: Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.</p>
@@ -574,9 +575,9 @@ document.write(`
 <tbody>
 <tr class="row-even"><td class="text-right"><p>0</p></td>
 <td class="text-left"><p>No evidence</p></td>
-<td class="text-right"><p>271940</p></td>
+<td class="text-right"><p>271901</p></td>
 <td class="text-right"><p>42515</p></td>
-<td class="text-right"><p>566419</p></td>
+<td class="text-right"><p>566418</p></td>
 <td class="text-right"><p>127426</p></td>
 </tr>
 <tr class="row-odd"><td class="text-right"><p>1</p></td>
@@ -612,7 +613,7 @@ document.write(`
 <figure class="align-default" id="surge-global-fig">
 <img alt="global map surge" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge_small.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 65 </span><span class="caption-text">Surge type (<code class="docutils literal notranslate"><span class="pre">surge_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge.png">Download high resolution version</a>.</span><a class="headerlink" href="#surge-global-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 66 </span><span class="caption-text">Surge type (<code class="docutils literal notranslate"><span class="pre">surge_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge.png">Download high resolution version</a>.</span><a class="headerlink" href="#surge-global-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>

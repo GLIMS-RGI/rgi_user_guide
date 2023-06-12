@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data fields: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -415,7 +416,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#global-gridded-product">Global gridded product</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-fields">Data fields</a></li>
@@ -434,7 +434,7 @@ document.write(`
 <h1>Data description of RGI 7.0<a class="headerlink" href="#data-description-of-rgi-7-0" title="Permalink to this headline">#</a></h1>
 <section id="technical-specifications">
 <h2>Technical specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
-<p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
+<p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers and related products in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
 <p>For each region, RGI 7.0 provides four distinct data products:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#glacier-product"><span class="std std-ref">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier.</p></li>
@@ -508,10 +508,10 @@ document.write(`
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.nc</span></code></dt><dd><p>hypsometry files (TODO)</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.csv</span></code></dt><dd><p>the hypsometry table for each glacier, preceded by copies of the glacier’s <code class="docutils literal notranslate"><span class="pre">rgi_id</span></code> and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier’s total area in km² (<code class="docutils literal notranslate"><span class="pre">area_km2</span></code>). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.</p>
 </dd>
 </dl>
-<p>For more information on this product, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data fields: glacier product</span></a>.</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data fields: glacier product</span></a>.</p>
 </section>
 <section id="glacier-complex-product-new-in-rgi-7-0">
 <span id="glacier-complex"></span><h3>Glacier complex product (new in RGI 7.0)<a class="headerlink" href="#glacier-complex-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
@@ -527,7 +527,7 @@ document.write(`
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-CtoG_links.json</span></code></dt><dd><p>links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).</p>
 </dd>
 </dl>
-<p>For more information on this product, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data fields: glacier complex product</span></a>.</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data fields: glacier complex product</span></a>.</p>
 </section>
 <section id="glacier-intersects-product-new-in-rgi-7-0">
 <span id="glacier-intersects"></span><h3>Glacier intersects product (new in RGI 7.0)<a class="headerlink" href="#glacier-intersects-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
@@ -551,12 +551,15 @@ document.write(`
 </section>
 <section id="glacier-centerlines-product-new-in-rgi-7-0">
 <span id="glacier-centerlines"></span><h3>Glacier centerlines product (new in RGI 7.0)<a class="headerlink" href="#glacier-centerlines-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
-<p>TODO</p>
-</section>
-<section id="global-gridded-product">
-<h3>Global gridded product<a class="headerlink" href="#global-gridded-product" title="Permalink to this headline">#</a></h3>
-<p>TODO: gridded RGI products</p>
-<!--- The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km² are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary `.csv` file. The 19 regional attribute files are also provided in the `.csv` format. --->
+<p>The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="07_references.html#id3" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> and implemented and executed by the Open Global Glacier Model (OGGM) framework <span id="id3">[<a class="reference internal" href="07_references.html#id53" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation.</p>
+<p>Each glacier contains at least one main centerline as well as any number of tributaries, sorted according to their Strahler number (a measure of branching complexity defined by <span id="id4">Strahler [<a class="reference internal" href="07_references.html#id2" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">1952</a>]</span> see ), from the lowest (line without tributaries but with possible descendants) to the highest (the main – and longest – centerline)</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data fields: centerlines product</span></a>.</p>
+<figure class="align-default" id="centerlines-fig">
+<img alt="centerlines map" class="bg-primary mb-1" src="_images/example_centerlines.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).</span><a class="headerlink" href="#centerlines-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 <section id="data-fields">
@@ -643,7 +646,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#global-gridded-product">Global gridded product</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-fields">Data fields</a></li>

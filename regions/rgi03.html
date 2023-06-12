@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/intersects_product.html">Data fields: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/centerlines_product.html">Data fields: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -435,13 +436,13 @@ document.write(`
 <figure class="align-default" id="rgi03-new-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/isrgi6_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Regional glacier area.</span><a class="headerlink" href="#rgi03-new-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Regional glacier area.</span><a class="headerlink" href="#rgi03-new-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="changes-from-version-6-0-to-7-0">
 <h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
 <p><strong>Ellesmere</strong></p>
-<p>The quality of RGI 6.0 glacier outlines in northern Ellesmere Island suffered from incorrect ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift.  Glaciers were remapped using  glacier outlines by <span id="id1">White [<a class="reference internal" href="../07_references.html#id90" title="Adrienne White. Glacier changes across Northern Ellesmere Island. PhD thesis, Université d'Ottawa/University of Ottawa, 2019.">2019</a>]</span> as a base but modifying them using four Landsat ETM+ panchromatic scenes acquired in July 2000. For the northernmost regions outside the coverage of Landsat the “World imagery” layer of the ESRI Basemap was used instead. Some smaller ice shelves were excluded. The editing included a mix of manual and automated corrections.</p>
+<p>The quality of RGI 6.0 glacier outlines in northern Ellesmere Island suffered from incorrect ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift.  Glaciers were remapped using  glacier outlines by <span id="id1">White [<a class="reference internal" href="../07_references.html#id24" title="Adrienne White. Glacier changes across Northern Ellesmere Island. PhD thesis, Université d'Ottawa/University of Ottawa, 2019.">2019</a>]</span> as a base but modifying them using four Landsat ETM+ panchromatic scenes acquired in July 2000. For the northernmost regions outside the coverage of Landsat the “World imagery” layer of the ESRI Basemap was used instead. Some smaller ice shelves were excluded. The editing included a mix of manual and automated corrections.</p>
 <p><strong>Other changes</strong></p>
 <p>Glacier divides were added on Axel Heiberg Island ice caps, Sydkap Ice Cap, Agassiz Ice Cap, and glaciers west of Sydkap, and west of Manson Ice Field, and outlines were adjusted to improve their quality. Several previously omitted glaciers west of Prince of Wales Ice Cap were added.</p>
 </section>
@@ -452,11 +453,11 @@ document.write(`
 <figure class="align-default" id="rgi03-source-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/inventory_map.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi03-source-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Submission IDs used for this region.</span><a class="headerlink" href="#rgi03-source-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <dl class="simple myst">
-<dt>Submission 590</dt><dd><p><strong>Submitter</strong>: Bolch, Tobias.<br/><strong>Number of outlines</strong>: 653. <strong>Area</strong>: 39842.3km². <strong>Release date</strong>: 2015-07-15.<br/><strong>Analysts</strong>: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..</p>
+<dt>Submission 590</dt><dd><p><strong>Submitter</strong>: Bolch, Tobias.<br/><strong>Number of outlines</strong>: 652. <strong>Area</strong>: 39842.3km². <strong>Release date</strong>: 2015-07-15.<br/><strong>Analysts</strong>: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..</p>
 </dd>
 <dt>Submission 635</dt><dd><p><strong>Submitter</strong>: Cogley, Graham.<br/><strong>Number of outlines</strong>: 7. <strong>Area</strong>: 128.2km². <strong>Release date</strong>: 2015-07-16.<br/><strong>Analysts</strong>: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.</p>
 </dd>
@@ -475,7 +476,7 @@ document.write(`
 <figure class="align-default" id="rgi03-hist-fig">
 <img alt="region map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI03/date_hist.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi03-hist-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Relative glacier area distribution per outline date.</span><a class="headerlink" href="#rgi03-hist-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -488,7 +489,7 @@ document.write(`
 </dd>
 <dt>Changes from Version 3.2 to 4.0</dt><dd><p>One exterior GLIMSId was replaced. Topographic and hypsometric attributes were added.</p>
 </dd>
-<dt>Changes from Version 3.0 to 3.2</dt><dd><p>Glaciers were delineated from the glacier complexes using the delineation algorithm developed by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id6" title="Christian Kienholz, Regine Hock, and Anthony a. Arendt. A new semi-automatic approach for dividing glacier complexes into individual glaciers. Journal of Glaciology, 59(217):925–937, oct 2013. doi:10.3189/2013JoG12J138.">2013</a>]</span> and applied to the 1:250000 Canadian Digital Elevation Data (CDED). Some minor manual editing was done to remove obvious blunders.</p>
+<dt>Changes from Version 3.0 to 3.2</dt><dd><p>Glaciers were delineated from the glacier complexes using the delineation algorithm developed by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id11" title="Christian Kienholz, Regine Hock, and Anthony a. Arendt. A new semi-automatic approach for dividing glacier complexes into individual glaciers. Journal of Glaciology, 59(217):925–937, oct 2013. doi:10.3189/2013JoG12J138.">2013</a>]</span> and applied to the 1:250000 Canadian Digital Elevation Data (CDED). Some minor manual editing was done to remove obvious blunders.</p>
 </dd>
 <dt>Changes from Version 2.0 to 3.0</dt><dd><p>None</p>
 </dd>

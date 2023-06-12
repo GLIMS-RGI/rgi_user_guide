@@ -44,7 +44,7 @@ Submission IDs used for this region.
 :::
 
 Submission 590
-: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 653. **Area**: 39842.3km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
+: **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 652. **Area**: 39842.3km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
 
 Submission 635
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 7. **Area**: 128.2km². **Release date**: 2015-07-16.<br/>**Analysts**: Berthier, Etienne; Bolch, Tobias; Cogley, Graham; Kienholz, Christian.
@@ -57,6 +57,7 @@ Submission 728
 
 Submission 755
 : **Submitter**: Kochtitzky, William.<br/>**Number of outlines**: 23. **Area**: 33.9km². **Release date**: 2021-12-26.<br/>**Analysts**: Kochtitzky, William.
+
 
 Reviewers
 : Kochtitzky, William;

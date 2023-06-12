@@ -2,7 +2,7 @@
 
 ## Technical specifications
 
-The RGI is provided as [Esri shapefiles](https://en.wikipedia.org/wiki/Shapefile) containing the outlines of glaciers in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.
+The RGI is provided as [Esri shapefiles](https://en.wikipedia.org/wiki/Shapefile) containing the outlines of glaciers and related products in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.
 
 For each region, RGI 7.0 provides four distinct data products:
 - [Glacier product](glacier-product): includes outlines, attributes and auxiliary data for each individual glacier.
@@ -80,10 +80,10 @@ This product includes the glacier outlines as extracted from GLIMS together with
 `RGI2000-v7.0-G-01_alaska-rgi6_links.csv`
 : a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
 
-`RGI2000-v7.0-G-01_alaska-hypsometry.nc`
-: hypsometry files (TODO)
+`RGI2000-v7.0-G-01_alaska-hypsometry.csv`
+: the hypsometry table for each glacier, preceded by copies of the glacier’s `rgi_id` and `area_km2`, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
 
-For more information on this product, see [](data_fields/glacier_product.md).
+For more information on this product and its attributes, see [](data_fields/glacier_product.md).
 
 
 (glacier-complex)=
@@ -105,7 +105,7 @@ The following files are included in the unzipped folder (exemplified with region
 `RGI2000-v7.0-C-01_alaska-CtoG_links.json`
 : links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).
 
-For more information on this product, see [](data_fields/glacier_complex_product.md).
+For more information on this product and its attributes, see [](data_fields/glacier_complex_product.md).
 
 (glacier-intersects)=
 ### Glacier intersects product (new in RGI 7.0)
@@ -135,13 +135,19 @@ Example of the glacier intersects product (red) drawn over the glacier product (
 (glacier-centerlines)=
 ### Glacier centerlines product (new in RGI 7.0)
 
-TODO
+The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) framework {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation.
 
-### Global gridded product
+Each glacier contains at least one main centerline as well as any number of tributaries, sorted according to their Strahler number (a measure of branching complexity defined by {cite:t}`Strahler1952` see ), from the lowest (line without tributaries but with possible descendants) to the highest (the main -- and longest -- centerline)
 
-TODO: gridded RGI products
+For more information on this product and its attributes, see [](data_fields/centerlines_product.md).
 
-<!--- The outlines of the RGI regions are provided as two shapefiles, one for first-order and one for second-order regions. A summary file containing glacier counts, glacierized area and a hypsometric list for each first-order and each second-order region is also provided. The 0.5°×0.5° grid is provided as a netcdf file in which zonal records of blank-separated glacierized areas in km² are ordered from north to south. Information about RGI glaciers that are present in the mass-balance tables of the WGMS database Fluctuations of Glaciers is provided as an ancillary `.csv` file. The 19 regional attribute files are also provided in the `.csv` format. --->
+:::{figure-md} centerlines-fig
+<img src="img/example_centerlines.png" alt="centerlines map" class="bg-primary mb-1">
+
+Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).
+:::
+
+
 
 ## Data fields
 

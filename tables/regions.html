@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_product.html">Data fields: glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data_fields/intersects_product.html">Data fields: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_fields/centerlines_product.html">Data fields: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -436,7 +437,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>01</p></td>
 <td class="text-left"><p>Alaska</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">01_alaska</span></code></p></td>
-<td class="text-right"><p>27510</p></td>
+<td class="text-right"><p>27509</p></td>
 <td class="text-right"><p>86708</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>02</p></td>
@@ -446,21 +447,21 @@ document.write(`
 <td class="text-right"><p>14521</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>03</p></td>
-<td class="text-left"><p>Arctic Canada, North</p></td>
+<td class="text-left"><p>Arctic Canada North</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">03_arctic_canada_north</span></code></p></td>
-<td class="text-right"><p>5217</p></td>
+<td class="text-right"><p>5216</p></td>
 <td class="text-right"><p>105370</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>04</p></td>
-<td class="text-left"><p>Arctic Canada, South</p></td>
+<td class="text-left"><p>Arctic Canada South</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">04_arctic_canada_south</span></code></p></td>
-<td class="text-right"><p>11010</p></td>
+<td class="text-right"><p>11009</p></td>
 <td class="text-right"><p>40538</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>05</p></td>
 <td class="text-left"><p>Greenland Periphery</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">05_greenland_periphery</span></code></p></td>
-<td class="text-right"><p>19996</p></td>
+<td class="text-right"><p>19994</p></td>
 <td class="text-right"><p>90482</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>06</p></td>
@@ -488,8 +489,8 @@ document.write(`
 <td class="text-right"><p>51595</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>10</p></td>
-<td class="text-left"><p>Asia, North</p></td>
-<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">10_asia_north</span></code></p></td>
+<td class="text-left"><p>North Asia</p></td>
+<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">10_north_asia</span></code></p></td>
 <td class="text-right"><p>7155</p></td>
 <td class="text-right"><p>2643</p></td>
 </tr>
@@ -506,20 +507,20 @@ document.write(`
 <td class="text-right"><p>1407</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>13</p></td>
-<td class="text-left"><p>Asia, Central</p></td>
-<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">13_asia_central</span></code></p></td>
+<td class="text-left"><p>Central Asia</p></td>
+<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">13_central_asia</span></code></p></td>
 <td class="text-right"><p>75613</p></td>
 <td class="text-right"><p>50344</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>14</p></td>
-<td class="text-left"><p>Asia, South West</p></td>
-<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">14_asia_south_west</span></code></p></td>
+<td class="text-left"><p>South Asia West</p></td>
+<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">14_south_asia_west</span></code></p></td>
 <td class="text-right"><p>37562</p></td>
 <td class="text-right"><p>33075</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>15</p></td>
-<td class="text-left"><p>Asia, South East</p></td>
-<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">15_asia_south_east</span></code></p></td>
+<td class="text-left"><p>South Asia East</p></td>
+<td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">15_south_asia_east</span></code></p></td>
 <td class="text-right"><p>18587</p></td>
 <td class="text-right"><p>16049</p></td>
 </tr>
@@ -544,8 +545,8 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>19</p></td>
 <td class="text-left"><p>Subantarctic and Antarctic Islands</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">19_subantarctic_antarctic_islands</span></code></p></td>
-<td class="text-right"><p>2776</p></td>
-<td class="text-right"><p>133434</p></td>
+<td class="text-right"><p>2742</p></td>
+<td class="text-right"><p>133432</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>20</p></td>
 <td class="text-left"><p>Antarctic Mainland</p></td>
@@ -556,8 +557,8 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>Global</p></td>
 <td class="text-left"><p></p></td>
 <td class="text-left"><p></p></td>
-<td class="text-right"><p>274570</p></td>
-<td class="text-right"><p>706745</p></td>
+<td class="text-right"><p>274531</p></td>
+<td class="text-right"><p>706744</p></td>
 </tr>
 </tbody>
 </table>
@@ -603,7 +604,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>01-05</p></td>
 <td class="text-left"><p>Saint Elias Mountains</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">01-05_saint_elias_mountains</span></code></p></td>
-<td class="text-right"><p>5040</p></td>
+<td class="text-right"><p>5039</p></td>
 <td class="text-right"><p>33178</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>01-06</p></td>
@@ -669,7 +670,7 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p>03-05</p></td>
 <td class="text-left"><p>South Ellesmere Island (Northwest Devon)</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">03-05_south_ellesmere_island_northwest_devon</span></code></p></td>
-<td class="text-right"><p>634</p></td>
+<td class="text-right"><p>633</p></td>
 <td class="text-right"><p>10042</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>03-06</p></td>
@@ -723,7 +724,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>04-07</p></td>
 <td class="text-left"><p>Cumberland Sound</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">04-07_cumberland_sound</span></code></p></td>
-<td class="text-right"><p>2621</p></td>
+<td class="text-right"><p>2620</p></td>
 <td class="text-right"><p>5907</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>04-08</p></td>
@@ -741,7 +742,7 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p>05-01</p></td>
 <td class="text-left"><p>Greenland Periphery</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">05-01_greenland_periphery</span></code></p></td>
-<td class="text-right"><p>19996</p></td>
+<td class="text-right"><p>19994</p></td>
 <td class="text-right"><p>90482</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>06-01</p></td>
@@ -1077,19 +1078,19 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p>19-19</p></td>
 <td class="text-left"><p>Alexander Island 7H2</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">19-19_alexander_island_7h2</span></code></p></td>
-<td class="text-right"><p>123</p></td>
+<td class="text-right"><p>119</p></td>
 <td class="text-right"><p>61170</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>19-20</p></td>
 <td class="text-left"><p>West Antarctic Peninsula 7I1</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">19-20_west_antarctic_peninsula_7i1</span></code></p></td>
-<td class="text-right"><p>666</p></td>
-<td class="text-right"><p>9288</p></td>
+<td class="text-right"><p>637</p></td>
+<td class="text-right"><p>9287</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p>19-21</p></td>
 <td class="text-left"><p>Northeast Antarctic Peninsula 7I2</p></td>
 <td class="text-left"><p><code class="docutils literal notranslate"><span class="pre">19-21_northeast_antarctic_peninsula_7i2</span></code></p></td>
-<td class="text-right"><p>167</p></td>
+<td class="text-right"><p>166</p></td>
 <td class="text-right"><p>5377</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p>19-22</p></td>
@@ -1119,8 +1120,8 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p>Global</p></td>
 <td class="text-left"><p></p></td>
 <td class="text-left"><p>``</p></td>
-<td class="text-right"><p>274570</p></td>
-<td class="text-right"><p>706745</p></td>
+<td class="text-right"><p>274531</p></td>
+<td class="text-right"><p>706744</p></td>
 </tr>
 </tbody>
 </table>

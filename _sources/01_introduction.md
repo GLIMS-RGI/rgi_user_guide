@@ -63,4 +63,4 @@ Since GLIMS was globally incomplete, earlier RGI versions combined outlines from
 
 All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
-- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this Technical Report.
+- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this User Guide.

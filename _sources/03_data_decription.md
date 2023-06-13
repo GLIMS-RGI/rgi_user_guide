@@ -135,7 +135,7 @@ Example of the glacier intersects product (red) drawn over the glacier product (
 (glacier-centerlines)=
 ### Glacier centerlines product (new in RGI 7.0)
 
-The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation. 
+The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context. 
 
 Each glacier contains at least one main centerline as well as any number of tributary centerlines, sorted according to their Strahler number (a measure of branching complexity defined by {cite:t}`Strahler1952`, see [](data_fields/centerlines_product.md)). The main centerline is used to compute the glacier maximum length attribute `lmax_m`.
 
@@ -150,7 +150,6 @@ The following files are included in the unzipped folder:
 `RGI2000-v7.0-L-01_alaska-attributes_metadata.json`
 : information about the attributes: full name, description, units, etc.
 
-
 For more information on this product and its attributes, see [](data_fields/centerlines_product.md).
 
 :::{figure-md} centerlines-fig
@@ -158,7 +157,6 @@ For more information on this product and its attributes, see [](data_fields/cent
 
 Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).
 :::
-
 
 ## Data fields
 

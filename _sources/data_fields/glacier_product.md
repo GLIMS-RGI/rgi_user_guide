@@ -26,10 +26,10 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Outline source date <br/> `description`: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: BgnDate
 
 `cenlon`
-: `long_name`: Center longitude <br/> `description`: Longitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLon
+: `long_name`: Center longitude <br/> `description`: Longitude of an approximately central point within the glacier outlines (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLon
 
 `cenlat`
-: `long_name`: Center latitude <br/> `description`: Latitude of the representative point of the glacier, guaranteed to be located within the glacier outlines and approximatively central (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLat
+: `long_name`: Center latitude <br/> `description`: Latitude of an approximately central point within the glacier outlines (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLat
 
 `utm_zone`
 : `long_name`: UTM zone <br/> `description`: Number of the UTM zone for this glacier, based on its representative point. Note that this attribute is for information only, the geometries are all in WGS84. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
@@ -86,7 +86,7 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: DEM data source <br/> `description`: The name of the dataset that was used to compute the topography attributes. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `lmax_m`
-: `long_name`: Maximum length <br/> `description`: Length (m) of the longest surface centerline of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Lmax
+: `long_name`: Maximum length <br/> `description`: Length (m) of the longest surface centerline of the glacier. <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Lmax
 
 `geometry`
 : `long_name`: Geometry <br/> `description`: Glacier geometry (polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: GLIMS <br/> `rgi6_name`: geometry
@@ -139,6 +139,19 @@ The `aspect_sec` attribute contains information on the orientation of the glacie
 |       8 | North-west      | [292.5°; 337.5°] |
 |       9 | Not assigned    |                  |
 
+### Terminus location `termlon`, `termlat`
+
+This marks the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline.
+
+:::{figure-md} terminus-fig
+<img src="../img/example_terminus.png" alt="terminus map" class="bg-primary mb-1">
+
+Example of the glacier terminus location (red dots) plotted with the centerlines product (purple) drawn over the glacier product (light blue).
+:::
+
+### Glacier length `lmax_m`
+
+The maximum length (in meters) is computed from the main centerline in the local map projection (UTM). Absolute glacier length is a highly subjective measure, and depends on the chosen "head" of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential centerline heads by looking for local maxima along the glacier outline, and then computes all centerlines joining the heads to the terminus. The main centerline is the longest of them, i.e. the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
 
 ### `surge_type`
 
@@ -190,8 +203,6 @@ Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 an
 |       2 | Lake-terminating   |
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
-
-
 
 ### Submission info files
 

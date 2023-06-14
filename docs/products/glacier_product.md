@@ -200,9 +200,6 @@ point was manually chosen based on a comparison with the metadata provided with 
 in the RGI 7.0 was then assigned the category corresponding to the highest level of confidence based on each inventory 
 (i.e., "observed" > "probable" > "possible" > "not assigned").
 
-Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 and RGI 6.0.
-
-Categories:
 
 |   Value | Surging      |
 |--------:|:-------------|
@@ -211,6 +208,8 @@ Categories:
 |       2 | Probable     |
 |       3 | Observed     |
 |       9 | Not assigned |
+
+Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.
 
 ### Terminus type
 
@@ -224,7 +223,6 @@ for approximately 2000.
 As of RGI 7.0, no region or glacier has any attributes available for lake-terminating or shelf-terminating glaciers. 
 We aim to add this information in version 7.1.
 
-Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 and RGI 6.0.
  
 |   Value | Terminus type      |
 |--------:|:-------------------|
@@ -234,9 +232,12 @@ Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 an
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
 
+Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.
+
+
 ### WGMS primary classification 
 
-The WGMS primary classification of the glacier (`primeclass`) is directly fetched from the GLIMS database. It is currently poorly populated, with only few submissions to GLIMS having provided this information. Available categories:
+The WGMS primary classification of the glacier (`primeclass`) is directly fetched from the GLIMS database. It is currently poorly populated, with only few submissions to GLIMS having provided this information.
 
 |   Digit | Class                   | Description                                                                                                                                                                                                                                                                                    |
 |--------:|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

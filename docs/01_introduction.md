@@ -1,5 +1,10 @@
 # Introduction
 
+```{image} img/nasa.jpg
+:alt: space
+```
+<p style="color:#D3D3D3";><small><i>Credit: NASA / Woody Hoburg</i>⁣</small></p>
+
 ## What is the RGI?
 
 The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space initiative ([GLIMS](https://www.glims.org)). While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set to as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers with areas larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.
@@ -12,24 +17,41 @@ The RGI has been developed in an international community-driven effort of glacio
 
 The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
 
-## Data Distribution Policy
+## Data distribution policy
 
 The RGI may be used freely under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by proper referencing, see below). Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI.
 
 (reference)=
-## Dataset Reference
+## Dataset reference
 
-The RGI 7.0 data set should be cited by
-**Add RGI7 Ref.**
+**The RGI 7.0 dataset should be cited by:**
 
-This Technical Report (focusing on RGI 7.0) should be cited by
-**Add Ref.**
+*RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:NSIDC*
 
-Earlier versions of the Technical Report are referenced as XXXX (focusing on RGI 6.0) and "Arendt et al." (various dates, prior RGI 6.0).
+All names of the consortium are listed in [](rgi-consortium).
+
+We request all users to use this reference in publications that use RGI 7.0 data.
+  
+**This User Guide should be cited by**:
+
+*Maussion et al., 2023, To be added*
+
+This reference should be used when referring to specific details that are not covered elsewhere, for example: *“The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023).”*
+ 
+**Peer-reviewed publication:**
+
+A detailed scientific description of the RGI version 7 is in preparation and expected to be published in 2024.
+
+**Earlier versions**
+
+Earlier versions of the User Guide (then called Technical Report) are referenced as RGI Consortium (2017) (focusing on RGI 6.0) and "Arendt et al." (various dates, prior RGI 6.0).
+
+The RGI 6.0 data set is referenced as:
+
+*RGI Consortium, 2017. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: https://doi.org/10.7265/4m1f-gd79*
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 
-A detailed scientific description of the RGI version 7 is in preparation.
 
 ## How to name the RGI versions?
 
@@ -38,7 +60,7 @@ We recommend explicitly stating the version number when referring to a specific 
 - RGI 7.0 (note the empty space) 
 - RGI v7.0
 
-## Data Sources
+## Data sources
 
 All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](appendix/contributors) for a list of RGI 7.0 contributors.
 
@@ -50,7 +72,7 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
 - [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this User Guide.
 
-## Version History
+## Version history
 
 **Version 7.0**, released in July 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of ice complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
 
@@ -65,3 +87,10 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 **Version 2.0** also added shapefiles for its first-order and second-order regions.
 
 **Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions. 
+
+(rgi-consortium)=
+## The RGI 7.0 Consortium
+
+*Members of the RGI 7.0 Consortium:*
+
+<ADD RGI CONSORTIUM>

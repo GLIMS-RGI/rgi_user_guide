@@ -66,22 +66,22 @@ This product includes the glacier outlines as extracted from GLIMS together with
 : RGI glacier outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-G-01_alaska-attributes.csv`
-: glacier attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-G-01_alaska-attributes_metadata.json`
-: information about the attributes: full name, description, units, etc.
+: Information about the attributes: full name, description, units, etc.
 
 `RGI2000-v7.0-G-01_alaska-submission_info.csv`
-: information about the data providers ordered by submission id. Each glacier outline can be attributed to a specific submission via the `subm_id` attribute.
+: Information about the data providers ordered by submission id. Each glacier outline can be attributed to a specific submission via the `subm_id` attribute.
 
 `RGI2000-v7.0-G-01_alaska-submission_info_metadata.json`
-: information about the attributes in the submission info file: full name, description, units, etc.
+: Information about the attributes in the submission info file: full name, description, units, etc.
 
 `RGI2000-v7.0-G-01_alaska-rgi6_links.csv`
-: a list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
+: A list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
 
 `RGI2000-v7.0-G-01_alaska-hypsometry.csv`
-: the hypsometry table for each glacier, preceded by copies of the glacier’s `rgi_id` and `area_km2`, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
+: The hypsometry table for each glacier, preceded by copies of the glacier’s `rgi_id` and `area_km2`, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
 
 For more information on this product and its attributes, see [](data_fields/glacier_product.md).
 
@@ -94,16 +94,16 @@ The "glacier complex" product is the result of a spatial merge operation of the 
 The following files are included in the unzipped folder:
 
 `RGI2000-v7.0-C-01_alaska.shp`
-: the RGI glacier complex outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: The RGI glacier complex outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-C-01_alaska-attributes.csv`
-: glacier complex attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier complex attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-C-01_alaska-attributes_metadata.json`
-: information about the attributes: full name, description, units, etc.
+: Information about the attributes: full name, description, units, etc.
 
 `RGI2000-v7.0-C-01_alaska-CtoG_links.json`
-: links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).
+: Links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).
 
 For more information on this product and its attributes, see [](data_fields/glacier_complex_product.md).
 
@@ -115,13 +115,13 @@ The glacier intersects products delineates the "divides" or "borders" between ad
 The following files are included in the unzipped folder:
 
 `RGI2000-v7.0-I-01_alaska.shp`
-: the RGI glacier intersects lines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: The RGI glacier intersects lines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-I-01_alaska-attributes.csv`
-: glacier intersects attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier intersects attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-I-01_alaska-attributes_metadata.json`
-: information about the attributes: full name, description, units, etc.
+: Information about the attributes: full name, description, units, etc.
 
 For more information on this product, see [](data_fields/intersects_product.md).
 
@@ -142,13 +142,13 @@ Each glacier contains at least one main centerline as well as any number of trib
 The following files are included in the unzipped folder:
 
 `RGI2000-v7.0-L-01_alaska.shp`
-: the RGI glacier centerlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: The RGI glacier centerlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-L-01_alaska-attributes.csv`
-: glacier centerlines attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier centerlines attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-L-01_alaska-attributes_metadata.json`
-: information about the attributes: full name, description, units, etc.
+: Information about the attributes: full name, description, units, etc.
 
 For more information on this product and its attributes, see [](data_fields/centerlines_product.md).
 

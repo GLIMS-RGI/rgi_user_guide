@@ -1,4 +1,4 @@
-# Updates per region
+# Glacier area & count changes between RGI 6.0 and RGI 7.0
 
 The following table summarizes the statistics of the changes between RGI 6.0 and RGI 7.0 (small differences in area or number do not necessarily mean no changes in quality - refer to each region's documentation for details):
 

@@ -44,7 +44,7 @@ What is the Randolph Glacier Inventory?
 RGI glacier regions 🗺️
 ^^^
 
-Definitions and global map.
+Definitions and global map
 
 :::
 
@@ -56,7 +56,7 @@ Definitions and global map.
 Data description 💾
 ^^^
 
-Technical specifications, file naming, and data fields.
+Technical specifications, file naming, and data fields
 :::
 
 :::{grid-item-card}
@@ -78,7 +78,7 @@ Overview, processing workflow, formats
 Regional revisions in v7.0 🔍
 ^^^
 
-Description of data updates by RGI region.
+Description of data updates by RGI region
 
 :::
 
@@ -90,7 +90,7 @@ Description of data updates by RGI region.
 Global statistics 📊
 ^^^
 
-Comparison of RGI 7.0 with RGI 6.0.
+Comparison of RGI 7.0 with RGI 6.0
 :::
 
 ::::
@@ -99,22 +99,27 @@ Comparison of RGI 7.0 with RGI 6.0.
 ## Acknowledgments
 
 
-```{image} img/logos/iugg_iacs.png
+```{image} img/logos/iugg_iacs_border.png
 :alt: IACS
-:height: 150px
+:height: 87px
 ```
 
-```{image} img/logos/white.png
-:alt: white
-:height: 150px
+```{image} img/logos/wgms.png
+:alt: wgms
+:height: 87px
+```
+
+```{image} img/logos/copernicus.png
+:alt: copernicus
+:height: 87px
 ```
 
 ```{image} img/logos/unesco.png
 :alt: UNESCO
-:height: 150px
+:height: 87px
 ```
 
-<br/><br/>
+<br><br>
 
 RGI version 7.0 was developed by the international Working Group on “[IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring”](https://cryosphericsciences.org) of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
@@ -129,6 +134,6 @@ Financial support was provided by several organizations and institutions, in par
 
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)
 
-This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) unless specified otherwise (i.e. for figures or content that is not from the RGI).
+This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (see [](reference)).
 
-Much of the information in this User Guide regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*
+Part of the information in this User Guide regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*

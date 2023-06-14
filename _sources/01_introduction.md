@@ -12,26 +12,11 @@ The RGI has been developed in an international community-driven effort of glacio
 
 The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
 
-## Version History
-
-**Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions. 
-
-**Version 2.0** also added shapefiles for its first-order and second-order regions.
-
-**Version 3.0** was an interim release representing the RGI as of 7 April 2013. It was the basis for the work of {cite:t}`Gardner2013`. The main improvements included identification of all tidewater basins, and separation of glacier complexes into glaciers in nearly all regions. Version 3.2, released in August 2013, included additional separation of glacier complexes into glaciers, and repairs of some geometry errors. It is the basis for the scientific description and analysis of the RGI by {cite:t}`Pfeffer2014`.
-
-**Version 4.0** was released in December 2014. The most significant enhancement was the addition of topographic and hypsometric attributes for nearly all glaciers. These new attributes are described in detail below. Many glacier outlines were unchanged in version 4.0, but many more glaciers were assigned dates or date ranges, some names were added or corrected, and the inventory of Alaska was new. Remaining glacier complexes in Bolivia were subdivided, and nominal glaciers were added to correct omissions in the Greater Caucasus. A global grid of glacierized area with 0.5-degree resolution was added.
-
-**Version 5.0**, released in July 2015, had new coverage of most of Asia (RGI regions 10, 13, 14 and 15), with some improved outlines elsewhere. Linkages to the Fluctuations of Glaciers database of the World Glacier Monitoring Service were provided for some glaciers with mass-balance measurements.
-
-**Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015).
-
-**Version 7.0**, released in July 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of ice complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
-
 ## Data Distribution Policy
 
 The RGI may be used freely under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by proper referencing, see below). Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI.
 
+(reference)=
 ## Dataset Reference
 
 The RGI 7.0 data set should be cited by
@@ -64,3 +49,19 @@ Since GLIMS was globally incomplete, earlier RGI versions combined outlines from
 All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
 - [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this User Guide.
+
+## Version History
+
+**Version 7.0**, released in July 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of ice complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
+
+**Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015).
+
+**Version 5.0**, released in July 2015, had new coverage of most of Asia (RGI regions 10, 13, 14 and 15), with some improved outlines elsewhere. Linkages to the Fluctuations of Glaciers database of the World Glacier Monitoring Service were provided for some glaciers with mass-balance measurements.
+
+**Version 4.0** was released in December 2014. The most significant enhancement was the addition of topographic and hypsometric attributes for nearly all glaciers. These new attributes are described in detail below. Many glacier outlines were unchanged in version 4.0, but many more glaciers were assigned dates or date ranges, some names were added or corrected, and the inventory of Alaska was new. Remaining glacier complexes in Bolivia were subdivided, and nominal glaciers were added to correct omissions in the Greater Caucasus. A global grid of glacierized area with 0.5-degree resolution was added.
+
+**Version 3.0** was an interim release representing the RGI as of 7 April 2013. It was the basis for the work of {cite:t}`Gardner2013`. The main improvements included identification of all tidewater basins, and separation of glacier complexes into glaciers in nearly all regions. **Version 3.2**, released in August 2013, included additional separation of glacier complexes into glaciers, and repairs of some geometry errors. It is the basis for the scientific description and analysis of the RGI by {cite:t}`Pfeffer2014`.
+
+**Version 2.0** also added shapefiles for its first-order and second-order regions.
+
+**Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions. 

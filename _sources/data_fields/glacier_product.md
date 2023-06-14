@@ -93,32 +93,13 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 
 ## Additional information
 
-### `primeclass`
-
-WGMS primary classification of the glacier. Obtained from the GLIMS database. Poorly populated. Categories:
-
-|   Digit | Class                   | Description                                                                                                                                                                                                                                                                                    |
-|--------:|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       0 | Miscellaneous           | Any type not listed below (please explain)                                                                                                                                                                                                                                                     |
-|       1 | Continental ice sheet   | Inundates areas of continental size                                                                                                                                                                                                                                                            |
-|       2 | Icefield                | Ice masses of sheet or blanket type of a thickness that is insufficient to obscure the subsurface topography                                                                                                                                                                                   |
-|       3 | Ice cap                 | Dome-shaped ice masses with radial flow                                                                                                                                                                                                                                                        |
-|       4 | Outlet glacier          | Drains an ice sheet, icefield or ice cap, usually of valley glacier form; the catchment area may not be easily defined                                                                                                                                                                         |
-|       5 | Valley glacier          | Flows down a valley; the catchment area is well defined                                                                                                                                                                                                                                        |
-|       6 | Mountain glacier        | Cirque, niche or crater type, hanging glacier; includes ice aprons and groups of small units                                                                                                                                                                                                   |
-|       7 | Glacieret and snowfield | Small ice masses of indefinite shape in hollows, river beds and on protected slopes, which has developed from snow drifting, avalanching, and/or particularly heavy accumulation in certain years; usually no marked flow pattern is visible; in existence for at least two consecutive years. |
-|       8 | Ice shelf               | Floating ice sheet of considerable thickness attached to a coast nourished by a glacier(s); snow accumulation on its surface or bottom freezing                                                                                                                                                |
-|       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
-
-
-
 ### Topography attributes `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m`
 
 These attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
  
 Each glacier grid is defined in the locally valid UTM zone (`utm_zone` attribute) and with a grid spacing $dx$ depending on the glacier size: $dx =  14 \sqrt{A} + 10$, with $dx$ the grid spacing in meters and $A$ the glacier area in km² {cite:p}`Maussion2019`. If a grid spacing chosen by this formula exceeds 100 m, the grid spacing is fixed to a maximum of 100 m. Effectively, this means that a glacier of the minimum area of 0.01 km² will have a grid spacing of 11.4 m, a 8 km² glacier a grid spacing of 50 m, and all glaciers above 42 km² a grid spacing of 100 m. The chosen DEM product (`dem_source` attribute) is reprojected onto the local glacier grid and interpolated using cubic resampling with the [rasterio](https://rasterio.readthedocs.io) library.
 
-The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2019` (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to [](dem_citations.md) for a full reference.
+The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2019` (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30 m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to [](dem_citations.md) for a full reference.
 
 For each glacier, a glacier mask is computed from the outlines, and the applied to compute the glacier statistics. 
 
@@ -152,6 +133,13 @@ Example of the glacier terminus location (red dots) plotted with the centerlines
 ### Glacier length `lmax_m`
 
 The maximum length (in meters) is computed from the main centerline in the local map projection (UTM). Absolute glacier length is a highly subjective measure, and depends on the chosen "head" of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential centerline heads by looking for local maxima along the glacier outline, and then computes all centerlines joining the heads to the terminus. The main centerline is the longest of them, i.e. the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
+
+
+### Hypsometry files
+
+The hypsometry files are a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`), preceded by copies of the glacier’s `rgi_id` and `area_km2`. The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
+
+The hypsometries are computed from the same DEM as the other topographical attributes. Refer to [](dem_citations.md) for a full reference of the data products.
 
 ### `surge_type`
 
@@ -204,9 +192,26 @@ Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 an
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
 
+### `primeclass`
+
+WGMS primary classification of the glacier, obtained from the GLIMS database. It is currently very poorly populated, with only few submissions to GLIMS having provided this information. Available categories:
+
+|   Digit | Class                   | Description                                                                                                                                                                                                                                                                                    |
+|--------:|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       0 | Miscellaneous           | Any type not listed below (please explain)                                                                                                                                                                                                                                                     |
+|       1 | Continental ice sheet   | Inundates areas of continental size                                                                                                                                                                                                                                                            |
+|       2 | Icefield                | Ice masses of sheet or blanket type of a thickness that is insufficient to obscure the subsurface topography                                                                                                                                                                                   |
+|       3 | Ice cap                 | Dome-shaped ice masses with radial flow                                                                                                                                                                                                                                                        |
+|       4 | Outlet glacier          | Drains an ice sheet, icefield or ice cap, usually of valley glacier form; the catchment area may not be easily defined                                                                                                                                                                         |
+|       5 | Valley glacier          | Flows down a valley; the catchment area is well defined                                                                                                                                                                                                                                        |
+|       6 | Mountain glacier        | Cirque, niche or crater type, hanging glacier; includes ice aprons and groups of small units                                                                                                                                                                                                   |
+|       7 | Glacieret and snowfield | Small ice masses of indefinite shape in hollows, river beds and on protected slopes, which has developed from snow drifting, avalanching, and/or particularly heavy accumulation in certain years; usually no marked flow pattern is visible; in existence for at least two consecutive years. |
+|       8 | Ice shelf               | Floating ice sheet of considerable thickness attached to a coast nourished by a glacier(s); snow accumulation on its surface or bottom freezing                                                                                                                                                |
+|       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
+
 ### Submission info files
 
-A csv file containing the following columns:
+Each glacier region provides a csv file containing information about provenance of the glacier outlines. It contains the following columns:
 
 `subm_id`
 : `long_name`: submission_id <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 

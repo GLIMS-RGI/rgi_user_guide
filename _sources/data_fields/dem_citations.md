@@ -1,6 +1,10 @@
+---
+orphan: true
+---
+
 # DEM products citations
 
-If you need to refer the topography products used by RGI 7.0, follow the following guidelines.
+Topography attributes in RGI 7.0 are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. If you need to refer the topography products used by RGI 7.0, follow these guidelines.
 
 ## COPDEM90
 

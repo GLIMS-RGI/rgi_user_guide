@@ -1,4 +1,4 @@
-# Data fields: glacier product 
+# Data attributes: glacier product 
 
 The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.
 
@@ -133,13 +133,6 @@ Example of the glacier terminus location (red dots) plotted with the centerlines
 ### Glacier length `lmax_m`
 
 The maximum length (in meters) is computed from the main centerline in the local map projection (UTM). Absolute glacier length is a highly subjective measure, and depends on the chosen "head" of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential centerline heads by looking for local maxima along the glacier outline, and then computes all centerlines joining the heads to the terminus. The main centerline is the longest of them, i.e. the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
-
-
-### Hypsometry files
-
-The hypsometry files are a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`), preceded by copies of the glacier’s `rgi_id` and `area_km2`. The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
-
-The hypsometries are computed from the same DEM as the other topographical attributes. Refer to [](dem_citations.md) for a full reference of the data products.
 
 ### `surge_type`
 

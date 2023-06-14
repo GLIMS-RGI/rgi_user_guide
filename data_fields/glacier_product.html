@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data fields: glacier product &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>Data attributes: glacier product &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -65,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'data_fields/glacier_product';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Data fields: glacier complex product" href="glacier_complex_product.html" />
+    <link rel="next" title="Data attributes: glacier complex product" href="glacier_complex_product.html" />
     <link rel="prev" title="Data description of RGI 7.0" href="../03_data_decription.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
@@ -161,10 +161,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI glacier regions</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../03_data_decription.html">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Data fields: glacier product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="glacier_complex_product.html">Data fields: glacier complex product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="intersects_product.html">Data fields: intersects product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="centerlines_product.html">Data fields: centerlines product</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Data attributes: glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glacier_complex_product.html">Data attributes: glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intersects_product.html">Data attributes: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="centerlines_product.html">Data attributes: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -397,7 +397,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Data fields: glacier product</h1>
+    <h1>Data attributes: glacier product</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -413,7 +413,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slope-attributes-slope-deg-aspect-deg-aspect-sec">Slope attributes <code class="docutils literal notranslate"><span class="pre">slope_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_sec</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#terminus-location-termlon-termlat">Terminus location <code class="docutils literal notranslate"><span class="pre">termlon</span></code>, <code class="docutils literal notranslate"><span class="pre">termlat</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-length-lmax-m">Glacier length <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hypsometry-files">Hypsometry files</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#surge-type"><code class="docutils literal notranslate"><span class="pre">surge_type</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#term-type"><code class="docutils literal notranslate"><span class="pre">term_type</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#primeclass"><code class="docutils literal notranslate"><span class="pre">primeclass</span></code></a></li>
@@ -431,8 +430,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="data-fields-glacier-product">
-<h1>Data fields: glacier product<a class="headerlink" href="#data-fields-glacier-product" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-attributes-glacier-product">
+<h1>Data attributes: glacier product<a class="headerlink" href="#data-attributes-glacier-product" title="Permalink to this headline">#</a></h1>
 <p>The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.</p>
 <section id="full-list">
 <h2>Full list<a class="headerlink" href="#full-list" title="Permalink to this headline">#</a></h2>
@@ -570,11 +569,6 @@ The <code class="docutils literal notranslate"><span class="pre">aspect_sec</spa
 <section id="glacier-length-lmax-m">
 <h3>Glacier length <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code><a class="headerlink" href="#glacier-length-lmax-m" title="Permalink to this headline">#</a></h3>
 <p>The maximum length (in meters) is computed from the main centerline in the local map projection (UTM). Absolute glacier length is a highly subjective measure, and depends on the chosen “head” of the glacier. The centerline algorithm from <span id="id3">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id80" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> selects potential centerline heads by looking for local maxima along the glacier outline, and then computes all centerlines joining the heads to the terminus. The main centerline is the longest of them, i.e. the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.</p>
-</section>
-<section id="hypsometry-files">
-<h3>Hypsometry files<a class="headerlink" href="#hypsometry-files" title="Permalink to this headline">#</a></h3>
-<p>The hypsometry files are a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier’s total area in km² (<code class="docutils literal notranslate"><span class="pre">area_km2</span></code>), preceded by copies of the glacier’s <code class="docutils literal notranslate"><span class="pre">rgi_id</span></code> and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>. The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.</p>
-<p>The hypsometries are computed from the same DEM as the other topographical attributes. Refer to <a class="reference internal" href="dem_citations.html"><span class="doc std std-doc">DEM products citations</span></a> for a full reference of the data products.</p>
 </section>
 <section id="surge-type">
 <h3><code class="docutils literal notranslate"><span class="pre">surge_type</span></code><a class="headerlink" href="#surge-type" title="Permalink to this headline">#</a></h3>
@@ -779,7 +773,7 @@ We aim to add this information in version 7.1.</p>
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Data fields: glacier complex product</p>
+        <p class="prev-next-title">Data attributes: glacier complex product</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -804,7 +798,6 @@ We aim to add this information in version 7.1.</p>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slope-attributes-slope-deg-aspect-deg-aspect-sec">Slope attributes <code class="docutils literal notranslate"><span class="pre">slope_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_sec</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#terminus-location-termlon-termlat">Terminus location <code class="docutils literal notranslate"><span class="pre">termlon</span></code>, <code class="docutils literal notranslate"><span class="pre">termlat</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-length-lmax-m">Glacier length <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hypsometry-files">Hypsometry files</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#surge-type"><code class="docutils literal notranslate"><span class="pre">surge_type</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#term-type"><code class="docutils literal notranslate"><span class="pre">term_type</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#primeclass"><code class="docutils literal notranslate"><span class="pre">primeclass</span></code></a></li>

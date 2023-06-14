@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '03_data_decription';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data fields: glacier product" href="data_fields/glacier_product.html" />
+    <link rel="next" title="Data attributes: glacier product" href="data_fields/glacier_product.html" />
     <link rel="prev" title="RGI glacier regions" href="02_regions_definition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
@@ -159,10 +159,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data fields: glacier product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data fields: glacier complex product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data fields: intersects product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data fields: centerlines product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data attributes: glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data attributes: glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data attributes: intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data attributes: centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
@@ -418,7 +418,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-fields">Data fields</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-attributes">Data attributes</a></li>
 </ul>
             </nav>
         </div>
@@ -511,7 +511,7 @@ document.write(`
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.csv</span></code></dt><dd><p>The hypsometry table for each glacier, preceded by copies of the glacier’s <code class="docutils literal notranslate"><span class="pre">rgi_id</span></code> and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier’s total area in km² (<code class="docutils literal notranslate"><span class="pre">area_km2</span></code>). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.</p>
 </dd>
 </dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data fields: glacier product</span></a>.</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data attributes: glacier product</span></a>.</p>
 </section>
 <section id="glacier-complex-product-new-in-rgi-7-0">
 <span id="glacier-complex"></span><h3>Glacier complex product (new in RGI 7.0)<a class="headerlink" href="#glacier-complex-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
@@ -527,7 +527,7 @@ document.write(`
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-CtoG_links.json</span></code></dt><dd><p>Links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).</p>
 </dd>
 </dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data fields: glacier complex product</span></a>.</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data attributes: glacier complex product</span></a>.</p>
 </section>
 <section id="glacier-intersects-product-new-in-rgi-7-0">
 <span id="glacier-intersects"></span><h3>Glacier intersects product (new in RGI 7.0)<a class="headerlink" href="#glacier-intersects-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
@@ -541,7 +541,7 @@ document.write(`
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
 </dd>
 </dl>
-<p>For more information on this product, see <a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data fields: intersects product</span></a>.</p>
+<p>For more information on this product, see <a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data attributes: intersects product</span></a>.</p>
 <figure class="align-default" id="intersects-fig">
 <img alt="intersects map" class="bg-primary mb-1" src="_images/example_intersects.png" />
 <figcaption>
@@ -552,7 +552,7 @@ document.write(`
 <section id="glacier-centerlines-product-new-in-rgi-7-0">
 <span id="glacier-centerlines"></span><h3>Glacier centerlines product (new in RGI 7.0)<a class="headerlink" href="#glacier-centerlines-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
 <p>The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="07_references.html#id80" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> and implemented and executed by the Open Global Glacier Model (OGGM) <span id="id3">[<a class="reference internal" href="07_references.html#id39" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context.</p>
-<p>Each glacier contains at least one main centerline as well as any number of tributary centerlines, sorted according to their Strahler number (a measure of branching complexity defined by <span id="id4">Strahler [<a class="reference internal" href="07_references.html#id73" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">1952</a>]</span>, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data fields: centerlines product</span></a>). The main centerline is used to compute the glacier maximum length attribute <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code>.</p>
+<p>Each glacier contains at least one main centerline as well as any number of tributary centerlines, sorted according to their Strahler number (a measure of branching complexity defined by <span id="id4">Strahler [<a class="reference internal" href="07_references.html#id73" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">1952</a>]</span>, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a>). The main centerline is used to compute the glacier maximum length attribute <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code>.</p>
 <p>The following files are included in the unzipped folder:</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska.shp</span></code></dt><dd><p>The RGI glacier centerlines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
@@ -562,7 +562,7 @@ document.write(`
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
 </dd>
 </dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data fields: centerlines product</span></a>.</p>
+<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a>.</p>
 <figure class="align-default" id="centerlines-fig">
 <img alt="centerlines map" class="bg-primary mb-1" src="_images/example_centerlines.png" />
 <figcaption>
@@ -571,13 +571,13 @@ document.write(`
 </figure>
 </section>
 </section>
-<section id="data-fields">
-<h2>Data fields<a class="headerlink" href="#data-fields" title="Permalink to this headline">#</a></h2>
+<section id="data-attributes">
+<h2>Data attributes<a class="headerlink" href="#data-attributes" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data fields: glacier product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data fields: glacier complex product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data fields: intersects product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data fields: centerlines product</span></a></p></li>
+<li><p><a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data attributes: glacier product</span></a></p></li>
+<li><p><a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data attributes: glacier complex product</span></a></p></li>
+<li><p><a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data attributes: intersects product</span></a></p></li>
+<li><p><a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a></p></li>
 </ul>
 </section>
 <div class="toctree-wrapper compound">
@@ -626,7 +626,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Data fields: glacier product</p>
+        <p class="prev-next-title">Data attributes: glacier product</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -658,7 +658,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-fields">Data fields</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-attributes">Data attributes</a></li>
 </ul>
   </nav></div>
 

@@ -10,7 +10,7 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global in
 
 ```{admonition} Data download
 
-[Download the RGI 7.0 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_tar/). For review only!
+[Download the RGI 7.0 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l6_rgi7b2_zip). For review only!
 ```
 
 ```{admonition} Contributing to this documentation

@@ -1,8 +1,35 @@
-# Data attributes: glacier product 
+# Glacier product 
 
-The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.
+This product includes the glacier outlines as extracted from GLIMS together with additional data for each individual glacier. 
 
-## Full list
+## Product files
+
+In the following, file contents are explained using RGI region 01 (Alaska) as example:
+
+`RGI2000-v7.0-G-01_alaska.shp`
+: RGI glacier outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+
+`RGI2000-v7.0-G-01_alaska-attributes.csv`
+: Glacier attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+
+`RGI2000-v7.0-G-01_alaska-attributes_metadata.json`
+: Information about the attributes: full name, description, units, etc.
+
+`RGI2000-v7.0-G-01_alaska-submission_info.csv`
+: Information about the data providers ordered by submission id. Each glacier outline can be attributed to a specific submission via the `subm_id` attribute.
+
+`RGI2000-v7.0-G-01_alaska-submission_info_metadata.json`
+: Information about the attributes in the submission info file: full name, description, units, etc.
+
+`RGI2000-v7.0-G-01_alaska-rgi6_links.csv`
+: A list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
+
+`RGI2000-v7.0-G-01_alaska-hypsometry.csv`
+: The hypsometry table for each glacier, preceded by copies of the glacier’s `rgi_id` and `area_km2`, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
+
+## Full list of attributes
+
+The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see [](additional-info-glaciers).
 
 `rgi_id`
 : `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single outline by the RGI <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: RGI_Id
@@ -91,11 +118,26 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 `geometry`
 : `long_name`: Geometry <br/> `description`: Glacier geometry (polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: GLIMS <br/> `rgi6_name`: geometry
 
-## Additional information
 
-### Topography attributes `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m`
+(additional-info-glaciers)=
+## Additional information on glacier attributes
 
-These attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
+### Glacier identifiers
+
+One RGI outline in the glacier product corresponds to one glacier. Glaciers are identified with the following attributes:
+
+`rgi_id` 
+: **Unique** identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. **These ids are different from RGI 6.0 and likely to change in future RGI versions**.
+
+`glims_id` 
+: **Non-unique** identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single `glims_id` can have multiple outlines, for example at different dates or when a glacier disintegrates.
+
+`anlys_id` 
+: **Unique** identifier assigned within GLIMS for a particular outline of a glacier at a particular time and for a particular submission.  **These ids allow to unambiguously trace an outline back to the GLIMS database**, and will not change between future RGI versions if the outline does not change.
+
+### Topography attributes 
+
+The `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m` attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
  
 Each glacier grid is defined in the locally valid UTM zone (`utm_zone` attribute) and with a grid spacing $dx$ depending on the glacier size: $dx =  14 \sqrt{A} + 10$, with $dx$ the grid spacing in meters and $A$ the glacier area in km² {cite:p}`Maussion2019`. If a grid spacing chosen by this formula exceeds 100 m, the grid spacing is fixed to a maximum of 100 m. Effectively, this means that a glacier of the minimum area of 0.01 km² will have a grid spacing of 11.4 m, a 8 km² glacier a grid spacing of 50 m, and all glaciers above 42 km² a grid spacing of 100 m. The chosen DEM product (`dem_source` attribute) is reprojected onto the local glacier grid and interpolated using cubic resampling with the [rasterio](https://rasterio.readthedocs.io) library.
 
@@ -103,10 +145,11 @@ The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2
 
 For each glacier, a glacier mask is computed from the outlines, and the applied to compute the glacier statistics. 
 
-### Slope attributes `slope_deg`, `aspect_deg`, `aspect_sec`
+### Slope attributes 
 
-We use the same DEM and grid as for the topography derived attributes above. `slope_deg` and `aspect_deg` are computed using a standard trigonometric functions.
-The `aspect_sec` attribute contains information on the orientation of the glacier. Categories:
+The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the same DEM and grid as for the topography attributes described above. 
+
+`slope_deg` and `aspect_deg` are computed using a standard trigonometric functions in python. The `aspect_sec` attribute contains information on the orientation of the glacier, classified into the following categories:
 
 |   Value | Aspect sector   | Aspect range     |
 |--------:|:----------------|:-----------------|
@@ -120,9 +163,9 @@ The `aspect_sec` attribute contains information on the orientation of the glacie
 |       8 | North-west      | [292.5°; 337.5°] |
 |       9 | Not assigned    |                  |
 
-### Terminus location `termlon`, `termlat`
+### Terminus location
 
-This marks the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline.
+The `termlon`, `termlat` attributes mark the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline.
 
 :::{figure-md} terminus-fig
 <img src="../img/example_terminus.png" alt="terminus map" class="bg-primary mb-1">
@@ -130,11 +173,11 @@ This marks the longitude and latitude of the last point of the main centerline, 
 Example of the glacier terminus location (red dots) plotted with the centerlines product (purple) drawn over the glacier product (light blue).
 :::
 
-### Glacier length `lmax_m`
+### Glacier length 
 
-The maximum length (in meters) is computed from the main centerline in the local map projection (UTM). Absolute glacier length is a highly subjective measure, and depends on the chosen "head" of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential centerline heads by looking for local maxima along the glacier outline, and then computes all centerlines joining the heads to the terminus. The main centerline is the longest of them, i.e. the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
+The maximum length (`lmax_m`, in meters) is computed from the main centerline in the RGI 7.0 glacier centerline product. Absolute glacier length is a subjective measure, and principally depends on the chosen "head" of the glacier. The head is distinct from the maximum elevation of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential heads by searching for local maxima along the glacier outline, and then computes all the centerlines joining all heads to the single terminus. The longest of them is selected as the main centerline, which implies that the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
 
-### `surge_type`
+### Surge type
 
 The `surge_type` attribute contains information on evidence for surging, and is based on the following datasets:
 
@@ -163,7 +206,7 @@ Categories:
 |       3 | Observed     |
 |       9 | Not assigned |
 
-### `term_type`
+### Terminus type
 
 The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except 
 for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 - Southern Andes (same methodology). 
@@ -185,9 +228,9 @@ Visit [](attributes-stats) for global statistics of this attribute in RGI 7.0 an
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
 
-### `primeclass`
+### WGMS primary classification 
 
-WGMS primary classification of the glacier, obtained from the GLIMS database. It is currently very poorly populated, with only few submissions to GLIMS having provided this information. Available categories:
+The WGMS primary classification of the glacier (`primeclass`) is directly fetched from the GLIMS database. It is currently poorly populated, with only few submissions to GLIMS having provided this information. Available categories:
 
 |   Digit | Class                   | Description                                                                                                                                                                                                                                                                                    |
 |--------:|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -202,9 +245,10 @@ WGMS primary classification of the glacier, obtained from the GLIMS database. It
 |       8 | Ice shelf               | Floating ice sheet of considerable thickness attached to a coast nourished by a glacier(s); snow accumulation on its surface or bottom freezing                                                                                                                                                |
 |       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
 
-### Submission info files
 
-Each glacier region provides a csv file containing information about provenance of the glacier outlines. It contains the following columns:
+## Submission info table
+
+Each glacier region folder contains a csv file containing information about provenance of the glacier outlines. This file is available for the glacier product only, and allows to associate each outline's `subm_id` (submission identifier) to a specific entry in the GLIMS database. The table contains the following columns:
 
 `subm_id`
 : `long_name`: submission_id <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 

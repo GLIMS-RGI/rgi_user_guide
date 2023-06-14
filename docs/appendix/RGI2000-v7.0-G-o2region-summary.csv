@@ -1,9 +1,9 @@
-"o2region","full_name","long_code","n_glaciers","area_km2"
+"o2region","full_name","long_code","count","area_km2"
 "01-01","North Alaska","01-01_north_alaska",706,364
 "01-02","Alaska Range (Wrangell/Kilbuck)","01-02_alaska_range_wrangell_kilbuck",5812,16284
 "01-03","Alaska Peninsula (Aleutians)","01-03_alaska_peninsula_aleutians",872,1912
 "01-04","West Chugach Mountains (Talkeetna)","01-04_west_chugach_mountains_talkeetna",4529,12005
-"01-05","Saint Elias Mountains","01-05_saint_elias_mountains",5040,33178
+"01-05","Saint Elias Mountains","01-05_saint_elias_mountains",5039,33178
 "01-06","North Coast Ranges","01-06_north_coast_ranges",10551,22964
 "02-01","Mackenzie and Selwyn Mountains","02-01_mackenzie_and_selwyn_mountains",1235,657
 "02-02","South Coast Ranges","02-02_south_coast_ranges",7390,8806
@@ -14,7 +14,7 @@
 "03-02","Axel Heiberg and Meighen Is","03-02_axel_heiberg_and_meighen_is",624,11852
 "03-03","North Central Ellesmere Island","03-03_north_central_ellesmere_island",902,21336
 "03-04","South Central Ellesmere Island","03-04_south_central_ellesmere_island",261,19322
-"03-05","South Ellesmere Island (Northwest Devon)","03-05_south_ellesmere_island_northwest_devon",634,10042
+"03-05","South Ellesmere Island (Northwest Devon)","03-05_south_ellesmere_island_northwest_devon",633,10042
 "03-06","Devon Island","03-06_devon_island",216,15000
 "03-07","Melville Island","03-07_melville_island",7,128
 "04-01","Bylot Island","04-01_bylot_island",616,4883
@@ -23,10 +23,10 @@
 "04-04","Northeast Baffin Island","04-04_northeast_baffin_island",1953,8195
 "04-05","East Central Baffin Island","04-05_east_central_baffin_island",1905,9431
 "04-06","South East Baffin Island","04-06_south_east_baffin_island",3036,7603
-"04-07","Cumberland Sound","04-07_cumberland_sound",2621,5907
+"04-07","Cumberland Sound","04-07_cumberland_sound",2620,5907
 "04-08","Frobisher Bay","04-08_frobisher_bay",83,235
 "04-09","Labrador","04-09_labrador",103,20
-"05-01","Greenland Periphery","05-01_greenland_periphery",19996,90482
+"05-01","Greenland Periphery","05-01_greenland_periphery",19994,90482
 "06-01","Iceland","06-01_iceland",568,11060
 "07-01","Svalbard","07-01_svalbard",1583,33841
 "07-02","Jan Mayen","07-02_jan_mayen",83,117
@@ -82,10 +82,11 @@
 "19-16","Marie Byrd Land 7F","19-16_marie_byrd_land_7f",63,17950
 "19-17","Pine Island Bay 7G","19-17_pine_island_bay_7g",17,376
 "19-18","Bellingshausen Sea 7H1","19-18_bellingshausen_sea_7h1",20,14861
-"19-19","Alexander Island 7H2","19-19_alexander_island_7h2",123,61170
-"19-20","West Antarctic Peninsula 7I1","19-20_west_antarctic_peninsula_7i1",666,9288
-"19-21","Northeast Antarctic Peninsula 7I2","19-21_northeast_antarctic_peninsula_7i2",167,5377
+"19-19","Alexander Island 7H2","19-19_alexander_island_7h2",119,61170
+"19-20","West Antarctic Peninsula 7I1","19-20_west_antarctic_peninsula_7i1",637,9287
+"19-21","Northeast Antarctic Peninsula 7I2","19-21_northeast_antarctic_peninsula_7i2",166,5377
 "19-22","Southeast Antarctic Peninsula 7I3","19-22_southeast_antarctic_peninsula_7i3",6,1780
 "19-23","Ronne-Filchner Ice Shelf 7J","19-23_ronne_filchner_ice_shelf_7j",0,0
 "19-24","West Queen Maud Land 7K","19-24_west_queen_maud_land_7k",14,5878
-"Global","","",274570,706745
+"20-01","Antarctic Mainland","20-01_antarctic_mainland",0,0
+"Global","","",274531,706744

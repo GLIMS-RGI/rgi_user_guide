@@ -2,6 +2,12 @@
 
 This product includes the glacier outlines as extracted from GLIMS together with additional data for each individual glacier. 
 
+:::{figure-md} glacier-fig
+<img src="../img/example_glacier.png" alt="glacier map" class="bg-primary mb-1">
+
+Example of the glacier product (light blue), with outlines in black.
+:::
+
 ## Product files
 
 In the following, file contents are explained using RGI region 01 (Alaska) as example:

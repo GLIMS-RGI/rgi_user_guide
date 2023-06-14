@@ -423,6 +423,12 @@ document.write(`
 <p><strong>New in RGI 7.0</strong></p>
 <p>The glacier complex product is the result of a spatial merge operation of the glacier product (<a class="reference external" href="http://wiki.gis.com/wiki/index.php/Dissolve">dissolve</a> in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. Only a few attributes from the original glacier product remain after the merge.</p>
 <p>The glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.</p>
+<figure class="align-default" id="complex-fig">
+<img alt="complex map" class="bg-primary mb-1" src="../_images/example_complex.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Example of the glacier complex product (light blue), with outlines in black. In comparison with <a class="reference internal" href="glacier_product.html#glacier-fig"><span class="std std-ref">the glacier product</span></a>, the divides between glaciers have disappeared.</span><a class="headerlink" href="#complex-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <section id="product-files">
 <h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this headline">#</a></h2>
 <p>In the following, file contents are explained using RGI region 01 (Alaska) as example:</p>

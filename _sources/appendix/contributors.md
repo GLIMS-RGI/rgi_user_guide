@@ -23,8 +23,8 @@ Main developer:
 - **Fabien Maussion**
 
 Contributors: 
-- **Matthias Dusch**: RGITopo tools and notebooks  
-- **Alexander Fischer**: RGITopo tools and notebooks  
+- **Matthias Dusch**: topography tools and notebooks  
+- **Alexander Fischer**: topography tools and notebooks  
 - **Stephan Galos**: regional outline selection and implementation
 - **James Lea**: Google Earth Engine review tool
 - **Robert McNabb**: regional maps 
@@ -36,6 +36,11 @@ Contributors:
 ## Open outlines review process
 
 **Iestyn Barr, Etienne Berthier, Tobias Bolch, Matthias Huss, Tatiana Khromova, William Kochtitzky, Kirsty Langley, Erik Mannerfelt, Fabien Maussion, Robert McNabb, Frank Paul, Rainer Prinz, Antoine Rabatel, Philipp Rastner, Levan Tielidze.**
+
+## Attributes
+
+- Terminus type: **William Kochtitzky**
+- Surge type: **Mylène Jacquemart, Robert McNabb**
 
 ## User Guide
 

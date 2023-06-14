@@ -8,7 +8,7 @@ For each region, RGI 7.0 provides four distinct data products:
 - [](products/intersects_product) (new in RGI 7.0): delineates the "divides" or "boundaries" between adjacent glaciers from the glacier product. 
 - [](products/centerlines_product) (new in RGI 7.0): glacier centerlines computed with a flow routing algorithm.
 
-These four products and associated files are detailed in the next sections.
+These four products and associated files are detailed in their corresponding section.
 
 ## File naming convention
 
@@ -20,7 +20,7 @@ The name of each region's zipped file starts with `RGI` followed by three produc
   - glacier complex (`C`)
   - intersects (`I`)
   - centerlines (`L`)
-- RGI region Code (obtained from the [RGI region description table](o1-regions-table))
+- RGI region code (obtained from the [RGI region description table](o1-regions-table)), which consists of the region number and a standardized name
   
 The various product descriptors are separated by hyphens (`-`). For example `RGI2000-v7.0-G-03_arctic_canada_north.zip` refers to year 2000, RGI version 7.0, the glacier product and the region Arctic Canada North.
 
@@ -32,7 +32,7 @@ These additional descriptors are documented in each product's description page.
 
 ## RGI unique identifiers
 
-Each entity in each of the RGI 7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:
+Each entity in each of the RGI 7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per entity. For example:
 - `RGI2000-v7.0-G-02-00003` is the third glacier in RGI region 02, for the glacier product of RGI 7.0 and the target year 2000.
 - `RGI2000-v7.0-C-11-00005` is the fifth glacier in RGI region 11, for the glacier complex product of RGI 7.0 and the target year 2000.
 - `RGI2000-v7.0-I-13-00005` is the fifth intersect in RGI region 13, for the glacier intersects product of RGI 7.0 and the target year 2000.

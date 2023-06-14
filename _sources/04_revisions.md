@@ -21,7 +21,7 @@ RGI 7.0 contains  substantial improvements in outline quality in many regions of
 
 ## Data processing workflow
 
-Previous RGI versions have been generated largely in an ad-hoc manner based on data collected from GLIMS and many individual contributors. Although highly successful in generating the first near-complete global glacier inventory and releasing almost annual updates until 2017, the exact procedures are not fully documented, and code and tools used to generate the dataset not publicly available. A major goal in RGI 7.0 was to largely automate the process with open-source code, and rely exclusively on GLIMS as data source for the generation of the RGI ([Figure 2](fig-workflow)).
+Previous RGI versions have been generated largely in an ad-hoc manner based on data collected from GLIMS and many individual contributors. Although highly successful in generating the first near-complete global glacier inventory and releasing almost annual updates until 2017, the exact procedures are not fully documented, and code and tools used to generate the dataset not publicly available. A major goal in RGI 7.0 was to largely automate the process with open-source code, and rely exclusively on GLIMS as data source for the generation of the RGI.
 
 :::{figure-md} fig-workflow
 <img src="img/workflow.png" alt="data workflow" class="bg-primary mb-1">

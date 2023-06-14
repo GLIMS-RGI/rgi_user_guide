@@ -101,29 +101,34 @@ Comparison of RGI 7.0 with RGI 6.0
 
 ```{image} img/logos/iugg_iacs_border.png
 :alt: IACS
-:height: 87px
+:height: 78px
+```
+
+```{image} img/logos/nsidc_daac.png
+:alt: NSIDC
+:height: 78px
 ```
 
 ```{image} img/logos/wgms.png
 :alt: wgms
-:height: 87px
+:height: 78px
 ```
 
 ```{image} img/logos/copernicus.png
 :alt: copernicus
-:height: 87px
+:height: 78px
 ```
 
 ```{image} img/logos/unesco.png
 :alt: UNESCO
-:height: 87px
+:height: 78px
 ```
 
 <br><br>
 
 RGI version 7.0 was developed by the international Working Group on “[IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring”](https://cryosphericsciences.org) of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
-Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), World Glacier Monitoring Service ([WGMS](https://wgms.ch)), Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](appendix/acknowledgements).
+Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), the NASA National Snow and Ice Data Center - Distributed Active Archive Center ([NSIDC-DAAC](https://nsidc.org)), the World Glacier Monitoring Service ([WGMS](https://wgms.ch)), the Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](appendix/acknowledgements).
 
 > RGI 7.0 and this User Guide are dedicated to the memory of 
 > **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
@@ -134,6 +139,7 @@ Financial support was provided by several organizations and institutions, in par
 
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)
 
-This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (see [](reference)).
+This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)<br>
+See [how to refer to it](reference) in datasets and publications.
 
-Part of the information in this User Guide regarding RGI in general and versions prior to RGI 7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*
+Part of the text in this User Guide regarding the RGI in general and RGI versions prior to v7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*

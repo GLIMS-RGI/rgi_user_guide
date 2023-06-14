@@ -159,15 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data attributes: glacier product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data attributes: glacier complex product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data attributes: intersects product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data attributes: centerlines product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/centerlines_product.html">Glacier centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Glacier area &amp; count changes between RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Glacier area and count changes between RGI 6.0 and RGI 7.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada North</a></li>
@@ -192,9 +192,9 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Global statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/contributors.html">Appendix 2: Full list of contributors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -461,7 +461,7 @@ document.write(`
 </section>
 <section id="data-sources">
 <h2>Data Sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">#</a></h2>
-<p>All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers (<a class="reference external" href="https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html">2020-05-13</a>). See <a class="reference internal" href="tables/contributors.html"><span class="doc std std-doc">Appendix 2: Full list of contributors</span></a> for a list of RGI 7.0 contributors.</p>
+<p>All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers (<a class="reference external" href="https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html">2020-05-13</a>). See <a class="reference internal" href="appendix/contributors.html"><span class="doc std std-doc">Appendix 2: Full list of contributors</span></a> for a list of RGI 7.0 contributors.</p>
 <p>Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.</p>
 </section>
 <section id="rgi-source-code">

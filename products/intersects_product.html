@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data attributes: centerlines product &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>Glacier intersects product &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -60,11 +60,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'data_fields/centerlines_product';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'products/intersects_product';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="General revisions in RGI 7.0" href="../04_revisions.html" />
-    <link rel="prev" title="Data attributes: intersects product" href="intersects_product.html" />
+    <link rel="next" title="Glacier centerlines product" href="centerlines_product.html" />
+    <link rel="prev" title="Glacier complex product" href="glacier_complex_product.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -159,15 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI glacier regions</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../03_data_decription.html">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="glacier_product.html">Data attributes: glacier product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="glacier_complex_product.html">Data attributes: glacier complex product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="intersects_product.html">Data attributes: intersects product</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Data attributes: centerlines product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="centerlines_product.html">Glacier centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../regions/overview.html">Glacier area &amp; count changes between RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/overview.html">Glacier area and count changes between RGI 6.0 and RGI 7.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../regions/rgi03.html">03: Arctic Canada North</a></li>
@@ -192,9 +192,9 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Global statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tables/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tables/contributors.html">Appendix 2: Full list of contributors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -266,7 +266,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/data_fields/centerlines_product.md" target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/products/intersects_product.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -283,7 +283,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fdata_fields/centerlines_product.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fproducts/intersects_product.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -313,7 +313,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/data_fields/centerlines_product.md" target="_blank"
+      <li><a href="../_sources/products/intersects_product.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -395,7 +395,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Data attributes: centerlines product</h1>
+    <h1>Glacier intersects product</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -405,11 +405,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list">Full list</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strahler-n-strahler-number"><code class="docutils literal notranslate"><span class="pre">strahler_n</span></code> (Strahler number)</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
 </ul>
             </nav>
         </div>
@@ -421,37 +418,43 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="data-attributes-centerlines-product">
-<h1>Data attributes: centerlines product<a class="headerlink" href="#data-attributes-centerlines-product" title="Permalink to this headline">#</a></h1>
-<p>The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.</p>
-<section id="full-list">
-<h2>Full list<a class="headerlink" href="#full-list" title="Permalink to this headline">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="glacier-intersects-product">
+<h1>Glacier intersects product<a class="headerlink" href="#glacier-intersects-product" title="Permalink to this headline">#</a></h1>
+<p><strong>New in RGI 7.0</strong></p>
+<p>The glacier intersects products delineates the “divides” or “borders” between adjacent ice bodies. The resulting geometries are single lines (each with their own id), with attributes <code class="docutils literal notranslate"><span class="pre">rgi_g_id_1</span></code> and <code class="docutils literal notranslate"><span class="pre">rgi_g_id_2</span></code> indicating which glacier entities are adjacent. This product is useful for describing the connection between two glaciers (for example by the length of a common boundary) or for glacier models able to use this kind of information.</p>
+<figure class="align-default" id="intersects-fig">
+<img alt="intersects map" class="bg-primary mb-1" src="../_images/example_intersects.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Example of the glacier intersects product (red) drawn over the glacier product (light blue).</span><a class="headerlink" href="#intersects-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="product-files">
+<h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this headline">#</a></h2>
+<p>In the following, file contents are explained using RGI region 01 (Alaska) as example:</p>
 <dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single centerline by the RGI <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska.shp</span></code></dt><dd><p>The RGI glacier intersects lines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">rgi_g_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI glacier identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier ID to which the centerline belongs <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier intersects attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">segment_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Segment identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Integer number uniquely identifying this centerline within the glacier. The main centerline is always last. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">is_main</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Is main centerline <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Integer number indicating wether the centerline in the main centerline (1) or not (0). There is only one main centerline per glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">outflow_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Outflow segment identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Each secondary centerline flows into another centerline. This identifier points to the <code class="docutils literal notranslate"><span class="pre">segment_id</span></code> to which this centerline flows to. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">strahler_n</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Strahler number of this centerline. <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Strahler number (Hydrological order) of the centerline, from lowest (0, line without tributaries but with possible descendants) to highest (the main centerline). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">length_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Centerline length <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Length of the centerline in meters <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Centerline geometry (LineString) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
 </dd>
 </dl>
 </section>
-<section id="additional-information">
-<h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
-<p>The centerlines and their attributes are computed by OGGM <span id="id1">[<a class="reference internal" href="../07_references.html#id39" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span> which implements an algorithm described by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id80" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span>. The algorithm implemented in OGGM is very close to the original one, with slight differences in parameters choices and implementation details. Neither the algorithm nor its implementation are perfect, and the centerlines should be used with due caution.</p>
-<section id="strahler-n-strahler-number">
-<h3><code class="docutils literal notranslate"><span class="pre">strahler_n</span></code> (Strahler number)<a class="headerlink" href="#strahler-n-strahler-number" title="Permalink to this headline">#</a></h3>
-<p>The Strahler number is a measure of branching complexity defined by <span id="id3">[<a class="reference internal" href="../07_references.html#id73" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">Strahler, 1952</a>]</span> commonly used in hydrological applications. A Strahler number of 0 indicates a centerlines with no upstream tributaries. A Strahler number of 1 indicates a centerline with one or more upstream tributaries, each of them with a Strahler number of 0. If a centerline with a Strahler number of 1 flows into a downstream centerline, this centerline automatically get a Strahler number of 2. This ordering is important for mass flow routing. Each centerline contains a reference to its descendant, and this reference might be used by models to transfer mass from the tributaries towards the main centerline.</p>
-</section>
+<section id="full-list-of-attributes">
+<h2>Full list of attributes<a class="headerlink" href="#full-list-of-attributes" title="Permalink to this headline">#</a></h2>
+<p>The following attributes are available in the RGI 7.0 shapefiles.</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single intersect line by the RGI <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_g_id_1</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI glacier identifier of glacier 1 <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier ID of one side of the intersect (arbitrary) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_g_id_2</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI glacier identifier of glacier 2 <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier ID of the other side of the intersect (arbitrary) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">length_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Intersect length <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Length of the intersect in meters <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Intersect geometry (LineString) <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
+</dd>
+</dl>
 </section>
 </section>
 
@@ -468,7 +471,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./data_fields"
+            path: "./products"
         },
         predefinedOutput: true
     }
@@ -484,20 +487,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intersects_product.html"
+       href="glacier_complex_product.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Data attributes: intersects product</p>
+        <p class="prev-next-title">Glacier complex product</p>
       </div>
     </a>
     <a class="right-next"
-       href="../04_revisions.html"
+       href="centerlines_product.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">General revisions in RGI 7.0</p>
+        <p class="prev-next-title">Glacier centerlines product</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -516,11 +519,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list">Full list</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strahler-n-strahler-number"><code class="docutils literal notranslate"><span class="pre">strahler_n</span></code> (Strahler number)</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
 </ul>
   </nav></div>
 

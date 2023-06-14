@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '03_data_decription';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data attributes: glacier product" href="data_fields/glacier_product.html" />
+    <link rel="next" title="Glacier product" href="products/glacier_product.html" />
     <link rel="prev" title="RGI glacier regions" href="02_regions_definition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
@@ -159,15 +159,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_product.html">Data attributes: glacier product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/glacier_complex_product.html">Data attributes: glacier complex product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/intersects_product.html">Data attributes: intersects product</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data_fields/centerlines_product.html">Data attributes: centerlines product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/centerlines_product.html">Glacier centerlines product</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Glacier area &amp; count changes between RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Glacier area and count changes between RGI 6.0 and RGI 7.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada North</a></li>
@@ -192,9 +192,9 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Global statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/contributors.html">Appendix 2: Full list of contributors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tables/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/regions.html">Appendix 1: RGI regions &amp; glacier count/area</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
 </ul>
 
     </div>
@@ -405,20 +405,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-specifications">Technical specifications</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product">Glacier identifiers in the RGI 7.0 glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-files">Data files</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-product">Glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-attributes">Data attributes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-product-description">Detailed product description</a></li>
 </ul>
             </nav>
         </div>
@@ -432,19 +421,17 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="data-description-of-rgi-7-0">
 <h1>Data description of RGI 7.0<a class="headerlink" href="#data-description-of-rgi-7-0" title="Permalink to this headline">#</a></h1>
-<section id="technical-specifications">
-<h2>Technical specifications<a class="headerlink" href="#technical-specifications" title="Permalink to this headline">#</a></h2>
 <p>The RGI is provided as <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">Esri shapefiles</a> containing the outlines of glaciers and related products in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
 <p>For each region, RGI 7.0 provides four distinct data products:</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#glacier-product"><span class="std std-ref">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier.</p></li>
-<li><p><a class="reference internal" href="#glacier-complex"><span class="std std-ref">Glacier complex product</span></a> (new in RGI 7.0): includes outlines of the contiguous ice mass that includes all glaciers with share common boundaries, and a reduced number of attributes.</p></li>
-<li><p><a class="reference internal" href="#glacier-intersects"><span class="std std-ref">Glacier intersects product</span></a> (new in RGI 7.0): delineates the “divides” or “boundaries” between adjacent glaciers from the glacier product.</p></li>
-<li><p><a class="reference internal" href="#glacier-centerlines"><span class="std std-ref">Glacier centerlines product</span></a> (new in RGI 7.0): glacier centerlines computed with a flow routing algorithm.</p></li>
+<li><p><a class="reference internal" href="products/glacier_product.html"><span class="doc std std-doc">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier.</p></li>
+<li><p><a class="reference internal" href="products/glacier_complex_product.html"><span class="doc std std-doc">Glacier complex product</span></a> (new in RGI 7.0): includes outlines of the contiguous ice mass that includes all glaciers with share common boundaries, and a reduced number of attributes.</p></li>
+<li><p><a class="reference internal" href="products/intersects_product.html"><span class="doc std std-doc">Glacier intersects product</span></a> (new in RGI 7.0): delineates the “divides” or “boundaries” between adjacent glaciers from the glacier product.</p></li>
+<li><p><a class="reference internal" href="products/centerlines_product.html"><span class="doc std std-doc">Glacier centerlines product</span></a> (new in RGI 7.0): glacier centerlines computed with a flow routing algorithm.</p></li>
 </ul>
-<p>These four products and associated files are detailed below.</p>
+<p>These four products and associated files are detailed in the next sections.</p>
 <section id="file-naming-convention">
-<h3>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h3>
+<h2>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h2>
 <p>The name of each region’s zipped file starts with <code class="docutils literal notranslate"><span class="pre">RGI</span></code> followed by three product descriptors:</p>
 <ul class="simple">
 <li><p>target year (so far all RGI versions refer to year 2000)</p></li>
@@ -457,7 +444,7 @@ document.write(`
 <li><p>centerlines (<code class="docutils literal notranslate"><span class="pre">L</span></code>)</p></li>
 </ul>
 </li>
-<li><p>RGI region Code (obtained from the <a class="reference internal" href="tables/regions.html#o1-regions-table"><span class="std std-ref">RGI region description table</span></a>)</p></li>
+<li><p>RGI region Code (obtained from the <a class="reference internal" href="appendix/regions.html#o1-regions-table"><span class="std std-ref">RGI region description table</span></a>)</p></li>
 </ul>
 <p>The various product descriptors are separated by hyphens (<code class="docutils literal notranslate"><span class="pre">-</span></code>). For example <code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-03_arctic_canada_north.zip</span></code> refers to year 2000, RGI version 7.0, the glacier product and the region Arctic Canada North.</p>
 <p>In addition to the shapefiles (following the same naming convention), each regional zip file comes with additional data files identified by the addition of descriptors in the filename. Examples:</p>
@@ -465,22 +452,10 @@ document.write(`
 <li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes.csv</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-19_subantarctic_antarctic_islands-rgi6_links.csv</span></code></p></li>
 </ul>
-<p>These additional descriptors are documented below.</p>
-</section>
-<section id="glacier-identifiers-in-the-rgi-7-0-glacier-product">
-<h3>Glacier identifiers in the RGI 7.0 glacier product<a class="headerlink" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product" title="Permalink to this headline">#</a></h3>
-<p>One RGI outline in the “glacier” product corresponds to one glacier. Glaciers are identified with the following attributes:</p>
-<dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><strong>Unique</strong> identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. <strong>These ids are different from RGI 6.0 and likely to change in future RGI versions</strong>.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">glims_id</span></code></dt><dd><p><strong>Non-unique</strong> identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single <code class="docutils literal notranslate"><span class="pre">glims_id</span></code> can have multiple outlines, for example at different dates or when a glacier disintegrates.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">anlys_id</span></code></dt><dd><p><strong>Unique</strong> identifier assigned within GLIMS for a particular outline of a glacier at a particular time and for a particular submission.  <strong>These ids allow to unambiguously trace an outline back to the GLIMS database</strong>, and will not change between future RGI versions if the outline does not change.</p>
-</dd>
-</dl>
+<p>These additional descriptors are documented in each product’s description page.</p>
 </section>
 <section id="rgi-unique-identifiers">
-<h3>RGI unique identifiers<a class="headerlink" href="#rgi-unique-identifiers" title="Permalink to this headline">#</a></h3>
+<h2>RGI unique identifiers<a class="headerlink" href="#rgi-unique-identifiers" title="Permalink to this headline">#</a></h2>
 <p>Each entity in each of the RGI 7.0 products is given a unique identifier. RGI identifiers follow the same convention as the product files, but integrate a unique number per RGI entity. For example:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-02-00003</span></code> is the third glacier in RGI region 02, for the glacier product of RGI 7.0 and the target year 2000.</p></li>
@@ -488,96 +463,13 @@ document.write(`
 <li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-13-00005</span></code> is the fifth intersect in RGI region 13, for the glacier intersects product of RGI 7.0 and the target year 2000.</p></li>
 </ul>
 </section>
-</section>
-<section id="data-files">
-<h2>Data files<a class="headerlink" href="#data-files" title="Permalink to this headline">#</a></h2>
-<p>Each regional <code class="docutils literal notranslate"><span class="pre">.zip</span></code> file contains a number of files, depending on the product considered. Details for each of the four data products are given below. In the following, file contents are explained using RGI region 01 (Alaska) as example.</p>
-<section id="glacier-product">
-<span id="id1"></span><h3>Glacier product<a class="headerlink" href="#glacier-product" title="Permalink to this headline">#</a></h3>
-<p>This product includes the glacier outlines as extracted from GLIMS together with additional data for each individual glacier:</p>
-<dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska.shp</span></code></dt><dd><p>RGI glacier outlines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-submission_info.csv</span></code></dt><dd><p>Information about the data providers ordered by submission id. Each glacier outline can be attributed to a specific submission via the <code class="docutils literal notranslate"><span class="pre">subm_id</span></code> attribute.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-submission_info_metadata.json</span></code></dt><dd><p>Information about the attributes in the submission info file: full name, description, units, etc.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>A list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.csv</span></code></dt><dd><p>The hypsometry table for each glacier, preceded by copies of the glacier’s <code class="docutils literal notranslate"><span class="pre">rgi_id</span></code> and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>, is a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier’s total area in km² (<code class="docutils literal notranslate"><span class="pre">area_km2</span></code>). The sum of the elevation-band areas is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.</p>
-</dd>
-</dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data attributes: glacier product</span></a>.</p>
-</section>
-<section id="glacier-complex-product-new-in-rgi-7-0">
-<span id="glacier-complex"></span><h3>Glacier complex product (new in RGI 7.0)<a class="headerlink" href="#glacier-complex-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
-<p>The “glacier complex” product is the result of a spatial merge operation of the glacier product (<a class="reference external" href="http://wiki.gis.com/wiki/index.php/Dissolve">dissolve</a> in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. The only attributes remaining or recomputed after the merge are <code class="docutils literal notranslate"><span class="pre">o1region</span></code>,  <code class="docutils literal notranslate"><span class="pre">o2region</span></code>, <code class="docutils literal notranslate"><span class="pre">cenlon</span></code>, <code class="docutils literal notranslate"><span class="pre">cenlat</span></code>, and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>. This glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.</p>
-<p>The following files are included in the unzipped folder:</p>
-<dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska.shp</span></code></dt><dd><p>The RGI glacier complex outlines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier complex attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-CtoG_links.json</span></code></dt><dd><p>Links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).</p>
-</dd>
-</dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data attributes: glacier complex product</span></a>.</p>
-</section>
-<section id="glacier-intersects-product-new-in-rgi-7-0">
-<span id="glacier-intersects"></span><h3>Glacier intersects product (new in RGI 7.0)<a class="headerlink" href="#glacier-intersects-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
-<p>The glacier intersects products delineates the “divides” or “borders” between adjacent ice bodies. The resulting geometries are single lines (each with their own id), with attributes <code class="docutils literal notranslate"><span class="pre">rgi_g_id_1</span></code> and <code class="docutils literal notranslate"><span class="pre">rgi_g_id_2</span></code> indicating which glacier entities are adjacent. This product is useful for describing the connection between two glaciers (for example by its length) or for glacier models able to use this information.</p>
-<p>The following files are included in the unzipped folder:</p>
-<dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska.shp</span></code></dt><dd><p>The RGI glacier intersects lines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier intersects attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
-</dd>
-</dl>
-<p>For more information on this product, see <a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data attributes: intersects product</span></a>.</p>
-<figure class="align-default" id="intersects-fig">
-<img alt="intersects map" class="bg-primary mb-1" src="_images/example_intersects.png" />
-<figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Example of the glacier intersects product (red) drawn over the glacier product (light blue).</span><a class="headerlink" href="#intersects-fig" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</section>
-<section id="glacier-centerlines-product-new-in-rgi-7-0">
-<span id="glacier-centerlines"></span><h3>Glacier centerlines product (new in RGI 7.0)<a class="headerlink" href="#glacier-centerlines-product-new-in-rgi-7-0" title="Permalink to this headline">#</a></h3>
-<p>The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by <span id="id2">Kienholz <em>et al.</em> [<a class="reference internal" href="07_references.html#id80" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> and implemented and executed by the Open Global Glacier Model (OGGM) <span id="id3">[<a class="reference internal" href="07_references.html#id39" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context.</p>
-<p>Each glacier contains at least one main centerline as well as any number of tributary centerlines, sorted according to their Strahler number (a measure of branching complexity defined by <span id="id4">Strahler [<a class="reference internal" href="07_references.html#id73" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">1952</a>]</span>, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a>). The main centerline is used to compute the glacier maximum length attribute <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code>.</p>
-<p>The following files are included in the unzipped folder:</p>
-<dl class="simple myst">
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska.shp</span></code></dt><dd><p>The RGI glacier centerlines as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier centerlines attributes in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
-</dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska-attributes_metadata.json</span></code></dt><dd><p>Information about the attributes: full name, description, units, etc.</p>
-</dd>
-</dl>
-<p>For more information on this product and its attributes, see <a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a>.</p>
-<figure class="align-default" id="centerlines-fig">
-<img alt="centerlines map" class="bg-primary mb-1" src="_images/example_centerlines.png" />
-<figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).</span><a class="headerlink" href="#centerlines-fig" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</section>
-</section>
-<section id="data-attributes">
-<h2>Data attributes<a class="headerlink" href="#data-attributes" title="Permalink to this headline">#</a></h2>
+<section id="detailed-product-description">
+<h2>Detailed product description<a class="headerlink" href="#detailed-product-description" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="data_fields/glacier_product.html"><span class="doc std std-doc">Data attributes: glacier product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/glacier_complex_product.html"><span class="doc std std-doc">Data attributes: glacier complex product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/intersects_product.html"><span class="doc std std-doc">Data attributes: intersects product</span></a></p></li>
-<li><p><a class="reference internal" href="data_fields/centerlines_product.html"><span class="doc std std-doc">Data attributes: centerlines product</span></a></p></li>
+<li><p><a class="reference internal" href="products/glacier_product.html"><span class="doc std std-doc">Glacier product</span></a></p></li>
+<li><p><a class="reference internal" href="products/glacier_complex_product.html"><span class="doc std std-doc">Glacier complex product</span></a></p></li>
+<li><p><a class="reference internal" href="products/intersects_product.html"><span class="doc std std-doc">Glacier intersects product</span></a></p></li>
+<li><p><a class="reference internal" href="products/centerlines_product.html"><span class="doc std std-doc">Glacier centerlines product</span></a></p></li>
 </ul>
 </section>
 <div class="toctree-wrapper compound">
@@ -622,11 +514,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="data_fields/glacier_product.html"
+       href="products/glacier_product.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Data attributes: glacier product</p>
+        <p class="prev-next-title">Glacier product</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -645,20 +537,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-specifications">Technical specifications</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-identifiers-in-the-rgi-7-0-glacier-product">Glacier identifiers in the RGI 7.0 glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-files">Data files</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-product">Glacier product</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-complex-product-new-in-rgi-7-0">Glacier complex product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-intersects-product-new-in-rgi-7-0">Glacier intersects product (new in RGI 7.0)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#glacier-centerlines-product-new-in-rgi-7-0">Glacier centerlines product (new in RGI 7.0)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-attributes">Data attributes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-unique-identifiers">RGI unique identifiers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-product-description">Detailed product description</a></li>
 </ul>
   </nav></div>
 

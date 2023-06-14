@@ -1,7 +1,7 @@
 # Appendix 1: RGI regions & glacier count/area
 
 (o1-regions-table)=
-## First-order regions (N=20)
+## First-order regions
 
 Summary of glacier counts and areas of all 20 first-order regions in the RGI 7.0.
 
@@ -33,9 +33,9 @@ Summary of glacier counts and areas of all 20 first-order regions in the RGI 7.0
 
 
 (o2-regions-table)=
-## Second-order regions (N=89)
+## Second-order regions
 
-Summary of glacier counts and areas of all 90+1 second-order regions in the RGI 7.0.
+Summary of glacier counts and areas of all 90 second-order regions in the RGI 7.0.
 
 [Download this table as csv](RGI2000-v7.0-G-o2region-summary.csv)
 

@@ -6,7 +6,7 @@ Funding for RGI 7.0 was provided by:
 - the **World Glacier Monitoring Service (WGMS)**. Funds were used to employ student helpers.
 - the **Copernicus Climate Changes Service (C3S)** implemented by the European Centre for Medium Range Weather Forecasts (ECMWF). Funds supported the glacier mapping in regions 01, 03, 04, 05, 07, 10, 11, 16, 17, 18, and 19 by Frank Paul and Philipp Rastner.
 - the **ESA project Glaciers_cci** (Grant: 4000127593/19/I-NB). Funds supported the glacier mapping in regions 04 and 18 by Frank Paul.
-- the **National Aeronautics and Space Administration (NASA) and the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)**, grant numbers NNG13HQ03C, 80GSFC18C0102, 80GSFC23CA035, 
+- the **National Aeronautics and Space Administration (NASA) and the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)**, grant numbers NNG13HQ03C, 80GSFC18C0102, 80GSFC23CA035.
 
 
 Computing resources and data storage for the RGI7 generation process:<br>

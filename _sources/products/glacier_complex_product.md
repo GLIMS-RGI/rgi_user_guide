@@ -1,8 +1,30 @@
-# Data attributes: glacier complex product 
+# Glacier complex product
 
-The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.
+**New in RGI 7.0**
 
-## Full list
+The glacier complex product is the result of a spatial merge operation of the glacier product ([dissolve](http://wiki.gis.com/wiki/index.php/Dissolve) in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. Only a few attributes from the original glacier product remain after the merge.
+
+The glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.
+
+## Product files
+
+In the following, file contents are explained using RGI region 01 (Alaska) as example:
+
+`RGI2000-v7.0-C-01_alaska.shp`
+: The RGI glacier complex outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+
+`RGI2000-v7.0-C-01_alaska-attributes.csv`
+: Glacier complex attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+
+`RGI2000-v7.0-C-01_alaska-attributes_metadata.json`
+: Information about the attributes: full name, description, units, etc.
+
+`RGI2000-v7.0-C-01_alaska-CtoG_links.json`
+: Links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).
+
+## Full list of attributes
+
+The following attributes are available in the RGI 7.0 shapefiles.
 
 `rgi_id`
 : `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single glacier complex by the RGI <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
@@ -27,6 +49,3 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 
 `geometry`
 : `long_name`: Geometry <br/> `description`: Glacier complex geometry (Polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: RGI <br/> `rgi6_name`: 
-
-## Additional information
-

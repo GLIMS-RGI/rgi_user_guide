@@ -22,7 +22,7 @@ consortium_list = '; '.join(consortium_list).rstrip()
 
 consortium_list += f"""
 
-*The first {len(contributors[1])} authors were members of the RGI Working Group steering committee and responsible for the design, development, implementation and assembly of RGI 7.0. The following  {len(contributors[2])} members (listed in alphabetical order) assisted with the implementation. The remaining {len(contributors[3])} authors (listed in alphabetical order) contributed with outline review and/or outlines used in RGI 7.0.*
+*The first {len(contributors[1])} authors were members of the RGI Working Group steering committee and responsible for the design, development, implementation and assembly of RGI 7.0. The following  {len(contributors[2])} authors (listed in alphabetical order) assisted with the implementation. The remaining {len(contributors[3])} authors (listed in alphabetical order) contributed with outline review and/or outlines used in RGI 7.0.*
 
 *For a more detailed listing of contributions, visit [](appendix/contributors).*
 

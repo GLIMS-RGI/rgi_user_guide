@@ -6,6 +6,12 @@ The glacier complex product is the result of a spatial merge operation of the gl
 
 The glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.
 
+:::{figure-md} complex-fig
+<img src="../img/example_complex.png" alt="complex map" class="bg-primary mb-1">
+
+Example of the glacier complex product (light blue), with outlines in black. In comparison with [the glacier product](glacier-fig), the divides between glaciers have disappeared.
+:::
+
 ## Product files
 
 In the following, file contents are explained using RGI region 01 (Alaska) as example:

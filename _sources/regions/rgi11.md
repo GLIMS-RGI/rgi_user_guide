@@ -20,11 +20,11 @@ Regional glacier area.
 
 **European Alps**
 
-The RGI 6.0 outlines from 2003 were revised due to missing glaciers (in particular in the Dolomites), wrongly mapped debris-covered glaciers, errors in geolocation (Maritime Alps) and topology issues such as overlapping outlines (Mt. Blanc region). For the corrections we used the same Landsat 5 TM images as for the original inventory {cite:p}`Paul2011a`, glacier outlines and Sentinel-2 images from the inventory by {cite:p}`Paul2020`, and very high-resolution images from the "World imagery" layer of the ESRI Basemap. The entire region is shown as "new" on the map, but we estimate that only about 1/5 of the outlines changed. 
+The RGI 6.0 outlines from 2003 were revised due to missing glaciers (in particular in the Dolomites), wrongly mapped debris-covered glaciers, errors in geolocation (Maritime Alps) and topology issues such as overlapping outlines (Mt. Blanc region). For the corrections we used the same Landsat 5 TM images as for the inventory adopted in the RGI 6.0 {cite:p}`Paul2011a`, glacier outlines and Sentinel-2 images from the inventory by {cite:p}`Paul2020`, and very high-resolution images from the "World imagery" layer of the ESRI Basemap. The entire region is shown as "new" on the map, but we estimate that only about 1/5 of the outlines changed. 
 
 **Pyrenees**
 
-In the Pyrenees, we use an updated inventory by Eñaut Izagirre.
+In the Pyrenees, outlines were replaced by an updated inventory by Eñaut Izagirre.
 
 **Other regions**
 

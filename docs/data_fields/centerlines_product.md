@@ -1,4 +1,4 @@
-# Data fields: centerlines product 
+# Data attributes: centerlines product 
 
 The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see the specific sections below.
 

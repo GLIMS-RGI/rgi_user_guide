@@ -158,7 +158,7 @@ For more information on this product and its attributes, see [](data_fields/cent
 Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).
 :::
 
-## Data fields
+## Data attributes
 
 - [](data_fields/glacier_product.md)
 - [](data_fields/glacier_complex_product.md)

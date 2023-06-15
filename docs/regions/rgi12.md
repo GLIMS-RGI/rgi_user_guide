@@ -26,7 +26,8 @@ The RGI 7.0 Glacier outlines for the Greater Caucasus were manually digitized by
 
 **Middle East**
 
-Glaciers of the Middle East have also been revised in detail and digitized based on Landsat imagery from 1998-2001. Overall, glacier outlines from the Caucasus and Middle East region in RGI 7.0 dates range between 1998 and 2002, with most of the area dating to 2000. Most of the glacier outlines for the Middle East in RGI 6.0 were mapped based on the ASTER imagery from 2004-2006 (Turkey) and Landsat scenes from 2011 (Iran). A closer look revealed that most of these outlines were digitized based on snow patches and not actual glaciers.
+Most RGI 6.0 glacier outlines were mapped based on ASTER imagery from 2004-2006 (Turkey) and Landsat scenes from 2011 (Iran), however, a closer look revealed that most of these outlines were snow patches and not actual glaciers. Therefore, outlines were remapped based on Landsat imagery from 1998-2001.
+
 
 ## Additional information 
 

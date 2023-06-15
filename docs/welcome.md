@@ -131,8 +131,7 @@ RGI version 7.0 was developed by the international Working Group on “[IACS Wor
 Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), the NASA National Snow and Ice Data Center - Distributed Active Archive Center ([NSIDC-DAAC](https://nsidc.org)), the World Glacier Monitoring Service ([WGMS](https://wgms.ch)), the Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](appendix/acknowledgements).
 
 > RGI 7.0 and this User Guide are dedicated to the memory of 
-> **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018),
-> for his inspiration, leadership and dedication to the RGI.
+> **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham's spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.
 
 
 ## License

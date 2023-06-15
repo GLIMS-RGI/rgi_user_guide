@@ -149,7 +149,7 @@ Each glacier grid is defined in the locally valid UTM zone (`utm_zone` attribute
 
 The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2019` (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30 m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to [](dem_citations.md) for a full reference.
 
-For each glacier, a glacier mask is computed from the outlines, and the applied to compute the glacier statistics. 
+For each glacier, a glacier mask is computed from the outlines and then applied to compute the glacier statistics. 
 
 ### Slope attributes 
 
@@ -171,7 +171,7 @@ The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the sam
 
 ### Terminus location
 
-The `termlon`, `termlat` attributes mark the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline.
+The `termlon`, `termlat` attributes mark the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline. Knowing the terminus location is useful to assign a glacier to a hydrological basin, for example.
 
 :::{figure-md} terminus-fig
 <img src="../img/example_terminus.png" alt="terminus map" class="bg-primary mb-1">

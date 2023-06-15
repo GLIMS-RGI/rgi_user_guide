@@ -16,6 +16,7 @@ First-order regions of the RGI version 7.0 and glacier locations in red. [Downlo
 First-order regions `10`, `19` and `20` straddle the 180th meridian, and so do the second-order regions `19-15` and `20-01`. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in [Figure 1](global-fig), the region outlines of `10` and `19-15` appear in the accompanying shapefiles as two polygons, eastern and western. 
 
 **GTN-G regions**
+
 The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G data set (NEW REFERENCE)
 
 

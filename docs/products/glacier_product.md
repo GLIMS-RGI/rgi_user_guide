@@ -38,25 +38,25 @@ In the following, file contents are explained using RGI region 01 (Alaska) as ex
 The following attributes are available in the RGI 7.0 shapefiles. For more details, see [](additional-info-glaciers).
 
 `rgi_id`
-: `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single outline by the RGI <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: RGI_Id
+: `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single outline. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: RGI_Id
 
 `o1region`
-: `long_name`: First order region <br/> `description`: The code of the first-order region to which the glacier belongs <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: O1Region
+: `long_name`: First order region <br/> `description`: The code of the first-order region to which the glacier belongs. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: O1Region
 
 `o2region`
-: `long_name`: Second order region <br/> `description`: The code of the second-order region to which the glacier belongs <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: O2Region
+: `long_name`: Second order region <br/> `description`: The code of the second-order region to which the glacier belongs. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: O2Region
 
 `glims_id`
-: `long_name`: GLIMS identifier <br/> `description`: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: GLIMS_Id
+: `long_name`: GLIMS identifier <br/> `description`: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: GLIMS_Id
 
 `anlys_id`
-: `long_name`: Analysis identifier <br/> `description`: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: Analysis identifier <br/> `description`: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
 
 `subm_id`
-: `long_name`: Submission identifier <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: Submission identifier <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
 
 `src_date`
-: `long_name`: Outline source date <br/> `description`: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601 <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: BgnDate
+: `long_name`: Outline source date <br/> `description`: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: BgnDate
 
 `cenlon`
 : `long_name`: Center longitude <br/> `description`: Longitude of an approximately central point within the glacier outlines (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLon
@@ -68,7 +68,7 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: UTM zone <br/> `description`: Number of the UTM zone for this glacier, based on its representative point. Note that this attribute is for information only, the geometries are all in WGS84. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
 
 `area_km2`
-: `long_name`: Glacier area <br/> `description`: Area of the glacier <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: Area
+: `long_name`: Glacier area <br/> `description`: Area of the glacier. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: Area
 
 `primeclass`
 : `long_name`: Primary classification <br/> `description`: WGMS primary classification of the glacier. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
@@ -122,7 +122,7 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Maximum length <br/> `description`: Length (m) of the longest surface centerline of the glacier. <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Lmax
 
 `geometry`
-: `long_name`: Geometry <br/> `description`: Glacier geometry (polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: GLIMS <br/> `rgi6_name`: geometry
+: `long_name`: Geometry <br/> `description`: Glacier geometry (Polygon) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: GLIMS <br/> `rgi6_name`: geometry
 
 
 (additional-info-glaciers)=

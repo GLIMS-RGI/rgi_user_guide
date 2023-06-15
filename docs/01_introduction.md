@@ -3,7 +3,7 @@
 ```{image} img/nasa.jpg
 :alt: space
 ```
-<p style="color:#D3D3D3";><small><i>Credit: NASA / Woody Hoburg</i>⁣</small></p>
+<p style="color:#D3D3D3";><small><small><small><i>Credit: NASA / Woody Hoburg</i>⁣</small>⁣</small></small></p>
 
 ## What is the RGI?
 

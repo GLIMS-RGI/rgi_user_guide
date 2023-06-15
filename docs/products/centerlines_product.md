@@ -30,28 +30,28 @@ In the following, file contents are explained using RGI region 01 (Alaska) as ex
 The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see [](additional-info-centerlines).
 
 `rgi_id`
-: `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single centerline by the RGI <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: RGI identifier <br/> `description`: Unique identifier assigned to a single intersect line. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI
 
 `rgi_g_id`
-: `long_name`: RGI glacier identifier <br/> `description`: Glacier ID to which the centerline belongs <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: RGI glacier identifier <br/> `description`: Glacier ID to which the centerline belongs. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI
 
 `segment_id`
-: `long_name`: Segment identifier <br/> `description`: Integer number uniquely identifying this centerline within the glacier. The main centerline is always last. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Segment identifier <br/> `description`: Integer number uniquely identifying this centerline within the glacier. The main centerline is always last. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `is_main`
-: `long_name`: Is main centerline <br/> `description`: Integer number indicating whether the centerline in the main centerline (1) or not (0). There is only one main centerline per glacier. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Is main centerline <br/> `description`: Integer number indicating whether the centerline in the main centerline (1) or not (0). There is only one main centerline per glacier. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `outflow_id`
-: `long_name`: Outflow segment identifier <br/> `description`: Each secondary centerline flows into another centerline. This identifier points to the `segment_id` to which this centerline flows to. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Outflow segment identifier <br/> `description`: Each secondary centerline flows into another centerline. This identifier points to the `segment_id` to which this centerline flows to. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `strahler_n`
-: `long_name`: Strahler number of this centerline. <br/> `description`: Strahler number (Hydrological order) of the centerline, from lowest (0, line without tributaries but with possible descendants) to highest (the main centerline). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Strahler number of this centerline. <br/> `description`: Strahler number (Hydrological order) of the centerline, from lowest (0, line without tributaries but with possible descendants) to highest (the main centerline). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `length_m`
-: `long_name`: Centerline length <br/> `description`: Length of the centerline in meters <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Centerline length <br/> `description`: Length of the centerline in meters. <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI
 
 `geometry`
-: `long_name`: Geometry <br/> `description`: Centerline geometry (LineString) <br/> `datatype`:  <br/> `units`: deg <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Geometry <br/> `description`: Centerline geometry (LineString). <br/> `datatype`:  <br/> `units`: deg <br/> `source`: RGI
 
 
 (additional-info-centerlines)=

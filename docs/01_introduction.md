@@ -19,7 +19,9 @@ The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the R
 
 ## Data distribution policy
 
-The RGI may be used freely under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by proper referencing, see below). Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI.
+[![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)
+
+The RGI may be used freely under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0) with due acknowledgement (by proper referencing, see below). Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See [](03_data_decription) for more details about how to retrieve this information from the RGI, and [](05_description_by_region) for a region-by-region data description.
 
 (reference)=
 ## Dataset reference

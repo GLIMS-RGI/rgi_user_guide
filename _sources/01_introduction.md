@@ -3,7 +3,7 @@
 ```{image} img/nasa.jpg
 :alt: space
 ```
-<p style="color:#D3D3D3";><small><i>Credit: NASA / Woody Hoburg</i>⁣</small></p>
+<p style="color:#D3D3D3";><small><small><small><i>Credit: NASA / Woody Hoburg</i>⁣</small>⁣</small></small></p>
 
 ## What is the RGI?
 
@@ -13,7 +13,7 @@ The RGI was not designed for the measurement of glacier-by-glacier rates of area
 
 ## Who develops and hosts the RGI?
 
-The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after "Randolph", a town in New Hampshire, USA, where the team met for one of their meetings {cite:p}`Pfeffer2014`. In 2014 development of the RGI became the responsibility of the [Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring](https://cryosphericsciences.org/activities/wg-rgi/), which operates under the International Association of Cryospheric Sciences([IACS](https://cryosphericsciences.org)). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
+The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after "Randolph", a town in New Hampshire, USA, where the team met for one of their meetings {cite:p}`Pfeffer2014`. In 2014 development of the RGI became the responsibility of the [Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring](https://cryosphericsciences.org/activities/wg-rgi/), which operated under the International Association of Cryospheric Sciences([IACS](https://cryosphericsciences.org)). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
 The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
 
@@ -31,12 +31,11 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 *RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:NSIDC*
 
 All names of the consortium are listed in [](rgi-consortium). 
-
 We request all users to use this reference in publications that use RGI 7.0 data.
   
 **This User Guide should be cited by**:
 
-*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 user guide, 2023. DOI:Zenodo*
+*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide, 2023. DOI:Zenodo*
 
 This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."*
  
@@ -46,9 +45,9 @@ A detailed scientific description of the RGI version 7 is in preparation and exp
 
 **Earlier versions**
 
-Earlier versions of the User Guide (then called Technical Report) are referenced as "RGI Consortium (2017)" (focusing on RGI 6.0) and "Arendt et al." (various dates, prior RGI 6.0). The RGI 6.0 data set is referenced as:
+The RGI 6.0 data set is referenced as: *RGI Consortium, 2017. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: https://doi.org/10.7265/4m1f-gd79.*
 
-*RGI Consortium, 2017. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: https://doi.org/10.7265/4m1f-gd79*
+Earlier versions of the User Guide (then called Technical Report) are referenced as: "RGI Consortium (2017), Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0. GLIMS Technical Report" and earlier versions as "Arendt et al." (various dates).
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 

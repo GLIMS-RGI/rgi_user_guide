@@ -414,19 +414,19 @@ document.write(`
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-left head"><p></p></th>
-<th class="text-right head"><p>Area RGI 6.0</p></th>
-<th class="text-right head"><p>Area RGI 7.0</p></th>
-<th class="text-right head"><p>Diff A (%)</p></th>
-<th class="text-right head"><p>N RGI 6.0</p></th>
-<th class="text-right head"><p>N RGI 7.0</p></th>
-<th class="text-right head"><p>Diff N (%)</p></th>
+<th class="text-right head"><p>Area<br>RGI 6.0 (km²)</p></th>
+<th class="text-right head"><p>Area<br>RGI 7.0 (km²)</p></th>
+<th class="text-right head"><p>Area<br>Diff. (%)</p></th>
+<th class="text-right head"><p>Count<br>RGI 6.0</p></th>
+<th class="text-right head"><p>Count<br>RGI 7.0</p></th>
+<th class="text-right head"><p>Count<br>Diff. (%)</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even"><td class="text-left"><p><a class="reference internal" href="rgi01.html"><span class="doc std std-doc">01: Alaska</span></a></p></td>
 <td class="text-right"><p>86725</p></td>
 <td class="text-right"><p>86708</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>27108</p></td>
 <td class="text-right"><p>27509</p></td>
 <td class="text-right"><p>1.5</p></td>
@@ -434,7 +434,7 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p><a class="reference internal" href="rgi02.html"><span class="doc std std-doc">02: Western Canada and USA</span></a></p></td>
 <td class="text-right"><p>14524</p></td>
 <td class="text-right"><p>14521</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>18855</p></td>
 <td class="text-right"><p>18730</p></td>
 <td class="text-right"><p>-0.7</p></td>
@@ -466,15 +466,15 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p><a class="reference internal" href="rgi06.html"><span class="doc std std-doc">06: Iceland</span></a></p></td>
 <td class="text-right"><p>11060</p></td>
 <td class="text-right"><p>11060</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>568</p></td>
 <td class="text-right"><p>568</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p><a class="reference internal" href="rgi07.html"><span class="doc std std-doc">07: Svalbard and Jan Mayen</span></a></p></td>
 <td class="text-right"><p>33959</p></td>
 <td class="text-right"><p>33959</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>1615</p></td>
 <td class="text-right"><p>1666</p></td>
 <td class="text-right"><p>3.2</p></td>
@@ -482,7 +482,7 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p><a class="reference internal" href="rgi08.html"><span class="doc std std-doc">08: Scandinavia</span></a></p></td>
 <td class="text-right"><p>2949</p></td>
 <td class="text-right"><p>2948</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>3417</p></td>
 <td class="text-right"><p>3410</p></td>
 <td class="text-right"><p>-0.2</p></td>
@@ -490,10 +490,10 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p><a class="reference internal" href="rgi09.html"><span class="doc std std-doc">09: Russian Arctic</span></a></p></td>
 <td class="text-right"><p>51592</p></td>
 <td class="text-right"><p>51595</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>1069</p></td>
 <td class="text-right"><p>1069</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 </tr>
 <tr class="row-odd"><td class="text-left"><p><a class="reference internal" href="rgi10.html"><span class="doc std std-doc">10: North Asia</span></a></p></td>
 <td class="text-right"><p>2410</p></td>
@@ -554,7 +554,7 @@ document.write(`
 <tr class="row-even"><td class="text-left"><p><a class="reference internal" href="rgi17.html"><span class="doc std std-doc">17: Southern Andes</span></a></p></td>
 <td class="text-right"><p>29429</p></td>
 <td class="text-right"><p>27674</p></td>
-<td class="text-right"><p>-6</p></td>
+<td class="text-right"><p>-6.0</p></td>
 <td class="text-right"><p>15908</p></td>
 <td class="text-right"><p>30634</p></td>
 <td class="text-right"><p>92.6</p></td>
@@ -578,10 +578,10 @@ document.write(`
 <tr class="row-odd"><td class="text-left"><p><a class="reference internal" href="rgi20.html"><span class="doc std std-doc">20: Antarctic Mainland</span></a></p></td>
 <td class="text-right"><p>0</p></td>
 <td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 <td class="text-right"><p>0</p></td>
 <td class="text-right"><p>0</p></td>
-<td class="text-right"><p>0</p></td>
-<td class="text-right"><p>0</p></td>
+<td class="text-right"><p>0.0</p></td>
 </tr>
 <tr class="row-even"><td class="text-left"><p><strong>Global</strong></p></td>
 <td class="text-right"><p>705738</p></td>

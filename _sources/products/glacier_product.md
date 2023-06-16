@@ -1,6 +1,6 @@
 # Glacier product 
 
-This product includes the glacier outlines as extracted from GLIMS together with additional data for each individual glacier. 
+This product includes the **glacier outlines** as extracted from GLIMS together with additional data for each individual glacier. 
 
 :::{figure-md} glacier-fig
 <img src="../img/example_glacier.png" alt="glacier map" class="bg-primary mb-1">
@@ -13,26 +13,27 @@ Example of the glacier product (light blue), with outlines in black.
 In the following, file contents are explained using RGI region 01 (Alaska) as example:
 
 `RGI2000-v7.0-G-01_alaska.shp`
-: RGI glacier outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: RGI **glacier outlines** as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-G-01_alaska-attributes.csv`
-: Glacier attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier **attributes** in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-G-01_alaska-attributes_metadata.json`
-: Information about the attributes: full name, description, units, etc.
+: **Description of the attributes** in the glacier product shapefile: full name, description, units, etc. The content of this file is displayed in [](glacier-attrs) below.
 
 `RGI2000-v7.0-G-01_alaska-submission_info.csv`
-: Information about the data providers ordered by submission id. Each glacier outline can be attributed to a specific submission via the `subm_id` attribute.
+: **Information about the data providers** ordered by submission identifier (`subm_id`). Each glacier outline can be attributed to a specific submission via their `subm_id` attribute.
 
 `RGI2000-v7.0-G-01_alaska-submission_info_metadata.json`
-: Information about the attributes in the submission info file: full name, description, units, etc.
+: **Description of the columns** in the `submission_info.csv` file: full name, description, units, etc. The content of this file is displayed in [](subm-info) below.
 
 `RGI2000-v7.0-G-01_alaska-rgi6_links.csv`
-: A list of overlapping outline pairs between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
+: A list of **overlapping outline pairs** between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.
 
 `RGI2000-v7.0-G-01_alaska-hypsometry.csv`
-: Hypsometry for each glacier, preceded by copies of the glacier’s `rgi_id` and `area_km2`. The hypsometry data are given as a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band area values is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. For example, a value of 500 for a particular elevation bands means that it contains 50% of the total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the first-order region.
+: **Hypsometry** for each glacier, preceded by copies of the glacier's `rgi_id` and `area_km2`. The hypsometry data are given as a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band area values is constrained to be 1000. This means that an elevation band's value divided by 10 represents the elevation band's area as a percentage of total glacier area. For example, a value of 500 for a particular elevation bands means that it contains 50% of the total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the corresponding first-order region.
 
+(glacier-attrs)=
 ## Full list of attributes
 
 The following attributes are available in the RGI 7.0 shapefiles. For more details, see [](additional-info-glaciers).
@@ -253,6 +254,7 @@ The WGMS primary classification of the glacier (`primeclass`) is directly fetche
 |       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
 
 
+(subm-info)=
 ## Submission info table
 
 Each glacier region folder contains a csv file containing information about provenance of the glacier outlines. This file is available for the glacier product only, and allows to associate each outline's `subm_id` (submission identifier) to a specific entry in the GLIMS database. The table contains the following columns:

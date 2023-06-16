@@ -29,7 +29,7 @@ This section provides plots and tables summarizing some basic statistics of the 
 :::{figure-md} global-histogram
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" alt="global map" class="bg-primary mb-1">
 
-Number of glaciers per size category (log-log scale). A flatter curve in the small glaciers area indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.
+Number of glaciers per size category (log-log scale). A flatter curve for the smaller area classes indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.
 :::
 
 (attributes-stats)=

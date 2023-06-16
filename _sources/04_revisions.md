@@ -17,7 +17,9 @@ Compared to previous versions, the RGI version 7 represents a fundamental change
 
 ## Glacier outlines
 
-RGI 7.0 contains substantial improvements in outline quality in many regions of the world. See [](05_description_by_region) for detailed description of changes in each region.
+RGI 7.0 contains substantial improvements in outline quality in many regions of the world. Despite considerable improvements over time, RGI 6.0 still suffered from quality issues in many regions, mostly related to inclusion of seasonal snow, missing glaciers or debris-covered parts, geolocation issues, outline artefacts, nominal glaciers (represented by circles) and ice divides at wrong locations. Furthermore, 35 % of all RGI 6.0 outlines were dated to five or more years away from the target year 2000 (this number is down to 23 % in RGI 7.0).
+
+See [](05_description_by_region) for detailed description of changes in each region.
 
 ## Data processing workflow
 
@@ -40,23 +42,21 @@ The entire production workflow for RGI 7.0 is implemented in Python and is acces
 (inventory-selection)=
 ## Inventory selection process
 
-The two main goals for RGI 7.0 were (a) to improve outline quality over RGI 6.0, and (b) to bring outlines as close as possible to the target year 2000. Despite considerable improvements over time, in many regions RGI 6.0 still suffered from quality issues mostly related to inclusion of seasonal snow, missing glaciers or debris-covered parts, geo-location and topologic issues (overlap of polygons), outline artefacts (e.g., uncorrected Landsat 7 striping, straight lines due to image boundaries) and nominal glaciers (represented by circles) and ice divides at wrong locations. Also, more than 35 % of all outlines referred to a year five or more years apart from 2000 (this number is now down to 23 % in RGI 7.0).
+The two main goals for RGI 7.0 were (a) to improve outline quality over RGI 6.0, and (b) to bring outlines as close as possible to the target year 2000. To select outlines for RGI 7.0 the following steps were taken:
 
-To select outlines for RGI 7.0 the following steps were taken:
+1. **New outlines generated after the release of RGI 6.0 were collected from several sources**: (a) outlines already existing in GLIMS, (b) datasets published in the literature but not yet submitted to GLIMS, and (c) outlines sent to the RGI Working Group (or directly submitted to GLIMS) in response to an open call for data in ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)).
+2. **All available datasets were scrutinized in terms of quality and proximity to the target year**. The most suitable dataset was chosen as it is or after modification by the RGI Working Group based on satellite images to enhance the quality of both outlines and ice divides or to bring them closer to the target year 2000.
+3. In regions without any new datasets the RGI 6.0 outlines were adopted if they were deemed to be of sufficient quality. Where this was not the case, an effort was made to **generate new datasets by remapping the region from scratch or by modifying the RGI 6.0 outlines based on satellite imagery**. Since it is highly laborious and time-consuming, this effort could only be done in regions where RGI 6.0 had significant quality issues.
 
-1. New outlines generated after the release of RGI 6.0 were collected from several sources: (a) outlines already existing in GLIMS, (b) data sets published in the literature but not yet submitted to GLIMS, and (c) outlines sent to the RGI Working Group (or directly submitted to GLIMS) in response to an open call for data in ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)).
-2. All available data sets were scrutinized in terms of quality and proximity to the target year. The most suitable data set was chosen as it is or after modification by the RGI Working Group based on satellite images to enhance the quality of both outlines and ice divides or to bring them closer to the target year 2000.
-3. In regions without any new data sets, the RGI 6.0 outlines were adopted, if they were deemed to be of sufficient quality. Where this was not the case, an effort was made by the RGI Working Group to generate new data sets by remapping the region from scratch or by modifying the RGI 6.0 outlines based on satellite imagery. Since, highly laborious and time-consuming this effort could only be done in regions with significant quality or timing issues in the RGI 6.0, often brought forward by community feedback.
-4. It was made sure that all data sets selected for RGI 7.0 were submitted to and ingested in GLIMS prior the generation of the final data set.
 
 ## Data and file format
 
 In RGI 7.0 data and file formats were revised to enhance readability and accessibility for both humans and machines. While maintaining a general familiarity with the RGI 6.0 format, we addressed inconsistencies and implemented a set of rules for generating the data files and data fields. These rules include:
 
-- Script-generated files: All files were generated using scripts, minimizing the likelihood of human errors during typing or processing. However, it is important to note that this does not guarantee the absence of errors.
-- Metadata and documentation: All file attributes received accompanying metadata and documentation, providing additional information and context.
-- Lowercase naming conventions: File names and field attribute names were converted to lowercase to avoid the previous mix of lower case and upper case notation.
-- Standardized file naming conventions: Files were named according to predefined conventions, allowing for easier machine reading and processing. For instance, the region identifiers are stored in the region description shapefile, enabling the opening of corresponding outline shapefiles in a scripted manner.
+- **Script-generated files**: All files were generated using scripts, minimizing the likelihood of human errors during typing or processing. However, it is important to note that this does not guarantee the absence of errors.
+- **Metadata and documentation**: All file attributes received accompanying metadata and documentation, providing additional information and context.
+- **Lowercase naming conventions**: File names and field attribute names were converted to lowercase to avoid the previous mix of lower case and upper case notation.
+- **Standardized file naming conventions**: Files were named according to predefined conventions, allowing for easier machine reading and processing. For instance, the region identifiers are stored in the region description shapefile, enabling the opening of corresponding outline shapefiles in a scripted manner.
 
 Any deviations from these rules should be considered as errors or oversights and will be addressed in future versions.
 

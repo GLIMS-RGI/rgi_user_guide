@@ -24,7 +24,7 @@ The RGI 6.0 outlines from 2003 were revised due to missing glaciers (in particul
 
 **Pyrenees**
 
-In the Pyrenees, outlines were replaced by an updated inventory by Eñaut Izagirre.
+In the Pyrenees, outlines were replaced by an updated inventory by Eñaut Izagirre using Landsat 7 ETM+ imagery from August and September 2000. The updated inventory is based on an earlier inventory from 1984 {cite:p}`Serrat1993`. Due to the very small size of these glaciers, the manual delineation of the outlines was supported by the use of high-resolution aerial orthophotos taken by the Spanish National Geographic Institute in September 1999 and July 2000.
 
 **Other regions**
 

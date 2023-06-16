@@ -1,6 +1,6 @@
 # 18: New Zealand
 
-The region encompasses all glaciers in New Zealand
+The region encompasses all glaciers in New Zealand.
 
 ```{admonition} Subregions
 :class: note, dropdown
@@ -19,7 +19,7 @@ Regional glacier area.
 
 All glaciers in RGI 6.0 were replaced by new outlines.
 
-Glacier outlines in RGI 6.0 were mostly from 1978 (partly from 1988) and thus outdated due to large  glacier changes in glacier area since then. Outlines were replaced by the glacier inventory by {cite:t}`Baumann2021` which was derived from Sentinel-2 and Landsat 8 images acquired in 2016. To arrive at outlines closer to the year 2000 and accommodate for the challenging snow and cloud conditions, the 2016 outlines were manually adjusted based on Landsat 7 ETM+ images (pan-band) mostly acquired in the year 2000 (partly in 2002). Interpretation was facilitated by Sentinel-2 images from 2016 and 2019 as well as the "World imagery" layer of the ESRI Basemap. The extent of several (mostly small) glaciers was not changed when the available satellite images from 2000 or 2002 suffered from clouds or adverse snow conditions. New ice divides were calculated from the national 15 m resolution DEM of New Zealand. Further details about the processing can be found in {cite:t}`Paul2023`.
+Glacier outlines in RGI 6.0 were mostly from 1978 (partly from 1988) and thus outdated due to large changes in glacier area by year 2000.  Outlines were replaced by new outlines based on the glacier inventory by {cite:t}`Baumann2021`, which had been derived from Sentinel-2 and Landsat 8 images acquired in 2016. Most of their outlines were manually adjusted for RGI 7.0 to come closer to the target year 2000 using Landsat 7 ETM+ images (pan-band) mostly acquired in 2000 (partly in 2002). Interpretation was further supported by Sentinel-2 images from 2016 and 2019 as well as the "World imagery" layer of the ESRI Basemap. The extent of several (mostly small) glaciers was not adjusted when the available satellite images from 2000 or 2002 suffered from clouds or adverse snow conditions. All ice divides were recalculated from the national 15 m resolution DEM of New Zealand. The modifications applied to the inventory by {cite:t}`Baumann2021` are further detailed in {cite:t}`Paul2023`.
 
 
 

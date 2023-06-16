@@ -17,14 +17,15 @@ Example of the glacier centerlines product (purple) drawn over the glacier produ
 In the following, file contents are explained using RGI region 01 (Alaska) as example:
 
 `RGI2000-v7.0-L-01_alaska.shp`
-: RGI glacier centerlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: RGI **glacier centerlines** as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-L-01_alaska-attributes.csv`
-: Glacier centerlines attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier centerlines **attributes** in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-L-01_alaska-attributes_metadata.json`
-: Information about the attributes: full name, description, units, etc.
+: **Description of the attributes** in the ceterlines product shapefile: full name, description, units, etc. The content of this file is displayed in [](centerline-attrs) below.
 
+(centerline-attrs)=
 ## Full list of attributes
 
 The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see [](additional-info-centerlines).

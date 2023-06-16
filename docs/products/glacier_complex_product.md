@@ -17,17 +17,18 @@ Example of the glacier complex product (light blue), with outlines in black. In 
 In the following, file contents are explained using RGI region 01 (Alaska) as example:
 
 `RGI2000-v7.0-C-01_alaska.shp`
-: The RGI glacier complex outlines as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
+: The RGI **glacier complex outlines** as a shapefile (with accompanying `.dbf`, `.prj`, `.cpg` and `.shx` files).
 
 `RGI2000-v7.0-C-01_alaska-attributes.csv`
-: Glacier complex attributes in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
+: Glacier complex **attributes** in a `.csv` file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.
 
 `RGI2000-v7.0-C-01_alaska-attributes_metadata.json`
-: Information about the attributes: full name, description, units, etc.
+: **Description of the attributes** in the glacier complex product shapefile: full name, description, units, etc. The content of this file is displayed in [](complex-attrs) below.
 
 `RGI2000-v7.0-C-01_alaska-CtoG_links.json`
-: Links between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex ids (same length as the glacier complex file) and the values are the corresponding glacier product ids (one or more depending on the cluster).
+: **Links** between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex identifiers (same length as the glacier complex file) and the values are the corresponding glacier product identifiers (one or more depending on the size of the cluster).
 
+(complex-attrs)=
 ## Full list of attributes
 
 The following attributes are available in the RGI 7.0 shapefiles.

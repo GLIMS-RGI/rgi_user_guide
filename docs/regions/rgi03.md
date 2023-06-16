@@ -23,7 +23,7 @@ Regional glacier area.
 
 ## Changes from version 6.0 to 7.0
 
-**Ellesmere Island: Second-order region 03-01 **
+**Ellesmere Island: Second-order region 03-01**
 
 Glacier outlines and ice divdes were replaced as RGI 6.0 outlines suffered from incorrect ice divides, missing rock outcrops, missing (mostly very small) glaciers and a geolocation shift. Glaciers were remapped using glacier outlines by {cite:t}`white2019glacier` as a base but modifying them using four Landsat ETM+ scenes acquired in July 2000. The editing included a mix of manual and automated corrections. For the northernmost regions outside the coverage of Landsat the "World imagery" layer of the ESRI Basemap was used instead. Some smaller ice shelves were excluded. 
 

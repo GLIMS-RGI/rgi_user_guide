@@ -26,14 +26,14 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 (reference)=
 ## Dataset reference
 
-**The RGI 7.0 dataset should be cited by:**
+**The RGI 7.0 dataset should be cited as:**
 
 *RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:NSIDC*
 
 All names of the consortium are listed in [](rgi-consortium). 
 We request all users to use this reference in publications that use RGI 7.0 data.
   
-**This user guide should be cited by**:
+**This user guide should be cited as**:
 
 *Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 user guide, 2023. DOI:Zenodo*
 
@@ -63,7 +63,7 @@ We recommend explicitly stating the version number when referring to a specific 
 
 All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](appendix/contributors) for a list of RGI 7.0 contributors.
 
-Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.
+Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0 and a few other sources. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.
 
 ## RGI source code
 

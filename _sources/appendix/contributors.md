@@ -42,7 +42,7 @@ Contributors:
 - Terminus type: **William Kochtitzky**
 - Surge type: **Mylène Jacquemart, Robert McNabb**
 
-## User Guide
+## User guide
 
 Written by **Fabien Maussion, Regine Hock**, based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf) led by Graham Cogley.
 

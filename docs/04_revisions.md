@@ -15,7 +15,7 @@ RGI 7.0 includes several major changes compared to RGI 6.0:
 Compared to previous versions, the RGI version 7 represents a fundamental change in the data processing workflow and file formatting. Returning users will have to adapt their analysis scripts and routines for them to work with RGI 7.0.
 ```
 
-## Glacier outlines
+## Changes to the glacier outlines
 
 RGI 7.0 contains substantial improvements in outline quality in many regions of the world. Despite considerable improvements over time, RGI 6.0 still suffered from quality issues in many regions, mostly related to inclusion of seasonal snow, missing glaciers or debris-covered parts, geolocation issues, outline artefacts, nominal glaciers (represented by circles) and ice divides at wrong locations. Furthermore, 35 % of all RGI 6.0 outlines were dated to five or more years away from the target year 2000 (this number is down to 23 % in RGI 7.0).
 

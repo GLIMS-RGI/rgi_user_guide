@@ -1,10 +1,10 @@
 # Welcome
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This User Guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
 ```{warning}
 
-**This User Guide is a work in progress and refers to the beta version of RGI 7.0.**
+**This user guide is a work in progress and refers to the beta version of RGI 7.0.**
 
 ```
 
@@ -130,7 +130,7 @@ RGI version 7.0 was developed by the international Working Group on “[IACS Wor
 
 Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), the NASA National Snow and Ice Data Center - Distributed Active Archive Center ([NSIDC-DAAC](https://nsidc.org)), the World Glacier Monitoring Service ([WGMS](https://wgms.ch)), the Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](appendix/acknowledgements).
 
-> RGI 7.0 and this User Guide are dedicated to the memory of **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham's spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.
+> RGI 7.0 and this user guide are dedicated to the memory of **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham's spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.
 
 
 ## License
@@ -139,4 +139,4 @@ Financial support was provided by several organizations and institutions, in par
 
 This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [](reference).
 
-Part of the text in this User Guide regarding the RGI in general and RGI versions prior to v7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*
+Part of the text in this user guide regarding the RGI in general and RGI versions prior to v7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*

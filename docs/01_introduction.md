@@ -33,9 +33,9 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 All names of the consortium are listed in [](rgi-consortium). 
 We request all users to use this reference in publications that use RGI 7.0 data.
   
-**This User Guide should be cited by**:
+**This user guide should be cited by**:
 
-*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide, 2023. DOI:Zenodo*
+*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 user guide, 2023. DOI:Zenodo*
 
 This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."*
  
@@ -47,7 +47,7 @@ A detailed scientific description of the RGI version 7 is in preparation and exp
 
 The RGI 6.0 data set is referenced as: *RGI Consortium, 2017. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: https://doi.org/10.7265/4m1f-gd79.*
 
-Earlier versions of the User Guide (then called Technical Report) are referenced as: "RGI Consortium (2017), Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0. GLIMS Technical Report" and earlier versions as "Arendt et al." (various dates).
+Earlier versions of the user guide (then called Technical Report) are referenced as: "RGI Consortium (2017), Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0. GLIMS Technical Report" and earlier versions as "Arendt et al." (various dates).
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 
@@ -69,7 +69,7 @@ Since GLIMS was globally incomplete, earlier RGI versions combined outlines from
 
 All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
-- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this User Guide.
+- [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this user guide.
 
 ## Version history
 

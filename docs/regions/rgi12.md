@@ -22,8 +22,7 @@ All RGI6.0 outlines have been replaced, representing a considerable change and i
 
 **Caucasus**
 
-The RGI 6.0 inventory for the Greater Caucasus, which includes 95% of the region’s glaciers, was based on ASTER and Landsat imagery from 1999–2004 [Khromova et al., 2016]. 
-Since the data set has geolocation issues, and missing glaciers in the eastern and western Greater Caucasus are included as “nominal glaciers” (circles covering an area equivalent to glacier size), the entire data set was replaced in RGI 7.0 by manually digitized outlines from Tielidze et al. [2022] primarily based on Landsat scenes from 1999-2002.
+The RGI 6.0 inventory for the Greater Caucasus, which includes 95% of the region’s glaciers, was based on ASTER and Landsat imagery from 1999–2004 {cite:p}`Khromova2016a`. Since the data set has geolocation issues, and missing glaciers in the eastern and western Greater Caucasus are included as "nominal glaciers" (circles covering an area equivalent to glacier size), the entire data set was replaced in RGI 7.0 by manually digitized outlines from {cite:t}`Tielidze2022` primarily based on Landsat scenes from 1999-2002.
 
 **Middle East**
 

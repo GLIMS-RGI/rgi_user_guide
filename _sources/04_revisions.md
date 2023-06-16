@@ -2,7 +2,9 @@
 
 ## Overview
 
-RGI 7.0 includes several major changes compared to RGI 6.0:
+Despite considerable improvements over time, RGI 6.0 still suffered from quality issues in many regions, mostly related to inclusion of seasonal snow, missing glaciers or debris-covered parts, geolocation issues, outline artefacts, nominal glaciers (represented by circles) and ice divides at wrong locations. Furthermore, 35 % of all RGI 6.0 outlines were dated to five or more years away from the target year 2000 (this number is down to 23 % in RGI 7.0).
+
+RGI 7.0 is substantially improved and enhanced compared to RGI 6.0 thanks to several major changes:
 - The quality of outlines is substantially improved in many regions due to inclusion of new updated inventory data.
 - New attributes are available, while others were removed or renamed/redefined.
 - Outlines of contiguous glacier complexes are available ("glacier complex" product) in addition to the outlines of each individual glaciers.
@@ -17,9 +19,7 @@ Compared to previous versions, the RGI version 7 represents a fundamental change
 
 ## Changes to the glacier outlines
 
-RGI 7.0 contains substantial improvements in outline quality in many regions of the world. Despite considerable improvements over time, RGI 6.0 still suffered from quality issues in many regions, mostly related to inclusion of seasonal snow, missing glaciers or debris-covered parts, geolocation issues, outline artefacts, nominal glaciers (represented by circles) and ice divides at wrong locations. Furthermore, 35 % of all RGI 6.0 outlines were dated to five or more years away from the target year 2000 (this number is down to 23 % in RGI 7.0).
-
-See [](05_description_by_region) for detailed description of changes in each region.
+RGI 7.0 contains substantial improvements in outline quality in many regions of the world. See [](05_description_by_region) for detailed description of changes in each region.
 
 ## Data processing workflow
 
@@ -46,7 +46,7 @@ The two main goals for RGI 7.0 were (a) to improve outline quality over RGI 6.0,
 
 1. **New outlines generated after the release of RGI 6.0 were collected from several sources**: (a) outlines already existing in GLIMS, (b) datasets published in the literature but not yet submitted to GLIMS, and (c) outlines sent to the RGI Working Group (or directly submitted to GLIMS) in response to an open call for data in ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)).
 2. **All available datasets were scrutinized in terms of quality and proximity to the target year**. The most suitable dataset was chosen as it is or after modification by the RGI Working Group based on satellite images to enhance the quality of both outlines and ice divides or to bring them closer to the target year 2000.
-3. In regions without any new datasets the RGI 6.0 outlines were adopted if they were deemed to be of sufficient quality. Where this was not the case, an effort was made to **generate new datasets by remapping the region from scratch or by modifying the RGI 6.0 outlines based on satellite imagery**. Since it is highly laborious and time-consuming, this effort could only be done in regions where RGI 6.0 had significant quality issues.
+3. In regions without any new datasets the RGI 6.0 outlines were adopted if they were deemed to be of sufficient quality. Where this was not the case, **an effort was made by the RGI Working Group to generate new datasets by remapping the region from scratch or by modifying the RGI 6.0 outlines based on satellite imagery**. Since it is highly laborious and time-consuming, this effort could only be done in regions where RGI 6.0 had significant quality issues. Many members of the RGI Working Group were instrumental for this effort.
 
 
 ## Data and file format

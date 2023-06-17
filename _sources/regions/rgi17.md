@@ -33,6 +33,10 @@ The RGI 6.0 glacier outlines suffered from reduced quality due to the presence o
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 764
 : **Submitter**: Paul, Frank.<br/>**Number of outlines**: 30634. **Area**: 27674.4km². **Release date**: 2022-05-11.<br/>**Analysts**: Albornoz, Amapola; Arias, Victor; Barcaza, Gonzalo; Bown, Francisca; Castro, Mariano; Garcia, Juan-Luis; Gargantini, Hernán; Gimenez, Melisa; Hidalgo, Lidia Ferri; Masiokas, Mariano; Nussbaumer, Samuel; Paul, Frank; Pecker Marcosig, Ivanna; Pitte, Pierre.
 

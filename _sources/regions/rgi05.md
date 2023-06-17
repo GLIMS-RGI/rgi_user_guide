@@ -42,6 +42,10 @@ The Flade Isblink Icecap was not fully subdivided into individual glaciers in RG
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 729
 : **Submitter**: Paul, Frank.<br/>**Number of outlines**: 715. **Area**: 3233.0km². **Release date**: 2021-07-12.<br/>**Analysts**: Paul, Frank; Rastner, Philipp.
 

@@ -30,6 +30,10 @@ None.
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 437
 : **Submitter**: Sigurdsson, Oddur.<br/>**Number of outlines**: 26. **Area**: 7.1km². **Release date**: 2007-03-21.<br/>**Analysts**: Sigurdsson, Oddur.
 

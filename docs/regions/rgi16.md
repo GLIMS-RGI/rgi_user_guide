@@ -40,7 +40,7 @@ Some glaciers in northern Chile and Argentina were replaced. Details are given i
 Submission IDs used for this region.
 :::
 
-**Glacier outline providers to GLIMS:**
+**Glacier outline providers to GLIMS**
 
 *This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
 

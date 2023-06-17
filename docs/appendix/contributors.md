@@ -50,7 +50,7 @@ Contributions to regional revisions sections: **Liss Marie Andreassen, Iestyn Ba
 
 ## Glacier outline providers to GLIMS
 
-This list is generated automatically from the selected GLIMS outlines metadata:
+This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.
 
 - **Albornoz, Amapola** (Region: 16, 17. Subm ID: 730, 764. N outlines: 30654. Area: 27683.8 km²)
 - **Andreassen, Liss Marie** (Region: 08. Subm ID: 611. N outlines: 3141. Area: 2674.8 km²)

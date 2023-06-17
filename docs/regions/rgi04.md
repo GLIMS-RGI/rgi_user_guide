@@ -41,6 +41,10 @@ The RGI 6.0 glacier outlines were modified using end-of-summer Landsat 7 ETM+ im
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 589
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 103. **Area**: 19.8km². **Release date**: 2015-07-15.<br/>**Analysts**: Barrand, Nick; Burgess, Dave; Cawkwell, Fiona; Copland, Luke; Filbert, Katie; Gardner, Alex; Hartmann, G; OCallaghan, P; Paul, Frank; Sharp, Martin; Wolken, G.; Wyatt, F..
 

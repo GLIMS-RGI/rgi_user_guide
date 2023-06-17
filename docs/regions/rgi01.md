@@ -53,6 +53,10 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 624
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 25304. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
 

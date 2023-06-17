@@ -53,6 +53,10 @@ Five small glaciers (subregion 10-07) that have been recently documented {cite:p
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 636
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 1646. **Area**: 394.0km². **Release date**: 2015-07-16.<br/>**Analysts**: Cogley, Graham; Earl, Lucas; Gardner, Alex; Raup, Bruce H..
 

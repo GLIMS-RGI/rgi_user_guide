@@ -42,6 +42,10 @@ Three glaciers in Montenegro, Albania, as well as the Calderone glacier (Italy) 
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 715
 : **Submitter**: Izagirre, Eñaut.<br/>**Number of outlines**: 45. **Area**: 4.2km². **Release date**: 2020-05-27.<br/>**Analysts**: Izagirre, Eñaut.
 

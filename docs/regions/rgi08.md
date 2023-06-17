@@ -36,6 +36,10 @@ All glaciers near the Kebnekaise massif [have been corrected for a map projectio
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 611
 : **Submitter**: Winsvold, Solveig Havstad.<br/>**Number of outlines**: 3141. **Area**: 2674.8km². **Release date**: 2012-12-13.<br/>**Analysts**: Andreassen, Liss Marie; Winsvold, Solveig Havstad.
 

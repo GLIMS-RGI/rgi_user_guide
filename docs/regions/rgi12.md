@@ -40,6 +40,10 @@ Most RGI 6.0 glacier outlines were mapped based on ASTER imagery from 2004-2006 
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 762
 : **Submitter**: Tielidze, Levan.<br/>**Number of outlines**: 2275. **Area**: 1406.7km². **Release date**: 2021-09-09.<br/>**Analysts**: Tielidze, Levan.
 

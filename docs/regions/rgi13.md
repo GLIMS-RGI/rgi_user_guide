@@ -38,6 +38,10 @@ All previous outlines have been replaced by the GAMDAM glacier inventory version
 Submission IDs used for this region.
 :::
 
+**Glacier outline providers to GLIMS:**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
 Submission 752
 : **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 75613. **Area**: 50344.0km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
 

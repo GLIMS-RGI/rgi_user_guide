@@ -34,7 +34,7 @@ Glacier outlines in RGI 6.0 were mostly from 1978 (partly from 1988) and thus ou
 Submission IDs used for this region.
 :::
 
-**Glacier outline providers to GLIMS:**
+**Glacier outline providers to GLIMS**
 
 *This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
 

@@ -77,7 +77,7 @@ RGI 6.0 included for each glacier a label for the terminus type attribute (`term
 Submission IDs used for this region.
 :::
 
-**Glacier outline providers to GLIMS:**
+**Glacier outline providers to GLIMS**
 
 *This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
 

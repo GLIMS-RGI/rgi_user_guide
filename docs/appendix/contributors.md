@@ -39,8 +39,8 @@ Contributors:
 
 ## Attributes
 
-- Terminus type: **William Kochtitzky**
-- Surge type: **Mylène Jacquemart, Robert McNabb**
+- **William Kochtitzky**: terminus type 
+- **Mylène Jacquemart, Robert McNabb**: surge type
 
 ## User guide
 

@@ -35,7 +35,7 @@ Contributors:
 
 ## Open outlines review process
 
-**Iestyn Barr, Etienne Berthier, Tobias Bolch, Matthias Huss, Tatiana Khromova, William Kochtitzky, Kirsty Langley, Erik Mannerfelt, Fabien Maussion, Robert McNabb, Frank Paul, Rainer Prinz, Antoine Rabatel, Philipp Rastner, Levan Tielidze.**
+**Iestyn Barr, Etienne Berthier, Tobias Bolch, Bethan Davies, Matthias Huss, Tatiana Khromova, William Kochtitzky, Kirsty Langley, Erik Mannerfelt, Fabien Maussion, Robert McNabb, Frank Paul, Rainer Prinz, Antoine Rabatel, Philipp Rastner, Levan Tielidze.**
 
 ## Attributes
 

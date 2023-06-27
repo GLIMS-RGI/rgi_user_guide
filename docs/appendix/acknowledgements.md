@@ -12,6 +12,9 @@ Funding for RGI 7.0 was provided by:
 Computing resources and data storage for the RGI7 generation process:<br>
 **Ben Marzeion, Timo Rothenpieler**
 
+GLIMS-RGI logo:<br>
+**Anne Maussion**, [Atelier Les Gros Yeux](https://atelierlesgrosyeux.com)
+
 RGI and GLIMS permanent data storage:<br>
 **National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)**
 

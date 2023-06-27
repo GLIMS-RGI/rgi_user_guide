@@ -8,7 +8,7 @@
 title: The Randolph Glacier Inventory version 7
 author: RGI Consortium  # The author of the book
 copyright: "2022"  # Copyright year to be placed in the footer
-logo: img/logo.png  # A path to the book logo
+logo: img/rgi_logo/rgi_logo.svg  # A path to the book logo
 
 repository:
   url: https://github.com/GLIMS-RGI/rgi_user_guide

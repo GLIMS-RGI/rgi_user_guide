@@ -102,6 +102,7 @@ Comparison of RGI 7.0 with RGI 6.0
 ```{image} img/logos/iugg_iacs_border.png
 :alt: IACS
 :height: 100px
+:target: https://cryosphericsciences.org
 ```
 
 ```{image} img/logos/white.png
@@ -112,6 +113,7 @@ Comparison of RGI 7.0 with RGI 6.0
 ```{image} img/logos/wgms.png
 :alt: wgms
 :height: 100px
+:target: https://wgms.ch
 ```
 
 ```{image} img/logos/white.png
@@ -122,6 +124,7 @@ Comparison of RGI 7.0 with RGI 6.0
 ```{image} img/logos/unesco.png
 :alt: UNESCO
 :height: 100px
+:target: https://en.unesco.org/themes/water-security/hydrology
 ```
 
 ```{image} img/logos/white_flat.png
@@ -132,21 +135,25 @@ Comparison of RGI 7.0 with RGI 6.0
 ```{image} img/logos/nsidc_daac.png
 :alt: NSIDC
 :height: 92px
+:target: https://nsidc.org/data/data-programs/nsidc-daac
 ```
 
 ```{image} img/logos/esa.png
 :alt: esa
 :height: 92px
+:target: https://www.esa.int
 ```
 
 ```{image} img/logos/cci.png
 :alt: cci
 :height: 92px
+:target: https://climate.esa.int/en/projects/glaciers
 ```
 
 ```{image} img/logos/copernicus.png
 :alt: copernicus
 :height: 92px
+:target: https://climate.copernicus.eu
 ```
 
 ```{image} img/logos/white_flat.png

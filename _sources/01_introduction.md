@@ -51,6 +51,8 @@ Earlier versions of the user guide (then called Technical Report) are referenced
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 
+**The RGI logo** can be downloaded here: [](products/logos)
+
 
 ## How to name the RGI versions?
 

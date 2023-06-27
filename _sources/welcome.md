@@ -101,30 +101,65 @@ Comparison of RGI 7.0 with RGI 6.0
 
 ```{image} img/logos/iugg_iacs_border.png
 :alt: IACS
-:height: 78px
+:height: 100px
+:target: https://cryosphericsciences.org
 ```
 
-```{image} img/logos/nsidc_daac.png
-:alt: NSIDC
-:height: 78px
+```{image} img/logos/white.png
+:alt: white
+:height: 100px
 ```
 
 ```{image} img/logos/wgms.png
 :alt: wgms
-:height: 78px
+:height: 100px
+:target: https://wgms.ch
 ```
 
-```{image} img/logos/copernicus.png
-:alt: copernicus
-:height: 78px
+```{image} img/logos/white.png
+:alt: white
+:height: 100px
 ```
 
 ```{image} img/logos/unesco.png
 :alt: UNESCO
-:height: 78px
+:height: 100px
+:target: https://en.unesco.org/themes/water-security/hydrology
 ```
 
-<br><br>
+```{image} img/logos/white_flat.png
+:alt: white flat
+:height: 20px
+```
+
+```{image} img/logos/nsidc_daac.png
+:alt: NSIDC
+:height: 92px
+:target: https://nsidc.org/data/data-programs/nsidc-daac
+```
+
+```{image} img/logos/esa.png
+:alt: esa
+:height: 92px
+:target: https://www.esa.int
+```
+
+```{image} img/logos/cci.png
+:alt: cci
+:height: 92px
+:target: https://climate.esa.int/en/projects/glaciers
+```
+
+```{image} img/logos/copernicus.png
+:alt: copernicus
+:height: 92px
+:target: https://climate.copernicus.eu
+```
+
+```{image} img/logos/white_flat.png
+:alt: white flat
+:height: 20px
+```
 
 RGI version 7.0 was developed by the international Working Group on “[IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring”](https://cryosphericsciences.org) of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 

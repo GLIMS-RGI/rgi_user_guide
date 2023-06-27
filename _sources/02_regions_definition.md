@@ -5,7 +5,7 @@ RGI outlines are organized into 20 first-order glacier regions. This is one more
 :::{figure-md} global-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
 
-First-order regions of the RGI version 7.0 and glacier locations in red. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
+First-order regions of the RGI version 7.0 and glacier locations in red.<br>[Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
 :::
 
 ```{admonition} Data download

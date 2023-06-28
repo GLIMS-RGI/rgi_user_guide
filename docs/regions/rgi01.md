@@ -32,7 +32,7 @@ In total 42 previously unmapped glaciers were added. These were manually mapped 
 
 **Kenai Peninsula (01-04)**
 
-The glacier outlines from {cite:t}`Kienholz2015a` were corrected manually using the dataset for 2005 by {cite:t}`Yang2020` and Landsat images from July and August 2005 as a guide. The main changes include the addition of several, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a few topologic corrections such as the connection / separation of individual glaciers or adjustment of ice divides using the AW3D30 DEM (submission 889).
+The glacier outlines from {cite:t}`Kienholz2015a` were corrected manually using the dataset for 2005 by {cite:t}`Yang2020` and Landsat images from July and August 2005 as a guide. The main changes include the addition of several, mostly very small glaciers, removal of wrongly mapped seasonal snow, improved outlines for several debris-covered glaciers and a few topological corrections such as the connection / separation of individual glaciers or adjustment of ice divides using the AW3D30 DEM (submission 889).
 
 **N Coast Ranges (01-06)**
 

@@ -2,7 +2,7 @@
 
 **New in RGI 7.0**
 
-The glacier centerlines products contains geometrical centerlines for the main branches and major tributaries of all glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context. 
+The glacier centerlines product contains geometrical centerlines for the main branches and major tributaries of all glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by {cite:t}`Kienholz2014` and implemented and executed by the Open Global Glacier Model (OGGM) {cite:p}`Maussion2019`. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context. 
 
 Each glacier contains one centerline along the main trunk of the glacier, as well any number of additional centerlines along tributaries, sorted according to their Strahler number (a measure of branching complexity defined by {cite:t}`Strahler1952`, see definition below). The main (i.e.longest) centerline is used to compute the glacier product's maximum length attribute `lmax_m`.
 
@@ -54,7 +54,6 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 `geometry`
 : `long_name`: Geometry <br/> `description`: Centerline geometry (LineString). <br/> `datatype`:  <br/> `units`: deg <br/> `source`: RGI
 
-
 (additional-info-centerlines)=
 ## Additional information on centerline attributes
 
@@ -64,6 +63,6 @@ The centerlines and their attributes are computed by OGGM {cite:p}`Maussion2019`
 
 The Strahler number `strahler_n` is a measure of branching complexity defined by {cite:p}`Strahler1952` commonly used in hydrological applications. A Strahler number of 0 indicates a centerline without any tributaries. A Strahler number of 1 indicates a centerline with one or more upstream tributaries of the same order, i.e. each of them having a Strahler number of 0. If a centerline with a Strahler number of 1 meets a downglacier centerline, the latter is assigned a Strahler number of 2. This ordering is important for mass flow routing. Each centerline contains a reference to its descendant, and this reference might be used by models to transfer mass from the tributaries towards the main centerline. Note that in the original concept Strahler numbers start with 1 instead of 0.
 
-### Main centerline 
+### Main centerline
 
 The main centerline of the glacier is the longest of all centerlines connecting the multiple glacier "heads" to one single terminus. The centerline algorithm selects potential heads by searching for local elevation maxima along the glacier outline, and then computes all the centerlines joining all heads to the terminus. The longest is selected as the main centerline, which implies that the computed glacier length is usually longer than the shortest route from the highest to the lowest point of the glacier.

@@ -133,13 +133,13 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 
 One RGI outline in the glacier product corresponds to one glacier. Glaciers are identified with the following attributes:
 
-`rgi_id` 
+`rgi_id`
 : **Unique** identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. **These ids are different from RGI 6.0 and likely to change in future RGI versions**.
 
-`glims_id` 
+`glims_id`
 : **Non-unique** identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. A single `glims_id` can have multiple outlines, for example at different dates or when a glacier disintegrates.
 
-`anlys_id` 
+`anlys_id`
 : **Unique** identifier assigned within GLIMS for a particular outline of a glacier at a particular time and for a particular submission.  **These ids allow to unambiguously trace an outline back to the GLIMS database**, and will not change between future RGI versions if the outline does not change.
 
 ### Topography attributes 
@@ -160,7 +160,7 @@ The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the sam
 
 |   Value | Aspect sector   | Aspect range     |
 |--------:|:----------------|:-----------------|
-|       1 | North           | [-22.°; 22.5°]   |
+|       1 | North           | [337.5°; 22.5°]  |
 |       2 | North-east      | [22.5°; 67.5°]   |
 |       3 | East            | [67.5°; 112.5°]  |
 |       4 | South-east      | [112.5°; 157.5°] |
@@ -180,7 +180,7 @@ The `termlon`, `termlat` attributes mark the longitude and latitude of the last 
 Example of the glacier terminus location (red dots) plotted with the centerlines product (purple) drawn over the glacier product (light blue).
 :::
 
-### Glacier length 
+### Glacier length
 
 The maximum length (`lmax_m`, in meters) is computed from the main centerline in the RGI 7.0 glacier centerline product. Absolute glacier length is a subjective measure, and principally depends on the chosen "head" of the glacier. The head is distinct from the maximum elevation of the glacier. The centerline algorithm from {cite:t}`Kienholz2014` selects potential heads by searching for local maxima along the glacier outline, and then computes all the centerlines joining all heads to the single terminus. The longest of them is selected as the main centerline, which implies that the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.
 
@@ -217,12 +217,12 @@ Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 
 The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except 
 for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 - Southern Andes (same methodology). 
 
-The marine-terminating `term_type` attribute is valid for approximately the year 2000. The only region missing classification for marine-terminating glaciers 
-is RGI 19 (Antarctic and Subantarctic), thus all glaciers that are "not assigned" outside of RGI 19 can be assumed to be non-marine-terminating 
-for approximately 2000. 
+The marine-terminating `term_type` attribute is valid for approximately the year 2000.
+The only region missing classification for marine-terminating glaciers is RGI 19 (Antarctic and Subantarctic),
+thus all glaciers that are "not assigned" outside of RGI 19 can be assumed to be land- or lake-terminating for the mapped year.
 
-As of RGI 7.0, no region or glacier has any attributes available for lake-terminating or shelf-terminating glaciers. 
-We aim to add this information in version 7.1.
+As of RGI 7.0, no region or glacier has any attributes available for lake-terminating or shelf-terminating glaciers.
+We aim to add this information in a future update of the RGI.
 
  
 |   Value | Terminus type      |

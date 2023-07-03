@@ -70,6 +70,7 @@ Since GLIMS was globally incomplete, earlier RGI versions combined outlines from
 ## RGI source code
 
 All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organization](https://github.com/GLIMS-RGI):
+
 - [GLIMS-RGI/rgi7_scripts](https://github.com/GLIMS-RGI/rgi7_scripts): code and scripts generating the RGI out of GLIMS
 - [GLIMS-RGI/rgi_user_guide](https://github.com/GLIMS-RGI/rgi_user_guide): this user guide.
 
@@ -87,11 +88,9 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 
 **Version 2.0** also added shapefiles for its first-order and second-order regions.
 
-**Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions. 
+**Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions.
 
 (rgi-consortium)=
 ## The RGI 7.0 Consortium
-
-*Members of the RGI 7.0 Consortium:*
 
 <ADD RGI CONSORTIUM>

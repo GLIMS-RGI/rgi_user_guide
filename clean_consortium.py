@@ -13,8 +13,6 @@ for index, line in enumerate(file_lines):
 # Define the replacement text
 new_text = """## The RGI 7.0 Consortium
 
-*Members of the RGI 7.0 Consortium:*
-
 <ADD RGI CONSORTIUM>
 """
 

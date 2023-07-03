@@ -167,7 +167,6 @@ Financial support was provided by several organizations and institutions, in par
 
 > RGI 7.0 and this user guide are dedicated to the memory of **[Dr. Graham Cogley](https://www.igsoc.org/j-graham-cogley-1948-2018)** (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham's spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.
 
-
 ## License
 
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)

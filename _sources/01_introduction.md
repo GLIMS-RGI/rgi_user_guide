@@ -7,7 +7,7 @@
 
 ## What is the RGI?
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space initiative ([GLIMS](https://www.glims.org)). While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space ([GLIMS](https://www.glims.org)) initiative. While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.
 
 The RGI was not designed for the measurement of glacier-by-glacier rates of area change, for which the greatest possible accuracy in dating, delineation and georeferencing is essential. While many RGI outlines meet these requirements, the primary focus of the RGI is on achieving global coverage, consistency, and proximity in a specific year. The strength of the RGI lies in its ability to handle large numbers of glaciers simultaneously. This allows, for example, for the estimation of glacier volumes and rates of elevation change at regional and global scales, as well as the simulation of cryospheric responses to climatic forcing.
 
@@ -38,7 +38,7 @@ We request all users to use this reference in publications that use RGI 7.0 data
 *Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 user guide, 2023. DOI:Zenodo*
 
 This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."*
- 
+
 **Peer-reviewed publication:**
 
 A detailed scientific description of the RGI version 7 is in preparation and expected to be published in 2024.
@@ -51,21 +51,21 @@ Earlier versions of the user guide (then called Technical Report) are referenced
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 
-**The RGI logo** can be downloaded here: [](products/logos)
-
+The **RGI logo** can be downloaded here: [](products/logos)
 
 ## How to name the RGI versions?
 
 We recommend explicitly stating the version number when referring to a specific version rather than the RGI in general. We recommend the following formats:
+
 - RGI version 7.0
-- RGI 7.0 (note the empty space) 
+- RGI 7.0 (note the empty space)
 - RGI v7.0
 
 ## Data sources
 
-All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to requests for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](appendix/contributors) for a list of RGI 7.0 contributors.
+All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to calls for data on the GLIMS and Cryolist e-mail listservers ([2020-05-13](https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html)). See [](appendix/contributors) for a list of RGI 7.0 contributors.
 
-Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0 and a few other sources. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, with the RGI functioning as a subset of GLIMS.
+Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0 and a few other sources. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, which means that the RGI 7.0 glacier outlines are a subset of GLIMS. The RGI however extends the GLIMS outlines by providing additional products and attributes based on additional algorithms and data sources described in [](03_data_decription).
 
 ## RGI source code
 

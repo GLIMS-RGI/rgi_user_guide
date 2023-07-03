@@ -8,7 +8,7 @@ with open('rgi_consortium.txt', 'r') as file:
         if '#' in line:
             if 'Implementation' in line:
                 section += 1
-            if 'Outlines' in line:
+            if 'Outlines, GLIMS' in line:
                 section += 1
             continue
         li = contributors[section]
@@ -20,7 +20,11 @@ with open('rgi_consortium.txt', 'r') as file:
 consortium_list = contributors[1] + sorted(contributors[2]) + sorted(contributors[3])
 consortium_list = '; '.join(consortium_list).rstrip()
 
-consortium_list += f"""
+n_contributors = len(contributors[1]) + len(contributors[2]) + len(contributors[3])
+
+consortium_text = f"""*The {n_contributors} members of the RGI 7.0 Consortium:*
+
+{consortium_list}
 
 *The first {len(contributors[1])} authors were members of the RGI Working Group steering committee and responsible for the design, development, implementation and assembly of RGI 7.0. The following  {len(contributors[2])} authors (listed in alphabetical order) assisted with the implementation. The remaining {len(contributors[3])} authors (listed in alphabetical order) contributed with outline review and/or outlines used in RGI 7.0.*
 
@@ -34,7 +38,7 @@ with open('docs/01_introduction.md', 'r') as file:
     file_content = file.read()
 
 # Find and replace the tag in the file content
-updated_content = file_content.replace("<ADD RGI CONSORTIUM>", consortium_list)
+updated_content = file_content.replace("<ADD RGI CONSORTIUM>", consortium_text)
 
 # Open the file in write mode to overwrite its contents
 with open('docs/01_introduction.md', 'w') as file:

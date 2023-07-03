@@ -14,7 +14,7 @@ McNabb, Robert
 Roura-Adserias, Francesc
 Schmitt, Patrick
 Welty, Ethan
-# Outlines
+# Outlines, GLIMS metadata
 Albornoz, Amapola
 Andreassen, Liss Marie
 Arias, Victor
@@ -103,6 +103,11 @@ Wyatt, F.
 Yang, Ruitang
 Zajaczkiwsky, Sophie
 Zalazar, Laura
+# Outlines, reported outside of GLIMS
+Herreid, Sam
+Menounos, Brian
+Rich, Justin
+Wheate, Roger
 # Review or attributes
 Barr, Iestyn  
 Berthier, Etienne

@@ -6,11 +6,13 @@ All contributors listed by name below are part of the RGI 7.0 consortium.
 
 [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
-Chairs: 
+Chairs:
+
 - **Regine Hock**
 - **Fabien Maussion**
 
-Steering Committee: 
+Steering Committee:
+
 - **Frank Paul**
 - **Philipp Rastner**
 - **Bruce Raup**
@@ -19,10 +21,12 @@ Steering Committee:
 
 ## Implementation
 
-Main developer: 
+Main developer:
+
 - **Fabien Maussion**
 
-Contributors: 
+Contributors:
+
 - **Matthias Dusch**: topography tools and notebooks  
 - **Alexander Fischer**: topography tools and notebooks  
 - **Stephan Galos**: regional outline selection and implementation
@@ -50,7 +54,8 @@ Contributions to regional revisions sections: **Liss Marie Andreassen, Iestyn Ba
 
 ## Glacier outline providers to GLIMS
 
-This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database. The current list of reported omissions is documented [here](https://github.com/GLIMS-RGI/rgi_user_guide/issues/74).
+This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database. All known omissions as of July 3rd, 2023 are
+listed at the bottom of this page.
 
 - **Albornoz, Amapola** (Region: 16, 17. Subm ID: 730, 764. N outlines: 30654. Area: 27683.8 km²)
 - **Andreassen, Liss Marie** (Region: 08. Subm ID: 611. N outlines: 3141. Area: 2674.8 km²)
@@ -140,3 +145,14 @@ This list includes the providers of the outlines used in the RGI 7.0 as generate
 - **Yang, Ruitang** (Region: 01. Subm ID: 809. N outlines: 1736. Area: 4120.4 km²)
 - **Zajaczkiwsky, Sophie** (Region: 03. Subm ID: 728. N outlines: 1961. Area: 37675.5 km²)
 - **Zalazar, Laura** (Region: 16, 19. Subm ID: 700. N outlines: 48. Area: 244.2 km²)
+
+**Additional GLIMS contributors reported by the community**
+
+These contributors were missing from GLIMS metadata as of July 3rd, 2023 and were added to the RGI consortium list manually:
+
+- **Herreid, Sam** (Region: 01. Subm ID: 624.)
+- **Menounos, Brian** (Region: 02. Subm ID: 623.)
+- **Rich, Justin** (Region: 01. Subm ID: 624.)
+- **Wheate, Roger** (Region: 02. Subm ID: 623.)
+
+The current list of reported omissions is documented [here](https://github.com/GLIMS-RGI/rgi_user_guide/issues/74).

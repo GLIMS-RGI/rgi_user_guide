@@ -151,6 +151,7 @@ listed at the bottom of this page.
 These contributors were missing from GLIMS metadata as of July 3rd, 2023 and were added to the RGI consortium list manually:
 
 - **Herreid, Sam** (Region: 01. Subm ID: 624.)
+- **Lynch, Colleen** (Region: 10. Subm ID: 761.)
 - **Menounos, Brian** (Region: 02. Subm ID: 623.)
 - **Rich, Justin** (Region: 01. Subm ID: 624.)
 - **Wheate, Roger** (Region: 02. Subm ID: 623.)

@@ -17,6 +17,7 @@ repository:
 bibtex_bibfiles:
    - references_cleaned.bib
 html:
+  favicon: img/rgi_logo/rgi_logo.svg
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true

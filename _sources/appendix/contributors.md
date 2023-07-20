@@ -156,4 +156,6 @@ These contributors were missing from GLIMS metadata as of July 3rd, 2023 and wer
 - **Rich, Justin** (Region: 01. Subm ID: 624.)
 - **Wheate, Roger** (Region: 02. Subm ID: 623.)
 
+**Ruiz, Lucas** and **Zalazar, Laura** have been ommited in the list of contributors of submission 764 (region 17: Southern Andes).
+
 The current list of reported omissions is documented [here](https://github.com/GLIMS-RGI/rgi_user_guide/issues/74).

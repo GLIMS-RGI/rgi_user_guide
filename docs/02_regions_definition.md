@@ -19,7 +19,6 @@ First-order regions `10`, `19` and `20` straddle the 180th meridian, and so do t
 
 The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available [on the GTN-G website](https://www.gtn-g.ch/data_catalogue_glacreg). These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G data set (REFERENCE WILL BE ADDED)
 
-
 ## Changes from RGI 6.0 to 7.0
 
 **Region boundary and name changes:**

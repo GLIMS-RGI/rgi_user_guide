@@ -46,7 +46,7 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Outflow segment identifier <br/> `description`: Each secondary centerline flows into another centerline. This identifier points to the `segment_id` to which this centerline flows to. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `strahler_n`
-: `long_name`: Strahler number of this centerline. <br/> `description`: Strahler number (Hydrological order) of the centerline, from lowest (0, line without tributaries but with possible descendants) to highest (the main centerline). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
+: `long_name`: Strahler number of this centerline. <br/> `description`: Strahler number (hydrological order) of the centerline, from lowest (1, line without tributaries but with possible descendants) to highest (the main centerline). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI
 
 `length_m`
 : `long_name`: Centerline length <br/> `description`: Length of the centerline in meters. <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI
@@ -61,7 +61,7 @@ The centerlines and their attributes are computed by OGGM {cite:p}`Maussion2019`
 
 ### Strahler number
 
-The Strahler number `strahler_n` is a measure of branching complexity defined by {cite:p}`Strahler1952` commonly used in hydrological applications. A Strahler number of 0 indicates a centerline without any tributaries. A Strahler number of 1 indicates a centerline with one or more upstream tributaries of the same order, i.e. each of them having a Strahler number of 0. If a centerline with a Strahler number of 1 meets a downglacier centerline, the latter is assigned a Strahler number of 2. This ordering is important for mass flow routing. Each centerline contains a reference to its descendant, and this reference might be used by models to transfer mass from the tributaries towards the main centerline. Note that in the original concept Strahler numbers start with 1 instead of 0.
+The Strahler number `strahler_n` is a measure of branching complexity defined by {cite:p}`Strahler1952` commonly used in hydrological applications. A Strahler number of 1 indicates a centerline without any tributaries. A Strahler number of 2 indicates a centerline with one or more upstream tributaries of the same order, i.e. each of them having a Strahler number of 1. If a centerline with a Strahler number of 2 meets a downglacier centerline, the latter is assigned a Strahler number of 3. This ordering is important for mass flow routing. Each centerline contains a reference to its descendant, and this reference might be used by models to transfer mass from the tributaries towards the main centerline.
 
 ### Main centerline
 

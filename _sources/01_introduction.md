@@ -28,9 +28,9 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 
 **The RGI 7.0 dataset should be cited as:**
 
-*RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:NSIDC*
+*RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:10.5067/f6jmovy5navz. Online access: https://doi.org/10.5067/f6jmovy5navz*
 
-All names of the consortium are listed in [](rgi-consortium). 
+All names of the consortium are listed in [](rgi-consortium).
 We request all users to use this reference in publications that use RGI 7.0 data.
   
 **This user guide should be cited as**:

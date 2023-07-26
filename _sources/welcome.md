@@ -2,21 +2,17 @@
 
 The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
-```{warning}
-
-**This user guide is a work in progress and refers to the beta version of RGI 7.0.**
-
-```
-
 ```{admonition} Data download
 
-[Download the RGI 7.0 beta version files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l6_rgi7b2_zip). For review only!
+**Download the RGI 7.0 files**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
+Download previous RGI versions: https://www.glims.org/RGI
 ```
 
-```{admonition} Contributing to this documentation
-:class: tip
+```{admonition} Known issues in RGI 7.0
+:class: warning
 
-If you wish to contribute to this documentation, visit [CONTRIBUTING.md](https://github.com/GLIMS-RGI/rgi_user_guide/blob/main/CONTRIBUTING.md)  
+Currently known issues with the RGI 7.0 dataset are listed here: [https://github.com/GLIMS-RGI/rgi_issue_tracker](https://github.com/GLIMS-RGI/rgi_issue_tracker).<br>If you discover an issue with the RGI 7.0, please report it there!
+
 ```
 
 ## Contents

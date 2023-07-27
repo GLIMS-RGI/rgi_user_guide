@@ -1,4 +1,4 @@
-# Appendix 3: Acknowledgements
+# Appendix 4: Acknowledgements
 
 Funding for RGI 7.0 was provided by:
 - the **International Association of Cryospheric Sciences (IACS)**, under the auspices of the International Union of Geodesy and Geophysics (IUGG). Funds were used to organize meetings and employ student helpers.

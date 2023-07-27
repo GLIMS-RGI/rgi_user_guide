@@ -13,7 +13,7 @@ The RGI was not designed for the measurement of glacier-by-glacier rates of area
 
 ## Who develops and hosts the RGI?
 
-The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after "Randolph", a town in New Hampshire, USA, where the team met for one of their meetings {cite:p}`Pfeffer2014`. In 2014 development of the RGI became the responsibility of the [Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring](https://cryosphericsciences.org/activities/wg-rgi/), which operated under the International Association of Cryospheric Sciences([IACS](https://cryosphericsciences.org)). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
+The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after "Randolph", a town in New Hampshire, USA, where the team met for one of their meetings {cite:p}`Pfeffer2014`. In 2014 development of the RGI became the responsibility of the [Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring](https://cryosphericsciences.org/activities/wg-rgi/), which operated under the International Association of Cryospheric Sciences ([IACS](https://cryosphericsciences.org)). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
 The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
 
@@ -30,8 +30,7 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 
 *RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:10.5067/f6jmovy5navz. Online access: https://doi.org/10.5067/f6jmovy5navz*
 
-All names of the consortium are listed in [](rgi-consortium).
-We request all users to use this reference in publications that use RGI 7.0 data.
+We request all users to use this reference in publications that use RGI 7.0 data. All names of the consortium are listed in the [RGI 7.0 Consortium](rgi-consortium).
   
 **This user guide should be cited as**:
 
@@ -51,7 +50,7 @@ Earlier versions of the user guide (then called Technical Report) are referenced
 
 A detailed scientific description of the RGI version 3.2 is given by {cite:t}`Pfeffer2014`.
 
-The **RGI logo** can be downloaded here: [](products/logos)
+The **RGI logo** and its variants can be downloaded [here](products/logos).
 
 ## How to name the RGI versions?
 
@@ -76,7 +75,7 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 
 ## Version history
 
-**Version 7.0**, released in July 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of glacier complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
+**Version 7.0**, released in August 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of glacier complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
 
 **Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015).
 

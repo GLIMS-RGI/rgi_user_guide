@@ -4,16 +4,17 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global in
 
 ```{admonition} Data download
 
-**Download the RGI 7.0 files**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
+**Download the RGI 7.0 files from NSIDC**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
 Download previous RGI versions: https://www.glims.org/RGI
 ```
 
 ```{admonition} Known issues in RGI 7.0
 :class: warning
 
-Currently known issues with the RGI 7.0 dataset are listed here: [https://github.com/GLIMS-RGI/rgi_issue_tracker](https://github.com/GLIMS-RGI/rgi_issue_tracker).<br>If you discover an issue with the RGI 7.0, please report it there!
+Currently known issues with the RGI 7.0 dataset are listed here: [https://github.com/GLIMS-RGI/rgi_issue_tracker](https://github.com/GLIMS-RGI/rgi_issue_tracker).
 
 ```
+
 
 ## Contents
 

@@ -15,7 +15,6 @@ Currently known issues with the RGI 7.0 dataset are listed here: [https://github
 
 ```
 
-
 ## Contents
 
 ::::{grid} 1 1 2 3
@@ -92,9 +91,7 @@ Comparison of RGI 7.0 with RGI 6.0
 
 ::::
 
-
 ## Acknowledgments
-
 
 ```{image} img/logos/iugg_iacs_border.png
 :alt: IACS
@@ -124,10 +121,7 @@ Comparison of RGI 7.0 with RGI 6.0
 :target: https://en.unesco.org/themes/water-security/hydrology
 ```
 
-```{image} img/logos/white_flat.png
-:alt: white flat
-:height: 20px
-```
+<p style="margin-bottom:15px;"></p>
 
 ```{image} img/logos/nsidc_daac.png
 :alt: NSIDC
@@ -153,10 +147,7 @@ Comparison of RGI 7.0 with RGI 6.0
 :target: https://climate.copernicus.eu
 ```
 
-```{image} img/logos/white_flat.png
-:alt: white flat
-:height: 20px
-```
+<p style="margin-bottom:25px;"></p>
 
 RGI version 7.0 was developed by the "[Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring](https://cryosphericsciences.org)" of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 

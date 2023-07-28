@@ -150,12 +150,12 @@ listed at the bottom of this page.
 
 These contributors were missing from GLIMS metadata as of July 3rd, 2023 and were added to the RGI consortium list manually:
 
-- **Herreid, Sam** (Region: 01. Subm ID: 624.)
-- **Lynch, Colleen** (Region: 10. Subm ID: 761.)
-- **Menounos, Brian** (Region: 02. Subm ID: 623.)
-- **Rich, Justin** (Region: 01. Subm ID: 624.)
-- **Wheate, Roger** (Region: 02. Subm ID: 623.)
-
-**Ruiz, Lucas** and **Zalazar, Laura** have been ommited in the list of contributors of submission 764 (region 17: Southern Andes).
+- **Herreid, Sam** (Region: 01. Subm ID: 624)
+- **Lynch, Colleen** (Region: 10. Subm ID: 761)
+- **Menounos, Brian** (Region: 02. Subm ID: 623)
+- **Rich, Justin** (Region: 01. Subm ID: 624)
+- **Wheate, Roger** (Region: 02. Subm ID: 623)
+- **Ruiz, Lucas** (Region 17. Subm ID: 764)
+- **Zalazar, Laura** (Region 17. Subm ID: 764)
 
 The current list of reported omissions is documented [here](https://github.com/GLIMS-RGI/rgi_user_guide/issues/74).

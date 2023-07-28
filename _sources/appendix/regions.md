@@ -1,4 +1,4 @@
-# Appendix 1: RGI regions & glacier count/area
+# Appendix 1: Glacier count/area per region
 
 (o1-regions-table)=
 ## First-order regions
@@ -131,4 +131,4 @@ Summary of glacier counts and areas of all 90 second-order regions in the RGI 7.
 | 19-23  | Ronne-Filchner Ice Shelf 7J              | `19-23_ronne_filchner_ice_shelf_7j`            |       0 |            0 |
 | 19-24  | West Queen Maud Land 7K                  | `19-24_west_queen_maud_land_7k`                |      14 |         5878 |
 | 20-01  | Antarctic Mainland                       | `20-01_antarctic_mainland`                     |       0 |            0 |
-| Global |                                          | ``                                             |  274531 |       706744 |
+| Global |                                          |                                                |  274531 |       706744 |

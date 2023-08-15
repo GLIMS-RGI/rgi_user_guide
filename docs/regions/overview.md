@@ -26,4 +26,4 @@ The table below summarizes the glacier area and count of each first-order region
 | [](rgi18.md) |                    1162 |                     886 |               -23.7 |               3537 |               3018 |                -14.7 |
 | [](rgi19.md) |                  132867 |                  133432 |                 0.4 |               2752 |               2742 |                 -0.4 |
 | [](rgi20.md) |                       0 |                       0 |                 0.0 |                  0 |                  0 |                  0.0 |
-| **Global**   |                  705738 |                  706744 |                 0.1 |             215547 |             274531 |                 27.4 |
+| **Global**   |                  705739 |                  706744 |                 0.1 |             215547 |             274531 |                 27.4 |

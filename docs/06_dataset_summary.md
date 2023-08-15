@@ -13,16 +13,15 @@ This section provides plots and tables summarizing some basic statistics of the 
 | 2000 ± 5-10 years |          27   |          19.5 |
 | 2000 ± > 10 years |           8.2 |           3.8 |
 
-
 ## Size classes
 
 **Table**: Number of glaciers (N) and percentage of total number per size class in RGI 6.0 and RGI 7.0.
 
 | Area       |   RGI 6.0 (N) |   RGI 6.0 (%) |   RGI 7.0 (N) |   RGI 7.0 (%) |
 |:-----------|--------------:|--------------:|--------------:|--------------:|
-| < 1 km²    |        170591 |          79.1 |        229626 |          83.6 |
-| 1-10 km²   |         38040 |          17.6 |         38081 |          13.9 |
-| 10-100 km² |          5954 |           2.8 |          5830 |           2.1 |
+| < 1 km²    |        170576 |          79.1 |        229626 |          83.6 |
+| 1-10 km²   |         38054 |          17.7 |         38081 |          13.9 |
+| 10-100 km² |          5955 |           2.8 |          5830 |           2.1 |
 | > 100 km²  |           962 |           0.4 |           994 |           0.4 |
 | Total      |        215547 |         100   |        274531 |         100   |
 

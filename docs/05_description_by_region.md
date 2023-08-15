@@ -6,7 +6,7 @@
 First-order regions of the RGI version 7.0 and glacier locations.<br>In red, outlines which are new in RGI 7.0. In blue, outlines which didn't change since RGI 6.0.<br>[Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_wrgi6.png).
 :::
 
-In RGI 7.0, 200734 of the 274531 outlines are taken from new inventories. **This means that 73 % of all RGI 7.0 glacier outlines are new or updated, representing an improvement for 42 % of the global area.** 
+In RGI 7.0, 200734 of the 274531 outlines are taken from new inventories. **This means that 73 % of all RGI 7.0 glacier outlines are new or updated, representing an improvement for 42 % of the global area.**
 
 **Table:** [](regions/overview)
 
@@ -15,7 +15,7 @@ In RGI 7.0, 200734 of the 274531 outlines are taken from new inventories. **This
 ::::{grid}
 :gutter: 3
 
-:::{grid-item-card} 
+:::{grid-item-card}
 [](regions/rgi01.md)<br>
 [](regions/rgi02.md)<br>
 [](regions/rgi03.md)<br>
@@ -28,7 +28,7 @@ In RGI 7.0, 200734 of the 274531 outlines are taken from new inventories. **This
 [](regions/rgi10.md)
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 [](regions/rgi11.md)<br>
 [](regions/rgi12.md)<br>
 [](regions/rgi13.md)<br>

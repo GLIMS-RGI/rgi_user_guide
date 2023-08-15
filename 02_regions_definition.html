@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,8 @@
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -428,19 +428,19 @@ document.write(`
 <h1>RGI glacier regions<a class="headerlink" href="#rgi-glacier-regions" title="Permalink to this headline">#</a></h1>
 <p>RGI outlines are organized into 20 first-order glacier regions. This is one more than in RGI 6.0 and earlier versions, since former region 19 was split into two regions (<a class="reference internal" href="#global-fig"><span class="std std-ref">global map</span></a>; <a class="reference internal" href="appendix/regions.html#o1-regions-table"><span class="std std-ref">Table 1a</span></a>). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 (<a class="reference internal" href="appendix/regions.html#o2-regions-table"><span class="std std-ref">Table 1b</span></a>). Glacier regions are useful for regional assessments of glacier change and other variables.</p>
 <figure class="align-default" id="global-fig">
-<img alt="global map" class="bg-primary mb-1" src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" />
+<img alt="global map" class="bg-primary mb-1" src="_images/global_map_small.jpeg" />
 <figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">First-order regions of the RGI version 7.0 and glacier locations in red.<br><a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png">Download high resolution version</a>.</span><a class="headerlink" href="#global-fig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">First-order regions of the RGI version 7.0 and glacier locations in red.<br><a class="reference external" href="https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map.jpeg">Download high resolution version</a>.</span><a class="headerlink" href="#global-fig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition-data-download admonition">
 <p class="admonition-title">Data download</p>
-<p><a class="reference external" href="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l6_rgi7b2_zip/RGI2000-v7.0-regions.zip">Download the RGI 7.0 region files</a>. For review only!</p>
+<p><span class="xref myst">Download the RGI 7.0 region files</span>.</p>
 </div>
 <p>First-order regions <code class="docutils literal notranslate"><span class="pre">10</span></code>, <code class="docutils literal notranslate"><span class="pre">19</span></code> and <code class="docutils literal notranslate"><span class="pre">20</span></code> straddle the 180th meridian, and so do the second-order regions <code class="docutils literal notranslate"><span class="pre">19-15</span></code> and <code class="docutils literal notranslate"><span class="pre">20-01</span></code>. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in <a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>, the region outlines of <code class="docutils literal notranslate"><span class="pre">10</span></code> and <code class="docutils literal notranslate"><span class="pre">19-15</span></code> appear in the accompanying shapefiles as two polygons, eastern and western.</p>
 <section id="gtn-g-regions">
 <h2>GTN-G regions<a class="headerlink" href="#gtn-g-regions" title="Permalink to this headline">#</a></h2>
-<p>The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G dataset <span id="id1">[<a class="reference internal" href="07_references.html#id2" title="GTN-G. GTN-G Glacier Regions. 2023. doi:10.5904/gtng-glacreg-2023-07.">GTN-G, 2023</a>]</span>.</p>
+<p>The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G dataset <span id="id1">[<a class="reference internal" href="07_references.html#id23" title="GTN-G. GTN-G Glacier Regions. 2023. doi:10.5904/gtng-glacreg-2023-07.">GTN-G, 2023</a>]</span>.</p>
 </section>
 <section id="changes-from-rgi-6-0-to-7-0">
 <h2>Changes from RGI 6.0 to 7.0<a class="headerlink" href="#changes-from-rgi-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
@@ -498,7 +498,10 @@ document.write(`
               
               
                 <footer class="bd-footer-article">
-                  <!-- Previous / next buttons -->
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="01_introduction.html"
@@ -518,7 +521,10 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
+</div></div>
+  
 </div>
+
                 </footer>
               
             </div>
@@ -547,7 +553,7 @@ document.write(`
             
           </div>
           <footer class="bd-footer-content">
-            <div class="bd-footer-content__inner">
+            
 <div class="bd-footer-content__inner container">
   
   <div class="footer-item">
@@ -581,7 +587,7 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
 </div>
   </div>
   
-</div></div>
+</div>
           </footer>
         
 
@@ -590,8 +596,8 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
   <footer class="bd-footer">
   </footer>

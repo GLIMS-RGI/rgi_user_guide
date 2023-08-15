@@ -3,14 +3,14 @@
 RGI outlines are organized into 20 first-order glacier regions. This is one more than in RGI 6.0 and earlier versions, since former region 19 was split into two regions ([global map](global-fig); [Table 1a](o1-regions-table)). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 ([Table 1b](o2-regions-table)). Glacier regions are useful for regional assessments of glacier change and other variables.
 
 :::{figure-md} global-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
+<img src="img/global_stats/global_map_small.jpeg" alt="global map" class="bg-primary mb-1">
 
-First-order regions of the RGI version 7.0 and glacier locations in red.<br>[Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map.png).
+First-order regions of the RGI version 7.0 and glacier locations in red.<br>[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map.jpeg).
 :::
 
 ```{admonition} Data download
 
-[Download the RGI 7.0 region files](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l6_rgi7b2_zip/RGI2000-v7.0-regions.zip). For review only!
+[Download the RGI 7.0 region files](TODO).
 ```
 
 First-order regions `10`, `19` and `20` straddle the 180th meridian, and so do the second-order regions `19-15` and `20-01`. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in [Figure 1](global-fig), the region outlines of `10` and `19-15` appear in the accompanying shapefiles as two polygons, eastern and western.

@@ -11,7 +11,6 @@ This region encompasses all glaciers in Scandinavia. Glaciers on Svalbard are in
 
 ```
 
-
 :::{figure-md} rgi08-new-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI08/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
@@ -24,8 +23,7 @@ Regional glacier area.
 
 All glaciers near the Kebnekaise massif [have been corrected for a map projection shift](https://github.com/GLIMS-RGI/rgi7_scripts/issues/36). Four "nominal glaciers" (glaciers represented by a circle since no outlines were available) in the east of the region were deleted, as they do not appear to be glaciers.
 
-
-## Additional information 
+## Additional information
 
 ```{admonition} Data sources and analysts
 :class: important, dropdown

@@ -26,7 +26,7 @@ This section provides plots and tables summarizing some basic statistics of the 
 | Total      |        215547 |         100   |        274531 |         100   |
 
 :::{figure-md} global-histogram
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_histogram.png" alt="global map" class="bg-primary mb-1">
+<img src="img/global_stats/global_histogram.png" alt="global map" class="bg-primary mb-1">
 
 Number of glaciers per size category (log-log scale). A flatter curve for the smaller area classes indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.
 :::
@@ -45,9 +45,9 @@ Number of glaciers per size category (log-log scale). A flatter curve for the sm
 |       9 | Not assigned       |        272970 |             0 |           547442 |                0 |
 
 :::{figure-md} term-global-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type_small.jpeg" alt="global map term_type" class="bg-primary mb-1">
+<img src="img/global_stats/global_map_term_type_small.jpeg" alt="global map term_type" class="bg-primary mb-1">
 
-Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_term_type.png).
+Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map_term_type.jpeg).
 :::
 
 **Table**: Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
@@ -61,7 +61,7 @@ Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high re
 |       9 | Not assigned |             0 |        171692 |                0 |           492249 |
 
 :::{figure-md} surge-global-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge_small.jpeg" alt="global map surge" class="bg-primary mb-1">
+<img src="img/global_stats/global_map_surge_small.jpeg" alt="global map surge" class="bg-primary mb-1">
 
- Surge type (`surge_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l3_rgi7a_plots/global_map_surge.png).
+ Surge type (`surge_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map_surge.jpeg).
 :::

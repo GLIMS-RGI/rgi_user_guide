@@ -49,18 +49,15 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 
 ## Additional information 
 
-````{admonition} Data sources and analysts
+```{admonition} Data sources and analysts
 :class: important, dropdown
-
-```{card} Figure: Submission IDs used for this region
 
 :::{figure-md}
 <img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
+Submission IDs used for this region
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/inventory_map.jpeg).
 :::
-
-```
 
 **Glacier outline providers to GLIMS**
 
@@ -84,7 +81,7 @@ Submission 810
 Reviewers
 : Davies, Bethan; McNabb, Robert;
 
-````
+```
 
 ````{admonition} Regional statistics
 :class: seealso, dropdown

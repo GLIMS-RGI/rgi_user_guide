@@ -13,12 +13,16 @@ The region encompasses all glaciers in western Canada and the USA not included i
 
 ```
 
+<!--- Map start -->
+
 :::{figure-md}
-<img src="../img/region_plots/RGI02/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
+<img src="../img/region_plots/RGI02/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="None%">
 
 Regional glacier area.
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI02/isrgi6_map.jpeg).
 :::
+
+<!--- Map end -->
 
 ## Changes from version 6.0 to 7.0
 
@@ -29,10 +33,10 @@ None.
 ```{admonition} Data sources and analysts
 :class: important, dropdown
 
-:::{figure-md} rgi02-source-fig
+:::{figure-md}
 <img src="../img/region_plots/RGI02/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
-Submission IDs used for this region.
+Submission IDs used for this region
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI02/inventory_map.jpeg).
 :::
 
@@ -66,13 +70,25 @@ Reviewers
 ````{admonition} Regional statistics
 :class: seealso, dropdown
 
-**Outlines source date**
+```{card} Figure: Outlines source date
 
 :::{figure-md}
 <img src="../img/region_plots/RGI02/date_hist.png" alt="region map" class="bg-primary mb-1">
 
 Distribution of the outline dates per area (top) and number (bottom)
 :::
+
+```
+
+```{card} Figure: Glacier area histogram
+
+:::{figure-md}
+<img src="../img/region_plots/RGI02/area_histogram.png" alt="region histogram" class="bg-primary mb-1">
+
+Number of glaciers per size category (log-log scale).
+:::
+
+```
 
 ```{card} Table: Terminus type statistics
 

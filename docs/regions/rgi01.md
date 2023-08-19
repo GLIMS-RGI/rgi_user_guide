@@ -14,12 +14,16 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 
 ```
 
+<!--- Map start -->
+
 :::{figure-md}
-<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="100%">
 
 Regional glacier area.
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/isrgi6_map.jpeg).
 :::
+
+<!--- Map end -->
 
 ## Changes from version 6.0 to 7.0
 
@@ -48,12 +52,14 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 ```{admonition} Data sources and analysts
 :class: important, dropdown
 
+```{card} Figure: Submission IDs used for this region
 :::{figure-md} rgi01-source-fig
 <img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
-Submission IDs used for this region.
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/inventory_map.jpeg).
 :::
+
+```
 
 **Glacier outline providers to GLIMS**
 
@@ -61,18 +67,23 @@ Submission IDs used for this region.
 
 Submission 624
 : **Submitter**: Cogley, Graham.<br/>**Number of outlines**: 25304. **Area**: 82291.9km². **Release date**: 2015-07-16.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
+```
 
 Submission 756
 : **Submitter**: Bolch, Tobias.<br/>**Number of outlines**: 3. **Area**: 7.1km². **Release date**: 2021-10-10.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William.
+```
 
 Submission 766
 : **Submitter**: McNabb, Robert.<br/>**Number of outlines**: 42. **Area**: 10.7km². **Release date**: 2020-07-22.<br/>**Analysts**: McNabb, Robert.
+```
 
 Submission 809
 : **Submitter**: Yang, Ruitang.<br/>**Number of outlines**: 1736. **Area**: 4120.4km². **Release date**: 2022-10-31.<br/>**Analysts**: Paul, Frank; Yang, Ruitang.
+```
 
 Submission 810
 : **Submitter**: Paul, Frank.<br/>**Number of outlines**: 424. **Area**: 277.6km². **Release date**: 2023-01-09.<br/>**Analysts**: Beedle, Matthew; Berthier, Etienne; Bolch, Tobias; Burgess, Evan; Cogley, Graham; Forster, Richard; Giffen, Bruce A.; Hall, Dorothy K.; Kienholz, Christian; LeBris, Raymond; Manley, William; Paul, Frank.
+```
 
 Reviewers
 : Davies, Bethan; McNabb, Robert;
@@ -82,7 +93,7 @@ Reviewers
 ````{admonition} Regional statistics
 :class: seealso, dropdown
 
-**Outlines source date**
+```{card} Figure: Outlines source date
 
 :::{figure-md}
 <img src="../img/region_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
@@ -90,11 +101,17 @@ Reviewers
 Distribution of the outline dates per area (top) and number (bottom)
 :::
 
+```
+
+```{card} Figure: Glacier area histogram
+
 :::{figure-md}
 <img src="../img/region_plots/RGI01/area_histogram.png" alt="region histogram" class="bg-primary mb-1">
 
 Number of glaciers per size category (log-log scale).
 :::
+
+```
 
 ```{card} Table: Terminus type statistics
 

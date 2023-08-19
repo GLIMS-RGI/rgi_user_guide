@@ -17,10 +17,11 @@ The region encompasses all glaciers in northeast Canada south of 74°N including
 
 ```
 
-:::{figure-md} rgi04-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI04/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
+:::{figure-md}
+<img src="../img/region_plots/RGI04/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 Regional glacier area.
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI02/isrgi6_map.jpeg).
 :::
 
 ## Changes from version 6.0 to 7.0

@@ -15,7 +15,7 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 ```
 
 :::{figure-md} rgi01-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
 
 Regional glacier area.
 :::
@@ -47,8 +47,8 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 ```{admonition} Data sources and analysts
 :class: important, dropdown
 
-:::{figure-md} 01-source-fig
-<img src="../img/region_plots/01/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
+:::{figure-md} rgi01-source-fig
+<img src="../img/region_plots/RGI01/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
 
 Submission IDs used for this region.
 :::
@@ -83,7 +83,7 @@ Reviewers
 **Outlines source date:**
 
 :::{figure-md}
-<img src="img/region_plots/01/date_hist.png" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
 
 Distribution of the outline dates per area (top) and number (bottom)
 :::

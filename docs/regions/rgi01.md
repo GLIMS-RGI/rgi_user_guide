@@ -77,7 +77,7 @@ Reviewers
 
 ```
 
-```{admonition} Attributes statistics
+```{admonition} Regional statistics
 :class: seealso, dropdown
 
 **Outlines source date:**
@@ -98,11 +98,6 @@ Distribution of the outline dates per area (top) and number (bottom)
 |       3 | Shelf-terminating  |             0 |             0 |                0 |                0 |
 |       9 | Not assigned       |         27453 |             0 |            75721 |                0 |
 
-:::{figure-md} term-global-fig
-<img src="img/region_plots/01/map_term_type_small.jpeg" alt="global map term_type" class="bg-primary mb-1">
-
-Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/01/map_term_type.jpeg).
-:::
 
 **Table**: Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
 
@@ -113,12 +108,6 @@ Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high re
 |       2 | Probable     |           244 |            32 |            11358 |              447 |
 |       3 | Observed     |           285 |           167 |            25129 |             3021 |
 |       9 | Not assigned |             0 |         26885 |                0 |            82992 |
-
-:::{figure-md} surge-global-fig
-<img src="img/region_plots/01/map_surge_small.jpeg" alt="global map surge" class="bg-primary mb-1">
-
- Surge type (`surge_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/01/map_surge.jpeg).
-:::
 
 ```
 

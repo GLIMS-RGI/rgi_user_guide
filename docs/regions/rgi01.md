@@ -14,11 +14,11 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 
 ```
 
-:::{figure-md} rgi01-new-fig
+:::{figure-md}
 <img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 Regional glacier area.
-[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RG{reg_str}/isrgi6_map.jpeg).
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/isrgi6_map.jpeg).
 :::
 
 ## Changes from version 6.0 to 7.0
@@ -52,7 +52,7 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 <img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 Submission IDs used for this region.
-[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RG01/inventory_map.jpeg).
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/inventory_map.jpeg).
 :::
 
 **Glacier outline providers to GLIMS**
@@ -82,7 +82,7 @@ Reviewers
 ````{admonition} Regional statistics
 :class: seealso, dropdown
 
-**Outlines source date:**
+**Outlines source date**
 
 :::{figure-md}
 <img src="../img/region_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
@@ -90,7 +90,7 @@ Reviewers
 Distribution of the outline dates per area (top) and number (bottom)
 :::
 
-```{card} Table
+```{card} Table: Terminus type statistics
 
 Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
 
@@ -104,7 +104,7 @@ Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and
 
 ```
 
-```{card} Table
+```{card} Table: Surge type statistics
 
 Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.
 

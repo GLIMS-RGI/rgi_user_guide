@@ -77,13 +77,47 @@ Reviewers
 
 ```
 
-```{admonition} Outlines date distribution
+```{admonition} Attributes statistics
 :class: seealso, dropdown
+
+**Outlines source date:**
 
 :::{figure-md} rgi01-hist-fig
 <img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
 
-Relative glacier area distribution per outline date.
+Distribution of the outline dates per area (top) and number (bottom)
+:::
+
+**Table**: Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
+
+|   Value | Terminus type      |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | Land-terminating   |             0 |         26909 |                0 |            58355 |
+|       1 | Marine-terminating |            56 |            51 |            10986 |            11650 |
+|       2 | Lake-terminating   |             0 |           148 |                0 |            16721 |
+|       3 | Shelf-terminating  |             0 |             0 |                0 |                0 |
+|       9 | Not assigned       |         27453 |             0 |            75721 |                0 |
+
+:::{figure-md} term-global-fig
+<img src="img/region_plots/01/map_term_type_small.jpeg" alt="global map term_type" class="bg-primary mb-1">
+
+Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/01/map_term_type.jpeg).
+:::
+
+**Table**: Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
+
+|   Value | Surge type   |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | No evidence  |         26852 |             0 |            48777 |                0 |
+|       1 | Possible     |           128 |            24 |             1443 |              266 |
+|       2 | Probable     |           244 |            32 |            11358 |              447 |
+|       3 | Observed     |           285 |           167 |            25129 |             3021 |
+|       9 | Not assigned |             0 |         26885 |                0 |            82992 |
+
+:::{figure-md} surge-global-fig
+<img src="img/region_plots/01/map_surge_small.jpeg" alt="global map surge" class="bg-primary mb-1">
+
+ Surge type (`surge_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/01/map_surge.jpeg).
 :::
 
 ```

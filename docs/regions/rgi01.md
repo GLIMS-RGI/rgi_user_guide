@@ -118,7 +118,6 @@ Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 
 
 ````
 
-
 ```{admonition} Version history
 :class: note, dropdown
 

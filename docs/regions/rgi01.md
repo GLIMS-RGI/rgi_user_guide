@@ -53,7 +53,8 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 :class: important, dropdown
 
 ```{card} Figure: Submission IDs used for this region
-:::{figure-md} rgi01-source-fig
+
+:::{figure-md}
 <img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/inventory_map.jpeg).

@@ -15,9 +15,10 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 ```
 
 :::{figure-md} rgi01-new-fig
-<img src="../img/region_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 Regional glacier area.
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RG{reg_str}/isrgi6_map.jpeg).
 :::
 
 ## Changes from version 6.0 to 7.0
@@ -48,9 +49,10 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 :class: important, dropdown
 
 :::{figure-md} rgi01-source-fig
-<img src="../img/region_plots/RGI01/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
 Submission IDs used for this region.
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RG01/inventory_map.jpeg).
 :::
 
 **Glacier outline providers to GLIMS**

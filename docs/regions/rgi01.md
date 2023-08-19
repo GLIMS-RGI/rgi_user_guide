@@ -90,6 +90,12 @@ Reviewers
 Distribution of the outline dates per area (top) and number (bottom)
 :::
 
+:::{figure-md}
+<img src="../img/region_plots/RGI01/area_histogram.png" alt="region histogram" class="bg-primary mb-1">
+
+Number of glaciers per size category (log-log scale).
+:::
+
 ```{card} Table: Terminus type statistics
 
 Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.

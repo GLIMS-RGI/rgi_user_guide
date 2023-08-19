@@ -14,7 +14,7 @@ The region encompasses all glaciers in western Canada and the USA not included i
 ```
 
 :::{figure-md}
-<img src="../img/region_plots/RGI02/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1">
+<img src="../img/region_plots/RGI02/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="60%">
 
 Regional glacier area.
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI02/isrgi6_map.jpeg).

@@ -17,7 +17,7 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 <!--- Map start -->
 
 :::{figure-md}
-<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="None%">
+<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="100%">
 
 Regional glacier area.
 [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/isrgi6_map.jpeg).

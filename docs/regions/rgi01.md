@@ -77,18 +77,20 @@ Reviewers
 
 ```
 
-```{admonition} Regional statistics
+````{admonition} Regional statistics
 :class: seealso, dropdown
 
 **Outlines source date:**
 
-:::{figure-md} rgi01-hist-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
+:::{figure-md}
+<img src="img/region_plots/01/date_hist.png" alt="region map" class="bg-primary mb-1">
 
 Distribution of the outline dates per area (top) and number (bottom)
 :::
 
-**Table**: Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
+```{card} Table
+
+Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
 
 |   Value | Terminus type      |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
 |--------:|:-------------------|--------------:|--------------:|-----------------:|-----------------:|
@@ -98,8 +100,11 @@ Distribution of the outline dates per area (top) and number (bottom)
 |       3 | Shelf-terminating  |             0 |             0 |                0 |                0 |
 |       9 | Not assigned       |         27453 |             0 |            75721 |                0 |
 
+```
 
-**Table**: Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
+```{card} Table
+
+Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.
 
 |   Value | Surge type   |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
 |--------:|:-------------|--------------:|--------------:|-----------------:|-----------------:|
@@ -110,6 +115,9 @@ Distribution of the outline dates per area (top) and number (bottom)
 |       9 | Not assigned |             0 |         26885 |                0 |            82992 |
 
 ```
+
+````
+
 
 ```{admonition} Version history
 :class: note, dropdown

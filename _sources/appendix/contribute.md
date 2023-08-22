@@ -36,3 +36,29 @@ If you have an inventory that you think might be suitable for future RGI version
 ## Contribute with ideas, workflows or code
 
 If you have any idea or suggestion, get in touch with us via our [issue tracker](https://github.com/GLIMS-RGI/rgi_issue_tracker). We try to keep all discussions as open as possible, and your idea might have been suggested already.
+
+(rgi-logo)=
+## The RGI logo
+
+````{card}
+```{image} ../img/rgi_logo/rgi_logo.png
+:alt: RGI Logo
+:width: 32%
+```
+```{image} ../img/rgi_logo/rgi_logo_blue.png
+:alt: RGI Logo Blue
+:width: 32%
+```
+```{image} ../img/rgi_logo/rgi_logo_black.png
+:alt: RGI Logo Black
+:width: 32%
+```
+````
+
+The RGI logos are free to use. Downloads:
+- [svg](../img/rgi_logo/rgi_logo.svg)
+- [png](../img/rgi_logo/rgi_logo.png)
+- [jpg (low resolution)](../img/rgi_logo/rgi_logo_ld.jpg)
+- [blue](../img/rgi_logo/rgi_logo_blue.png)
+- [black](../img/rgi_logo/rgi_logo_black.png)
+- [white](../img/rgi_logo/rgi_logo_white.png)

@@ -14,11 +14,16 @@ The region encompasses all glaciers in the state of Alaska, USA, and also all th
 
 ```
 
-:::{figure-md} rgi01-new-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/isrgi6_map.jpeg" alt="region map" class="bg-primary mb-1">
+<!--- Map start -->
+
+:::{figure-md}
+<img src="../img/region_plots/RGI01/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="100%">
 
 Regional glacier area.
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/isrgi6_map.jpeg).
 :::
+
+<!--- Map end -->
 
 ## Changes from version 6.0 to 7.0
 
@@ -47,10 +52,11 @@ RGI 6.0 included for each glacier a label for the terminus type attribute, inclu
 ```{admonition} Data sources and analysts
 :class: important, dropdown
 
-:::{figure-md} rgi01-source-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/inventory_map.jpeg" alt="region map" class="bg-primary mb-1">
+:::{figure-md}
+<img src="../img/region_plots/RGI01/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
 
-Submission IDs used for this region.
+Submission IDs used for this region
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI01/inventory_map.jpeg).
 :::
 
 **Glacier outline providers to GLIMS**
@@ -77,16 +83,58 @@ Reviewers
 
 ```
 
-```{admonition} Outlines date distribution
+````{admonition} Regional statistics
 :class: seealso, dropdown
 
-:::{figure-md} rgi01-hist-fig
-<img src="https://cluster.klima.uni-bremen.de/~fmaussion/misc/rgi7_data/l4_rgi7b0_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
+```{card} Figure: Outlines source date
 
-Relative glacier area distribution per outline date.
+:::{figure-md}
+<img src="../img/region_plots/RGI01/date_hist.png" alt="region map" class="bg-primary mb-1">
+
+Distribution of the outline dates per area (top) and number (bottom)
 :::
 
 ```
+
+```{card} Figure: Glacier area histogram
+
+:::{figure-md}
+<img src="../img/region_plots/RGI01/area_histogram.png" alt="region histogram" class="bg-primary mb-1">
+
+Number of glaciers per size category (log-log scale).
+:::
+
+```
+
+```{card} Table: Terminus type statistics
+
+Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
+
+|   Value | Terminus type      |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | Land-terminating   |             0 |         26909 |                0 |            58355 |
+|       1 | Marine-terminating |            56 |            51 |            10986 |            11650 |
+|       2 | Lake-terminating   |             0 |           148 |                0 |            16721 |
+|       3 | Shelf-terminating  |             0 |             0 |                0 |                0 |
+|       9 | Not assigned       |         27453 |             0 |            75721 |                0 |
+
+```
+
+```{card} Table: Surge type statistics
+
+Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.
+
+|   Value | Surge type   |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | No evidence  |         26852 |             0 |            48777 |                0 |
+|       1 | Possible     |           128 |            24 |             1443 |              266 |
+|       2 | Probable     |           244 |            32 |            11358 |              447 |
+|       3 | Observed     |           285 |           167 |            25129 |             3021 |
+|       9 | Not assigned |             0 |         26885 |                0 |            82992 |
+
+```
+
+````
 
 ```{admonition} Version history
 :class: note, dropdown

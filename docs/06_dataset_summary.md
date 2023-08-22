@@ -4,7 +4,9 @@ This section provides plots and tables summarizing some basic statistics of the 
 
 ## Target year
 
-**Table**: Number of glaciers (%) within intervals around the target year 2000 in RGI 6.0 and RGI 7.0.
+```{card}
+
+Number of glaciers (%) within intervals around the target year 2000 in RGI 6.0 and RGI 7.0.
 
 | Outline year      |   RGI 6.0 (%) |   RGI 7.0 (%) |
 |:------------------|--------------:|--------------:|
@@ -13,9 +15,13 @@ This section provides plots and tables summarizing some basic statistics of the 
 | 2000 ± 5-10 years |          27   |          19.5 |
 | 2000 ± > 10 years |           8.2 |           3.8 |
 
+```
+
 ## Size classes
 
-**Table**: Number of glaciers (N) and percentage of total number per size class in RGI 6.0 and RGI 7.0.
+```{card}
+
+Number of glaciers (N) and percentage of total number per size class in RGI 6.0 and RGI 7.0.
 
 | Area       |   RGI 6.0 (N) |   RGI 6.0 (%) |   RGI 7.0 (N) |   RGI 7.0 (%) |
 |:-----------|--------------:|--------------:|--------------:|--------------:|
@@ -24,6 +30,8 @@ This section provides plots and tables summarizing some basic statistics of the 
 | 10-100 km² |          5955 |           2.8 |          5830 |           2.1 |
 | > 100 km²  |           962 |           0.4 |           994 |           0.4 |
 | Total      |        215547 |         100   |        274531 |         100   |
+
+```
 
 :::{figure-md} global-histogram
 <img src="img/global_stats/global_histogram.png" alt="global map" class="bg-primary mb-1">
@@ -34,7 +42,9 @@ Number of glaciers per size category (log-log scale). A flatter curve for the sm
 (attributes-stats)=
 ## Global attributes statistics
 
-**Table**: Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
+```{card} Table: Terminus type statistics
+
+Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
 
 |   Value | Terminus type      |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
 |--------:|:-------------------|--------------:|--------------:|-----------------:|-----------------:|
@@ -44,13 +54,17 @@ Number of glaciers per size category (log-log scale). A flatter curve for the sm
 |       3 | Shelf-terminating  |             0 |           169 |                0 |            83958 |
 |       9 | Not assigned       |        272970 |             0 |           547442 |                0 |
 
+```
+
 :::{figure-md} term-global-fig
 <img src="img/global_stats/global_map_term_type_small.jpeg" alt="global map term_type" class="bg-primary mb-1">
 
 Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map_term_type.jpeg).
 :::
 
-**Table**: Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
+```{card} Table: Surge type statistics
+
+Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0. 
 
 |   Value | Surge type   |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
 |--------:|:-------------|--------------:|--------------:|-----------------:|-----------------:|
@@ -59,6 +73,8 @@ Terminus type (`term_type`) attribute distribution in RGI 7.0. [Download high re
 |       2 | Probable     |           825 |           383 |            31254 |            19376 |
 |       3 | Observed     |          1175 |           448 |            85738 |            43066 |
 |       9 | Not assigned |             0 |        171692 |                0 |           492249 |
+
+```
 
 :::{figure-md} surge-global-fig
 <img src="img/global_stats/global_map_surge_small.jpeg" alt="global map surge" class="bg-primary mb-1">

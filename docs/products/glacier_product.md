@@ -158,6 +158,8 @@ The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the sam
 
 `slope_deg` and `aspect_deg` are computed using a standard trigonometric functions in python. The `aspect_sec` attribute contains information on the orientation of the glacier, classified into the following categories:
 
+```{card}
+
 |   Value | Aspect sector   | Aspect range     |
 |--------:|:----------------|:-----------------|
 |       1 | North           | [337.5°; 22.5°]  |
@@ -169,6 +171,8 @@ The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the sam
 |       7 | West            | [247.5°; 292.5°] |
 |       8 | North-west      | [292.5°; 337.5°] |
 |       9 | Not assigned    |                  |
+
+```
 
 ### Terminus location
 
@@ -201,6 +205,7 @@ point was manually chosen based on a comparison with the metadata provided with 
 in the RGI 7.0 was then assigned the category corresponding to the highest level of confidence based on each inventory 
 (i.e., "observed" > "probable" > "possible" > "not assigned").
 
+```{card}
 
 |   Value | Surging      |
 |--------:|:-------------|
@@ -209,6 +214,8 @@ in the RGI 7.0 was then assigned the category corresponding to the highest level
 |       2 | Probable     |
 |       3 | Observed     |
 |       9 | Not assigned |
+
+```
 
 Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.
 
@@ -224,7 +231,8 @@ thus all glaciers that are "not assigned" outside of RGI 19 can be assumed to be
 As of RGI 7.0, no region or glacier has any attributes available for lake-terminating or shelf-terminating glaciers.
 We aim to add this information in a future update of the RGI.
 
- 
+```{card}
+
 |   Value | Terminus type      |
 |--------:|:-------------------|
 |       0 | Land-terminating   |
@@ -233,12 +241,15 @@ We aim to add this information in a future update of the RGI.
 |       3 | Shelf-terminating  |
 |       9 | Not assigned       |
 
+```
+
 Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.
 
-
-### WGMS primary classification 
+### WGMS primary classification
 
 The WGMS primary classification of the glacier (`primeclass`) is directly fetched from the GLIMS database. It is currently poorly populated, with only few submissions to GLIMS having provided this information.
+
+```{card}
 
 |   Digit | Class                   | Description                                                                                                                                                                                                                                                                                    |
 |--------:|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -253,6 +264,7 @@ The WGMS primary classification of the glacier (`primeclass`) is directly fetche
 |       8 | Ice shelf               | Floating ice sheet of considerable thickness attached to a coast nourished by a glacier(s); snow accumulation on its surface or bottom freezing                                                                                                                                                |
 |       9 | Rock glacier            | Lava-stream-like debris mass containing ice in several possible forms and moving slowly downslope
 
+```
 
 (subm-info)=
 ## Submission info table

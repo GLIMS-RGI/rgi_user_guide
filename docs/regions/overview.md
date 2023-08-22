@@ -2,6 +2,8 @@
 
 The table below summarizes the glacier area and count of each first-order region and their differences (in %) between RGI 6.0 and RGI 7.0 (small differences in area or number do not necessarily mean no changes in quality; see each region's documentation for details):
 
+```{card} Summary table
+
 [Download this table as csv](../appendix/RGI2000-v7.0-G-comparison-rgi6.csv)
 
 |              |   Area<br>RGI 6.0 (km²) |   Area<br>RGI 7.0 (km²) |   Area<br>Diff. (%) |   Count<br>RGI 6.0 |   Count<br>RGI 7.0 |   Count<br>Diff. (%) |
@@ -27,3 +29,5 @@ The table below summarizes the glacier area and count of each first-order region
 | [](rgi19.md) |                  132867 |                  133432 |                 0.4 |               2752 |               2742 |                 -0.4 |
 | [](rgi20.md) |                       0 |                       0 |                 0.0 |                  0 |                  0 |                  0.0 |
 | **Global**   |                  705739 |                  706744 |                 0.1 |             215547 |             274531 |                 27.4 |
+
+```

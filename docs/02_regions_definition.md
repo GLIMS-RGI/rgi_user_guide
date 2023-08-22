@@ -10,7 +10,7 @@ First-order regions of the RGI version 7.0 and glacier locations in red.<br>[Dow
 
 ```{admonition} Data download
 
-[Download the RGI 7.0 region files](TODO).
+[Download the RGI 7.0 region files](https://doi.org/10.5067/f6jmovy5navz).
 ```
 
 First-order regions `10`, `19` and `20` straddle the 180th meridian, and so do the second-order regions `19-15` and `20-01`. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in [Figure 1](global-fig), the region outlines of `10` and `19-15` appear in the accompanying shapefiles as two polygons, eastern and western.

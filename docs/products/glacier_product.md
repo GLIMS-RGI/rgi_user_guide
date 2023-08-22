@@ -142,19 +142,19 @@ One RGI outline in the glacier product corresponds to one glacier. Glaciers are 
 `anlys_id`
 : **Unique** identifier assigned within GLIMS for a particular outline of a glacier at a particular time and for a particular submission.  **These ids allow to unambiguously trace an outline back to the GLIMS database**, and will not change between future RGI versions if the outline does not change.
 
-### Topography attributes 
+### Topography attributes
 
-The `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m` attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. 
- 
+The `zmin_m`, `zmax_m`, `zmed_m`, `zmean_m` attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. The gridded dataset used to compute these attributes (RGI-TOPO) is documented and available on the [OGGM documentation](https://docs.oggm.org/en/stable/rgitopo.html).
+
 Each glacier grid is defined in the locally valid UTM zone (`utm_zone` attribute) and with a grid spacing $dx$ depending on the glacier size: $dx =  14 \sqrt{A} + 10$, with $dx$ the grid spacing in meters and $A$ the glacier area in km² {cite:p}`Maussion2019`. If a grid spacing chosen by this formula exceeds 100 m, the grid spacing is fixed to a maximum of 100 m. Effectively, this means that a glacier of the minimum area of 0.01 km² will have a grid spacing of 11.4 m, a 8 km² glacier a grid spacing of 50 m, and all glaciers above 42 km² a grid spacing of 100 m. The chosen DEM product (`dem_source` attribute) is reprojected onto the local glacier grid and interpolated using cubic resampling with the [rasterio](https://rasterio.readthedocs.io) library.
 
 The main DEM product used for RGI 7.0 is the Copernicus DEM {cite:p}`Copernicus2019` (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30 m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to [](dem_citations.md) for a full reference.
 
-For each glacier, a glacier mask is computed from the outlines and then applied to compute the glacier statistics. 
+For each glacier, a glacier mask is computed from the outlines and then applied to compute the glacier statistics.
 
-### Slope attributes 
+### Slope attributes
 
-The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the same DEM and grid as for the topography attributes described above. 
+The `slope_deg`, `aspect_deg`, `aspect_sec` attributes are computed from the same DEM and grid as for the topography attributes described above ([RGI-TOPO](https://docs.oggm.org/en/stable/rgitopo.html)).
 
 `slope_deg` and `aspect_deg` are computed using a standard trigonometric functions in python. The `aspect_sec` attribute contains information on the orientation of the glacier, classified into the following categories:
 

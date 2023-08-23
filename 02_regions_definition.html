@@ -168,7 +168,7 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Glacier area and count changes between RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Regional glacier areas and counts in RGI 6.0 and RGI 7.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
 <li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada North</a></li>
@@ -407,12 +407,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gtn-g-regions">GTN-G regions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#region-boundary-and-name-changes">Region boundary and name changes</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-changes">Technical changes</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a></li>
 </ul>
             </nav>
         </div>
@@ -438,14 +433,11 @@ document.write(`
 <p><a class="reference external" href="https://doi.org/10.5067/f6jmovy5navz">Download the RGI 7.0 region files</a>.</p>
 </div>
 <p>First-order regions <code class="docutils literal notranslate"><span class="pre">10</span></code>, <code class="docutils literal notranslate"><span class="pre">19</span></code> and <code class="docutils literal notranslate"><span class="pre">20</span></code> straddle the 180th meridian, and so do the second-order regions <code class="docutils literal notranslate"><span class="pre">19-15</span></code> and <code class="docutils literal notranslate"><span class="pre">20-01</span></code>. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in <a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>, the region outlines of <code class="docutils literal notranslate"><span class="pre">10</span></code> and <code class="docutils literal notranslate"><span class="pre">19-15</span></code> appear in the accompanying shapefiles as two polygons, eastern and western.</p>
-<section id="gtn-g-regions">
-<h2>GTN-G regions<a class="headerlink" href="#gtn-g-regions" title="Permalink to this headline">#</a></h2>
+<p><strong>GTN-G regions</strong></p>
 <p>The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G dataset <span id="id1">[<a class="reference internal" href="07_references.html#id12" title="GTN-G. GTN-G Glacier Regions. 2023. doi:10.5904/gtng-glacreg-2023-07.">GTN-G, 2023</a>]</span>.</p>
-</section>
 <section id="changes-from-rgi-6-0-to-7-0">
 <h2>Changes from RGI 6.0 to 7.0<a class="headerlink" href="#changes-from-rgi-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
-<section id="region-boundary-and-name-changes">
-<h3>Region boundary and name changes<a class="headerlink" href="#region-boundary-and-name-changes" title="Permalink to this headline">#</a></h3>
+<p><strong>Region boundary and name changes</strong></p>
 <ul class="simple">
 <li><p>The region boxes for region <code class="docutils literal notranslate"><span class="pre">01</span></code> (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. One of the two boxes, part of subregion <code class="docutils literal notranslate"><span class="pre">01-03</span></code> Alaska Peninsula (Aleutians), contains no glaciers (and probably hasn’t for a long time) and is now removed.</p></li>
 <li><p>Subregion <code class="docutils literal notranslate"><span class="pre">05-11</span></code> (Greenland Ice Sheet) was removed since it was coarsely defined and the RGI does not include the ice sheet proper.</p></li>
@@ -453,9 +445,7 @@ document.write(`
 <li><p>Region <code class="docutils literal notranslate"><span class="pre">19</span></code> (“Antarctic and Subantarctic”) was split into two first-order regions. Region <code class="docutils literal notranslate"><span class="pre">19</span></code> now solely includes the islands in the periphery of Antarctica, and was renamed to “Subantarctic and Antarctic Islands”. A new region <code class="docutils literal notranslate"><span class="pre">20</span></code>, (“Antarctic Mainland”) was added to encompass the remaining subregion (“Antarctic Ice Sheet”, previously <code class="docutils literal notranslate"><span class="pre">19-31</span></code> and now <code class="docutils literal notranslate"><span class="pre">20-01</span></code>), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion <code class="docutils literal notranslate"><span class="pre">19-31</span></code> in all previous RGI versions).</p></li>
 <li><p>Region names in the region shapefiles (and therefore of the associated RGI product files) were harmonized to reflect the most commonly used version in various documents and publications of the RGI. “Arctic Canada, North” and “Arctic Canada, South” have been renamed “Arctic Canada North” and “Arctic Canada South” (comma removed), respectively. The four regions in Asia (“North”, “Central”, “South West” and “South East”) were renamed to “North Asia”, “Central Asia”, “South Asia West” and “South Asia East”, respectively. With this change, none of the regions and subregions in RGI 7.0 have a comma in their name.</p></li>
 </ul>
-</section>
-<section id="technical-changes">
-<h3>Technical changes<a class="headerlink" href="#technical-changes" title="Permalink to this headline">#</a></h3>
+<p><strong>Technical changes</strong></p>
 <ul class="simple">
 <li><p>The data type of the <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> attribute in the first-order region file is now <code class="docutils literal notranslate"><span class="pre">str</span></code> (instead of <code class="docutils literal notranslate"><span class="pre">int</span></code>). The <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> now has a leading zero, for example <code class="docutils literal notranslate"><span class="pre">02</span></code> instead of <code class="docutils literal notranslate"><span class="pre">2</span></code>.</p></li>
 <li><p>All abbreviations in the second-order regions file have been replaced by their full name (e.g. “East Central” instead of “EC”)</p></li>
@@ -468,7 +458,6 @@ document.write(`
 <p>In <strong>RGI 6.0</strong>, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the <a class="reference external" href="http://www.gtn-g.ch/data_catalogue_glacreg">Global Terrestrial Network for Glaciers</a> (GTN-G) with the RGI regions.</p>
 <p>In <strong>RGI 5.0</strong>, the boundary between regions 01 (Alaska) and 02 (Western Canada and US) was refined, and in region 10 (North Asia) the former four second-order regions became six regions conforming with those described by Earl and Gardner (2016). In RGI 4.0, region 10-01, North Asia (North), was extended slightly to the west for better visibility of glaciers in the Polar Urals. Region 11-02, formerly the Pyrenees and Apennines, was enlarged and renamed Southern and Eastern Europe. First-order regions 10 (North Asia) and 11 (Central Europe) were enlarged accordingly.</p>
 </div>
-</section>
 </section>
 </section>
 
@@ -539,12 +528,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gtn-g-regions">GTN-G regions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#region-boundary-and-name-changes">Region boundary and name changes</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-changes">Technical changes</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a></li>
 </ul>
   </nav></div>
 

@@ -34,9 +34,9 @@ We request all users to use this reference in publications that use RGI 7.0 data
   
 **This user guide should be cited as**:
 
-*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide v1.0, 2023. doi:10.5281/zenodo.8274804*
+*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide, 2023. doi:10.5281/zenodo.8274803. Online access: https://doi.org/10.5281/zenodo.8274803*.
 
-This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."*
+This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."* The user guide DOI provided above always refer to the latest version. To cite a specific version, refer to its version number and corresponding DOI, for example v0.9, doi:10.5281/zenodo.8274804.
 
 **Peer-reviewed publication:**
 
@@ -88,6 +88,10 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 **Version 2.0** also added shapefiles for its first-order and second-order regions.
 
 **Version 1.0** of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions.
+
+## Future updates
+
+For the RGI to maintain its fundamental role as reference dataset for the community and policy relevant efforts such as the IPCC, we anticipate future minor updates (e.g. v7.1) to represent changes only in the glacier attributes or data format, not in the outlines themselves (unless exceptional circumstances). Future updates to the RGI will be necessary, and will be the purpose of a subsequent working group to be announced on CRYOLIST at a later date.
 
 (rgi-consortium)=
 ## The RGI 7.0 Consortium

@@ -47,3 +47,7 @@ Each entity in each of the RGI 7.0 products (i.e. each glacier, glacier complex,
 - [](products/glacier_complex_product)
 - [](products/intersects_product)
 - [](products/centerlines_product)
+
+## Gridded products
+
+Unlike RGI 6.0, RGI 7.0 does not provide gridded data files. These files were useful only in rare circumstances, and lacked flexibility. It is however fairly straightforward to produce equivalent files using a few lines of code. See {cite:t}`Li2021a` for details and links to a python implementation.

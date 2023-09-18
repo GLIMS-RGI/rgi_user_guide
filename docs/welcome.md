@@ -11,7 +11,7 @@ Download previous RGI versions: https://www.glims.org/RGI
 ```{admonition} Known issues in RGI 7.0
 :class: warning
 
-Currently known issues with the RGI 7.0 dataset are listed here: [https://github.com/GLIMS-RGI/rgi_issue_tracker](https://github.com/GLIMS-RGI/rgi_issue_tracker).
+Currently known issues with the RGI 7.0 dataset are listed [here](https://github.com/GLIMS-RGI/rgi_issue_tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22RGI+7.0%22).
 
 ```
 
@@ -159,6 +159,6 @@ Financial support was provided by several organizations and institutions, in par
 
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0)
 
-This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [](reference).
+This document is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [](reference) for citation recommendations.
 
 Part of the text in this user guide regarding the RGI in general and RGI versions prior to v7.0 is based on the [RGI v6 Technical Note](https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf): *"Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0" by the RGI Consortium, July 2017.*

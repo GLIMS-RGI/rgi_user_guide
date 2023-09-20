@@ -5,6 +5,7 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global in
 ```{admonition} Data download
 
 **Download the RGI 7.0 files from NSIDC**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
+Cite the RGI: [](reference)<br>
 Download previous RGI versions: https://www.glims.org/RGI
 ```
 

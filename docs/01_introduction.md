@@ -34,9 +34,9 @@ We request all users to use this reference in publications that use RGI 7.0 data
   
 **This user guide should be cited as**:
 
-*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide, 2023. doi:10.5281/zenodo.8274803. Online access: https://doi.org/10.5281/zenodo.8274803*.
+*Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide v1.0, 2023. doi:10.5281/zenodo.8362857. Online access: https://doi.org/10.5281/zenodo.8362857*.
 
-This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."* The user guide DOI provided above always refer to the latest version. To cite a specific version, refer to its version number and corresponding DOI, for example v0.9, doi:10.5281/zenodo.8274804.
+This reference should be used when referring to specific details that are not covered elsewhere, for example: *"The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023)."*
 
 **Peer-reviewed publication:**
 
@@ -75,7 +75,7 @@ All code used to generate RGI 7.0 is available on the [GLIMS-RGI Github organiza
 
 ## Version history
 
-**Version 7.0**, released in August 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of glacier complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
+**Version 7.0**, released in September 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of glacier complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see [](04_revisions) for more details).
 
 **Version 6.0**, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes `RGIFlag` and `GlacType` were reorganized. Surging codes have been added from Sevestre and Benn (2015).
 

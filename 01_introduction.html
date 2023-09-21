@@ -1,0 +1,645 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Introduction &#8212; The Randolph Glacier Inventory version 7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01_introduction';</script>
+    <link rel="shortcut icon" href="_static/rgi_logo.svg"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RGI glacier regions" href="02_regions_definition.html" />
+    <link rel="prev" title="Welcome" href="welcome.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/centerlines_product.html">Glacier centerlines product</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Regional glacier areas and counts in RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada North</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi04.html">04: Arctic Canada South</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi05.html">05: Greenland Periphery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi06.html">06: Iceland</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi07.html">07: Svalbard and Jan Mayen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi08.html">08: Scandinavia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi09.html">09: Russian Arctic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi10.html">10: North Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi11.html">11: Central Europe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi12.html">12: Caucasus and Middle East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi13.html">13: Central Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi14.html">14: South Asia West</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi15.html">15: South Asia East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi16.html">16: Low Latitudes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi17.html">17: Southern Andes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi18.html">18: New Zealand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi20.html">20: Antarctic Mainland</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="06_dataset_summary.html">Global statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/regions.html">Appendix 1: Glacier count/area per region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contribute.html">Appendix 4: How to contribute</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/01_introduction.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2F01_introduction.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/01_introduction.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Introduction</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-the-rgi">What is the RGI?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#who-develops-and-hosts-the-rgi">Who develops and hosts the RGI?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-distribution-policy">Data distribution policy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-reference">Dataset reference</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-name-the-rgi-versions">How to name the RGI versions?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-source-code">RGI source code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-updates">Future updates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rgi-7-0-consortium">The RGI 7.0 Consortium</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<img alt="space" src="_images/nasa.jpg" />
+<p style="color:#D3D3D3";><small><small><small><i>Credit: NASA / Woody Hoburg</i>⁣</small>⁣</small></small></p>
+<section id="what-is-the-rgi">
+<h2>What is the RGI?<a class="headerlink" href="#what-is-the-rgi" title="Permalink to this headline">#</a></h2>
+<p>The Randolph Glacier Inventory (<a class="reference external" href="https://www.glims.org/RGI">RGI</a>) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space (<a class="reference external" href="https://www.glims.org">GLIMS</a>) initiative. While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.</p>
+<p>The RGI was not designed for the measurement of glacier-by-glacier rates of area change, for which the greatest possible accuracy in dating, delineation and georeferencing is essential. While many RGI outlines meet these requirements, the primary focus of the RGI is on achieving global coverage, consistency, and proximity in a specific year. The strength of the RGI lies in its ability to handle large numbers of glaciers simultaneously. This allows, for example, for the estimation of glacier volumes and rates of elevation change at regional and global scales, as well as the simulation of cryospheric responses to climatic forcing.</p>
+</section>
+<section id="who-develops-and-hosts-the-rgi">
+<h2>Who develops and hosts the RGI?<a class="headerlink" href="#who-develops-and-hosts-the-rgi" title="Permalink to this headline">#</a></h2>
+<p>The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after “Randolph”, a town in New Hampshire, USA, where the team met for one of their meetings <span id="id1">[<a class="reference internal" href="07_references.html#id73" title="W. Tad Pfeffer, Anthony a. Arendt, Andrew Bliss, Tobias Bolch, J. Graham Cogley, Alex S. Gardner, Jon-Ove Hagen, Regine Hock, Georg Kaser, Christian Kienholz, Evan S. Miles, Geir Moholdt, Nico Mölg, Frank Paul, Valentina Radić, Philipp Rastner, Bruce H. Raup, Justin Rich, and Martin J. Sharp. The Randolph Glacier Inventory: a globally complete inventory of glaciers. Journal of Glaciology, 60(221):537–552, jul 2014. doi:10.3189/2014JoG13J176.">Pfeffer <em>et al.</em>, 2014</a>]</span>. In 2014 development of the RGI became the responsibility of the <a class="reference external" href="https://cryosphericsciences.org/activities/wg-rgi/">Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring</a>, which operated under the International Association of Cryospheric Sciences (<a class="reference external" href="https://cryosphericsciences.org">IACS</a>). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the <a class="reference external" href="https://cryosphericsciences.org/activities/working-groups/rgi-working-group/">IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS</a>.</p>
+<p>The RGI datasets are listed on <a class="reference external" href="https://www.glims.org/RGI">glims.org</a>, and the RGI files can be downloaded through the <a class="reference external" href="https://nsidc.org/data/nsidc-0770">data portal</a> at the National Snow and Ice Data Center (<a class="reference external" href="https://nsidc.org">NSIDC</a>), which is the host for GLIMS.</p>
+</section>
+<section id="data-distribution-policy">
+<h2>Data distribution policy<a class="headerlink" href="#data-distribution-policy" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0"><img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /></a></p>
+<p>The RGI may be used freely under the <a class="reference external" href="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International License</a> with due acknowledgement (by proper referencing, see below). Where appropriate (for example for regional studies), users are invited to cite the analysts who provided the RGI outlines. See <a class="reference internal" href="03_data_decription.html"><span class="doc std std-doc">Data description of RGI 7.0</span></a> for more details about how to retrieve this information from the RGI, and <a class="reference internal" href="05_description_by_region.html"><span class="doc std std-doc">Regional revisions in RGI 7.0</span></a> for a region-by-region data description.</p>
+</section>
+<section id="dataset-reference">
+<span id="reference"></span><h2>Dataset reference<a class="headerlink" href="#dataset-reference" title="Permalink to this headline">#</a></h2>
+<p><strong>The RGI 7.0 dataset should be cited as:</strong></p>
+<p><em>RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:10.5067/f6jmovy5navz. Online access: <a class="reference external" href="https://doi.org/10.5067/f6jmovy5navz">https://doi.org/10.5067/f6jmovy5navz</a></em></p>
+<p>We request all users to use this reference in publications that use RGI 7.0 data. All names of the consortium are listed in the <a class="reference internal" href="#rgi-consortium"><span class="std std-ref">RGI 7.0 Consortium</span></a>.</p>
+<p><strong>This user guide should be cited as</strong>:</p>
+<p><em>Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide v1.0, 2023. doi:10.5281/zenodo.8362857. Online access: <a class="reference external" href="https://doi.org/10.5281/zenodo.8362857">https://doi.org/10.5281/zenodo.8362857</a></em>.</p>
+<p>This reference should be used when referring to specific details that are not covered elsewhere, for example: <em>“The aspect sector from glacier X is computed from a 100 m UTM grid (Maussion et al., 2023).”</em></p>
+<p><strong>Peer-reviewed publication:</strong></p>
+<p>A detailed scientific description of the RGI version 7 is in preparation and expected to be published in 2024.</p>
+<p><strong>Earlier versions</strong></p>
+<p>The RGI 6.0 data set is referenced as: <em>RGI Consortium, 2017. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 6. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: <a class="reference external" href="https://doi.org/10.7265/4m1f-gd79">https://doi.org/10.7265/4m1f-gd79</a>.</em></p>
+<p>Earlier versions of the user guide (then called Technical Report) are referenced as: “RGI Consortium (2017), Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0. GLIMS Technical Report” and earlier versions as “Arendt et al.” (various dates).</p>
+<p>A detailed scientific description of the RGI version 3.2 is given by <span id="id2">Pfeffer <em>et al.</em> [<a class="reference internal" href="07_references.html#id73" title="W. Tad Pfeffer, Anthony a. Arendt, Andrew Bliss, Tobias Bolch, J. Graham Cogley, Alex S. Gardner, Jon-Ove Hagen, Regine Hock, Georg Kaser, Christian Kienholz, Evan S. Miles, Geir Moholdt, Nico Mölg, Frank Paul, Valentina Radić, Philipp Rastner, Bruce H. Raup, Justin Rich, and Martin J. Sharp. The Randolph Glacier Inventory: a globally complete inventory of glaciers. Journal of Glaciology, 60(221):537–552, jul 2014. doi:10.3189/2014JoG13J176.">2014</a>]</span>.</p>
+<p>The <strong>RGI logo</strong> and its variants can be downloaded <a class="reference internal" href="appendix/contribute.html#rgi-logo"><span class="std std-ref">here</span></a>.</p>
+</section>
+<section id="how-to-name-the-rgi-versions">
+<h2>How to name the RGI versions?<a class="headerlink" href="#how-to-name-the-rgi-versions" title="Permalink to this headline">#</a></h2>
+<p>We recommend explicitly stating the version number when referring to a specific version rather than the RGI in general. We recommend the following formats:</p>
+<ul class="simple">
+<li><p>RGI version 7.0</p></li>
+<li><p>RGI 7.0 (note the empty space)</p></li>
+<li><p>RGI v7.0</p></li>
+</ul>
+</section>
+<section id="data-sources">
+<h2>Data sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">#</a></h2>
+<p>All outlines for RGI 7.0 are derived from the GLIMS database and comply with the GLIMS license agreement. Many new outlines used in RGI version 7.0 were submitted by the community to GLIMS in response to calls for data on the GLIMS and Cryolist e-mail listservers (<a class="reference external" href="https://lists.cryolist.org/pipermail/cryolist/2020-May/005135.html">2020-05-13</a>). See <a class="reference internal" href="appendix/contributors.html"><span class="doc std std-doc">Appendix 2: Full list of contributors</span></a> for a list of RGI 7.0 contributors.</p>
+<p>Since GLIMS was globally incomplete, earlier RGI versions combined outlines from GLIMS with outlines from other sources, the latter including outlines specifically generated for the purpose of the RGI. These outlines had not yet been submitted to GLIMS, did not meet GLIMS standards, or did not comply with the GLIMS license agreement. GLIMS achieved global coverage by incorporating the missing glacier outlines from RGI version 6.0 and a few other sources. Starting from RGI version 7.0, the workflow has been revised and optimized. The RGI is now entirely derived from the GLIMS database, which means that the RGI 7.0 glacier outlines are a subset of the GLIMS database as of its download date (for RGI 7.0 the cutoff date was May 24th, 2023). The RGI however extends the GLIMS outlines by providing additional products and attributes based on additional algorithms and data sources described in <a class="reference internal" href="03_data_decription.html"><span class="doc std std-doc">Data description of RGI 7.0</span></a>.</p>
+</section>
+<section id="rgi-source-code">
+<h2>RGI source code<a class="headerlink" href="#rgi-source-code" title="Permalink to this headline">#</a></h2>
+<p>All code used to generate RGI 7.0 is available on the <a class="reference external" href="https://github.com/GLIMS-RGI">GLIMS-RGI Github organization</a>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/GLIMS-RGI/rgi7_scripts">GLIMS-RGI/rgi7_scripts</a>: code and scripts generating the RGI out of GLIMS</p></li>
+<li><p><a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide">GLIMS-RGI/rgi_user_guide</a>: this user guide.</p></li>
+</ul>
+</section>
+<section id="version-history">
+<h2>Version history<a class="headerlink" href="#version-history" title="Permalink to this headline">#</a></h2>
+<p><strong>Version 7.0</strong>, released in September 2023, comes with major outline quality improvements in nearly all RGI regions. In addition new products are available including, for example, outlines of glacier complexes and glacier centerlines. Furthermore, the RGI production has been entirely redesigned to use GLIMS as the sole source of data. The file generation process is now largely automated, extracting from GLIMS the outlines closest to the target date while also relying on expert judgment for the exact choice of available outlines. Open source scripts are used for all dataset creation steps. The file naming convention and attributes have changed substantially, requiring users of previous versions to adapt their data analysis workflow (see <a class="reference internal" href="04_revisions.html"><span class="doc std std-doc">General revisions in RGI 7.0</span></a> for more details).</p>
+<p><strong>Version 6.0</strong>, released in July 2017, has improved coverage of the conterminous US (regions 02-05 and 02-06), Scandinavia (region 08) and Iran (region 12-2). In Scandinavia several hundred smaller glaciers have been added and most glaciers now have exact dates. The flag attributes <code class="docutils literal notranslate"><span class="pre">RGIFlag</span></code> and <code class="docutils literal notranslate"><span class="pre">GlacType</span></code> were reorganized. Surging codes have been added from Sevestre and Benn (2015).</p>
+<p><strong>Version 5.0</strong>, released in July 2015, had new coverage of most of Asia (RGI regions 10, 13, 14 and 15), with some improved outlines elsewhere. Linkages to the Fluctuations of Glaciers database of the World Glacier Monitoring Service were provided for some glaciers with mass-balance measurements.</p>
+<p><strong>Version 4.0</strong> was released in December 2014. The most significant enhancement was the addition of topographic and hypsometric attributes for nearly all glaciers. These new attributes are described in detail below. Many glacier outlines were unchanged in version 4.0, but many more glaciers were assigned dates or date ranges, some names were added or corrected, and the inventory of Alaska was new. Remaining glacier complexes in Bolivia were subdivided, and nominal glaciers were added to correct omissions in the Greater Caucasus. A global grid of glacierized area with 0.5-degree resolution was added.</p>
+<p><strong>Version 3.0</strong> was an interim release representing the RGI as of 7 April 2013. It was the basis for the work of <span id="id3">Gardner <em>et al.</em> [<a class="reference internal" href="07_references.html#id58" title="Alex S. Gardner, Geir Moholdt, J Graham Cogley, Bert Wouters, Anthony a Arendt, John Wahr, Etienne Berthier, Regine Hock, W Tad Pfeffer, Georg Kaser, Stefan R M Ligtenberg, Tobias Bolch, Martin J Sharp, Jon Ove Hagen, Michiel R van den Broeke, and Frank Paul. A Reconciled Estimate of Glacier Contributions to Sea Level Rise: 2003 to 2009. Science., 340(6134):852–857, may 2013. doi:10.1126/science.1234532.">2013</a>]</span>. The main improvements included identification of all tidewater basins, and separation of glacier complexes into glaciers in nearly all regions. <strong>Version 3.2</strong>, released in August 2013, included additional separation of glacier complexes into glaciers, and repairs of some geometry errors. It is the basis for the scientific description and analysis of the RGI by <span id="id4">Pfeffer <em>et al.</em> [<a class="reference internal" href="07_references.html#id73" title="W. Tad Pfeffer, Anthony a. Arendt, Andrew Bliss, Tobias Bolch, J. Graham Cogley, Alex S. Gardner, Jon-Ove Hagen, Regine Hock, Georg Kaser, Christian Kienholz, Evan S. Miles, Geir Moholdt, Nico Mölg, Frank Paul, Valentina Radić, Philipp Rastner, Bruce H. Raup, Justin Rich, and Martin J. Sharp. The Randolph Glacier Inventory: a globally complete inventory of glaciers. Journal of Glaciology, 60(221):537–552, jul 2014. doi:10.3189/2014JoG13J176.">2014</a>]</span>.</p>
+<p><strong>Version 2.0</strong> also added shapefiles for its first-order and second-order regions.</p>
+<p><strong>Version 1.0</strong> of the RGI was released in February 2012. It included a considerable number of unsubdivided ice bodies, which we refer to as glacier complexes, and a considerable number of nominal glaciers, which are glaciers for which only a location and an area are known; they are represented by circles of the appropriate area at the given location. An unofficial update of version 1.0 was provided in April 2012 to replace several regions that had topology errors and repeated polygons. Version 2.0, released in June 2012, eliminated a number of flaws and provided a uniform set of attributes for each glacier. Several outlines were improved, and a number of outlines were added in previously omitted regions.</p>
+</section>
+<section id="future-updates">
+<h2>Future updates<a class="headerlink" href="#future-updates" title="Permalink to this headline">#</a></h2>
+<p>For the RGI to maintain its fundamental role as reference dataset for the community and policy relevant efforts such as the IPCC, we anticipate future minor updates (e.g. v7.1) to represent changes only in the glacier attributes or data format, not in the outlines themselves (unless exceptional circumstances). Future updates to the RGI will be necessary, and will be the purpose of a subsequent working group to be announced on CRYOLIST at a later date.</p>
+</section>
+<section id="the-rgi-7-0-consortium">
+<span id="rgi-consortium"></span><h2>The RGI 7.0 Consortium<a class="headerlink" href="#the-rgi-7-0-consortium" title="Permalink to this headline">#</a></h2>
+<p><em>The 109 members of the RGI 7.0 Consortium:</em></p>
+<p>Maussion, Fabien; Raup, Bruce; Paul, Frank; Rastner, Philipp; Hock, Regine; Zemp, Michael; Dusch, Matthias; Fischer, Alexander; Galos, Stephan; Lea, James; McNabb, Robert; Roura-Adserias, Francesc; Schmitt, Patrick; Welty, Ethan; Albornoz, Amapola; Andreassen, Liss Marie; Arias, Victor; Arie, Kenshiro; Barcaza, Gonzalo; Barr, Iestyn; Barrand, Nick; Baumann, Sabine; Beedle, Matthew; Berthier, Etienne; Bliss, Andrew; Bolch, Tobias; Bown, Francisca; Brown, Ian; Burgess, Dave; Burgess, Evan; Castro, Mariano; Cawkwell, Fiona; Cha, Leo; Cogley, Graham; Copland, Luke; Cáceres, B.; Davies, Bethan; Earl, Lucas; Filbert, Katie; Forster, Richard; Fountain, Andrew G.; Francou, B.; Frank, Thomas; Frey, Holger; Garcia, Juan-Luis; Gardner, Alex; Gargantini, Hernán; Giffen, Bruce A.; Gimenez, Melisa; Goerlich, Franz; Gould, Luke; Hall, Dorothy K.; Hansson, Erik; Hartmann, G; Herreid, Sam; Hidalgo, Lidia Ferri; Hoffman, Matthew; Howat, Ian; Huss, Matthias; Izagirre, Eñaut; Jacquemart, Mylène; Jordan, S.; Khromova, Tatiana; Kienholz, Christian; Kochtitzky, William; Koenig, Max; Langley, Kirsty; Le Bris, Raymond; LeBris, Raymond; Lebreton, Jerome; Lynch, Colleen; Mabileau, Laure; Manley, William; Mannerfelt, Erik; Masiokas, Mariano; Menounos, Brian; Merrill, Paige-Marie; Miles, Evan; Moelg, Nico; Moholdt, Geir; Muraviev, Anton; Negrete, A.; Nussbaumer, Samuel; Nuth, Chris; OCallaghan, P; Pecker Marcosig, Ivanna; Peñafiel, A.; Pitte, Pierre; Prinz, Rainer; Rabatel, Antoine; Rich, Justin; Ruiz, Lucas; Sakai, Akiko; Sharp, Martin; Sigurdsson, Oddur; Tapia, Guillermo; Thomson, Laura; Tielidze, Levan; Ungerechts, L.; Valdes, Javier; Videla, Yohan; Wheate, Roger; White, Adrienne; Winsvold, Solveig Havstad; Wolken, G.; Wyatt, F.; Yang, Ruitang; Zajaczkiwsky, Sophie; Zalazar, Laura</p>
+<p><em>The first 6 authors were members of the RGI Working Group steering committee and responsible for the design, development, implementation and assembly of RGI 7.0. The following  8 authors (listed in alphabetical order) assisted with the implementation. The remaining 95 authors (listed in alphabetical order) contributed with outline review and/or outlines used in RGI 7.0.</em></p>
+<p><em>For a more detailed listing of contributions, visit <a class="reference internal" href="appendix/contributors.html"><span class="doc std std-doc">Appendix 2: Full list of contributors</span></a>.</em></p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="welcome.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="02_regions_definition.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">RGI glacier regions</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-the-rgi">What is the RGI?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#who-develops-and-hosts-the-rgi">Who develops and hosts the RGI?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-distribution-policy">Data distribution policy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-reference">Dataset reference</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-name-the-rgi-versions">How to name the RGI versions?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rgi-source-code">RGI source code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-updates">Future updates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rgi-7-0-consortium">The RGI 7.0 Consortium</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By RGI Consortium
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright RGI Consortium 2022-2023.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

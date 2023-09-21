@@ -1,0 +1,618 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Glacier centerlines product &#8212; The Randolph Glacier Inventory version 7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'products/centerlines_product';</script>
+    <link rel="shortcut icon" href="../_static/rgi_logo.svg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="General revisions in RGI 7.0" href="../04_revisions.html" />
+    <link rel="prev" title="Glacier intersects product" href="intersects_product.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../03_data_decription.html">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Glacier centerlines product</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regions/overview.html">Regional glacier areas and counts in RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi01.html">01: Alaska</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi02.html">02: Western Canada and USA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi03.html">03: Arctic Canada North</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi04.html">04: Arctic Canada South</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi05.html">05: Greenland Periphery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi06.html">06: Iceland</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi07.html">07: Svalbard and Jan Mayen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi08.html">08: Scandinavia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi09.html">09: Russian Arctic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi10.html">10: North Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi11.html">11: Central Europe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi12.html">12: Caucasus and Middle East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi13.html">13: Central Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi14.html">14: South Asia West</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi15.html">15: South Asia East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi16.html">16: Low Latitudes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi17.html">17: Southern Andes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi18.html">18: New Zealand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi20.html">20: Antarctic Mainland</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Global statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/regions.html">Appendix 1: Glacier count/area per region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/contribute.html">Appendix 4: How to contribute</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/products/centerlines_product.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fproducts/centerlines_product.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/products/centerlines_product.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Glacier centerlines product</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information-on-centerline-attributes">Additional information on centerline attributes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strahler-number">Strahler number</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#main-centerline">Main centerline</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="glacier-centerlines-product">
+<h1>Glacier centerlines product<a class="headerlink" href="#glacier-centerlines-product" title="Permalink to this headline">#</a></h1>
+<p><strong>New in RGI 7.0</strong></p>
+<p>The glacier centerlines product contains geometrical centerlines for the main branches and major tributaries of all glaciers in the RGI 7.0 glacier product. The centerlines are computed using a geometrical flow routing algorithm first described by <span id="id1">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id97" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> and implemented and executed by the Open Global Glacier Model (OGGM) <span id="id2">[<a class="reference internal" href="../07_references.html#id68" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>. When using this product, we recommend to cite both publications alongside the standard RGI 7.0 citation to provide a scientific context.</p>
+<p>Each glacier contains one centerline along the main trunk of the glacier, as well any number of additional centerlines along tributaries, sorted according to their Strahler number (a measure of branching complexity defined by <span id="id3">Strahler [<a class="reference internal" href="../07_references.html#id95" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">1952</a>]</span>, see definition below). The main (i.e.longest) centerline is used to compute the glacier product’s maximum length attribute <code class="docutils literal notranslate"><span class="pre">lmax_m</span></code>.</p>
+<figure class="align-default" id="centerlines-fig">
+<img alt="centerlines map" class="bg-primary mb-1" src="../_images/example_centerlines.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Example of the glacier centerlines product (purple) drawn over the glacier product (light blue).</span><a class="headerlink" href="#centerlines-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="product-files">
+<h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this headline">#</a></h2>
+<p>In the following, file contents are explained using RGI region 01 (Alaska) as example:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska.shp</span></code></dt><dd><p>RGI <strong>glacier centerlines</strong> as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier centerlines <strong>attributes</strong> in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-L-01_alaska-attributes_metadata.json</span></code></dt><dd><p><strong>Description of the attributes</strong> in the ceterlines product shapefile: full name, description, units, etc. The content of this file is displayed in <a class="reference internal" href="#centerline-attrs"><span class="std std-ref">Full list of attributes</span></a> below.</p>
+</dd>
+</dl>
+</section>
+<section id="full-list-of-attributes">
+<span id="centerline-attrs"></span><h2>Full list of attributes<a class="headerlink" href="#full-list-of-attributes" title="Permalink to this headline">#</a></h2>
+<p>The following attributes are available in the RGI 7.0 shapefiles. For more details on some of them, see <a class="reference internal" href="#additional-info-centerlines"><span class="std std-ref">Additional information on centerline attributes</span></a>.</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single intersect line. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_g_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI glacier identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier ID to which the centerline belongs. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">segment_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Segment identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Integer number uniquely identifying this centerline within the glacier. The main centerline is always last. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">is_main</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Is main centerline <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Integer number indicating whether the centerline in the main centerline (1) or not (0). There is only one main centerline per glacier. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">outflow_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Outflow segment identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Each secondary centerline flows into another centerline. This identifier points to the <code class="docutils literal notranslate"><span class="pre">segment_id</span></code> to which this centerline flows to. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">strahler_n</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Strahler number of this centerline. <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Strahler number (hydrological order) of the centerline, from lowest (1, line without tributaries but with possible descendants) to highest (the main centerline). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">length_m</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Centerline length <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Length of the centerline in meters. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: m <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Centerline geometry (LineString). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+</dl>
+</section>
+<section id="additional-information-on-centerline-attributes">
+<span id="additional-info-centerlines"></span><h2>Additional information on centerline attributes<a class="headerlink" href="#additional-information-on-centerline-attributes" title="Permalink to this headline">#</a></h2>
+<p>The centerlines and their attributes are computed by OGGM <span id="id4">[<a class="reference internal" href="../07_references.html#id68" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>, which implements an algorithm described by <span id="id5">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id97" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span>. The implementation in OGGM follows closely the description by <span id="id6">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id97" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span>, but it is coded in a different framework and thus may lead to slightly different results (the OGGM implementation is coded entirely in python, while the original implementation relied on ArcGIS tools). Neither the original algorithm nor its implementation in OGGM are perfect, and it is likely that centerlines on individual glaciers would be drawn differently by a human or other algorithms. We note that we do not use any velocity product but rely purely on geometric and topographic considerations.</p>
+<section id="strahler-number">
+<h3>Strahler number<a class="headerlink" href="#strahler-number" title="Permalink to this headline">#</a></h3>
+<p>The Strahler number <code class="docutils literal notranslate"><span class="pre">strahler_n</span></code> is a measure of branching complexity defined by <span id="id7">[<a class="reference internal" href="../07_references.html#id95" title="Arthur N Strahler. Hypsometric (Area - Altitude) Analysis of Erosional Topography. Geological Society of America Bulletin, 63(11):1117–1142, 1952. doi:10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2.">Strahler, 1952</a>]</span> commonly used in hydrological applications. A Strahler number of 1 indicates a centerline without any tributaries. A Strahler number of 2 indicates a centerline with one or more upstream tributaries of the same order, i.e. each of them having a Strahler number of 1. If a centerline with a Strahler number of 2 meets a downglacier centerline, the latter is assigned a Strahler number of 3. This ordering is important for mass flow routing. Each centerline contains a reference to its descendant, and this reference might be used by models to transfer mass from the tributaries towards the main centerline.</p>
+</section>
+<section id="main-centerline">
+<h3>Main centerline<a class="headerlink" href="#main-centerline" title="Permalink to this headline">#</a></h3>
+<p>The main centerline of the glacier is the longest of all centerlines connecting the multiple glacier “heads” to one single terminus. The centerline algorithm selects potential heads by searching for local elevation maxima along the glacier outline, and then computes all the centerlines joining all heads to the terminus. The longest is selected as the main centerline, which implies that the computed glacier length is usually longer than the shortest route from the highest to the lowest point of the glacier.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./products"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intersects_product.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Glacier intersects product</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../04_revisions.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">General revisions in RGI 7.0</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information-on-centerline-attributes">Additional information on centerline attributes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strahler-number">Strahler number</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#main-centerline">Main centerline</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By RGI Consortium
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright RGI Consortium 2022-2023.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

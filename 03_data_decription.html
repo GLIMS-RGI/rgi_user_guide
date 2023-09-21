@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>Data description of RGI 7.0 &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -60,11 +60,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'welcome';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '03_data_decription';</script>
     <link rel="shortcut icon" href="_static/rgi_logo.svg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introduction" href="01_introduction.html" />
+    <link rel="next" title="Glacier product" href="products/glacier_product.html" />
+    <link rel="prev" title="RGI glacier regions" href="02_regions_definition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -130,7 +131,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="welcome.html">
   
   
   
@@ -149,16 +150,16 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
                     Welcome
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="products/intersects_product.html">Glacier intersects product</a></li>
@@ -267,7 +268,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/welcome.md" target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/03_data_decription.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +285,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fwelcome.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2F03_data_decription.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,7 +315,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/welcome.md" target="_blank"
+      <li><a href="_sources/03_data_decription.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -396,7 +397,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome</h1>
+    <h1>Data description of RGI 7.0</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -406,9 +407,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entity-identifiers">Entity identifiers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-product-description">Detailed product description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gridded-products">Gridded products</a></li>
 </ul>
             </nav>
         </div>
@@ -420,110 +422,62 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome">
-<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">#</a></h1>
-<p>The Randolph Glacier Inventory (<a class="reference external" href="https://www.glims.org/RGI">RGI</a>) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.</p>
-<div class="admonition-data-download admonition">
-<p class="admonition-title">Data download</p>
-<p><strong>Download the RGI 7.0 files from NSIDC</strong>: <a class="reference external" href="https://doi.org/10.5067/f6jmovy5navz">https://doi.org/10.5067/f6jmovy5navz</a><br>
-Cite the RGI: <a class="reference internal" href="01_introduction.html#reference"><span class="std std-ref">Dataset reference</span></a><br>
-Download previous RGI versions: <a class="reference external" href="https://www.glims.org/RGI">https://www.glims.org/RGI</a></p>
-</div>
-<div class="warning admonition">
-<p class="admonition-title">Known issues in RGI 7.0</p>
-<p>Currently known issues with the RGI 7.0 dataset are listed <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_issue_tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22RGI+7.0%22">here</a>.</p>
-</div>
-<section id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">#</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
-<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Introduction 💡</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">What is the Randolph Glacier Inventory?</p>
-</div>
-<a class="sd-stretched-link reference internal" href="01_introduction.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">RGI glacier regions 🗺️</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Definitions and global map</p>
-</div>
-<a class="sd-stretched-link reference internal" href="02_regions_definition.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Data description 💾</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Technical specifications, file naming, and data fields</p>
-</div>
-<a class="sd-stretched-link reference internal" href="03_data_decription.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">General revisions in v7.0 🔁</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Overview, processing workflow, formats</p>
-</div>
-<a class="sd-stretched-link reference internal" href="04_revisions.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Regional revisions in v7.0 🔍</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Description of data updates by RGI region</p>
-</div>
-<a class="sd-stretched-link reference internal" href="05_description_by_region.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Global statistics 📊</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Comparison of RGI 7.0 with RGI 6.0</p>
-</div>
-<a class="sd-stretched-link reference internal" href="06_dataset_summary.html"><span class="doc"></span></a></div>
-</div>
-</div>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-description-of-rgi-7-0">
+<h1>Data description of RGI 7.0<a class="headerlink" href="#data-description-of-rgi-7-0" title="Permalink to this headline">#</a></h1>
+<p>The RGI is provided in <a class="reference external" href="https://en.wikipedia.org/wiki/Shapefile">shapefiles</a> containing the outlines of glaciers and related data products in geographic coordinates (longitude and latitude, in degrees) which are referenced to the WGS84 datum. Data are organized by first-order region. For each region there is one zipped file containing the RGI shapefile (one file for all glaciers in the region) as well as ancillary files containing additional statistics or hypsometric data.</p>
+<p>For each region, RGI 7.0 provides four distinct data products:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="products/glacier_product.html"><span class="doc std std-doc">Glacier product</span></a>: includes outlines, attributes and auxiliary data for each individual glacier.</p></li>
+<li><p><a class="reference internal" href="products/glacier_complex_product.html"><span class="doc std std-doc">Glacier complex product</span></a> (new in RGI 7.0): includes outlines of all glacier complexes (defined as contiguous ice masses that encompass all glaciers that share common boundaries), and a reduced number of attributes.</p></li>
+<li><p><a class="reference internal" href="products/intersects_product.html"><span class="doc std std-doc">Glacier intersects product</span></a> (new in RGI 7.0): shapefiles of the “divides” or “boundaries” between adjacent glaciers derived from the glacier product.</p></li>
+<li><p><a class="reference internal" href="products/centerlines_product.html"><span class="doc std std-doc">Glacier centerlines product</span></a> (new in RGI 7.0): glacier centerlines computed with a flow routing algorithm.</p></li>
+</ul>
+<p>These four products and associated files are detailed in their corresponding section.</p>
+<section id="file-naming-convention">
+<h2>File naming convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this headline">#</a></h2>
+<p>The name of each region’s zipped file starts with <code class="docutils literal notranslate"><span class="pre">RGI</span></code> followed by three product descriptors:</p>
+<ul class="simple">
+<li><p>target year (so far all RGI versions refer to year 2000)</p></li>
+<li><p>RGI version number</p></li>
+<li><p>type of data product:</p>
+<ul>
+<li><p>glacier (<code class="docutils literal notranslate"><span class="pre">G</span></code>)</p></li>
+<li><p>glacier complex (<code class="docutils literal notranslate"><span class="pre">C</span></code>)</p></li>
+<li><p>intersects (<code class="docutils literal notranslate"><span class="pre">I</span></code>)</p></li>
+<li><p>centerlines (<code class="docutils literal notranslate"><span class="pre">L</span></code>)</p></li>
+</ul>
+</li>
+<li><p>RGI region code (obtained from the <a class="reference internal" href="appendix/regions.html#o1-regions-table"><span class="std std-ref">RGI region description table</span></a>), which consists of the region number and a standardized name</p></li>
+</ul>
+<p>The various product descriptors are separated by hyphens (<code class="docutils literal notranslate"><span class="pre">-</span></code>). For example, <code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-03_arctic_canada_north.zip</span></code> refers to year 2000, RGI version 7.0, the glacier product and the region Arctic Canada North.</p>
+<p>In addition to the shapefiles (following the same naming convention), each regional zip file comes with additional data files identified by the addition of descriptors in the filename. Examples:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes.csv</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-19_subantarctic_antarctic_islands-rgi6_links.csv</span></code></p></li>
+</ul>
+<p>These additional descriptors are documented in each product’s description page.</p>
 </section>
-<section id="acknowledgments">
-<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">#</a></h2>
-<a class="reference external image-reference" href="https://cryosphericsciences.org"><img alt="IACS" src="_images/iugg_iacs_border.png" style="height: 100px;" /></a>
-<a class="reference internal image-reference" href="_images/white.png"><img alt="white" src="_images/white.png" style="height: 100px;" /></a>
-<a class="reference external image-reference" href="https://wgms.ch"><img alt="wgms" src="_images/wgms.png" style="height: 100px;" /></a>
-<a class="reference internal image-reference" href="_images/white.png"><img alt="white" src="_images/white.png" style="height: 100px;" /></a>
-<a class="reference external image-reference" href="https://en.unesco.org/themes/water-security/hydrology"><img alt="UNESCO" src="_images/unesco.png" style="height: 100px;" /></a>
-<p style="margin-bottom:15px;"></p>
-<a class="reference external image-reference" href="https://nsidc.org/data/data-programs/nsidc-daac"><img alt="NSIDC" src="_images/nsidc_daac.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://www.esa.int"><img alt="esa" src="_images/esa.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://climate.esa.int/en/projects/glaciers"><img alt="cci" src="_images/cci.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://climate.copernicus.eu"><img alt="copernicus" src="_images/copernicus.png" style="height: 92px;" /></a>
-<p style="margin-bottom:25px;"></p>
-<p>RGI version 7.0 was developed by the “<a class="reference external" href="https://cryosphericsciences.org">Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring</a>” of the <a class="reference external" href="https://cryosphericsciences.org/activities/working-groups/rgi-working-group/">International Association of Cryospheric Sciences (IACS)</a>.</p>
-<p>Financial support was provided by several organizations and institutions, in particular <a class="reference external" href="https://cryosphericsciences.org">IACS</a>, the NASA National Snow and Ice Data Center - Distributed Active Archive Center (<a class="reference external" href="https://nsidc.org">NSIDC-DAAC</a>), the World Glacier Monitoring Service (<a class="reference external" href="https://wgms.ch">WGMS</a>), the Copernicus Climate Changes Service (<a class="reference external" href="https://climate.copernicus.eu">C3S</a>), the European Space Agency (<a class="reference external" href="https://climate.esa.int/en/projects/glaciers">ESA</a>) and <a class="reference external" href="https://www.unesco.org">UNESCO</a>. For a full list of sponsors and acknowledgements, visit <a class="reference internal" href="appendix/acknowledgements.html"><span class="doc std std-doc">Appendix 3: Acknowledgements</span></a>.</p>
-<blockquote>
-<div><p>RGI 7.0 and this user guide are dedicated to the memory of <strong><a class="reference external" href="https://www.igsoc.org/j-graham-cogley-1948-2018">Dr. Graham Cogley</a></strong> (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham’s spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.</p>
-</div></blockquote>
+<section id="entity-identifiers">
+<h2>Entity identifiers<a class="headerlink" href="#entity-identifiers" title="Permalink to this headline">#</a></h2>
+<p>Each entity in each of the RGI 7.0 products (i.e. each glacier, glacier complex, centerline or intersect) is given a unique identifier. The identifiers follow the same convention as the product files, but add an additional unique number per entity to the name. For example:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-02-00003</span></code> is the third glacier in RGI region 02, for the glacier product of RGI 7.0 and the target year 2000.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-11-00005</span></code> is the fifth glacier complex in RGI region 11, for the glacier complex product of RGI 7.0 and the target year 2000.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-I-13-00005</span></code> is the fifth intersect in RGI region 13, for the glacier intersects product of RGI 7.0 and the target year 2000.</p></li>
+</ul>
 </section>
-<section id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">#</a></h2>
-<p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0"><img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /></a></p>
-<p>This document is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a class="reference internal" href="01_introduction.html#reference"><span class="std std-ref">Dataset reference</span></a> for citation recommendations.</p>
-<p>Part of the text in this user guide regarding the RGI in general and RGI versions prior to v7.0 is based on the <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf">RGI v6 Technical Note</a>: <em>“Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0” by the RGI Consortium, July 2017.</em></p>
+<section id="detailed-product-description">
+<h2>Detailed product description<a class="headerlink" href="#detailed-product-description" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="products/glacier_product.html"><span class="doc std std-doc">Glacier product</span></a></p></li>
+<li><p><a class="reference internal" href="products/glacier_complex_product.html"><span class="doc std std-doc">Glacier complex product</span></a></p></li>
+<li><p><a class="reference internal" href="products/intersects_product.html"><span class="doc std std-doc">Glacier intersects product</span></a></p></li>
+<li><p><a class="reference internal" href="products/centerlines_product.html"><span class="doc std std-doc">Glacier centerlines product</span></a></p></li>
+</ul>
+</section>
+<section id="gridded-products">
+<h2>Gridded products<a class="headerlink" href="#gridded-products" title="Permalink to this headline">#</a></h2>
+<p>Unlike RGI 6.0, RGI 7.0 does not provide gridded data files. These files were useful only in rare circumstances, and lacked flexibility. It is however fairly straightforward to produce equivalent files using a few lines of code. See <span id="id1">Li <em>et al.</em> [<a class="reference internal" href="07_references.html#id2" title="Yaojun Li, Fei Li, Donghui Shangguan, and Yongjian Ding. A new global gridded glacier dataset based on the Randolph Glacier Inventory version 6.0. Journal of Glaciology, 67(264):773–776, aug 2021. doi:10.1017/jog.2021.28.">2021</a>]</span> for details and links to a python implementation.</p>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -560,12 +514,21 @@ Download previous RGI versions: <a class="reference external" href="https://www.
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="02_regions_definition.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">RGI glacier regions</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="01_introduction.html"
+       href="products/glacier_product.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Glacier product</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -587,9 +550,10 @@ Download previous RGI versions: <a class="reference external" href="https://www.
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entity-identifiers">Entity identifiers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-product-description">Detailed product description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gridded-products">Gridded products</a></li>
 </ul>
   </nav></div>
 

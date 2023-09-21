@@ -1,0 +1,130 @@
+# 14: South Asia West
+
+Regions `13`, `14`, `15` comprise the region that is often referred to as High Mountain Asia. Region 14 encompasses all glaciers in the Hindu Kush, the Karakoram (including the Taxkozuk range in the North), in Western Himalaya and the glaciers on the south-eastern Tibetan Plateau that drain into the Indus River.
+
+```{admonition} Subregions
+:class: note, dropdown
+
+- 14-01: Hindu Kush
+- 14-02: Karakoram
+- 14-03: West Himalaya
+
+```
+
+<!--- Map start -->
+
+:::{figure-md}
+<img src="../img/region_plots/RGI14/isrgi6_map_small.jpeg" alt="region map" class="bg-primary mb-1" width="100%">
+
+Regional glacier area.
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI14/isrgi6_map.jpeg).
+:::
+
+<!--- Map end -->
+
+## Changes from version 6.0 to 7.0
+
+All previous outlines have been replaced by the GAMDAM glacier inventory version 2 GGI {cite:p}`Sakai2019`, also named GGI18. The glaciers were manually mapped based on Landsat TM and ETM+ summer imagery with most scenes being from the year 2002. Earlier and later scenes were used in case of unsuitable scenes within this year.
+
+## Additional information 
+
+```{admonition} Data sources and analysts
+:class: important, dropdown
+
+:::{figure-md}
+<img src="../img/region_plots/RGI14/inventory_map_small.jpeg" alt="region map" class="bg-primary mb-1">
+
+Submission IDs used for this region
+[Download high resolution version](https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/region_plots/RGI14/inventory_map.jpeg).
+:::
+
+**Glacier outline providers to GLIMS**
+
+*This list includes the providers of the outlines used in the RGI 7.0 as generated automatically from the GLIMS outlines metadata. We acknowledge that the list may be incomplete due to omissions in the GLIMS database.*
+
+Submission 752
+: **Submitter**: Sakai, Akiko.<br/>**Number of outlines**: 37562. **Area**: 33075.1km². **Release date**: 2018-08-24.<br/>**Analysts**: Sakai, Akiko.
+
+Reviewers
+: None;
+
+```
+
+````{admonition} Regional statistics
+:class: seealso, dropdown
+
+```{card} Figure: Outlines source date
+
+:::{figure-md}
+<img src="../img/region_plots/RGI14/date_hist.png" alt="region map" class="bg-primary mb-1">
+
+Distribution of the outline dates per area (top) and number (bottom)
+:::
+
+```
+
+```{card} Figure: Glacier area histogram
+
+:::{figure-md}
+<img src="../img/region_plots/RGI14/area_histogram.png" alt="region histogram" class="bg-primary mb-1">
+
+Number of glaciers per size category (log-log scale).
+:::
+
+```
+
+```{card} Table: Terminus type statistics
+
+Regional number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now "Not assigned", while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as "Not assigned" in RGI 7.0.
+
+|   Value | Terminus type      |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | Land-terminating   |             0 |         27988 |                0 |            33568 |
+|       1 | Marine-terminating |             0 |             0 |                0 |                0 |
+|       2 | Lake-terminating   |             0 |             0 |                0 |                0 |
+|       3 | Shelf-terminating  |             0 |             0 |                0 |                0 |
+|       9 | Not assigned       |         37562 |             0 |            33075 |                0 |
+
+```
+
+```{card} Table: Surge type statistics
+
+Regional number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.
+
+|   Value | Surge type   |   RGI 7.0 (N) |   RGI 6.0 (N) |   RGI 7.0 (Area) |   RGI 6.0 (Area) |
+|--------:|:-------------|--------------:|--------------:|-----------------:|-----------------:|
+|       0 | No evidence  |         37223 |         10104 |            21746 |            12879 |
+|       1 | Possible     |             6 |            13 |               35 |             1731 |
+|       2 | Probable     |           103 |            14 |             1161 |             1362 |
+|       3 | Observed     |           230 |            41 |            10133 |             4144 |
+|       9 | Not assigned |             0 |         17816 |                0 |            13452 |
+
+```
+
+````
+
+```{admonition} Version history
+:class: note, dropdown
+
+Changes from Version 5.0 to 6.0
+: None.
+
+Changes from Version 4.0 to 5.0
+: Regions 13, 14 and 15 are entirely new in version 5.0. being taken from {cite:t}`Nuimura2015`, {cite:t}`Guo2015` and as-yet unpublished work at the Technical University of Dresden and University of Zürich. *Remark (2023): the outlines have now been published: {cite:t}`Molg2018`*. The Dresden/Zürich outlines cover the Karakoram in region 14.<br/>All were adopted for RGI version 5.0. Parts of region 14 not covered by this source were taken from the Second Chinese Glacier Inventory (CGI2) of {cite:t}`Guo2015`, and from the GAMDAM inventory of {cite:t}`Nuimura2015` in areas outside the coverage of CGI2.<br/>Glacier outlines retired from version 4.0 will be added to GLIMS if they are not in GLIMS already.<br/>Links were added to 3 glaciers in the WGMS mass-balance database.
+
+Changes from Version 3.2 to 4.0
+: 36 exterior GLIMSIds were replaced. Topographic and hypsometric attributes (section 3.2) were added.<br/>Dates were added from two regional inventories that were sources for RGI 3.2. A BgnDate of 2 August 2002 was assigned to 1,184 glaciers (area 3,118 km2) in the basin of the upper Shyok River {cite:p}`Bhambri2013`. Dates for 11,531 glaciers (area 9,124 km2) in northwestern India {cite:p}`Frey2012` were recovered by comparing the GLIMS version of the inventory with the RGI 3.2 version, matching glaciers by their GLIMSIds, and transferring the dates from the GLIMS version.<br/>Elsewhere in the Himalayan range, most of the RGI glacier outlines are from reports of the International Centre for Integrated Mountain Development (ICIMOD). Polygons were generated to enclose the glaciers inventoried by {cite:t}`Sah2005` in Uttarakhand and by {cite:t}`Mool2005` in northern Pakistan and the upper Indus basin. The RGI 3.2 glaciers within each polygon were assigned the date of the corresponding image, verified by comparison with the glacier-by-glacier lists in the source.<br/>See Region 13: Central Asia for the recovery of dates for Chinese glaciers. Where RGI glacier outlines from the first Chinese Glacier Inventory could be matched with confidence to their equivalents in GLIMS, their 12-character WGI identification codes were added to the Name field.
+
+Changes from Version 3.0 to 3.2
+: None.
+
+Changes from Version 2.0 to Version 3.0
+: None.
+
+Changes from Version 1.0 to Version 2.0
+: Six glaciers in the Ghorband River basin, Afghanistan (region 14-01) were added as nominal circles from WGI-XF. The Ghorband is one of the headwaters of the Kabul River and thus of the Indus. It is possible that more Afghan glaciers remain to be identified further to the southwest.
+
+Version 1.0
+: Large parts of the Himalaya and Karakoram are covered by the GLIMS database, to which they were originally contributed by T. Khromova. For the RGI, GLIMS was used as the source where no other was available, mainly on the northern slopes of the Himalayas and the northeastern part of the Karakoram. In these regions, the GLIMS database consists mostly of data from the first Chinese Glacier Inventory {cite:p}`Shi2009a` and is of heterogeneous and generally slightly lower quality than the other glacier data used here. Glacier outlines compiled by ICIMOD were used for parts of the Karakoram. The outlines in the Shyok River basin (northeastern Karakoram) are from {cite:t}`Bhambri2013`. For parts of northwestern India, glacier inventory data compiled by the GlobGlacier project of the European Space Agency (ESA) {cite:p}`Paul2009` was used; the information was compiled from Landsat ETM+ and ALOS PALSAR data {cite:p}`Frey2012`. For a few regions in the Karakoram, no suitable glacier data was available. We therefore compiled new glacier outlines in these regions based on Landsat ETM+ data from the years 2002, 2009, and 2010.
+
+```

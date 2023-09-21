@@ -1,0 +1,598 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Appendix 4: How to contribute &#8212; The Randolph Glacier Inventory version 7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'appendix/contribute';</script>
+    <link rel="shortcut icon" href="../_static/rgi_logo.svg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Appendix 3: Acknowledgements" href="acknowledgements.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_data_decription.html">Data description of RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../products/glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../products/glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../products/intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../products/centerlines_product.html">Glacier centerlines product</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regions/overview.html">Regional glacier areas and counts in RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi01.html">01: Alaska</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi02.html">02: Western Canada and USA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi03.html">03: Arctic Canada North</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi04.html">04: Arctic Canada South</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi05.html">05: Greenland Periphery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi06.html">06: Iceland</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi07.html">07: Svalbard and Jan Mayen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi08.html">08: Scandinavia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi09.html">09: Russian Arctic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi10.html">10: North Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi11.html">11: Central Europe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi12.html">12: Caucasus and Middle East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi13.html">13: Central Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi14.html">14: South Asia West</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi15.html">15: South Asia East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi16.html">16: Low Latitudes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi17.html">17: Southern Andes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi18.html">18: New Zealand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi20.html">20: Antarctic Mainland</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Global statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="regions.html">Appendix 1: Glacier count/area per region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Appendix 4: How to contribute</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/appendix/contribute.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fappendix/contribute.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/appendix/contribute.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Appendix 4: How to contribute</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#report-an-issue-to-the-rgi">Report an issue to the RGI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-to-the-user-guide">Contribute to the user guide</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-with-a-new-glacier-inventory">Contribute with a new glacier inventory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-with-ideas-workflows-or-code">Contribute with ideas, workflows or code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rgi-logo">The RGI logo</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="appendix-4-how-to-contribute">
+<h1>Appendix 4: How to contribute<a class="headerlink" href="#appendix-4-how-to-contribute" title="Permalink to this headline">#</a></h1>
+<p>Your feedback is highly appreciated! While RGI 7.0 has been released, we will continue to work towards improving the RGI and releasing updated versions.</p>
+<p>We encourage the community to contribute to the RGI by <a class="reference internal" href="#issue-report"><span class="std std-ref">reporting an issue</span></a> or <a class="reference internal" href="#idea-report"><span class="std std-ref">contributing with ideas, workflows or code</span></a>.
+We also welcome <a class="reference internal" href="#doc-contribute"><span class="std std-ref">feedback on the user guide</span></a>.
+New glacier inventories have to be <a class="reference internal" href="#inventory-contribute"><span class="std std-ref">submitted to GLIMS</span></a> before they can be considered for future RGI versions.</p>
+<section id="report-an-issue-to-the-rgi">
+<span id="issue-report"></span><h2>Report an issue to the RGI<a class="headerlink" href="#report-an-issue-to-the-rgi" title="Permalink to this headline">#</a></h2>
+<p>Currently known issues with the RGI 7.0 dataset are listed here: <a class="github reference external" href="https://github.com/GLIMS-RGI/rgi_issue_tracker">GLIMS-RGI/rgi_issue_tracker</a>. Feel free to report any problem there!</p>
+</section>
+<section id="contribute-to-the-user-guide">
+<span id="doc-contribute"></span><h2>Contribute to the user guide<a class="headerlink" href="#contribute-to-the-user-guide" title="Permalink to this headline">#</a></h2>
+<p>This user guide is written in the <a class="reference external" href="https://en.wikipedia.org/wiki/Markdown">markdown format</a> and rendered to a website with the <a class="reference external" href="https://jupyterbook.org">JupyterBook</a> tool. You will find all necessary help about the markdown format on their respective documentation pages.</p>
+<p>You can explore the markdown files by exploring <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide">this repository</a> on github
+or by downloading it. The structure of the repository should be self explanatory after a bit of exploration.
+In case of doubt, each page on the RGI user guide (including this one) offers a “download” button in the
+top right allowing to download the file displayed on screen.</p>
+<p>To contribute text or content, you have several choices:</p>
+<ol class="arabic simple">
+<li><p>Modify the file on github directly or by opening a pull-request. This requires a github account, and some knowledge about its functioning. If you are unfamiliar with github and have no time to learn, move to 2.</p></li>
+<li><p>Download the file you want to edit, make the edits in the the markdown file, and send it to us. This requires downloading the files, and to understand the basic structure of the documentation.</p></li>
+<li><p>Finally, if it is easiest for you, you can send us your feedback or request per e-mail.</p></li>
+</ol>
+</section>
+<section id="contribute-with-a-new-glacier-inventory">
+<span id="inventory-contribute"></span><h2>Contribute with a new glacier inventory<a class="headerlink" href="#contribute-with-a-new-glacier-inventory" title="Permalink to this headline">#</a></h2>
+<p>If you have an inventory that you think might be suitable for future RGI versions, please <a class="reference external" href="https://www.glims.org/About/involvement.html">submit it to the GLIMS database</a>. After this is done, open an issue on our <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_issue_tracker">tracker</a> to let us know that a new inventory is available. It will be considered for future RGI versions.</p>
+</section>
+<section id="contribute-with-ideas-workflows-or-code">
+<span id="idea-report"></span><h2>Contribute with ideas, workflows or code<a class="headerlink" href="#contribute-with-ideas-workflows-or-code" title="Permalink to this headline">#</a></h2>
+<p>If you have any idea or suggestion, get in touch with us via our <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_issue_tracker">issue tracker</a>. We try to keep all discussions as open as possible, and your idea might have been suggested already.</p>
+</section>
+<section id="the-rgi-logo">
+<span id="rgi-logo"></span><h2>The RGI logo<a class="headerlink" href="#the-rgi-logo" title="Permalink to this headline">#</a></h2>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../_images/rgi_logo.png"><img alt="RGI Logo" src="../_images/rgi_logo.png" style="width: 32%;" /></a>
+<a class="reference internal image-reference" href="../_images/rgi_logo_blue.png"><img alt="RGI Logo Blue" src="../_images/rgi_logo_blue.png" style="width: 32%;" /></a>
+<a class="reference internal image-reference" href="../_images/rgi_logo_black.png"><img alt="RGI Logo Black" src="../_images/rgi_logo_black.png" style="width: 32%;" /></a>
+</div>
+</div>
+<p>The RGI logos are free to use. Downloads:</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../_downloads/93d70512d95523bcca5bc2c84013a0a9/rgi_logo.svg"><span class="xref download myst">svg</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/b8fbb9e7186639ff930a5bd713723a45/rgi_logo.png"><span class="xref download myst">png</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/3146a57b7ab25a6d405fc9ced7b45e1e/rgi_logo_ld.jpg"><span class="xref download myst">jpg (low resolution)</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/fc7a6230203baace4d01dc160de24df8/rgi_logo_blue.png"><span class="xref download myst">blue</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/07a8d0468652b40c53dfe36a091e1a5d/rgi_logo_black.png"><span class="xref download myst">black</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/da30be97537101be240df2c57b92f52e/rgi_logo_white.png"><span class="xref download myst">white</span></a></p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./appendix"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="acknowledgements.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Appendix 3: Acknowledgements</p>
+      </div>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#report-an-issue-to-the-rgi">Report an issue to the RGI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-to-the-user-guide">Contribute to the user guide</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-with-a-new-glacier-inventory">Contribute with a new glacier inventory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-with-ideas-workflows-or-code">Contribute with ideas, workflows or code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rgi-logo">The RGI logo</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By RGI Consortium
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright RGI Consortium 2022-2023.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,598 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Glacier complex product &#8212; The Randolph Glacier Inventory version 7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'products/glacier_complex_product';</script>
+    <link rel="shortcut icon" href="../_static/rgi_logo.svg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Glacier intersects product" href="intersects_product.html" />
+    <link rel="prev" title="Glacier product" href="glacier_product.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01_introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../03_data_decription.html">Data description of RGI 7.0</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="centerlines_product.html">Glacier centerlines product</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../04_revisions.html">General revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05_description_by_region.html">Regional revisions in RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regions/overview.html">Regional glacier areas and counts in RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi01.html">01: Alaska</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi02.html">02: Western Canada and USA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi03.html">03: Arctic Canada North</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi04.html">04: Arctic Canada South</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi05.html">05: Greenland Periphery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi06.html">06: Iceland</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi07.html">07: Svalbard and Jan Mayen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi08.html">08: Scandinavia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi09.html">09: Russian Arctic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi10.html">10: North Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi11.html">11: Central Europe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi12.html">12: Caucasus and Middle East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi13.html">13: Central Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi14.html">14: South Asia West</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi15.html">15: South Asia East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi16.html">16: Low Latitudes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi17.html">17: Southern Andes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi18.html">18: New Zealand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regions/rgi20.html">20: Antarctic Mainland</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_dataset_summary.html">Global statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/regions.html">Appendix 1: Glacier count/area per region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/contribute.html">Appendix 4: How to contribute</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/products/glacier_complex_product.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fproducts/glacier_complex_product.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/products/glacier_complex_product.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Glacier complex product</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="glacier-complex-product">
+<h1>Glacier complex product<a class="headerlink" href="#glacier-complex-product" title="Permalink to this headline">#</a></h1>
+<p><strong>New in RGI 7.0</strong></p>
+<p>The glacier complex product is the result of a spatial merge operation of the glacier product (<a class="reference external" href="http://wiki.gis.com/wiki/index.php/Dissolve">dissolve</a> in the GIS jargon). The operation is realized on geometries only, which means that any cluster of connected glaciers (however small the connection) will be merged into one entity in the glacier complex product. The resulting inventory has the same area but a smaller or equal number of entities as the glacier product. Only a few attributes from the original glacier product remain after the merge.</p>
+<p>The glacier complex product may be preferred over the glacier product for certain applications, for example for distributed glacier flow modeling or for ice thickness inversions.</p>
+<figure class="align-default" id="complex-fig">
+<img alt="complex map" class="bg-primary mb-1" src="../_images/example_complex.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Example of the glacier complex product (light blue), with outlines in black. In comparison with <a class="reference internal" href="glacier_product.html#glacier-fig"><span class="std std-ref">the glacier product</span></a>, the divides between individual glaciers have disappeared and the entire ice mass constitutes one single entity.</span><a class="headerlink" href="#complex-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="product-files">
+<h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this headline">#</a></h2>
+<p>In the following, file contents are explained using RGI region 01 (Alaska) as example:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska.shp</span></code></dt><dd><p>The RGI <strong>glacier complex outlines</strong> as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes.csv</span></code></dt><dd><p>Glacier complex <strong>attributes</strong> in a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The attributes are strictly the same as those encountered in the shapefile. This file allows users to read glacier attributes without reading the entire shapefile.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-attributes_metadata.json</span></code></dt><dd><p><strong>Description of the attributes</strong> in the glacier complex product shapefile: full name, description, units, etc. The content of this file is displayed in <a class="reference internal" href="#complex-attrs"><span class="std std-ref">Full list of attributes</span></a> below.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-C-01_alaska-CtoG_links.json</span></code></dt><dd><p><strong>Links</strong> between the glacier complex to the glacier products, in a JSON dictionary. The keys are the glacier complex identifiers (same length as the glacier complex file) and the values are the corresponding glacier product identifiers (one or more depending on the size of the cluster).</p>
+</dd>
+</dl>
+</section>
+<section id="full-list-of-attributes">
+<span id="complex-attrs"></span><h2>Full list of attributes<a class="headerlink" href="#full-list-of-attributes" title="Permalink to this headline">#</a></h2>
+<p>The following attributes are available in the RGI 7.0 shapefiles.</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single glacier complex. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">o1region</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: First order region <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the first-order region to which the glacier belongs. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">o2region</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Second order region <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: The code of the second-order region to which the glacier belongs. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">cenlon</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Center longitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Longitude of an approximately central point within the glacier outlines (not the centroid). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">cenlat</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Center latitude <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Latitude of an approximately central point within the glacier outlines (not the centroid). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: degrees <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">utm_zone</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: UTM zone <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Number of the UTM zone for this glacier complex, based on its representative point. Note that this attribute is for information only, the geometries are all in WGS84. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">area_km2</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Glacier complex area <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Area of the glacier complex. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: float <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: km2 <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">geometry</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: Geometry <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Glacier complex geometry (Polygon). <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>: deg <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI</p>
+</dd>
+</dl>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./products"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="glacier_product.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Glacier product</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="intersects_product.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Glacier intersects product</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-files">Product files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-list-of-attributes">Full list of attributes</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By RGI Consortium
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright RGI Consortium 2022-2023.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

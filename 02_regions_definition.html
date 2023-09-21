@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome &#8212; The Randolph Glacier Inventory version 7</title>
+    <title>RGI glacier regions &#8212; The Randolph Glacier Inventory version 7</title>
   
   
   
@@ -60,11 +60,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'welcome';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '02_regions_definition';</script>
     <link rel="shortcut icon" href="_static/rgi_logo.svg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introduction" href="01_introduction.html" />
+    <link rel="next" title="Data description of RGI 7.0" href="03_data_decription.html" />
+    <link rel="prev" title="Introduction" href="01_introduction.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -130,7 +131,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="welcome.html">
   
   
   
@@ -149,15 +150,15 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
                     Welcome
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">RGI glacier regions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI 7.0</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
 <li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
@@ -267,7 +268,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/welcome.md" target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/02_regions_definition.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +285,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2Fwelcome.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2F02_regions_definition.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,7 +315,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/welcome.md" target="_blank"
+      <li><a href="_sources/02_regions_definition.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -396,7 +397,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome</h1>
+    <h1>RGI glacier regions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -406,9 +407,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a></li>
 </ul>
             </nav>
         </div>
@@ -420,113 +419,46 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome">
-<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">#</a></h1>
-<p>The Randolph Glacier Inventory (<a class="reference external" href="https://www.glims.org/RGI">RGI</a>) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="rgi-glacier-regions">
+<h1>RGI glacier regions<a class="headerlink" href="#rgi-glacier-regions" title="Permalink to this headline">#</a></h1>
+<p>RGI outlines are organized into 20 first-order glacier regions. This is one more than in RGI 6.0 and earlier versions, since former region 19 was split into two regions (<a class="reference internal" href="#global-fig"><span class="std std-ref">global map</span></a>; <a class="reference internal" href="appendix/regions.html#o1-regions-table"><span class="std std-ref">Table 1a</span></a>). These are further subdivided into second-order regions, of which there are 90 in total in RGI 7.0 (<a class="reference internal" href="appendix/regions.html#o2-regions-table"><span class="std std-ref">Table 1b</span></a>). Glacier regions are useful for regional assessments of glacier change and other variables.</p>
+<figure class="align-default" id="global-fig">
+<img alt="global map" class="bg-primary mb-1" src="_images/global_map_small.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">First-order regions of the RGI version 7.0 and glacier locations in red.<br><a class="reference external" href="https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map.jpeg">Download high resolution version</a>.</span><a class="headerlink" href="#global-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="admonition-data-download admonition">
 <p class="admonition-title">Data download</p>
-<p><strong>Download the RGI 7.0 files from NSIDC</strong>: <a class="reference external" href="https://doi.org/10.5067/f6jmovy5navz">https://doi.org/10.5067/f6jmovy5navz</a><br>
-Cite the RGI: <a class="reference internal" href="01_introduction.html#reference"><span class="std std-ref">Dataset reference</span></a><br>
-Download previous RGI versions: <a class="reference external" href="https://www.glims.org/RGI">https://www.glims.org/RGI</a></p>
+<p><a class="reference external" href="https://doi.org/10.5067/f6jmovy5navz">Download the RGI 7.0 region files</a>.</p>
 </div>
-<div class="warning admonition">
-<p class="admonition-title">Known issues in RGI 7.0</p>
-<p>Currently known issues with the RGI 7.0 dataset are listed <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_issue_tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22RGI+7.0%22">here</a>.</p>
-</div>
-<section id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">#</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
-<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Introduction 💡</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">What is the Randolph Glacier Inventory?</p>
-</div>
-<a class="sd-stretched-link reference internal" href="01_introduction.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">RGI glacier regions 🗺️</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Definitions and global map</p>
-</div>
-<a class="sd-stretched-link reference internal" href="02_regions_definition.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Data description 💾</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Technical specifications, file naming, and data fields</p>
-</div>
-<a class="sd-stretched-link reference internal" href="03_data_decription.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">General revisions in v7.0 🔁</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Overview, processing workflow, formats</p>
-</div>
-<a class="sd-stretched-link reference internal" href="04_revisions.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Regional revisions in v7.0 🔍</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Description of data updates by RGI region</p>
-</div>
-<a class="sd-stretched-link reference internal" href="05_description_by_region.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Global statistics 📊</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Comparison of RGI 7.0 with RGI 6.0</p>
-</div>
-<a class="sd-stretched-link reference internal" href="06_dataset_summary.html"><span class="doc"></span></a></div>
-</div>
-</div>
+<p>First-order regions <code class="docutils literal notranslate"><span class="pre">10</span></code>, <code class="docutils literal notranslate"><span class="pre">19</span></code> and <code class="docutils literal notranslate"><span class="pre">20</span></code> straddle the 180th meridian, and so do the second-order regions <code class="docutils literal notranslate"><span class="pre">19-15</span></code> and <code class="docutils literal notranslate"><span class="pre">20-01</span></code>. For convenience of analysis in a cylindrical-equidistant coordinate system centered on longitude 0°, as in <a class="reference internal" href="#global-fig"><span class="std std-ref">Figure 1</span></a>, the region outlines of <code class="docutils literal notranslate"><span class="pre">10</span></code> and <code class="docutils literal notranslate"><span class="pre">19-15</span></code> appear in the accompanying shapefiles as two polygons, eastern and western.</p>
+<p><strong>GTN-G regions</strong></p>
+<p>The region outlines have changed slightly between RGI versions, for example to avoid the splitting of glaciers between two regions, to make further analyses more convenient, or because previously not included glaciers were located outside existing region boundaries. For the sake of consistency between global glacier datasets a joint set of regions was recommended by the Global Terrestrial Network for Glaciers (GTN-G) Advisory Board, the Global Land Ice Measurements from Space initiative (GLIMS), the RGI Working Group of the International Association of Cryospheric Sciences (IACS), and the World Glacier Monitoring Service (WGMS). These glacier regions were implemented first in RGI version 6.0 and are available <a class="reference external" href="https://www.gtn-g.ch/data_catalogue_glacreg">on the GTN-G website</a>. These region boundaries were slightly modified in RGI version 7.0 and changes also integrated in the GTN-G dataset <span id="id1">[<a class="reference internal" href="07_references.html#id7" title="GTN-G. GTN-G Glacier Regions. 2023. doi:10.5904/gtng-glacreg-2023-07.">GTN-G, 2023</a>]</span>.</p>
+<section id="changes-from-rgi-6-0-to-7-0">
+<h2>Changes from RGI 6.0 to 7.0<a class="headerlink" href="#changes-from-rgi-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
+<p><strong>Region boundary and name changes</strong></p>
+<ul class="simple">
+<li><p>The region boxes for region <code class="docutils literal notranslate"><span class="pre">01</span></code> (Alaska) used to encompass some islands in the Bering Sea East of Kamtchatka. One of the two boxes, part of subregion <code class="docutils literal notranslate"><span class="pre">01-03</span></code> Alaska Peninsula (Aleutians), contains no glaciers (and probably hasn’t for a long time) and is now removed.</p></li>
+<li><p>Subregion <code class="docutils literal notranslate"><span class="pre">05-11</span></code> (Greenland Ice Sheet) was removed since it was coarsely defined and the RGI does not include the ice sheet proper.</p></li>
+<li><p>The southern boundary of region <code class="docutils literal notranslate"><span class="pre">12</span></code> (Caucasus and Middle East) was shifted south by 2° (from 32°N to 30°N) to encompass a cluster of glaciers which were previously not included.</p></li>
+<li><p>Region <code class="docutils literal notranslate"><span class="pre">19</span></code> (“Antarctic and Subantarctic”) was split into two first-order regions. Region <code class="docutils literal notranslate"><span class="pre">19</span></code> now solely includes the islands in the periphery of Antarctica, and was renamed to “Subantarctic and Antarctic Islands”. A new region <code class="docutils literal notranslate"><span class="pre">20</span></code>, (“Antarctic Mainland”) was added to encompass the remaining subregion (“Antarctic Ice Sheet”, previously <code class="docutils literal notranslate"><span class="pre">19-31</span></code> and now <code class="docutils literal notranslate"><span class="pre">20-01</span></code>), but it presently contains no glaciers in the RGI (nor has the corresponding former subregion <code class="docutils literal notranslate"><span class="pre">19-31</span></code> in all previous RGI versions).</p></li>
+<li><p>Region names in the region shapefiles (and therefore of the associated RGI product files) were harmonized to reflect the most commonly used version in various documents and publications of the RGI. “Arctic Canada, North” and “Arctic Canada, South” have been renamed “Arctic Canada North” and “Arctic Canada South” (comma removed), respectively. The four regions in Asia (“North”, “Central”, “South West” and “South East”) were renamed to “North Asia”, “Central Asia”, “South Asia West” and “South Asia East”, respectively. With this change, none of the regions and subregions in RGI 7.0 have a comma in their name.</p></li>
+</ul>
+<p><strong>Technical changes</strong></p>
+<ul class="simple">
+<li><p>The data type of the <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> attribute in the first-order region file is now <code class="docutils literal notranslate"><span class="pre">str</span></code> (instead of <code class="docutils literal notranslate"><span class="pre">int</span></code>). The <code class="docutils literal notranslate"><span class="pre">rgi_code</span></code> now has a leading zero, for example <code class="docutils literal notranslate"><span class="pre">02</span></code> instead of <code class="docutils literal notranslate"><span class="pre">2</span></code>.</p></li>
+<li><p>All abbreviations in the second-order regions file have been replaced by their full name (e.g. “East Central” instead of “EC”)</p></li>
+<li><p>The first-order and second-order region files now have a field called <code class="docutils literal notranslate"><span class="pre">long_code</span></code> which contains a string representing the full region name, using the lowercase with underscores format (e.g. <code class="docutils literal notranslate"><span class="pre">02_western_canada_usa</span></code>). This field is used to name the corresponding RGI shapefiles.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">WGMS_CODE</span></code> column was deleted from all files.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">RGI_CODE</span></code> column is now called <code class="docutils literal notranslate"><span class="pre">o1region</span></code> (first order files) and <code class="docutils literal notranslate"><span class="pre">o2region</span></code> (second-order files).</p></li>
+</ul>
+<div class="note dropdown admonition">
+<p class="admonition-title">Additional details: RGI regions version history</p>
+<p>In <strong>RGI 6.0</strong>, the eastern boundaries of regions 13 (Central Asia) and 15 (South Asia East) were extended slightly to the east. A new second-order region 10-07 covering Japan was added to region 10 (North Asia). Region 08-01 (S Norway) was subdivided into regions 08-02 (SW Scandinavia) and 08-03 (SE Scandinavia), with former region 08-02 (N Scandinavia) assuming the code 08-01. Region 02-01 (Melville Island) was transferred to first-order region 03 (Arctic Canada North) as region 03-07, and the other second-order regions of region 02 (Western Canada and US) were renumbered as 02-01 to 02-05. These changes ensure the compatibility of the Glacier Regions dataset of the <a class="reference external" href="http://www.gtn-g.ch/data_catalogue_glacreg">Global Terrestrial Network for Glaciers</a> (GTN-G) with the RGI regions.</p>
+<p>In <strong>RGI 5.0</strong>, the boundary between regions 01 (Alaska) and 02 (Western Canada and US) was refined, and in region 10 (North Asia) the former four second-order regions became six regions conforming with those described by Earl and Gardner (2016). In RGI 4.0, region 10-01, North Asia (North), was extended slightly to the west for better visibility of glaciers in the Polar Urals. Region 11-02, formerly the Pyrenees and Apennines, was enlarged and renamed Southern and Eastern Europe. First-order regions 10 (North Asia) and 11 (Central Europe) were enlarged accordingly.</p>
 </div>
 </section>
-<section id="acknowledgments">
-<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">#</a></h2>
-<a class="reference external image-reference" href="https://cryosphericsciences.org"><img alt="IACS" src="_images/iugg_iacs_border.png" style="height: 100px;" /></a>
-<a class="reference internal image-reference" href="_images/white.png"><img alt="white" src="_images/white.png" style="height: 100px;" /></a>
-<a class="reference external image-reference" href="https://wgms.ch"><img alt="wgms" src="_images/wgms.png" style="height: 100px;" /></a>
-<a class="reference internal image-reference" href="_images/white.png"><img alt="white" src="_images/white.png" style="height: 100px;" /></a>
-<a class="reference external image-reference" href="https://en.unesco.org/themes/water-security/hydrology"><img alt="UNESCO" src="_images/unesco.png" style="height: 100px;" /></a>
-<p style="margin-bottom:15px;"></p>
-<a class="reference external image-reference" href="https://nsidc.org/data/data-programs/nsidc-daac"><img alt="NSIDC" src="_images/nsidc_daac.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://www.esa.int"><img alt="esa" src="_images/esa.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://climate.esa.int/en/projects/glaciers"><img alt="cci" src="_images/cci.png" style="height: 92px;" /></a>
-<a class="reference external image-reference" href="https://climate.copernicus.eu"><img alt="copernicus" src="_images/copernicus.png" style="height: 92px;" /></a>
-<p style="margin-bottom:25px;"></p>
-<p>RGI version 7.0 was developed by the “<a class="reference external" href="https://cryosphericsciences.org">Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring</a>” of the <a class="reference external" href="https://cryosphericsciences.org/activities/working-groups/rgi-working-group/">International Association of Cryospheric Sciences (IACS)</a>.</p>
-<p>Financial support was provided by several organizations and institutions, in particular <a class="reference external" href="https://cryosphericsciences.org">IACS</a>, the NASA National Snow and Ice Data Center - Distributed Active Archive Center (<a class="reference external" href="https://nsidc.org">NSIDC-DAAC</a>), the World Glacier Monitoring Service (<a class="reference external" href="https://wgms.ch">WGMS</a>), the Copernicus Climate Changes Service (<a class="reference external" href="https://climate.copernicus.eu">C3S</a>), the European Space Agency (<a class="reference external" href="https://climate.esa.int/en/projects/glaciers">ESA</a>) and <a class="reference external" href="https://www.unesco.org">UNESCO</a>. For a full list of sponsors and acknowledgements, visit <a class="reference internal" href="appendix/acknowledgements.html"><span class="doc std std-doc">Appendix 3: Acknowledgements</span></a>.</p>
-<blockquote>
-<div><p>RGI 7.0 and this user guide are dedicated to the memory of <strong><a class="reference external" href="https://www.igsoc.org/j-graham-cogley-1948-2018">Dr. Graham Cogley</a></strong> (1948-2018), an inspiring and deeply committed leader and contributor to the RGI, who was instrumental in initiating, developing, generating and curating the RGI from its inception over nearly a decade, demonstrating the value of open data long before these concepts came into widespread popularity, and who embodied the spirit of selfless service to the glaciological community. Graham’s spirit of collaboration, meticulous attention to detail, and actioning of the original vision of a global-scale dataset lives on in the RGI 7.0.</p>
-</div></blockquote>
-</section>
-<section id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">#</a></h2>
-<p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0"><img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /></a></p>
-<p>This document is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a class="reference internal" href="01_introduction.html#reference"><span class="std std-ref">Dataset reference</span></a> for citation recommendations.</p>
-<p>Part of the text in this user guide regarding the RGI in general and RGI versions prior to v7.0 is based on the <a class="reference external" href="https://github.com/GLIMS-RGI/rgi_user_guide/raw/main/docs/img/00_rgi60_TechnicalNote.pdf">RGI v6 Technical Note</a>: <em>“Randolph Glacier Inventory – A Dataset of Global Glacier Outlines: Version 6.0” by the RGI Consortium, July 2017.</em></p>
-</section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -560,12 +492,21 @@ Download previous RGI versions: <a class="reference external" href="https://www.
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="right-next"
+    <a class="left-prev"
        href="01_introduction.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Introduction</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="03_data_decription.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Data description of RGI 7.0</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -587,9 +528,7 @@ Download previous RGI versions: <a class="reference external" href="https://www.
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changes-from-rgi-6-0-to-7-0">Changes from RGI 6.0 to 7.0</a></li>
 </ul>
   </nav></div>
 

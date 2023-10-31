@@ -30,20 +30,20 @@ In the following, file contents are explained using RGI region 01 (Alaska) as ex
 `RGI2000-v7.0-G-01_alaska-rgi6_links.csv`
 : A list of **all overlaps** (greater than 200 m<sup>2</sup>) between pairs of RGI 7.0 and RGI 6.0 glacier outlines, described by the following columns:
 
-```{card}
-| Column | Type | Description |
-| -- | -- | -- |
-| `rgi7_id` | `string` | RGI 6.0 outline |
-| `rgi6_id` | `string` | RGI 7.0 outline |
-| `overlap_area_km2` | `number` | Overlap area in km<sup>2</sup> |
-| `rgi7_area_fraction` | `number` | Overlap area (`overlap_area_km2`) divided by the area of the RGI 7.0 outline (`rgi7_id`) |
-| `rgi6_area_fraction` | `number` | Overlap area (`overlap_area_km2`) divided by the area of the RGI 60 outline (`rgi6_id`) |
-| `n_rgi7` | `integer` | Total number of RGI 7.0 outlines that overlap the RGI 6.0 outline (`rgi6_id`) |
-| `n_rgi6` | `integer` | Total number of RGI 6.0 outlines that overlap the RGI 7.0 outline (`rgi7_id`) |
-| `cluster_id` | `integer` | Arbitrary cluster identifier, which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster |
-```
+  ```{card}
+  | Column | Type | Description |
+  | -- | -- | -- |
+  | `rgi7_id` | string | RGI 6.0 outline |
+  | `rgi6_id` | string | RGI 7.0 outline |
+  | `overlap_area_km2` | number | Overlap area in km<sup>2</sup> |
+  | `rgi7_area_fraction` | number | Overlap area (`overlap_area_km2`) divided by the area of the RGI 7.0 outline (`rgi7_id`) |
+  | `rgi6_area_fraction` | number | Overlap area (`overlap_area_km2`) divided by the area of the RGI 60 outline (`rgi6_id`) |
+  | `n_rgi7` | integer | Total number of RGI 7.0 outlines that overlap the RGI 6.0 outline (`rgi6_id`) |
+  | `n_rgi6` | integer | Total number of RGI 6.0 outlines that overlap the RGI 7.0 outline (`rgi7_id`) |
+  | `cluster_id` | integer | Arbitrary cluster identifier, which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster |
+  ```
 
-For example, if an RGI 6 outline perfectly matches an RGI 7 outline, the overlap is a 1:1 relation (`n_rgi6`: 1, `n_rgi7`: 1) with 100% coverage (`rgi7_area_fraction`: 1, `rgi6_area_fraction`: 1). If an RGI 6 outline divided into two outlines (of equal area) in RGI 7, the two overlaps are part of a 1:2 relation (`n_rgi6`: 1, `n_rgi7`: 2) with 50% and 100% coverage (`rgi6_area_fraction`: 0.5, `rgi7_area_fraction`: 1). Often the relation between RGI7 and RGI6 is more complex, for example when an outline was remapped in RGI 7 and partially overlaps many in RGI 6.
+  For example, if an RGI 6 outline perfectly matches an RGI 7 outline, the overlap is a 1:1 relation (`n_rgi6`: 1, `n_rgi7`: 1) with 100% coverage (`rgi7_area_fraction`: 1, `rgi6_area_fraction`: 1). If an RGI 6 outline divided into two outlines (of equal area) in RGI 7, the two overlaps are part of a 1:2 relation (`n_rgi6`: 1, `n_rgi7`: 2) with 50% and 100% coverage (`rgi6_area_fraction`: 0.5, `rgi7_area_fraction`: 1). Often the relation between RGI7 and RGI6 is more complex, for example when an outline was remapped in RGI 7 and partially overlaps many in RGI 6.
 
 `RGI2000-v7.0-G-01_alaska-hypsometry.csv`
 : **Hypsometry** for each glacier, preceded by copies of the glacier's `rgi_id` and `area_km2`. The hypsometry data are given as a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band area values is constrained to be 1000. This means that an elevation band's value divided by 10 represents the elevation band's area as a percentage of total glacier area. For example, a value of 500 for a particular elevation bands means that it contains 50% of the total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the corresponding first-order region.

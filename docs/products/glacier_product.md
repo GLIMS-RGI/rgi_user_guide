@@ -33,14 +33,16 @@ In the following, file contents are explained using RGI region 01 (Alaska) as ex
   ```{card}
   | Column | Type | Description |
   | -- | -- | -- |
-  | `rgi7_id` | string | RGI 6.0 outline |
-  | `rgi6_id` | string | RGI 7.0 outline |
+  | `rgi7_id` | string | RGI 6.0 outline identifier |
+  | `rgi6_id` | string | RGI 7.0 outline identifier |
+  | `rgi7_reg` | string | RGI 7.0 region identifier |
+  | `rgi6_reg` | string | RGI 6.0 region identifier |
   | `overlap_area_km2` | number | Overlap area in km<sup>2</sup> |
   | `rgi7_area_fraction` | number | Overlap area (`overlap_area_km2`) divided by the area of the RGI 7.0 outline (`rgi7_id`) |
   | `rgi6_area_fraction` | number | Overlap area (`overlap_area_km2`) divided by the area of the RGI 60 outline (`rgi6_id`) |
   | `n_rgi7` | integer | Total number of RGI 7.0 outlines that overlap the RGI 6.0 outline (`rgi6_id`) |
   | `n_rgi6` | integer | Total number of RGI 6.0 outlines that overlap the RGI 7.0 outline (`rgi7_id`) |
-  | `cluster_id` | integer | Arbitrary cluster identifier, which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster |
+  | `cluster_id` | integer | Arbitrary cluster identifier (unique globally), which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster |
   ```
 
   For example, if an RGI 6 outline perfectly matches an RGI 7 outline, the overlap is a 1:1 relation (`n_rgi6`: 1, `n_rgi7`: 1) with 100% coverage (`rgi7_area_fraction`: 1, `rgi6_area_fraction`: 1). If an RGI 6 outline divided into two outlines (of equal area) in RGI 7, the two overlaps are part of a 1:2 relation (`n_rgi6`: 1, `n_rgi7`: 2) with 50% and 100% coverage (`rgi6_area_fraction`: 0.5, `rgi7_area_fraction`: 1). Often the relation between RGI7 and RGI6 is more complex, for example when an outline was remapped in RGI 7 and partially overlaps many in RGI 6.

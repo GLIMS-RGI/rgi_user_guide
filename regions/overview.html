@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -67,7 +69,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="01: Alaska" href="rgi01.html" />
     <link rel="prev" title="Regional revisions in RGI 7.0" href="../05_description_by_region.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -76,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -136,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="The Randolph Glacier Inventory version 7 - Home"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="The Randolph Glacier Inventory version 7 - Home"/>`);</script>
   
   
 </a></div>
@@ -369,10 +381,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -380,7 +392,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -410,8 +422,8 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="regional-glacier-areas-and-counts-in-rgi-6-0-and-rgi-7-0">
-<h1>Regional glacier areas and counts in RGI 6.0 and RGI 7.0<a class="headerlink" href="#regional-glacier-areas-and-counts-in-rgi-6-0-and-rgi-7-0" title="Permalink to this headline">#</a></h1>
-<p>The table below summarizes the glacier area and count of each first-order region and their differences (in %) between RGI 6.0 and RGI 7.0 (small differences in area or number do not necessarily mean no changes in quality; see each region’s documentation for details):</p>
+<h1>Regional glacier areas and counts in RGI 6.0 and RGI 7.0<a class="headerlink" href="#regional-glacier-areas-and-counts-in-rgi-6-0-and-rgi-7-0" title="Permalink to this heading">#</a></h1>
+<p>The table below summarizes the glacier area and count of each first-order region and their differences (in %) between RGI 6.0 and RGI 7.0 (small differences in area or number do not necessarily mean no changes in quality; see the detailed area change table below as well as each region’s documentation for details):</p>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
@@ -601,6 +613,243 @@ Summary table</div>
 </table>
 </div>
 </div>
+<p>The table below summarizes the area changes by computing the overlap between RGI 6.0 and RGI 7.0
+(areas that were classified as glaciers in both datasets) and subtracting that value
+from each dataset’s regional area. A region with a total area change close to 0% can still have
+substantial internal changes in glacier coverage.</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Detailed area changes table</div>
+<p class="sd-card-text"><a class="reference download internal" download="" href="../_downloads/00ece33b6ec21a092bb820c526f01176/RGI2000-v7.0-G-comparison-rgi6-area.csv"><span class="xref download myst">Download this table as csv</span></a></p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-left head"><p class="sd-card-text"></p></th>
+<th class="text-right head"><p class="sd-card-text">Area RGI6</p></th>
+<th class="text-right head"><p class="sd-card-text">Area RGI7</p></th>
+<th class="text-right head"><p class="sd-card-text">Diff A (%)</p></th>
+<th class="text-right head"><p class="sd-card-text">Area overlap</p></th>
+<th class="text-right head"><p class="sd-card-text">Area removed from RGI6</p></th>
+<th class="text-right head"><p class="sd-card-text">Area added in RGI7</p></th>
+<th class="text-right head"><p class="sd-card-text">Area removed from RGI6 (%)</p></th>
+<th class="text-right head"><p class="sd-card-text">Area added in RGI7 (%)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi01.html"><span class="doc std std-doc">01: Alaska</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">86725</p></td>
+<td class="text-right"><p class="sd-card-text">86708</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">86627</p></td>
+<td class="text-right"><p class="sd-card-text">98</p></td>
+<td class="text-right"><p class="sd-card-text">81</p></td>
+<td class="text-right"><p class="sd-card-text">0.1</p></td>
+<td class="text-right"><p class="sd-card-text">0.1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi02.html"><span class="doc std std-doc">02: Western Canada and USA</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">14524</p></td>
+<td class="text-right"><p class="sd-card-text">14521</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">14521</p></td>
+<td class="text-right"><p class="sd-card-text">3</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi03.html"><span class="doc std std-doc">03: Arctic Canada North</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">105111</p></td>
+<td class="text-right"><p class="sd-card-text">105370</p></td>
+<td class="text-right"><p class="sd-card-text">0.2</p></td>
+<td class="text-right"><p class="sd-card-text">102891</p></td>
+<td class="text-right"><p class="sd-card-text">2220</p></td>
+<td class="text-right"><p class="sd-card-text">2479</p></td>
+<td class="text-right"><p class="sd-card-text">2.1</p></td>
+<td class="text-right"><p class="sd-card-text">2.4</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi04.html"><span class="doc std std-doc">04: Arctic Canada South</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">40888</p></td>
+<td class="text-right"><p class="sd-card-text">40538</p></td>
+<td class="text-right"><p class="sd-card-text">-0.9</p></td>
+<td class="text-right"><p class="sd-card-text">39927</p></td>
+<td class="text-right"><p class="sd-card-text">961</p></td>
+<td class="text-right"><p class="sd-card-text">611</p></td>
+<td class="text-right"><p class="sd-card-text">2.4</p></td>
+<td class="text-right"><p class="sd-card-text">1.5</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi05.html"><span class="doc std std-doc">05: Greenland Periphery</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">89717</p></td>
+<td class="text-right"><p class="sd-card-text">90482</p></td>
+<td class="text-right"><p class="sd-card-text">0.9</p></td>
+<td class="text-right"><p class="sd-card-text">89546</p></td>
+<td class="text-right"><p class="sd-card-text">171</p></td>
+<td class="text-right"><p class="sd-card-text">936</p></td>
+<td class="text-right"><p class="sd-card-text">0.2</p></td>
+<td class="text-right"><p class="sd-card-text">1.0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi06.html"><span class="doc std std-doc">06: Iceland</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">11060</p></td>
+<td class="text-right"><p class="sd-card-text">11060</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">11060</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi07.html"><span class="doc std std-doc">07: Svalbard and Jan Mayen</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">33959</p></td>
+<td class="text-right"><p class="sd-card-text">33959</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">33938</p></td>
+<td class="text-right"><p class="sd-card-text">21</p></td>
+<td class="text-right"><p class="sd-card-text">21</p></td>
+<td class="text-right"><p class="sd-card-text">0.1</p></td>
+<td class="text-right"><p class="sd-card-text">0.1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi08.html"><span class="doc std std-doc">08: Scandinavia</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">2949</p></td>
+<td class="text-right"><p class="sd-card-text">2948</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">2899</p></td>
+<td class="text-right"><p class="sd-card-text">50</p></td>
+<td class="text-right"><p class="sd-card-text">49</p></td>
+<td class="text-right"><p class="sd-card-text">1.7</p></td>
+<td class="text-right"><p class="sd-card-text">1.7</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi09.html"><span class="doc std std-doc">09: Russian Arctic</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">51592</p></td>
+<td class="text-right"><p class="sd-card-text">51595</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">51591</p></td>
+<td class="text-right"><p class="sd-card-text">1</p></td>
+<td class="text-right"><p class="sd-card-text">4</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi10.html"><span class="doc std std-doc">10: North Asia</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">2410</p></td>
+<td class="text-right"><p class="sd-card-text">2643</p></td>
+<td class="text-right"><p class="sd-card-text">9.6</p></td>
+<td class="text-right"><p class="sd-card-text">2114</p></td>
+<td class="text-right"><p class="sd-card-text">296</p></td>
+<td class="text-right"><p class="sd-card-text">529</p></td>
+<td class="text-right"><p class="sd-card-text">12.3</p></td>
+<td class="text-right"><p class="sd-card-text">20.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi11.html"><span class="doc std std-doc">11: Central Europe</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">2092</p></td>
+<td class="text-right"><p class="sd-card-text">2124</p></td>
+<td class="text-right"><p class="sd-card-text">1.5</p></td>
+<td class="text-right"><p class="sd-card-text">2081</p></td>
+<td class="text-right"><p class="sd-card-text">11</p></td>
+<td class="text-right"><p class="sd-card-text">43</p></td>
+<td class="text-right"><p class="sd-card-text">0.5</p></td>
+<td class="text-right"><p class="sd-card-text">2.0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi12.html"><span class="doc std std-doc">12: Caucasus and Middle East</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">1307</p></td>
+<td class="text-right"><p class="sd-card-text">1407</p></td>
+<td class="text-right"><p class="sd-card-text">7.6</p></td>
+<td class="text-right"><p class="sd-card-text">970</p></td>
+<td class="text-right"><p class="sd-card-text">337</p></td>
+<td class="text-right"><p class="sd-card-text">437</p></td>
+<td class="text-right"><p class="sd-card-text">25.8</p></td>
+<td class="text-right"><p class="sd-card-text">31.1</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi13.html"><span class="doc std std-doc">13: Central Asia</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">49303</p></td>
+<td class="text-right"><p class="sd-card-text">50344</p></td>
+<td class="text-right"><p class="sd-card-text">2.1</p></td>
+<td class="text-right"><p class="sd-card-text">46126</p></td>
+<td class="text-right"><p class="sd-card-text">3177</p></td>
+<td class="text-right"><p class="sd-card-text">4218</p></td>
+<td class="text-right"><p class="sd-card-text">6.4</p></td>
+<td class="text-right"><p class="sd-card-text">8.4</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi14.html"><span class="doc std std-doc">14: South Asia West</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">33568</p></td>
+<td class="text-right"><p class="sd-card-text">33075</p></td>
+<td class="text-right"><p class="sd-card-text">-1.5</p></td>
+<td class="text-right"><p class="sd-card-text">30849</p></td>
+<td class="text-right"><p class="sd-card-text">2719</p></td>
+<td class="text-right"><p class="sd-card-text">2226</p></td>
+<td class="text-right"><p class="sd-card-text">8.1</p></td>
+<td class="text-right"><p class="sd-card-text">6.7</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi15.html"><span class="doc std std-doc">15: South Asia East</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">14734</p></td>
+<td class="text-right"><p class="sd-card-text">16049</p></td>
+<td class="text-right"><p class="sd-card-text">8.9</p></td>
+<td class="text-right"><p class="sd-card-text">13433</p></td>
+<td class="text-right"><p class="sd-card-text">1301</p></td>
+<td class="text-right"><p class="sd-card-text">2616</p></td>
+<td class="text-right"><p class="sd-card-text">8.8</p></td>
+<td class="text-right"><p class="sd-card-text">16.3</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi16.html"><span class="doc std std-doc">16: Low Latitudes</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">2341</p></td>
+<td class="text-right"><p class="sd-card-text">1929</p></td>
+<td class="text-right"><p class="sd-card-text">-17.6</p></td>
+<td class="text-right"><p class="sd-card-text">1802</p></td>
+<td class="text-right"><p class="sd-card-text">539</p></td>
+<td class="text-right"><p class="sd-card-text">127</p></td>
+<td class="text-right"><p class="sd-card-text">23.0</p></td>
+<td class="text-right"><p class="sd-card-text">6.6</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi17.html"><span class="doc std std-doc">17: Southern Andes</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">29429</p></td>
+<td class="text-right"><p class="sd-card-text">27674</p></td>
+<td class="text-right"><p class="sd-card-text">-6.0</p></td>
+<td class="text-right"><p class="sd-card-text">25995</p></td>
+<td class="text-right"><p class="sd-card-text">3434</p></td>
+<td class="text-right"><p class="sd-card-text">1679</p></td>
+<td class="text-right"><p class="sd-card-text">11.7</p></td>
+<td class="text-right"><p class="sd-card-text">6.1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi18.html"><span class="doc std std-doc">18: New Zealand</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">1162</p></td>
+<td class="text-right"><p class="sd-card-text">886</p></td>
+<td class="text-right"><p class="sd-card-text">-23.7</p></td>
+<td class="text-right"><p class="sd-card-text">827</p></td>
+<td class="text-right"><p class="sd-card-text">335</p></td>
+<td class="text-right"><p class="sd-card-text">59</p></td>
+<td class="text-right"><p class="sd-card-text">28.8</p></td>
+<td class="text-right"><p class="sd-card-text">6.7</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi19.html"><span class="doc std std-doc">19: Subantarctic and Antarctic Islands</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">132867</p></td>
+<td class="text-right"><p class="sd-card-text">133432</p></td>
+<td class="text-right"><p class="sd-card-text">0.4</p></td>
+<td class="text-right"><p class="sd-card-text">128955</p></td>
+<td class="text-right"><p class="sd-card-text">3912</p></td>
+<td class="text-right"><p class="sd-card-text">4477</p></td>
+<td class="text-right"><p class="sd-card-text">2.9</p></td>
+<td class="text-right"><p class="sd-card-text">3.4</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><a class="reference internal" href="rgi20.html"><span class="doc std std-doc">20: Antarctic Mainland</span></a></p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><strong>Global</strong></p></td>
+<td class="text-right"><p class="sd-card-text">705739</p></td>
+<td class="text-right"><p class="sd-card-text">706744</p></td>
+<td class="text-right"><p class="sd-card-text">0.1</p></td>
+<td class="text-right"><p class="sd-card-text">686151</p></td>
+<td class="text-right"><p class="sd-card-text">19588</p></td>
+<td class="text-right"><p class="sd-card-text">20593</p></td>
+<td class="text-right"><p class="sd-card-text">2.8</p></td>
+<td class="text-right"><p class="sd-card-text">2.9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -628,11 +877,10 @@ Summary table</div>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../05_description_by_region.html"
@@ -652,10 +900,7 @@ Summary table</div>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -708,8 +953,8 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

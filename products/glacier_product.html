@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -69,7 +71,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="Glacier complex product" href="glacier_complex_product.html" />
     <link rel="prev" title="Data description of RGI 7.0" href="../03_data_decription.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -78,6 +80,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -138,13 +149,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="The Randolph Glacier Inventory version 7 - Home"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="The Randolph Glacier Inventory version 7 - Home"/>`);</script>
   
   
 </a></div>
@@ -371,10 +383,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -382,7 +394,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -435,7 +447,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="glacier-product">
-<h1>Glacier product<a class="headerlink" href="#glacier-product" title="Permalink to this headline">#</a></h1>
+<h1>Glacier product<a class="headerlink" href="#glacier-product" title="Permalink to this heading">#</a></h1>
 <p>This product includes the <strong>glacier outlines</strong> as extracted from GLIMS together with additional data for each individual glacier.</p>
 <figure class="align-default" id="glacier-fig">
 <img alt="glacier map" class="bg-primary mb-1" src="../_images/example_glacier.png" />
@@ -444,7 +456,7 @@ document.write(`
 </figcaption>
 </figure>
 <section id="product-files">
-<h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this headline">#</a></h2>
+<h2>Product files<a class="headerlink" href="#product-files" title="Permalink to this heading">#</a></h2>
 <p>In the following, file contents are explained using RGI region 01 (Alaska) as example:</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska.shp</span></code></dt><dd><p>RGI <strong>glacier outlines</strong> as a shapefile (with accompanying <code class="docutils literal notranslate"><span class="pre">.dbf</span></code>, <code class="docutils literal notranslate"><span class="pre">.prj</span></code>, <code class="docutils literal notranslate"><span class="pre">.cpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.shx</span></code> files).</p>
@@ -457,14 +469,69 @@ document.write(`
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-submission_info_metadata.json</span></code></dt><dd><p><strong>Description of the columns</strong> in the <code class="docutils literal notranslate"><span class="pre">submission_info.csv</span></code> file: full name, description, units, etc. The content of this file is displayed in <a class="reference internal" href="#subm-info"><span class="std std-ref">Submission info table</span></a> below.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>A list of <strong>overlapping outline pairs</strong> between RGI 7.0 and RGI 6.0 describing 1:1, 1:n, n:1 or n:n relationships as well as the overlapping area between them. For example, a perfect match between an RGI 7.0 and RGI 6.0 outline results in a 1:1 relation with 100% area match in both. If a single RGI 6.0 outline was divided into two glaciers for RGI 7.0, a 2:1 relationship (a cluster) would result with two lines in the table with twice 50% area match in RGI 6.0 and twice 100% match in RGI 7.0. In more complex cases the matches are not always perfect and the relationships less straightforward, for example when an outline was remapped.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-rgi6_links.csv</span></code></dt><dd><p>A list of <strong>all overlaps</strong> (greater than 200 m<sup>2</sup>) between pairs of RGI 7.0 and RGI 6.0 glacier outlines, described by the following columns:</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Column</p></th>
+<th class="head"><p class="sd-card-text">Type</p></th>
+<th class="head"><p class="sd-card-text">Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi7_id</span></code></p></td>
+<td><p class="sd-card-text">string</p></td>
+<td><p class="sd-card-text">RGI 6.0 outline identifier</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi6_id</span></code></p></td>
+<td><p class="sd-card-text">string</p></td>
+<td><p class="sd-card-text">RGI 7.0 outline identifier</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi7_reg</span></code></p></td>
+<td><p class="sd-card-text">string</p></td>
+<td><p class="sd-card-text">RGI 7.0 region identifier</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi6_reg</span></code></p></td>
+<td><p class="sd-card-text">string</p></td>
+<td><p class="sd-card-text">RGI 6.0 region identifier</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">overlap_area_km2</span></code></p></td>
+<td><p class="sd-card-text">number</p></td>
+<td><p class="sd-card-text">Overlap area in km<sup>2</sup></p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi7_area_fraction</span></code></p></td>
+<td><p class="sd-card-text">number</p></td>
+<td><p class="sd-card-text">Overlap area (<code class="docutils literal notranslate"><span class="pre">overlap_area_km2</span></code>) divided by the area of the RGI 7.0 outline (<code class="docutils literal notranslate"><span class="pre">rgi7_id</span></code>)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">rgi6_area_fraction</span></code></p></td>
+<td><p class="sd-card-text">number</p></td>
+<td><p class="sd-card-text">Overlap area (<code class="docutils literal notranslate"><span class="pre">overlap_area_km2</span></code>) divided by the area of the RGI 60 outline (<code class="docutils literal notranslate"><span class="pre">rgi6_id</span></code>)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">n_rgi7</span></code></p></td>
+<td><p class="sd-card-text">integer</p></td>
+<td><p class="sd-card-text">Total number of RGI 7.0 outlines that overlap the RGI 6.0 outline (<code class="docutils literal notranslate"><span class="pre">rgi6_id</span></code>)</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">n_rgi6</span></code></p></td>
+<td><p class="sd-card-text">integer</p></td>
+<td><p class="sd-card-text">Total number of RGI 6.0 outlines that overlap the RGI 7.0 outline (<code class="docutils literal notranslate"><span class="pre">rgi7_id</span></code>)</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">cluster_id</span></code></p></td>
+<td><p class="sd-card-text">integer</p></td>
+<td><p class="sd-card-text">Arbitrary cluster identifier (unique globally), which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>For example, if an RGI 6.0 outline perfectly matches an RGI 7.0 outline, the overlap is a 1:1 relation (<code class="docutils literal notranslate"><span class="pre">n_rgi6</span></code>: 1, <code class="docutils literal notranslate"><span class="pre">n_rgi7</span></code>: 1) with 100% coverage (<code class="docutils literal notranslate"><span class="pre">rgi7_area_fraction</span></code>: 1, <code class="docutils literal notranslate"><span class="pre">rgi6_area_fraction</span></code>: 1). If an RGI 6.0 outline divided into two outlines (of equal area) in RGI 7.0, the two overlaps are part of a 1:2 relation (<code class="docutils literal notranslate"><span class="pre">n_rgi6</span></code>: 1, <code class="docutils literal notranslate"><span class="pre">n_rgi7</span></code>: 2) with 50% and 100% coverage (<code class="docutils literal notranslate"><span class="pre">rgi6_area_fraction</span></code>: 0.5, <code class="docutils literal notranslate"><span class="pre">rgi7_area_fraction</span></code>: 1). Often the relation between RGI 7.0 and RGI 6.0 is more complex, for example when an outline was remapped in RGI 7.0 and partially overlaps many in RGI 6.0. Note that in some cases (mostly in regions 13, 14, 15), an RGI 7.0 outline might overlap with an RGI 6.0 outline in a neighboring region.</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">RGI2000-v7.0-G-01_alaska-hypsometry.csv</span></code></dt><dd><p><strong>Hypsometry</strong> for each glacier, preceded by copies of the glacier’s <code class="docutils literal notranslate"><span class="pre">rgi_id</span></code> and <code class="docutils literal notranslate"><span class="pre">area_km2</span></code>. The hypsometry data are given as a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier’s total area in km² (<code class="docutils literal notranslate"><span class="pre">area_km2</span></code>). The sum of the elevation-band area values is constrained to be 1000. This means that an elevation band’s value divided by 10 represents the elevation band’s area as a percentage of total glacier area. For example, a value of 500 for a particular elevation bands means that it contains 50% of the total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the corresponding first-order region.</p>
 </dd>
 </dl>
 </section>
 <section id="full-list-of-attributes">
-<span id="glacier-attrs"></span><h2>Full list of attributes<a class="headerlink" href="#full-list-of-attributes" title="Permalink to this headline">#</a></h2>
+<span id="glacier-attrs"></span><h2>Full list of attributes<a class="headerlink" href="#full-list-of-attributes" title="Permalink to this heading">#</a></h2>
 <p>The following attributes are available in the RGI 7.0 shapefiles. For more details, see <a class="reference internal" href="#additional-info-glaciers"><span class="std std-ref">Additional information on glacier attributes</span></a>.</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: RGI identifier <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned to a single outline. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: str <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: RGI <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>: RGI_Id</p>
@@ -528,9 +595,9 @@ document.write(`
 </dl>
 </section>
 <section id="additional-information-on-glacier-attributes">
-<span id="additional-info-glaciers"></span><h2>Additional information on glacier attributes<a class="headerlink" href="#additional-information-on-glacier-attributes" title="Permalink to this headline">#</a></h2>
+<span id="additional-info-glaciers"></span><h2>Additional information on glacier attributes<a class="headerlink" href="#additional-information-on-glacier-attributes" title="Permalink to this heading">#</a></h2>
 <section id="glacier-identifiers">
-<h3>Glacier identifiers<a class="headerlink" href="#glacier-identifiers" title="Permalink to this headline">#</a></h3>
+<h3>Glacier identifiers<a class="headerlink" href="#glacier-identifiers" title="Permalink to this heading">#</a></h3>
 <p>One RGI outline in the glacier product corresponds to one glacier. Glaciers are identified with the following attributes:</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">rgi_id</span></code></dt><dd><p><strong>Unique</strong> identifier attributed by the RGI when constructing the files. These ids are generated automatically (in order of distance to the westernmost outline in a region) and follow the file naming convention described below. <strong>These ids are different from RGI 6.0 and likely to change in future RGI versions</strong>.</p>
@@ -542,14 +609,14 @@ document.write(`
 </dl>
 </section>
 <section id="topography-attributes">
-<h3>Topography attributes<a class="headerlink" href="#topography-attributes" title="Permalink to this headline">#</a></h3>
+<h3>Topography attributes<a class="headerlink" href="#topography-attributes" title="Permalink to this heading">#</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">zmin_m</span></code>, <code class="docutils literal notranslate"><span class="pre">zmax_m</span></code>, <code class="docutils literal notranslate"><span class="pre">zmed_m</span></code>, <code class="docutils literal notranslate"><span class="pre">zmean_m</span></code> attributes are computed from a Digital Elevation Model (DEM) reprojected onto a locally defined grid for each glacier. The gridded dataset used to compute these attributes (RGI-TOPO) is documented and available on the <a class="reference external" href="https://docs.oggm.org/en/stable/rgitopo.html">OGGM documentation</a>.</p>
 <p>Each glacier grid is defined in the locally valid UTM zone (<code class="docutils literal notranslate"><span class="pre">utm_zone</span></code> attribute) and with a grid spacing <span class="math notranslate nohighlight">\(dx\)</span> depending on the glacier size: <span class="math notranslate nohighlight">\(dx =  14 \sqrt{A} + 10\)</span>, with <span class="math notranslate nohighlight">\(dx\)</span> the grid spacing in meters and <span class="math notranslate nohighlight">\(A\)</span> the glacier area in km² <span id="id1">[<a class="reference internal" href="../07_references.html#id68" title="Fabien Maussion, Anton Butenko, Nicolas Champollion, Matthias Dusch, Julia Eis, Kévin Fourteau, Philipp Gregor, Alexander H. Jarosch, Johannes Landmann, Felix Oesterle, Beatriz Recinos, Timo Rothenpieler, Anouk Vlug, Christian T. Wild, and Ben Marzeion. The Open Global Glacier Model (OGGM) v1.1. Geoscientific Model Development, 12(3):909–931, mar 2019. doi:10.5194/gmd-12-909-2019.">Maussion <em>et al.</em>, 2019</a>]</span>. If a grid spacing chosen by this formula exceeds 100 m, the grid spacing is fixed to a maximum of 100 m. Effectively, this means that a glacier of the minimum area of 0.01 km² will have a grid spacing of 11.4 m, a 8 km² glacier a grid spacing of 50 m, and all glaciers above 42 km² a grid spacing of 100 m. The chosen DEM product (<code class="docutils literal notranslate"><span class="pre">dem_source</span></code> attribute) is reprojected onto the local glacier grid and interpolated using cubic resampling with the <a class="reference external" href="https://rasterio.readthedocs.io">rasterio</a> library.</p>
 <p>The main DEM product used for RGI 7.0 is the Copernicus DEM <span id="id2">[<a class="reference internal" href="../07_references.html#id8" title="Copernicus. Copernicus DEM - Global and European Digital Elevation Model (COP-DEM). 2019. doi:10.5270/ESA-c5d3d65.">Copernicus, 2019</a>]</span> (used for all but 128 glaciers). The COP-DEM products are available at 30 m and 90 m resolution. For all glaciers which grid size is below 60 m we use the 30 m COP-DEM product as source, and use the 90 m COP-DEM product for all other glaciers. If the COP-DEM product is not available for a glacier, we use one of the alternative products RAMP (21 glaciers), DEM3 (20 glaciers), ASTER (14 glaciers), or TANDEM (73 glaciers). We ask our users to refer to the original data sources in their publications if the topography attributes derived from RGI 7.0 play a significant role: refer to <a class="reference internal" href="dem_citations.html"><span class="doc std std-doc">DEM products citations</span></a> for a full reference.</p>
 <p>For each glacier, a glacier mask is computed from the outlines and then applied to compute the glacier statistics.</p>
 </section>
 <section id="slope-attributes">
-<h3>Slope attributes<a class="headerlink" href="#slope-attributes" title="Permalink to this headline">#</a></h3>
+<h3>Slope attributes<a class="headerlink" href="#slope-attributes" title="Permalink to this heading">#</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">slope_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code>, <code class="docutils literal notranslate"><span class="pre">aspect_sec</span></code> attributes are computed from the same DEM and grid as for the topography attributes described above (<a class="reference external" href="https://docs.oggm.org/en/stable/rgitopo.html">RGI-TOPO</a>).</p>
 <p><code class="docutils literal notranslate"><span class="pre">slope_deg</span></code> and <code class="docutils literal notranslate"><span class="pre">aspect_deg</span></code> are computed using a standard trigonometric functions in python. The <code class="docutils literal notranslate"><span class="pre">aspect_sec</span></code> attribute contains information on the orientation of the glacier, classified into the following categories:</p>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
@@ -604,7 +671,7 @@ document.write(`
 </div>
 </section>
 <section id="terminus-location">
-<h3>Terminus location<a class="headerlink" href="#terminus-location" title="Permalink to this headline">#</a></h3>
+<h3>Terminus location<a class="headerlink" href="#terminus-location" title="Permalink to this heading">#</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">termlon</span></code>, <code class="docutils literal notranslate"><span class="pre">termlat</span></code> attributes mark the longitude and latitude of the last point of the main centerline, guaranteed to be on the glacier outline. It represents (approximately) the location of lowest elevation along the glacier outline. Knowing the terminus location is useful to assign a glacier to a hydrological basin, for example.</p>
 <figure class="align-default" id="terminus-fig">
 <img alt="terminus map" class="bg-primary mb-1" src="../_images/example_terminus.png" />
@@ -614,11 +681,11 @@ document.write(`
 </figure>
 </section>
 <section id="glacier-length">
-<h3>Glacier length<a class="headerlink" href="#glacier-length" title="Permalink to this headline">#</a></h3>
+<h3>Glacier length<a class="headerlink" href="#glacier-length" title="Permalink to this heading">#</a></h3>
 <p>The maximum length (<code class="docutils literal notranslate"><span class="pre">lmax_m</span></code>, in meters) is computed from the main centerline in the RGI 7.0 glacier centerline product. Absolute glacier length is a subjective measure, and principally depends on the chosen “head” of the glacier. The head is distinct from the maximum elevation of the glacier. The centerline algorithm from <span id="id3">Kienholz <em>et al.</em> [<a class="reference internal" href="../07_references.html#id97" title="C. Kienholz, J. L. Rich, a. a. Arendt, and R. Hock. A new method for deriving glacier centerlines applied to glaciers in Alaska and northwest Canada. The Cryosphere, 8(2):503–519, mar 2014. doi:10.5194/tc-8-503-2014.">2014</a>]</span> selects potential heads by searching for local maxima along the glacier outline, and then computes all the centerlines joining all heads to the single terminus. The longest of them is selected as the main centerline, which implies that the computed glacier length is often longer than the shortest route from the highest to the lowest point of the glacier.</p>
 </section>
 <section id="surge-type">
-<h3>Surge type<a class="headerlink" href="#surge-type" title="Permalink to this headline">#</a></h3>
+<h3>Surge type<a class="headerlink" href="#surge-type" title="Permalink to this heading">#</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">surge_type</span></code> attribute contains information on evidence for surging, and is based on the following datasets:</p>
 <ul class="simple">
 <li><p>All glaciers marked as surge-type in RGI 6.0;</p></li>
@@ -664,7 +731,7 @@ in the RGI 7.0 was then assigned the category corresponding to the highest level
 <p>Visit <a class="reference internal" href="../06_dataset_summary.html#attributes-stats"><span class="std std-ref">Global attributes statistics</span></a> for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.</p>
 </section>
 <section id="terminus-type">
-<h3>Terminus type<a class="headerlink" href="#terminus-type" title="Permalink to this headline">#</a></h3>
+<h3>Terminus type<a class="headerlink" href="#terminus-type" title="Permalink to this heading">#</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">term_type</span></code> attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the “Not assigned” category, except
 for the marine-terminating glaciers in the northern hemisphere (after <span id="id8">Kochtitzky <em>et al.</em> [<a class="reference internal" href="../07_references.html#id53" title="William Kochtitzky, Luke Copland, Wesley Van Wychen, Romain Hugonnet, Regine Hock, Julian A. Dowdeswell, Toby Benham, Tazio Strozzi, Andrey Glazovsky, Ivan Lavrentiev, David R. Rounce, Romain Millan, Alison Cook, Abigail Dalton, Hester Jiskoot, Jade Cooley, Jacek Jania, and Francisco Navarro. The unquantified mass loss of Northern Hemisphere marine-terminating glaciers from 2000–2020. Nature Communications, 13(1):5835, oct 2022. doi:10.1038/s41467-022-33231-x.">2022</a>]</span>) and in region 17 - Southern Andes (same methodology).</p>
 <p>The marine-terminating <code class="docutils literal notranslate"><span class="pre">term_type</span></code> attribute is valid for approximately the year 2000.
@@ -703,7 +770,7 @@ We aim to add this information in a future update of the RGI.</p>
 <p>Visit <a class="reference internal" href="../06_dataset_summary.html#attributes-stats"><span class="std std-ref">Global attributes statistics</span></a> for glacier counts/area of this attribute in RGI 7.0 and RGI 6.0.</p>
 </section>
 <section id="wgms-primary-classification">
-<h3>WGMS primary classification<a class="headerlink" href="#wgms-primary-classification" title="Permalink to this headline">#</a></h3>
+<h3>WGMS primary classification<a class="headerlink" href="#wgms-primary-classification" title="Permalink to this heading">#</a></h3>
 <p>The WGMS primary classification of the glacier (<code class="docutils literal notranslate"><span class="pre">primeclass</span></code>) is directly fetched from the GLIMS database. It is currently poorly populated, with only few submissions to GLIMS having provided this information.</p>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
@@ -762,7 +829,7 @@ We aim to add this information in a future update of the RGI.</p>
 </section>
 </section>
 <section id="submission-info-table">
-<span id="subm-info"></span><h2>Submission info table<a class="headerlink" href="#submission-info-table" title="Permalink to this headline">#</a></h2>
+<span id="subm-info"></span><h2>Submission info table<a class="headerlink" href="#submission-info-table" title="Permalink to this heading">#</a></h2>
 <p>Each glacier region folder contains a csv file containing information about provenance of the glacier outlines. This file is available for the glacier product only, and allows to associate each outline’s <code class="docutils literal notranslate"><span class="pre">subm_id</span></code> (submission identifier) to a specific entry in the GLIMS database. The table contains the following columns:</p>
 <dl class="simple myst">
 <dt><code class="docutils literal notranslate"><span class="pre">subm_id</span></code></dt><dd><p><code class="docutils literal notranslate"><span class="pre">long_name</span></code>: submission_id <br/> <code class="docutils literal notranslate"><span class="pre">description</span></code>: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> <code class="docutils literal notranslate"><span class="pre">datatype</span></code>: int <br/> <code class="docutils literal notranslate"><span class="pre">units</span></code>:  <br/> <code class="docutils literal notranslate"><span class="pre">source</span></code>: GLIMS <br/> <code class="docutils literal notranslate"><span class="pre">rgi6_name</span></code>:</p>
@@ -814,11 +881,10 @@ We aim to add this information in a future update of the RGI.</p>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../03_data_decription.html"
@@ -838,10 +904,7 @@ We aim to add this information in a future update of the RGI.</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -921,8 +984,8 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

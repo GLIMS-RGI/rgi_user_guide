@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -67,7 +69,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="18: New Zealand" href="rgi18.html" />
     <link rel="prev" title="16: Low Latitudes" href="rgi16.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -76,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -136,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="The Randolph Glacier Inventory version 7 - Home"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="The Randolph Glacier Inventory version 7 - Home"/>`);</script>
   
   
 </a></div>
@@ -369,10 +381,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -380,7 +392,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -421,7 +433,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="southern-andes">
-<h1>17: Southern Andes<a class="headerlink" href="#southern-andes" title="Permalink to this headline">#</a></h1>
+<h1>17: Southern Andes<a class="headerlink" href="#southern-andes" title="Permalink to this heading">#</a></h1>
 <p>The region encompasses all glaciers in South America south of 25°S.</p>
 <div class="note dropdown admonition">
 <p class="admonition-title">Subregions</p>
@@ -440,12 +452,12 @@ document.write(`
 </figure>
 <!--- Map end -->
 <section id="changes-from-version-6-0-to-7-0">
-<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
+<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this heading">#</a></h2>
 <p>All glaciers in RGI 6.0 were replaced by new outlines.</p>
 <p>The RGI 6.0 glacier outlines suffered from reduced quality due to the presence of seasonal snow, missing debris-covered glaciers, incorrectly mapped ice divides and data processing artefacts. RGI 7.0 outlines are based on the new national glacier inventories of Argentina <span id="id1">[<a class="reference internal" href="../07_references.html#id55" title="Laura Zalazar, Lidia Ferri, Mariano Castro, Hernán Gargantini, Melisa Gimenez, Pierre Pitte, Lucas Ruiz, Mariano Masiokas, Gustavo Costa, and Ricardo Villalba. Spatial distribution and characteristics of Andean ice masses in Argentina: results from the first National Glacier Inventory. Journal of Glaciology, 66(260):938–949, dec 2020. doi:10.1017/jog.2020.55.">Zalazar <em>et al.</em>, 2020</a>]</span> and Chile <span id="id2">[<a class="reference internal" href="../07_references.html#id102" title="Gonzalo Barcaza, Samuel U. Nussbaumer, Guillermo Tapia, Javier Valdés, Juan-Luis García, Yohan Videla, Amapola Albornoz, and Víctor Arias. Glacier inventory and recent glacier variations in the Andes of Chile, South America. Annals of Glaciology, 58(75pt2):166–180, jul 2017. doi:10.1017/aog.2017.28.">Barcaza <em>et al.</em>, 2017</a>]</span>. The former was derived from a range of sensors (ALOS, ASTER, Landsat, SPOT4) with images acquired between 2004 and 2013. The latter was derived from Landsat ETM+ imagery acquired between 2000 and 2003. Both national inventories included rock glaciers which were removed for RGI 7.0. The classes MN (snow field) and GCGE (mixed debris-covered / rock glacier) in the Argentina inventory were also removed. Data gaps and overlaps along the national boundary as well as wrongly placed drainage divides were corrected in the merged data set using the “World imagery” layer of the ESRI basemap and a flow direction grid derived from the AW3D30 DEM, respectively. In some regions (e.g. Tierra del Fuego) missing glaciers were added and the extent of glaciers that were too large in the Argentian and Chilean inventories was reduced using Landsat images from around the year 2000.</p>
 </section>
 <section id="additional-information">
-<h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
+<h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this heading">#</a></h2>
 <div class="important dropdown admonition">
 <p class="admonition-title">Data sources and analysts</p>
 <figure class="align-default" id="id7">
@@ -648,11 +660,10 @@ Table: Surge type statistics</div>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="rgi16.html"
@@ -672,10 +683,7 @@ Table: Surge type statistics</div>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -743,8 +751,8 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

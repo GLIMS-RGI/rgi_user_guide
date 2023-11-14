@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -67,7 +69,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="13: Central Asia" href="rgi13.html" />
     <link rel="prev" title="11: Central Europe" href="rgi11.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -76,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -136,13 +147,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/rgi_logo_square.png" class="logo__image only-light" alt="The Randolph Glacier Inventory version 7 - Home"/>
+    <script>document.write(`<img src="../_static/rgi_logo_square.png" class="logo__image only-dark" alt="The Randolph Glacier Inventory version 7 - Home"/>`);</script>
   
   
 </a></div>
@@ -369,10 +381,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -380,7 +392,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -421,7 +433,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="caucasus-and-middle-east">
-<h1>12: Caucasus and Middle East<a class="headerlink" href="#caucasus-and-middle-east" title="Permalink to this headline">#</a></h1>
+<h1>12: Caucasus and Middle East<a class="headerlink" href="#caucasus-and-middle-east" title="Permalink to this heading">#</a></h1>
 <p>The region encompasses all glaciers between 30°E and 54°E and 30°N and 45°N. More than 99% of the glaciers are located in the Caucasus.</p>
 <div class="note dropdown admonition">
 <p class="admonition-title">Subregions</p>
@@ -440,7 +452,7 @@ document.write(`
 </figure>
 <!--- Map end -->
 <section id="changes-from-version-6-0-to-7-0">
-<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this headline">#</a></h2>
+<h2>Changes from version 6.0 to 7.0<a class="headerlink" href="#changes-from-version-6-0-to-7-0" title="Permalink to this heading">#</a></h2>
 <p>All RGI6.0 outlines have been replaced, representing a considerable change and improvement to RGI 6.0.</p>
 <p><strong>Caucasus</strong></p>
 <p>The RGI 6.0 inventory for the Greater Caucasus, which includes 95% of the region’s glaciers, was based on ASTER and Landsat imagery from 1999–2004 <span id="id1">[<a class="reference internal" href="../07_references.html#id22" title="T Khromova, G Nosenko, A Muraviev, S Nikitin, L Chernova, and N Zverkova. Mountain Area Glaciers of Russia in the 20th and the Beginning of the 21st Centuries. In Gregory B Greenwood and J F Shroder, editors, Mountain Ice and Water, volume 21 of Developments in Earth Surface Processes, pages 47–129. Elsevier, 2016. doi:10.1016/B978-0-444-63787-1.00002-0.">Khromova <em>et al.</em>, 2016</a>]</span>. Since the data set has geolocation issues, and missing glaciers in the eastern and western Greater Caucasus are included as “nominal glaciers” (circles covering an area equivalent to glacier size), the entire data set was replaced in RGI 7.0 by manually digitized outlines from <span id="id2">Tielidze <em>et al.</em> [<a class="reference internal" href="../07_references.html#id94" title="Levan G. Tielidze, Gennady A. Nosenko, Tatiana E. Khromova, and Frank Paul. Strong acceleration of glacier area loss in the Greater Caucasus between 2000 and 2020. The Cryosphere, 16(2):489–504, feb 2022. doi:10.5194/tc-16-489-2022.">2022</a>]</span> primarily based on Landsat scenes from 1999-2002.</p>
@@ -448,7 +460,7 @@ document.write(`
 <p>Most RGI 6.0 glacier outlines were mapped based on ASTER imagery from 2004-2006 (Turkey) and Landsat scenes from 2011 (Iran), however, a closer look revealed that most of these outlines were snow patches and not actual glaciers. Therefore, outlines were remapped based on Landsat imagery from 1998-2001.</p>
 </section>
 <section id="additional-information">
-<h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this headline">#</a></h2>
+<h2>Additional information<a class="headerlink" href="#additional-information" title="Permalink to this heading">#</a></h2>
 <div class="important dropdown admonition">
 <p class="admonition-title">Data sources and analysts</p>
 <figure class="align-default" id="id10">
@@ -651,11 +663,10 @@ Table: Surge type statistics</div>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="rgi11.html"
@@ -675,10 +686,7 @@ Table: Surge type statistics</div>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -746,8 +754,8 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by/4
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

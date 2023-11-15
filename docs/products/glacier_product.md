@@ -1,6 +1,6 @@
-# Glacier product 
+# Glacier product
 
-This product includes the **glacier outlines** as extracted from GLIMS together with additional data for each individual glacier. 
+This product includes the **glacier outlines** as extracted from GLIMS together with additional data for each individual glacier.
 
 :::{figure-md} glacier-fig
 <img src="../img/example_glacier.png" alt="glacier map" class="bg-primary mb-1">
@@ -45,7 +45,7 @@ In the following, file contents are explained using RGI region 01 (Alaska) as ex
   | `cluster_id` | integer | Arbitrary cluster identifier (unique globally), which groups together all overlapping RGI 6.0 and RGI 7.0 outlines such that each cluster does not overlap any other cluster |
   ```
 
-  For example, if an RGI 6 outline perfectly matches an RGI 7 outline, the overlap is a 1:1 relation (`n_rgi6`: 1, `n_rgi7`: 1) with 100% coverage (`rgi7_area_fraction`: 1, `rgi6_area_fraction`: 1). If an RGI 6 outline divided into two outlines (of equal area) in RGI 7, the two overlaps are part of a 1:2 relation (`n_rgi6`: 1, `n_rgi7`: 2) with 50% and 100% coverage (`rgi6_area_fraction`: 0.5, `rgi7_area_fraction`: 1). Often the relation between RGI7 and RGI6 is more complex, for example when an outline was remapped in RGI 7 and partially overlaps many in RGI 6.
+  For example, if an RGI 6.0 outline perfectly matches an RGI 7.0 outline, the overlap is a 1:1 relation (`n_rgi6`: 1, `n_rgi7`: 1) with 100% coverage (`rgi7_area_fraction`: 1, `rgi6_area_fraction`: 1). If an RGI 6.0 outline divided into two outlines (of equal area) in RGI 7.0, the two overlaps are part of a 1:2 relation (`n_rgi6`: 1, `n_rgi7`: 2) with 50% and 100% coverage (`rgi6_area_fraction`: 0.5, `rgi7_area_fraction`: 1). Often the relation between RGI 7.0 and RGI 6.0 is more complex, for example when an outline was remapped in RGI 7.0 and partially overlaps many in RGI 6.0. Note that in some cases (mostly in regions 13, 14, 15), an RGI 7.0 outline might overlap with an RGI 6.0 outline in a neighboring region.
 
 `RGI2000-v7.0-G-01_alaska-hypsometry.csv`
 : **Hypsometry** for each glacier, preceded by copies of the glacier's `rgi_id` and `area_km2`. The hypsometry data are given as a comma-separated series of elevation-band areas in the form of integer thousandths of the glacier's total area in km² (`area_km2`). The sum of the elevation-band area values is constrained to be 1000. This means that an elevation band's value divided by 10 represents the elevation band's area as a percentage of total glacier area. For example, a value of 500 for a particular elevation bands means that it contains 50% of the total glacier area. The elevation bands are all 50 m in height and their central elevations are listed in the file header record. Within each hypsometry file the elevation bands extend from the lowest glacierized elevation up to the highest glacierized elevation band of the corresponding first-order region.
@@ -68,10 +68,10 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: GLIMS identifier <br/> `description`: Non-unique identifier assigned to glaciers by the Global Land Ice Measurements from Space service at NSIDC. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: GLIMS_Id
 
 `anlys_id`
-: `long_name`: Analysis identifier <br/> `description`: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: Analysis identifier <br/> `description`: The unique identifier assigned within GLIMS for a particular outline of a glacier at a particular time. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `subm_id`
-: `long_name`: Submission identifier <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: Submission identifier <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `src_date`
 : `long_name`: Outline source date <br/> `description`: The as-of date for the outline (usually the acquisition date of the image), in the format ISO 8601. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: BgnDate
@@ -83,13 +83,13 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Center latitude <br/> `description`: Latitude of an approximately central point within the glacier outlines (not the centroid). <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: CenLat
 
 `utm_zone`
-: `long_name`: UTM zone <br/> `description`: Number of the UTM zone for this glacier, based on its representative point. Note that this attribute is for information only, the geometries are all in WGS84. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: UTM zone <br/> `description`: Number of the UTM zone for this glacier, based on its representative point. Note that this attribute is for information only, the geometries are all in WGS84. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`:
 
 `area_km2`
 : `long_name`: Glacier area <br/> `description`: Area of the glacier. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: Area
 
 `primeclass`
-: `long_name`: Primary classification <br/> `description`: WGMS primary classification of the glacier. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: Primary classification <br/> `description`: WGMS primary classification of the glacier. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `conn_lvl`
 : `long_name`: Connectivity level <br/> `description`: Level of connection to the Greenland Icesheet (0: no connection; 1: weak connection). <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: Connect
@@ -104,13 +104,13 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Glacier name <br/> `description`: Glacier name (when available). <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: Name
 
 `is_rgi6`
-: `long_name`: Same as RGI 6.0 outline <br/> `description`: Flag indicating if the outline is the same as in RGI 6.0 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon (in most of the cases it does). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Same as RGI 6.0 outline <br/> `description`: Flag indicating if the outline is the same as in RGI 6.0 (1) or was remapped (0). Note that it does not guarantee strict equivalence of the polygon (in most of the cases it does). <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`:
 
 `termlon`
-: `long_name`: Terminus longitude <br/> `description`: Longitude of the lowest elevation point on the glacier outline. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Terminus longitude <br/> `description`: Longitude of the lowest elevation point on the glacier outline. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`:
 
 `termlat`
-: `long_name`: Terminus latitude <br/> `description`: Latitude of the lowest elevation point on the glacier outline. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Terminus latitude <br/> `description`: Latitude of the lowest elevation point on the glacier outline. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`:
 
 `zmin_m`
 : `long_name`: Minimum elevation <br/> `description`: Minimum elevation (m above sea level) of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Zmin
@@ -122,7 +122,7 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Median elevation <br/> `description`: Median elevation (m above sea level) of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Zmed
 
 `zmean_m`
-: `long_name`: Mean elevation <br/> `description`: Mean elevation (m above sea level) of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Mean elevation <br/> `description`: Mean elevation (m above sea level) of the glacier. <br/> `datatype`: float <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`:
 
 `slope_deg`
 : `long_name`: Mean slope <br/> `description`: Mean slope of the glacier surface. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: Slope
@@ -131,10 +131,10 @@ The following attributes are available in the RGI 7.0 shapefiles. For more detai
 : `long_name`: Aspect <br/> `description`: The aspect (orientation) of the glacier surface presented as an azimuth relative to 0° at due north. <br/> `datatype`: float <br/> `units`: degrees <br/> `source`: RGI <br/> `rgi6_name`: Aspect
 
 `aspect_sec`
-: `long_name`: Aspect sector <br/> `description`: The aspect (orientation) of the glacier surface presented as a category. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: Aspect sector <br/> `description`: The aspect (orientation) of the glacier surface presented as a category. For a categories description, see user guide. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`:
 
 `dem_source`
-: `long_name`: DEM data source <br/> `description`: The name of the dataset that was used to compute the topography attributes. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: DEM data source <br/> `description`: The name of the dataset that was used to compute the topography attributes. <br/> `datatype`: str <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`:
 
 `lmax_m`
 : `long_name`: Maximum length <br/> `description`: Length (m) of the longest surface centerline of the glacier. <br/> `datatype`: int <br/> `units`: m <br/> `source`: RGI <br/> `rgi6_name`: Lmax
@@ -218,8 +218,8 @@ The `surge_type` attribute contains information on evidence for surging, and is 
 
 Each inventory was intersected with the RGI 7.0 outlines. For inventories with glacier outlines, intersections smaller than
 5% by area were discarded. For inventories with point data, where no intersection was found, the closest glacier to the
-point was manually chosen based on a comparison with the metadata provided with each inventory. Finally, each glacier 
-in the RGI 7.0 was then assigned the category corresponding to the highest level of confidence based on each inventory 
+point was manually chosen based on a comparison with the metadata provided with each inventory. Finally, each glacier
+in the RGI 7.0 was then assigned the category corresponding to the highest level of confidence based on each inventory
 (i.e., "observed" > "probable" > "possible" > "not assigned").
 
 ```{card}
@@ -238,8 +238,8 @@ Visit [](attributes-stats) for glacier counts/area of this attribute in RGI 7.0 
 
 ### Terminus type
 
-The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except 
-for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 - Southern Andes (same methodology). 
+The `term_type` attribute contains information on terminus type. All glaciers in RGI 7.0 have been assigned the "Not assigned" category, except
+for the marine-terminating glaciers in the northern hemisphere (after {cite:t}`Kochtitzky2022`) and in region 17 - Southern Andes (same methodology).
 
 The marine-terminating `term_type` attribute is valid for approximately the year 2000.
 The only region missing classification for marine-terminating glaciers is RGI 19 (Antarctic and Subantarctic),
@@ -289,31 +289,31 @@ The WGMS primary classification of the glacier (`primeclass`) is directly fetche
 Each glacier region folder contains a csv file containing information about provenance of the glacier outlines. This file is available for the glacier product only, and allows to associate each outline's `subm_id` (submission identifier) to a specific entry in the GLIMS database. The table contains the following columns:
 
 `subm_id`
-: `long_name`: submission_id <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: submission_id <br/> `description`: Unique identifier assigned by GLIMS to a specific data submission. Allows to obtain information about the analysts and data submitters. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `n_outlines`
-: `long_name`: number_of_outlines <br/> `description`: Number of outlines from this submission used in RGI 7.0. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: number_of_outlines <br/> `description`: Number of outlines from this submission used in RGI 7.0. <br/> `datatype`: int <br/> `units`:  <br/> `source`: RGI <br/> `rgi6_name`:
 
 `area_km2`
-: `long_name`: total_area_of_outlines <br/> `description`: Total area of the outlines from this submission used in RGI 7.0. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`: 
+: `long_name`: total_area_of_outlines <br/> `description`: Total area of the outlines from this submission used in RGI 7.0. <br/> `datatype`: float <br/> `units`: km2 <br/> `source`: RGI <br/> `rgi6_name`:
 
 `anlys_time`
-: `long_name`: analysis_time <br/> `description`: Representative time the outline analysis was carried out. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: analysis_time <br/> `description`: Representative time the outline analysis was carried out. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `release_dt`
-: `long_name`: release_date <br/> `description`: Date at which the submission was realeased on GLIMS. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: release_date <br/> `description`: Date at which the submission was realeased on GLIMS. <br/> `datatype`: str <br/> `units`: date <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `proc_desc`
-: `long_name`: processing_description <br/> `description`: Description of the processing done to create the glacier outlines. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: processing_description <br/> `description`: Description of the processing done to create the glacier outlines. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `chief_affl`
-: `long_name`: chief_affiliation <br/> `description`: Affiliation of the chief of the regional center or the person(s) who submitted the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: chief_affiliation <br/> `description`: Affiliation of the chief of the regional center or the person(s) who submitted the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `submitters`
-: `long_name`: submitters <br/> `description`: Person(s) who submitted the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: submitters <br/> `description`: Person(s) who submitted the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `analysts`
-: `long_name`: analysts <br/> `description`: Person(s) who created the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: analysts <br/> `description`: Person(s) who created the data. <br/> `datatype`: str <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:
 
 `rc_id`
-: `long_name`: regional_center_id <br/> `description`: GLIMS ID for the regional center. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`: 
+: `long_name`: regional_center_id <br/> `description`: GLIMS ID for the regional center. <br/> `datatype`: int <br/> `units`:  <br/> `source`: GLIMS <br/> `rgi6_name`:

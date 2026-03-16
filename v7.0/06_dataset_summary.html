@@ -1,0 +1,787 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Global statistics &#8212; The Randolph Glacier Inventory version 7</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '06_dataset_summary';</script>
+    <link rel="icon" href="_static/rgi_logo.svg"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="References" href="07_references.html" />
+    <link rel="prev" title="20: Antarctic Mainland" href="regions/rgi20.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="welcome.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/rgi_logo_square.png" class="logo__image only-light" alt="The Randolph Glacier Inventory version 7 - Home"/>
+    <img src="_static/rgi_logo_square.png" class="logo__image only-dark pst-js-only" alt="The Randolph Glacier Inventory version 7 - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="01_introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_regions_definition.html">RGI glacier regions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="03_data_decription.html">Data description of RGI 7.0</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_product.html">Glacier product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/glacier_complex_product.html">Glacier complex product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/intersects_product.html">Glacier intersects product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="products/centerlines_product.html">Glacier centerlines product</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="04_revisions.html">General revisions in RGI 7.0</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="05_description_by_region.html">Regional revisions in RGI 7.0</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="regions/overview.html">Regional areas and counts in RGI 6.0 and RGI 7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi01.html">01: Alaska</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi02.html">02: Western Canada and USA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi03.html">03: Arctic Canada North</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi04.html">04: Arctic Canada South</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi05.html">05: Greenland Periphery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi06.html">06: Iceland</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi07.html">07: Svalbard and Jan Mayen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi08.html">08: Scandinavia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi09.html">09: Russian Arctic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi10.html">10: North Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi11.html">11: Central Europe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi12.html">12: Caucasus and Middle East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi13.html">13: Central Asia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi14.html">14: South Asia West</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi15.html">15: South Asia East</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi16.html">16: Low Latitudes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi17.html">17: Southern Andes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi18.html">18: New Zealand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi19.html">19: Subantarctic and Antarctic Islands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="regions/rgi20.html">20: Antarctic Mainland</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Global statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07_references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/regions.html">Appendix 1: Glacier count/area per region</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contributors.html">Appendix 2: Full list of contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/acknowledgements.html">Appendix 3: Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contribute.html">Appendix 4: How to contribute</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/edit/main/docs/06_dataset_summary.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GLIMS-RGI/rgi_user_guide/issues/new?title=Issue%20on%20page%20%2F06_dataset_summary.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/06_dataset_summary.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Global statistics</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-year">Target year</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#size-classes">Size classes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#global-attributes-statistics">Global attributes statistics</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="global-statistics">
+<h1>Global statistics<a class="headerlink" href="#global-statistics" title="Link to this heading">#</a></h1>
+<p>This section provides plots and tables summarizing some basic statistics of the RGI 7.0 compared to RGI 6.0. A table comparing the area and number of glaciers per region can be found and downloaded in <a class="reference internal" href="regions/overview.html"><span class="doc std std-doc">Regional areas and counts in RGI 6.0 and RGI 7.0</span></a>.</p>
+<section id="target-year">
+<h2>Target year<a class="headerlink" href="#target-year" title="Link to this heading">#</a></h2>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Number of glaciers (%) within intervals around the target year 2000 in RGI 6.0 and RGI 7.0.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Outline year</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (%)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (%)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">2000 ± 2 years</p></td>
+<td class="text-right"><p class="sd-card-text">48.9</p></td>
+<td class="text-right"><p class="sd-card-text">58</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">2000 ± 2-5 years</p></td>
+<td class="text-right"><p class="sd-card-text">15.9</p></td>
+<td class="text-right"><p class="sd-card-text">18.7</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">2000 ± 5-10 years</p></td>
+<td class="text-right"><p class="sd-card-text">27</p></td>
+<td class="text-right"><p class="sd-card-text">19.5</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">2000 ± &gt; 10 years</p></td>
+<td class="text-right"><p class="sd-card-text">8.2</p></td>
+<td class="text-right"><p class="sd-card-text">3.8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="size-classes">
+<h2>Size classes<a class="headerlink" href="#size-classes" title="Link to this heading">#</a></h2>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Number of glaciers (N) and percentage of total number per size class in RGI 6.0 and RGI 7.0.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Area</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (%)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (%)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">&lt; 1 km²</p></td>
+<td class="text-right"><p class="sd-card-text">170576</p></td>
+<td class="text-right"><p class="sd-card-text">79.1</p></td>
+<td class="text-right"><p class="sd-card-text">229626</p></td>
+<td class="text-right"><p class="sd-card-text">83.6</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">1-10 km²</p></td>
+<td class="text-right"><p class="sd-card-text">38054</p></td>
+<td class="text-right"><p class="sd-card-text">17.7</p></td>
+<td class="text-right"><p class="sd-card-text">38081</p></td>
+<td class="text-right"><p class="sd-card-text">13.9</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">10-100 km²</p></td>
+<td class="text-right"><p class="sd-card-text">5955</p></td>
+<td class="text-right"><p class="sd-card-text">2.8</p></td>
+<td class="text-right"><p class="sd-card-text">5830</p></td>
+<td class="text-right"><p class="sd-card-text">2.1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">&gt; 100 km²</p></td>
+<td class="text-right"><p class="sd-card-text">962</p></td>
+<td class="text-right"><p class="sd-card-text">0.4</p></td>
+<td class="text-right"><p class="sd-card-text">994</p></td>
+<td class="text-right"><p class="sd-card-text">0.4</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Total</p></td>
+<td class="text-right"><p class="sd-card-text">215547</p></td>
+<td class="text-right"><p class="sd-card-text">100</p></td>
+<td class="text-right"><p class="sd-card-text">274531</p></td>
+<td class="text-right"><p class="sd-card-text">100</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<figure class="align-default" id="global-histogram">
+<img alt="global map" class="bg-primary mb-1" src="_images/global_histogram.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 85 </span><span class="caption-text">Number of glaciers per size category (log-log scale). A flatter curve for the smaller area classes indicates that many uncharted glaciers in RGI 6.0 have been captured in RGI 7.0.</span><a class="headerlink" href="#global-histogram" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="global-attributes-statistics">
+<span id="attributes-stats"></span><h2>Global attributes statistics<a class="headerlink" href="#global-attributes-statistics" title="Link to this heading">#</a></h2>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Table: Terminus type statistics</div>
+<p class="sd-card-text">Number of glaciers (N) and area (km²) per terminus type in RGI 7.0 and RGI 6.0. Note that the default designation in RGI 7.0 is now “Not assigned”, while in RGI 6.0 lake-terminating glaciers and shelf-terminating glaciers were identified in some regions. The RGI region 19 is entirely labelled as “Not assigned” in RGI 7.0.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p class="sd-card-text">Value</p></th>
+<th class="head text-left"><p class="sd-card-text">Terminus type</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (Area)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (Area)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-left"><p class="sd-card-text">Land-terminating</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">212005</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">397096</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p class="sd-card-text">1</p></td>
+<td class="text-left"><p class="sd-card-text">Marine-terminating</p></td>
+<td class="text-right"><p class="sd-card-text">1561</p></td>
+<td class="text-right"><p class="sd-card-text">3075</p></td>
+<td class="text-right"><p class="sd-card-text">159302</p></td>
+<td class="text-right"><p class="sd-card-text">197514</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">2</p></td>
+<td class="text-left"><p class="sd-card-text">Lake-terminating</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">298</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">27172</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p class="sd-card-text">3</p></td>
+<td class="text-left"><p class="sd-card-text">Shelf-terminating</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">169</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">83958</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">9</p></td>
+<td class="text-left"><p class="sd-card-text">Not assigned</p></td>
+<td class="text-right"><p class="sd-card-text">272970</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">547442</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<figure class="align-default" id="term-global-fig">
+<img alt="global map term_type" class="bg-primary mb-1" src="_images/global_map_term_type_small.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 86 </span><span class="caption-text">Terminus type (<code class="docutils literal notranslate"><span class="pre">term_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map_term_type.jpeg">Download high resolution version</a>.</span><a class="headerlink" href="#term-global-fig" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Table: Surge type statistics</div>
+<p class="sd-card-text">Number of glaciers (N) and area (km²) per surge type attribute in RGI 7.0 and RGI 6.0.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p class="sd-card-text">Value</p></th>
+<th class="head text-left"><p class="sd-card-text">Surge type</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (N)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 7.0 (Area)</p></th>
+<th class="head text-right"><p class="sd-card-text">RGI 6.0 (Area)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-left"><p class="sd-card-text">No evidence</p></td>
+<td class="text-right"><p class="sd-card-text">271901</p></td>
+<td class="text-right"><p class="sd-card-text">42515</p></td>
+<td class="text-right"><p class="sd-card-text">566418</p></td>
+<td class="text-right"><p class="sd-card-text">127426</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p class="sd-card-text">1</p></td>
+<td class="text-left"><p class="sd-card-text">Possible</p></td>
+<td class="text-right"><p class="sd-card-text">630</p></td>
+<td class="text-right"><p class="sd-card-text">509</p></td>
+<td class="text-right"><p class="sd-card-text">23334</p></td>
+<td class="text-right"><p class="sd-card-text">23622</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">2</p></td>
+<td class="text-left"><p class="sd-card-text">Probable</p></td>
+<td class="text-right"><p class="sd-card-text">825</p></td>
+<td class="text-right"><p class="sd-card-text">383</p></td>
+<td class="text-right"><p class="sd-card-text">31254</p></td>
+<td class="text-right"><p class="sd-card-text">19376</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p class="sd-card-text">3</p></td>
+<td class="text-left"><p class="sd-card-text">Observed</p></td>
+<td class="text-right"><p class="sd-card-text">1175</p></td>
+<td class="text-right"><p class="sd-card-text">448</p></td>
+<td class="text-right"><p class="sd-card-text">85738</p></td>
+<td class="text-right"><p class="sd-card-text">43066</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p class="sd-card-text">9</p></td>
+<td class="text-left"><p class="sd-card-text">Not assigned</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">171692</p></td>
+<td class="text-right"><p class="sd-card-text">0</p></td>
+<td class="text-right"><p class="sd-card-text">492249</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<figure class="align-default" id="surge-global-fig">
+<img alt="global map surge" class="bg-primary mb-1" src="_images/global_map_surge_small.jpeg" />
+<figcaption>
+<p><span class="caption-number">Fig. 87 </span><span class="caption-text">Surge type (<code class="docutils literal notranslate"><span class="pre">surge_type</span></code>) attribute distribution in RGI 7.0. <a class="reference external" href="https://raw.githubusercontent.com/GLIMS-RGI/rgi_user_guide/main/docs/img/global_stats/global_map_surge.jpeg">Download high resolution version</a>.</span><a class="headerlink" href="#surge-global-fig" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="regions/rgi20.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">20: Antarctic Mainland</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="07_references.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">References</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-year">Target year</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#size-classes">Size classes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#global-attributes-statistics">Global attributes statistics</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By RGI Consortium
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+  <img align="right" class="margin" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="88px">
+</a>
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
+<br>
+&copy; Copyright RGI Consortium 2022-2026.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

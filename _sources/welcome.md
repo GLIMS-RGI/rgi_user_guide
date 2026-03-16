@@ -2,6 +2,13 @@
 
 The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
 
+```{admonition} Versions
+:class: seealso
+
+This page documents the (unreleased) **RGI v7.1**.
+For the **RGI v7.0** user guide, see <a href="v7.0/index.html">this page</a>.
+```
+
 ```{admonition} Data download
 
 **Download the RGI 7.0 files from NSIDC**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>

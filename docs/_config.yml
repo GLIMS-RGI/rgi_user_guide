@@ -1,18 +1,18 @@
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
-# See the documentation for help and more options: 
+# See the documentation for help and more options:
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
 # Book settings
 title: The Randolph Glacier Inventory version 7
 author: RGI Consortium  # The author of the book
-copyright: "2022"  # Copyright year to be placed in the footer
+copyright: "2022-2026"  # Copyright year to be placed in the footer
 logo: img/rgi_logo/rgi_logo_square.png  # A path to the book logo
 
 repository:
   url: https://github.com/GLIMS-RGI/rgi_user_guide
-  path_to_book: docs 
+  path_to_book: docs
   branch: main
 bibtex_bibfiles:
    - references_cleaned.bib
@@ -21,7 +21,7 @@ html:
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true
-  google_analytics_id: 
+  google_analytics_id:
   extra_footer: |
     <p>
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
@@ -29,7 +29,7 @@ html:
     </a>
     This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a> unless specified otherwise.
     <br>
-    &copy; Copyright RGI Consortium 2022-2023.
+    &copy; Copyright RGI Consortium 2022-2026.
     </p>
 sphinx:
   config:
@@ -46,4 +46,3 @@ parse:
     - substitution
     - colon_fence
     - deflist
-    

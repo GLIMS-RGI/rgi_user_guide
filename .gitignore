@@ -4,6 +4,7 @@ html/index.html
 book/_build/
 references.bib
 .vscode
+v1/docs/_build/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

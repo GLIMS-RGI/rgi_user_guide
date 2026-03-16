@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Building v7.0"
+echo "Building v7.1"
 python3 clean_refs.py
 python3 add_consortium.py
 jupyter-book clean --html docs

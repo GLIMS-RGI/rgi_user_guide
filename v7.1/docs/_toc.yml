@@ -1,0 +1,41 @@
+format: jb-book
+root: welcome
+chapters:
+- file: 01_introduction.md
+- file: 02_regions_definition.md
+- file: 03_data_decription.md
+  sections:
+  - file: products/glacier_product.md
+  - file: products/glacier_complex_product.md
+  - file: products/intersects_product.md
+  - file: products/centerlines_product.md
+- file: 04_revisions.md
+- file: 05_description_by_region.md
+  sections:
+  - file: regions/overview.md
+  - file: regions/rgi01.md
+  - file: regions/rgi02.md
+  - file: regions/rgi03.md
+  - file: regions/rgi04.md
+  - file: regions/rgi05.md
+  - file: regions/rgi06.md
+  - file: regions/rgi07.md
+  - file: regions/rgi08.md
+  - file: regions/rgi09.md
+  - file: regions/rgi10.md
+  - file: regions/rgi11.md
+  - file: regions/rgi12.md
+  - file: regions/rgi13.md
+  - file: regions/rgi14.md
+  - file: regions/rgi15.md
+  - file: regions/rgi16.md
+  - file: regions/rgi17.md
+  - file: regions/rgi18.md
+  - file: regions/rgi19.md
+  - file: regions/rgi20.md
+- file: 06_dataset_summary.md
+- file: 07_references.md
+- file: appendix/regions.md
+- file: appendix/contributors.md
+- file: appendix/acknowledgements.md
+- file: appendix/contribute.md

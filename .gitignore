@@ -4,7 +4,10 @@ html/index.html
 book/_build/
 references.bib
 .vscode
-v1/docs/_build/
+v7.0/docs/_build/
+v7.1/docs/_build/
+_html
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

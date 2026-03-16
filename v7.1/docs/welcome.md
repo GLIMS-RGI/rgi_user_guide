@@ -5,8 +5,8 @@ The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global in
 ```{admonition} Versions
 :class: seealso
 
-This page documents **RGI v7.0**.
-For the **RGI v7.1** user guide, see <a href="../index.html">this page</a>.
+This page documents the (unreleased) **RGI v7.1**.
+For the **RGI v7.0** user guide, see <a href="v7.0/index.html">this page</a>.
 ```
 
 ```{admonition} Data download

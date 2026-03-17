@@ -25,9 +25,9 @@ build_v7_1() {
 }
 
 merge_outputs() {
-	rm -rf "$SCRIPT_DIR/_html"
-	cp -R "$SCRIPT_DIR/v7.1/docs/_build/html" "$SCRIPT_DIR/_html"
-	cp -R "$SCRIPT_DIR/v7.0/docs/_build/html" "$SCRIPT_DIR/_html/v7.0"
+	rm -rf "$SCRIPT_DIR/_html_merged"
+	cp -R "$SCRIPT_DIR/v7.1/docs/_build/html" "$SCRIPT_DIR/_html_merged"
+	cp -R "$SCRIPT_DIR/v7.0/docs/_build/html" "$SCRIPT_DIR/_html_merged/v7.0"
 }
 
 mode="--all"

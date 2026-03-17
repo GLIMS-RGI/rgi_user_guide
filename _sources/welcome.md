@@ -11,7 +11,7 @@ For the **RGI v7.0** user guide, see <a href="v7.0/index.html">this page</a>.
 
 ```{admonition} Data download
 
-**Download the RGI 7.1 files from**:
+**Download the RGI 7.0 files from NSIDC**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
 Cite the RGI: [](reference)<br>
 Download previous RGI versions: https://www.glims.org/RGI
 ```

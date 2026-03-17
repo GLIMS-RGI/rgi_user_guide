@@ -1,4 +1,4 @@
-# Regional revisions in RGI 7.0
+# Regional revisions in RGI 7.1
 
 :::{figure-md} global-fig-changes
 <img src="img/global_stats/global_map_wrgi6_small.jpeg" alt="global map" class="bg-primary mb-1">

@@ -5,9 +5,10 @@ html {
   --pst-font-size-h4: 1.0em; /* Default: ? */
 }
 
+/* Staging banner — RGI brand colors: navy #2D2D8C, red #CC2E22, gold #F5A623 */
 .announcement,
 .bd-header-announcement {
-  background: linear-gradient(90deg, #0b4f6c, #147a63);
+  background: linear-gradient(90deg, #2D2D8C, #CC2E22);
   color: #fff;
 }
 
@@ -30,10 +31,10 @@ html {
   padding: 0.05rem 0.35rem;
   border-radius: 0.35rem;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.38);
+  background: rgba(245, 166, 35, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(245, 166, 35, 0.55);
   text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.85);
+  text-decoration-color: rgba(245, 166, 35, 0.85);
   text-decoration-thickness: 0.14em;
   text-underline-offset: 0.16em;
 }
@@ -42,7 +43,7 @@ html {
 .bd-header-announcement a:focus,
 .bd-header-announcement a:focus-visible {
   color: #fff;
-  background: rgba(255, 255, 255, 0.24);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
-  text-decoration-color: #fff;
+  background: rgba(245, 166, 35, 0.35);
+  box-shadow: inset 0 0 0 1px rgba(245, 166, 35, 0.85);
+  text-decoration-color: #F5A623;
 }

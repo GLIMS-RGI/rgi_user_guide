@@ -27,12 +27,14 @@ build_v7_1() {
 merge_outputs() {
 	rm -rf "$SCRIPT_DIR/_html_merged"
 	# v7.0 at root (current latest) and also at /v7.0/ (stable archive path).
-	# v7.1 at /v7.1/ (accessible but not default yet).
 	# Single build per version, copied — works because _config.yml uses relative links throughout.
 	# When v7.1 is ready to become latest: put v7.1 at root, keep v7.0 only at /v7.0/.
 	cp -R "$SCRIPT_DIR/v7.0/docs/_build/html" "$SCRIPT_DIR/_html_merged"
 	cp -R "$SCRIPT_DIR/v7.0/docs/_build/html" "$SCRIPT_DIR/_html_merged/v7.0"
-	cp -R "$SCRIPT_DIR/v7.1/docs/_build/html" "$SCRIPT_DIR/_html_merged/v7.1"
+	# v7.1 only included if it has been built
+	if [ -d "$SCRIPT_DIR/v7.1/docs/_build/html" ]; then
+		cp -R "$SCRIPT_DIR/v7.1/docs/_build/html" "$SCRIPT_DIR/_html_merged/v7.1"
+	fi
 }
 
 mode="--all"

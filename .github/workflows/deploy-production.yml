@@ -1,0 +1,58 @@
+name: Publish to rgidata.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout rgi_user_guide
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install "jupyter-book<2"
+
+      - name: Build v7.0
+        run: ./build.sh --v7.0
+
+      - name: Merge outputs
+        # Produces _html_merged/ with v7.0 at root and at /v7.0/
+        run: ./build.sh --merge
+
+      - name: Checkout rgi-website
+        uses: actions/checkout@v4
+        with:
+          repository: GLIMS-RGI/rgi-website
+          token: ${{ secrets.RGI_WEBSITE_TOKEN }}
+          path: rgi-website
+
+      - name: Update user_guide in rgi-website
+        run: |
+          rm -rf rgi-website/docs/user_guide
+          cp -R _html_merged rgi-website/docs/user_guide
+
+      - name: Open PR on rgi-website
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.RGI_WEBSITE_TOKEN }}
+          path: rgi-website
+          branch: publish-user-guide
+          base: main
+          title: "Publish user guide v7.0"
+          body: |
+            Automated publish from `rgi_user_guide`.
+
+            - **Content**: v7.0 at root + `/v7.0/`
+            - **Triggered by**: @${{ github.actor }}
+            - **Workflow run**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Merge this PR to deploy to https://rgidata.org/user_guide.
+          commit-message: "publish user guide v7.0"
+          delete-branch: true

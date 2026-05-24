@@ -1,6 +1,6 @@
 # RGI user guide
 
-Stable version: https://www.glims.org/rgi_user_guide
+Stable version: https://rgidata.org/user_guide
 
 Development version: https://glims-rgi.github.io/rgi_user_guide
 

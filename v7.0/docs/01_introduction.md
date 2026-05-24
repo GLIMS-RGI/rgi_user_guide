@@ -7,7 +7,7 @@
 
 ## What is the RGI?
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space ([GLIMS](https://www.glims.org)) initiative. While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.
+The Randolph Glacier Inventory ([RGI](https://rgidata.org)) is a globally complete inventory of glacier outlines (excluding the ice sheets in Greenland and Antarctica). It is a subset of the database compiled by the Global Land Ice Measurements from Space ([GLIMS](https://www.glims.org)) initiative. While GLIMS is a multi-temporal database with an extensive set of attributes, the RGI is intended to be a snapshot of the world’s glaciers at a specific target date, which in RGI 7.0 and all previous versions has been set as close as possible to the year 2000 (although in fact its range of dates can still be substantial in some regions). The RGI includes outlines of all glaciers larger than 0.01 km², which is the recommended minimum of the World Glacier Inventory.
 
 The RGI was not designed for the measurement of glacier-by-glacier rates of area change, for which the greatest possible accuracy in dating, delineation and georeferencing is essential. While many RGI outlines meet these requirements, the primary focus of the RGI is on achieving global coverage, consistency, and proximity in a specific year. The strength of the RGI lies in its ability to handle large numbers of glaciers simultaneously. This allows, for example, for the estimation of glacier volumes and rates of elevation change at regional and global scales, as well as the simulation of cryospheric responses to climatic forcing.
 
@@ -15,7 +15,7 @@ The RGI was not designed for the measurement of glacier-by-glacier rates of area
 
 The RGI has been developed in an international community-driven effort of glaciologists starting in 2010. The inventory was named after "Randolph", a town in New Hampshire, USA, where the team met for one of their meetings {cite:p}`Pfeffer2014`. In 2014 development of the RGI became the responsibility of the [Working Group on the Randolph Glacier Inventory and Infrastructure for Glacier Monitoring](https://cryosphericsciences.org/activities/wg-rgi/), which operated under the International Association of Cryospheric Sciences ([IACS](https://cryosphericsciences.org)). In 2019, a new Working Group was established to build upon the previous achievements and further expand its objectives: the [IACS Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring and GLIMS](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
-The RGI datasets are listed on [glims.org](https://www.glims.org/RGI), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
+The RGI datasets are listed on [rgidata.org/versions](https://rgidata.org/versions), and the RGI files can be downloaded through the [data portal](https://nsidc.org/data/nsidc-0770) at the National Snow and Ice Data Center ([NSIDC](https://nsidc.org)), which is the host for GLIMS.
 
 ## Data distribution policy
 
@@ -31,7 +31,7 @@ The RGI may be used freely under the [Creative Commons Attribution 4.0 Internati
 *RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:10.5067/f6jmovy5navz. Online access: https://doi.org/10.5067/f6jmovy5navz*
 
 We request all users to use this reference in publications that use RGI 7.0 data. All names of the consortium are listed in the [RGI 7.0 Consortium](rgi-consortium).
-  
+
 **This user guide should be cited as**:
 
 *Maussion, F., Hock, R., Paul, F., Raup, B., Rastner, P., Zemp, M, Andreassen, L., Barr, I., Bolch, T., Kochtitzky, W., McNabb, R. and Tielidze, L: The Randolph Glacier Inventory version 7.0 User guide v1.0, 2023. doi:10.5281/zenodo.8362857. Online access: https://doi.org/10.5281/zenodo.8362857*.

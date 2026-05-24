@@ -38,7 +38,8 @@ sphinx:
     html_show_copyright: false
     bibtex_reference_style: author_year
     html_js_files:
-    - ['https://plausible.oggm.org/js/script.js', {'defer': 'defer', 'data-domain': 'rgidata.org'}]
+    - ['https://plausible.oggm.org/js/pa-PEdNqFQ0VRJj8a0B4ZsJI.js', {'async': 'async'}]
+    - 'plausible_init.js'
 execute:
   execute_notebooks: auto
   allow_errors: true

@@ -1,25 +1,18 @@
 # Welcome
 
-The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.0 but also includes general information on the RGI and its earlier versions.
-
-```{admonition} Versions
-:class: seealso
-
-This page documents the (unreleased) **RGI v7.1**.
-For the **RGI v7.0** user guide, see <a href="v7.0/index.html">this page</a>.
-```
+The Randolph Glacier Inventory ([RGI](https://www.glims.org/RGI)) is a global inventory of glacier outlines including a set of attributes and other relevant auxiliary information. This user guide provides detailed documentation of the RGI version 7.1 but also includes general information on the RGI and its earlier versions.
 
 ```{admonition} Data download
 
-**Download the RGI 7.0 files from NSIDC**: [https://doi.org/10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)<br>
+**Download the RGI 7.1 files from NSIDC**: N/A<br>
 Cite the RGI: [](reference)<br>
 Download previous RGI versions: https://www.glims.org/RGI
 ```
 
-```{admonition} Known issues in RGI 7.0
+```{admonition} Known issues in RGI 7.1
 :class: warning
 
-Currently known issues with the RGI 7.0 dataset are listed [here](https://github.com/GLIMS-RGI/rgi_issue_tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22RGI+7.0%22).
+Currently known issues with the RGI 7.1 dataset are listed [here](https://github.com/GLIMS-RGI/rgi_issue_tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22RGI+7.0%22).
 
 ```
 
@@ -68,7 +61,7 @@ Technical specifications, file naming, and data fields
 :link-type: doc
 :class-header: bg-light
 
-General revisions in v7.0 🔁
+General revisions in v7 🔁
 ^^^
 
 Overview, processing workflow, formats
@@ -79,7 +72,7 @@ Overview, processing workflow, formats
 :link-type: doc
 :class-header: bg-light
 
-Regional revisions in v7.0 🔍
+Regional revisions in v7 🔍
 ^^^
 
 Description of data updates by RGI region
@@ -94,7 +87,7 @@ Description of data updates by RGI region
 Global statistics 📊
 ^^^
 
-Comparison of RGI 7.0 with RGI 6.0
+Comparison of RGI 7 with RGI 6
 :::
 
 ::::
@@ -157,7 +150,7 @@ Comparison of RGI 7.0 with RGI 6.0
 
 <p style="margin-bottom:25px;"></p>
 
-RGI version 7.0 was developed by the "[Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring](https://cryosphericsciences.org)" of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
+RGI version 7 was developed by the "[Working Group on the Randolph Glacier Inventory (RGI) and its role in future glacier monitoring](https://cryosphericsciences.org)" of the [International Association of Cryospheric Sciences (IACS)](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/).
 
 Financial support was provided by several organizations and institutions, in particular [IACS](https://cryosphericsciences.org), the NASA National Snow and Ice Data Center - Distributed Active Archive Center ([NSIDC-DAAC](https://nsidc.org)), the World Glacier Monitoring Service ([WGMS](https://wgms.ch)), the Copernicus Climate Changes Service ([C3S](https://climate.copernicus.eu)), the European Space Agency ([ESA](https://climate.esa.int/en/projects/glaciers)) and [UNESCO](https://www.unesco.org). For a full list of sponsors and acknowledgements, visit [](appendix/acknowledgements).
 

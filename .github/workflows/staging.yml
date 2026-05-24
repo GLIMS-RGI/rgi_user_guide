@@ -1,0 +1,56 @@
+name: Build and deploy staging
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # required to push to gh-pages
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install "jupyter-book<2"
+
+      - name: Inject staging banner
+        run: |
+          python - <<'EOF'
+          import pathlib, re
+
+          BANNER = (
+              "&#9888;&#65039; This is a <strong>staging</strong> site. "
+              "The published version is at "
+              "<a href='https://rgidata.org/user_guide'>rgidata.org/user_guide</a>."
+          )
+
+          for config in ["v7.0/docs/_config.yml", "v7.1/docs/_config.yml"]:
+              text = pathlib.Path(config).read_text()
+              text = re.sub(
+                  r"^(html:)",
+                  f'\\1\n  announcement: "{BANNER}"',
+                  text,
+                  flags=re.MULTILINE,
+              )
+              pathlib.Path(config).write_text(text)
+          EOF
+
+      - name: Build all versions
+        run: ./build.sh --all
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_html_merged
+          force_orphan: true

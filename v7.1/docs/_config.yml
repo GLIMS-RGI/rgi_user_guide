@@ -22,6 +22,8 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   google_analytics_id:
+  extra_css:
+    - _static/custom.css
   extra_footer: |
     <p>
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">

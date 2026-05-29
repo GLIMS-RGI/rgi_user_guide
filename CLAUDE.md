@@ -25,6 +25,20 @@ MkDocs copies non-Markdown files verbatim, so the Jupyter Book HTML placed in
 
 ---
 
+## Staging toggle
+
+The staging build is controlled by the repository variable **`STAGING_ENABLED`**
+(GitHub → Settings → Secrets and variables → Actions → Variables tab):
+
+| Value | Behaviour |
+| --- | --- |
+| `true` | Full Jupyter Book build deployed on every push to `main` |
+| absent / anything else | Placeholder HTML page deployed instead (no build) |
+
+This lets staging stay dark between active development cycles without changing any code.
+
+---
+
 ## URL structure (Option A — latest at root)
 
 | Path | Content |

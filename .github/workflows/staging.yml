@@ -1,5 +1,9 @@
 name: Build and deploy staging
 
+# Toggle staging on/off via the repository variable STAGING_ENABLED:
+#   GitHub → Settings → Secrets and variables → Actions → Variables tab
+#   Set STAGING_ENABLED = true  (full build)  or  false / absent  (placeholder page)
+
 on:
   push:
     branches: [main]
@@ -16,15 +20,45 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # ── PLACEHOLDER (staging off) ────────────────────────────────────────────
+      - name: Create placeholder site
+        if: vars.STAGING_ENABLED != 'true'
+        run: |
+          mkdir -p _html_merged
+          cat > _html_merged/index.html <<'HTMLEOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>RGI User Guide — Development Site</title>
+            <style>
+              body { font-family: sans-serif; max-width: 640px; margin: 5rem auto; padding: 1rem; color: #333; }
+              a { color: #2D2D8C; }
+            </style>
+          </head>
+          <body>
+            <h1>RGI User Guide — Development Site</h1>
+            <p>This is the RGI User Guide development URL and is not currently active.</p>
+            <p>For the published version, visit
+               <a href="https://rgidata.org/user_guide">rgidata.org/user_guide</a>.</p>
+          </body>
+          </html>
+          HTMLEOF
+
+      # ── FULL BUILD (staging on) ──────────────────────────────────────────────
       - name: Set up Python
+        if: vars.STAGING_ENABLED == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: vars.STAGING_ENABLED == 'true'
         run: pip install "jupyter-book<2"
 
       - name: Inject staging banner
+        if: vars.STAGING_ENABLED == 'true'
         run: |
           python - <<'EOF'
           import pathlib, re
@@ -47,8 +81,10 @@ jobs:
           EOF
 
       - name: Build all versions
+        if: vars.STAGING_ENABLED == 'true'
         run: ./build.sh --all
 
+      # ── DEPLOY (always) ─────────────────────────────────────────────────────
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
